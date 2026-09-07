@@ -20,13 +20,22 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import ChoiceLoader, Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).parent.resolve()
 CONTENT = ROOT / "content"
 STATIC = ROOT / "static"
 TEMPLATES = ROOT / "templates"
-DIST = ROOT / "dist"
+
+# Available themes. Each has a stylesheet at static/css/<name>.css and may
+# override any template by placing it in templates/themes/<name>/.
+THEMES = {
+    "minimal": "dist",
+    "lux": "dist-lux",
+}
+DEFAULT_THEME = "minimal"
+
+DIST = ROOT / THEMES[DEFAULT_THEME]
 
 MISSING_IMAGES = []
 
@@ -37,18 +46,24 @@ MISSING_IMAGES = []
 
 PLACEHOLDER_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" \
 role="img" aria-label="{alt}">
-  <rect width="1200" height="800" fill="#cfccc5"/>
-  <g fill="none" stroke="#a9a49a" stroke-width="2">
+  <rect width="1200" height="800" fill="{bg}"/>
+  <g fill="none" stroke="{line}" stroke-width="2">
     <path d="M0 0 L1200 800 M1200 0 L0 800"/>
     <rect x="1" y="1" width="1198" height="798"/>
   </g>
-  <rect x="380" y="330" width="440" height="140" fill="#cfccc5" stroke="#8d8880"/>
+  <rect x="360" y="330" width="480" height="140" fill="{bg}" stroke="{line}"/>
   <text x="600" y="382" font-family="Helvetica, Arial, sans-serif" font-size="26"
-        fill="#3f3c37" text-anchor="middle">photo to be supplied</text>
+        fill="{text}" text-anchor="middle">photo to be supplied</text>
   <text x="600" y="424" font-family="Helvetica, Arial, sans-serif" font-size="20"
-        fill="#6b665e" text-anchor="middle">{short}</text>
+        fill="{dim}" text-anchor="middle">{short}</text>
 </svg>
 """
+
+PLACEHOLDER_COLOURS = {
+    "minimal": {"bg": "#cfccc5", "line": "#a9a49a", "text": "#3f3c37", "dim": "#6b665e"},
+    "lux": {"bg": "#16181c", "line": "#33302a", "text": "#c0a265", "dim": "#6d6a64"},
+}
+PALETTE = PLACEHOLDER_COLOURS["minimal"]
 
 
 def resolve_image(src, alt=""):
@@ -76,7 +91,7 @@ def resolve_image(src, alt=""):
     ph_path.parent.mkdir(parents=True, exist_ok=True)
     short = rel
     ph_path.write_text(
-        PLACEHOLDER_SVG.format(alt=html.escape(rel), short=html.escape(short)),
+        PLACEHOLDER_SVG.format(alt=html.escape(rel), short=html.escape(short), **PALETTE),
         encoding="utf-8",
     )
     return f"/static/img/{ph_rel}"
@@ -100,19 +115,32 @@ def page_url(lang, slug, default_lang):
     return f"{prefix}/{slug.strip('/')}/"
 
 
-def build():
+def build(theme=DEFAULT_THEME, out_dir=None):
+    global DIST, PALETTE
+    DIST = ROOT / (out_dir or THEMES[theme])
+    PALETTE = PLACEHOLDER_COLOURS.get(theme, PLACEHOLDER_COLOURS["minimal"])
+    MISSING_IMAGES.clear()
+
     site = load("site.json")
     default_lang = site["default_language"]
     langs = [l["code"] for l in site["languages"]]
 
+    # Theme templates take precedence; anything a theme does not override
+    # falls through to the shared set.
     env = Environment(
-        loader=FileSystemLoader(str(TEMPLATES)),
+        loader=ChoiceLoader(
+            [
+                FileSystemLoader(str(TEMPLATES / "themes" / theme)),
+                FileSystemLoader(str(TEMPLATES)),
+            ]
+        ),
         autoescape=select_autoescape(["html"]),
         trim_blocks=True,
         lstrip_blocks=True,
     )
     env.globals["img"] = resolve_image
     env.globals["build_year"] = date.today().year
+    env.globals["theme"] = theme
 
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -169,6 +197,7 @@ def build():
                 )
 
             rendered = page_template.render(
+                theme=theme,
                 site=site,
                 lang=lang,
                 lang_meta=lang_meta,
@@ -203,7 +232,7 @@ def build():
     (DIST / "sitemap.xml").write_text("\n".join(sitemap) + "\n", encoding="utf-8")
 
     (DIST / "404.html").write_text(
-        env.get_template("404.html").render(site=site), encoding="utf-8"
+        env.get_template("404.html").render(site=site, theme=theme), encoding="utf-8"
     )
 
     (DIST / "robots.txt").write_text(
@@ -213,7 +242,7 @@ def build():
         encoding="utf-8",
     )
 
-    print(f"\nBuilt {len(all_urls)} indexable pages into {DIST}")
+    print(f"\nBuilt {len(all_urls)} indexable pages into {DIST} (theme: {theme})")
 
     if MISSING_IMAGES:
         report = DIST / "_missing-images.txt"
@@ -225,22 +254,35 @@ def build():
     return 0
 
 
-def serve():
+def serve(port=8000):
     import http.server
     import socketserver
 
     os.chdir(DIST)
     handler = http.server.SimpleHTTPRequestHandler
-    with socketserver.TCPServer(("", 8000), handler) as httpd:
-        print("serving dist/ on http://localhost:8000")
+    with socketserver.TCPServer(("", port), handler) as httpd:
+        print(f"serving {DIST.name}/ on http://localhost:{port}")
         httpd.serve_forever()
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--theme",
+        default="all",
+        choices=["all", *THEMES],
+        help="which theme to build (default: all)",
+    )
+    parser.add_argument("--out", help="override the output directory")
     parser.add_argument("--serve", action="store_true")
+    parser.add_argument("--port", type=int, default=8000)
     args = parser.parse_args()
-    rc = build()
+
+    themes = list(THEMES) if args.theme == "all" else [args.theme]
+    rc = 0
+    for name in themes:
+        rc |= build(name, args.out if len(themes) == 1 else None)
+
     if args.serve:
-        serve()
+        serve(args.port)
     sys.exit(rc)

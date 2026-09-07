@@ -1,4 +1,6 @@
 dist/
+dist-lux/
+preview/
 __pycache__/
 *.pyc
 .venv/

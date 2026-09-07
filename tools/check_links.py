@@ -4,7 +4,8 @@ import pathlib
 import re
 import sys
 
-DIST = pathlib.Path(__file__).parent.parent / "dist"
+ROOT = pathlib.Path(__file__).parent.parent
+DIST = ROOT / (sys.argv[1] if len(sys.argv) > 1 else "dist")
 
 
 def main():
@@ -28,7 +29,7 @@ def main():
             elif target not in pages:
                 bad.append((str(f.relative_to(DIST)), href, "no such page"))
 
-    print(f"pages: {len(pages)}")
+    print(f"{DIST.name}: {len(pages)} pages")
     if bad:
         print("BROKEN:")
         for item in sorted(set(bad)):

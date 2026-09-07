@@ -1,0 +1,22 @@
+<section class="band">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+    <ul class="projects">
+      {% for p in block['items'] %}
+      <li class="project">
+        <a class="project__link" href="{{ p.href }}">
+          <span class="project__figure">
+            <img src="{{ img(p.image, p.title) }}" alt="{{ p.title }}" loading="lazy" width="1200" height="900">
+          </span>
+          <span class="project__body">
+            <span class="project__title">{{ p.title }}</span>
+            <span class="project__meta">{{ p.meta }}</span>
+            {% if p.tag %}<span class="tag tag--{{ p.tag_kind or 'series' }}">{{ p.tag }}</span>{% endif %}
+          </span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

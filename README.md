@@ -5,6 +5,14 @@ files, so adding a language means translating one file rather than rewriting
 HTML, and correcting a figure means editing one line rather than hunting through
 markup.
 
+The same content is rendered in **two design themes**, so they can be compared
+side by side on identical text before one is chosen:
+
+| Theme | Output | Character |
+|---|---|---|
+| `minimal` | `dist/` | Light, technical, close to a supplier's datasheet |
+| `lux` | `dist-lux/` | Dark throughout, close to the 2026 partner presentation |
+
 No database, no CMS, no build toolchain beyond Python and Jinja2. The output is
 plain HTML that any web server can serve.
 
@@ -14,15 +22,21 @@ plain HTML that any web server can serve.
 
 ```bash
 pip install -r requirements.txt
-python build.py --serve     # builds into dist/ and serves it on :8000
+
+python build.py                          # builds both themes
+python build.py --theme lux              # one theme only
+python build.py --theme lux --serve      # ... and serve it on :8000
+
+python tools/check_links.py dist         # every internal link and asset resolves
+python tools/check_links.py dist-lux
+
+python tools/make_preview.py                  # single-file previews, minimal
+python tools/make_preview.py --dist=dist-lux  # ... and lux
 ```
 
-Build only:
-
-```bash
-python build.py
-python tools/check_links.py   # verifies every internal link and asset resolves
-```
+`make_preview.py` inlines the CSS, the script and every image into one HTML
+file per page, so a preview can be opened from disk or emailed without a
+server.
 
 ---
 
@@ -36,10 +50,14 @@ content/
 templates/
   base.html        head, header, language switcher, footer
   page.html        renders a page's list of content blocks
+  theme-head.html  font links for the default theme
   404.html
   blocks/          one template per block type (hero, grid, table, form, ...)
+  themes/lux/      templates the lux theme overrides — everything else falls
+                   through to the shared set above
 static/
-  css/site.css
+  css/minimal.css
+  css/lux.css
   js/site.js       mobile nav, glass toggle, form submit — all optional
   img/             photography goes here (see IMAGES.md)
 tools/
@@ -47,7 +65,9 @@ tools/
 deploy/
   Caddyfile        recommended server config
   nginx.conf       alternative
-dist/              generated — not committed
+dist/              generated, minimal theme — not committed
+dist-lux/          generated, lux theme — not committed
+preview/           generated single-file previews — not committed
 ```
 
 ## How a page is built
@@ -62,6 +82,22 @@ Available block types: `hero`, `pagehead`, `prose`, `grid`, `split`, `process`,
 
 Most blocks accept `"tone": "paper"` or `"tone": "dark"` to change the band
 background.
+
+## Themes
+
+A theme is a stylesheet plus, optionally, a few template overrides. The build
+loads templates from `templates/themes/<name>/` first and falls back to the
+shared set, so a theme only contains what it actually changes — `lux` overrides
+three block templates and nothing else. Content, URLs, structured data and
+translations are shared, so a change to the text lands in both themes at once
+and there is no risk of the two drifting apart.
+
+Adding a third theme: create `static/css/<name>.css`, optionally
+`templates/themes/<name>/`, and register it in the `THEMES` dictionary at the
+top of `build.py`.
+
+Once a theme is chosen, the loser can be deleted in one commit: its CSS file,
+its `templates/themes/` directory and one line in `build.py`.
 
 ## Adding a language
 
@@ -232,17 +268,37 @@ Add them to the Caddyfile as `redir` lines once the mapping is confirmed.
 
 ## Design notes
 
+Both themes share the same markup, the same content and the same one interactive
+element: the switch in the hero that makes the glass opaque. It demonstrates the
+product instead of describing it. Nothing else animates on load or on scroll in
+either theme.
+
+### minimal
+
 The palette is taken from the product rather than from a stock luxury template:
 the grey of a composite panel before trimming as the page ground, the graphite of
 a finished interior for dark bands, and the blue-grey of electrochromic glass in
-its opaque state as the only accent.
+its opaque state as the only accent. Typography is Archivo for headings and
+figures — tabular numerals throughout, so tables and specification lists align —
+and Newsreader for body text.
 
-The one interactive element on the site is the switch in the hero, which makes
-the glass opaque. It demonstrates the product instead of describing it. Nothing
-else animates on load or on scroll.
+Reads as an engineering supplier. Its risk is looking austere next to
+competitors who spend more on presentation.
 
-Typography is Archivo for headings and figures — tabular numerals throughout, so
-tables and specification lists align — and Newsreader for body text. Both load
-from Google Fonts; self-hosting them is a worthwhile change before launch, since
-it removes a third-party request and the associated cookie-consent question in
-the EU.
+### lux
+
+Night ground throughout, as in the presentation. Bodoni Moda — a high-contrast
+didone — as the display face, Jost for labels set in the spaced capitals the deck
+uses for its section headers, and a brass accent taken from interior trim.
+Hairlines replace boxes and borders; the hero is a full-bleed photograph with the
+headline set over it; grid sets are numbered exactly as the deck numbers them.
+
+Reads as the presentation. Its risk is being much harder to photograph for: on a
+dark ground, a mediocre photo looks worse than it does on a light one, and every
+image has to be properly lit and colour-graded.
+
+### Fonts
+
+Both themes load fonts from Google Fonts. Self-hosting them is worth doing before
+launch — it removes a third-party request and the cookie-consent question that
+comes with it in the EU.
