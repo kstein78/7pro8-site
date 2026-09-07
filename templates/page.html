@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+{% for block in page.blocks %}
+{% include "blocks/" ~ block.type ~ ".html" %}
+{% endfor %}
+{% endblock %}

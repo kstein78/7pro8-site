@@ -1,0 +1,14 @@
+<section class="band band--tight">
+  <div class="shell split">
+    <div class="split__text">
+      {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+      {% for p in block.body or [] %}<p>{{ p }}</p>{% endfor %}
+    </div>
+    <div class="spec">
+      {% if block.spec_title %}<h3 class="spec__title">{{ block.spec_title }}</h3>{% endif %}
+      <ul class="ticks">
+        {% for i in block.spec %}<li>{{ i }}</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

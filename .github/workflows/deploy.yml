@@ -1,0 +1,60 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the site
+        run: python build.py
+
+      - name: Check internal links
+        run: python tools/check_links.py
+
+      - name: Upload build for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: dist/
+          retention-days: 7
+
+      # --- deployment to the Hetzner server ------------------------------
+      # Repository secrets required:
+      #   SSH_PRIVATE_KEY  deploy key with write access to /srv/7pro8
+      #   SSH_HOST         server hostname or IP
+      #   SSH_USER         ssh user
+      #   SSH_KNOWN_HOSTS  output of: ssh-keyscan -H <host>
+      - name: Set up SSH
+        if: github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        if: github.ref == 'refs/heads/main'
+        run: |
+          RELEASE="/srv/7pro8/releases/$(date -u +%Y%m%d-%H%M%S)"
+          ssh "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" "mkdir -p $RELEASE"
+          rsync -az --delete dist/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:$RELEASE/"
+          # Atomic switch: the web server always serves a complete build.
+          ssh "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+            "ln -sfn $RELEASE /srv/7pro8/current.tmp && mv -Tf /srv/7pro8/current.tmp /srv/7pro8/current && ls -1dt /srv/7pro8/releases/* | tail -n +6 | xargs -r rm -rf"

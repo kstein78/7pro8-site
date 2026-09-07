@@ -1,0 +1,36 @@
+{
+  "_comment": "Shared, language-independent configuration. Every value marked TODO must be replaced with real data before the site goes live — see README.md, section 'Data you have to supply'.",
+
+  "name": "7pro8",
+  "legal_name": "7pro8 DOO Novi Sad",
+  "base_url": "https://www.7pro8.com",
+
+  "founded": "2007",
+
+  "email": "TODO@7pro8.com",
+  "phone": "TODO +381 ...",
+  "telegram": "https://t.me/Eugy01",
+
+  "address": {
+    "street": "TODO street and number",
+    "city": "Novi Sad",
+    "postcode": "TODO",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+
+  "registration_no": "TODO",
+  "vat_no": "TODO",
+
+  "share_image": "share/7pro8-share.jpg",
+
+  "form_endpoint": "https://formspree.io/f/TODO_FORM_ID",
+
+  "default_language": "en",
+  "languages": [
+    { "code": "en", "label": "English",  "locale": "en_GB" },
+    { "code": "de", "label": "Deutsch",  "locale": "de_DE" },
+    { "code": "ru", "label": "Русский",  "locale": "ru_RU" },
+    { "code": "sr", "label": "Srpski",   "locale": "sr_RS" }
+  ]
+}

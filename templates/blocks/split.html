@@ -1,0 +1,20 @@
+<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}{% if block.tone == 'paper' %} tone-paper{% endif %}">
+  <div class="shell split{% if block.flip %} split--flip{% endif %}">
+    <div class="split__text">
+      {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+      {% for p in block.body or [] %}<p>{{ p }}</p>{% endfor %}
+      {% if block.list %}
+      <ul class="list">
+        {% for i in block.list %}<li>{{ i }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if block.action %}<p><a class="btn btn--quiet" href="{{ block.action.href }}">{{ block.action.label }}</a></p>{% endif %}
+    </div>
+    {% if block.image %}
+    <figure class="split__figure">
+      <img src="{{ img(block.image.src, block.image.alt) }}" alt="{{ block.image.alt }}" loading="lazy" width="1200" height="800">
+      {% if block.image.caption %}<figcaption>{{ block.image.caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+  </div>
+</section>

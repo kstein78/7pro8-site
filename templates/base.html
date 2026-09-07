@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title_tag or page.title }}{% if page.slug %} — {{ site.name }}{% endif %}</title>
+<meta name="description" content="{{ page.description }}">
+<link rel="canonical" href="{{ site.base_url.rstrip('/') }}{{ page.url }}">
+{% for alt in alternates %}
+{% if alt.available %}
+<link rel="alternate" hreflang="{{ alt.code }}" href="{{ site.base_url.rstrip('/') }}{{ alt.url }}">
+{% endif %}
+{% endfor %}
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="{{ lang_meta.locale }}">
+<meta property="og:title" content="{{ page.title_tag or page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ site.base_url.rstrip('/') }}{{ page.url }}">
+<meta property="og:image" content="{{ site.base_url.rstrip('/') }}{{ img(page.share_image or site.share_image, page.title) }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/site.css">
+<link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ site.legal_name|tojson }},
+  "alternateName": {{ site.name|tojson }},
+  "url": {{ site.base_url|tojson }},
+  "foundingDate": {{ site.founded|tojson }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ site.address.street|tojson }},
+    "addressLocality": {{ site.address.city|tojson }},
+    "postalCode": {{ site.address.postcode|tojson }},
+    "addressCountry": {{ site.address.country_code|tojson }}
+  },
+  "email": {{ site.email|tojson }},
+  "telephone": {{ site.phone|tojson }}
+}
+</script>
+</head>
+<body data-page="{{ page.slug or 'home' }}">
+<a class="skip" href="#main">{{ data.ui.skip }}</a>
+
+<header class="masthead">
+  <div class="shell masthead__inner">
+    <a class="wordmark" href="{{ '/' if lang == site.default_language else '/' ~ lang ~ '/' }}" aria-label="{{ site.name }}">
+      <span class="wordmark__mark">7pro8</span>
+      <span class="wordmark__line">{{ data.ui.tagline_short }}</span>
+    </a>
+
+    <button class="navtoggle" aria-expanded="false" aria-controls="primary-nav">
+      <span class="navtoggle__bars" aria-hidden="true"></span>
+      <span class="navtoggle__label">{{ data.ui.menu }}</span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="{{ data.ui.primary_nav }}">
+      <ul class="nav__list">
+        {% for item in nav %}
+        <li><a href="{{ item.url }}"{% if item.current %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+      <ul class="langs" aria-label="{{ data.ui.language }}">
+        {% for alt in alternates %}
+        <li>
+          {% if alt.current %}
+          <span aria-current="true">{{ alt.code|upper }}</span>
+          {% elif alt.available %}
+          <a href="{{ alt.url }}" hreflang="{{ alt.code }}">{{ alt.code|upper }}</a>
+          {% else %}
+          <span class="langs__soon" title="{{ data.ui.language_soon }}">{{ alt.code|upper }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="colophon">
+  <div class="shell colophon__grid">
+    <div class="colophon__id">
+      <p class="colophon__name">{{ site.legal_name }}</p>
+      <p>{{ site.address.street }}<br>{{ site.address.postcode }} {{ site.address.city }}, {{ site.address.country }}</p>
+      <p class="colophon__reg">{{ data.ui.company_no }} {{ site.registration_no }} · {{ data.ui.vat_no }} {{ site.vat_no }}</p>
+    </div>
+    <div class="colophon__reach">
+      <p class="colophon__label">{{ data.ui.contact }}</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p><a href="tel:{{ site.phone|replace(' ', '') }}">{{ site.phone }}</a></p>
+      {% if site.telegram %}<p><a href="{{ site.telegram }}" rel="noopener">Telegram</a></p>{% endif %}
+    </div>
+    <div class="colophon__nav">
+      <p class="colophon__label">{{ data.ui.sections }}</p>
+      <ul>
+        {% for item in nav %}
+        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="colophon__note">
+      <p>{{ data.ui.footer_note }}</p>
+      <p class="colophon__copy">© {{ site.founded }}–{{ build_year }} {{ site.legal_name }}</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/static/js/site.js" defer></script>
+</body>
+</html>

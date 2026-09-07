@@ -1,0 +1,13 @@
+<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    <div class="gallery gallery--{{ block.cols or 3 }}">
+      {% for im in block['items'] %}
+      <figure class="gallery__item">
+        <img src="{{ img(im.src, im.alt) }}" alt="{{ im.alt }}" loading="lazy" width="900" height="600">
+        {% if im.caption %}<figcaption>{{ im.caption }}</figcaption>{% endif %}
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>

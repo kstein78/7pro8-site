@@ -1,0 +1,13 @@
+<section class="band band--tight{% if block.tone == 'dark' %} tone-dark{% endif %}{% if block.tone == 'paper' %} tone-paper{% endif %}">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    <dl class="metrics">
+      {% for m in block['items'] %}
+      <div class="metrics__item">
+        <dt class="metrics__value">{{ m.value }}</dt>
+        <dd class="metrics__label">{{ m.label }}</dd>
+      </div>
+      {% endfor %}
+    </dl>
+  </div>
+</section>

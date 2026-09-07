@@ -1,0 +1,20 @@
+<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}{% if block.tone == 'paper' %} tone-paper{% endif %}">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+    <div class="grid grid--{{ block.cols or 3 }}">
+      {% for item in block['items'] %}
+      <article class="cell">
+        <h3 class="cell__title">{{ item.title }}</h3>
+        {% if item.text %}<p>{{ item.text }}</p>{% endif %}
+        {% if item.list %}
+        <ul class="list list--tight">
+          {% for i in item.list %}<li>{{ i }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+    {% if block.footnote %}<p class="footnote">{{ block.footnote }}</p>{% endif %}
+  </div>
+</section>

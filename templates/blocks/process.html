@@ -1,0 +1,22 @@
+<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+    <ol class="process">
+      {% for step in block.steps %}
+      <li class="process__step">
+        <span class="process__num">{{ "%02d"|format(loop.index) }}</span>
+        <div class="process__body">
+          <h3 class="cell__title">{{ step.title }}</h3>
+          {% if step.text %}<p>{{ step.text }}</p>{% endif %}
+          {% if step.list %}
+          <ul class="list list--tight">
+            {% for i in step.list %}<li>{{ i }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

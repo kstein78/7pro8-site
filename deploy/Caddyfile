@@ -1,0 +1,42 @@
+# Caddy configuration for 7pro8.com on a Hetzner VPS.
+# Caddy obtains and renews the TLS certificate automatically — nothing to set up.
+#
+# Install:  apt install caddy
+# Place at: /etc/caddy/Caddyfile
+# Reload:   systemctl reload caddy
+
+7pro8.com {
+    redir https://www.7pro8.com{uri} permanent
+}
+
+www.7pro8.com {
+    root * /srv/7pro8/current
+    encode zstd gzip
+
+    # Clean URLs: /partners/ -> /partners/index.html
+    try_files {path} {path}/index.html {path}/ =404
+
+    handle_errors {
+        rewrite * /404.html
+        file_server
+    }
+
+    file_server
+
+    header {
+        # Static assets are content-addressed by deploy, so they can be cached hard.
+        ?Cache-Control "public, max-age=3600"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        X-Frame-Options "SAMEORIGIN"
+        -Server
+    }
+
+    @assets path /static/*
+    header @assets Cache-Control "public, max-age=604800"
+
+    log {
+        output file /var/log/caddy/7pro8.log
+        format json
+    }
+}

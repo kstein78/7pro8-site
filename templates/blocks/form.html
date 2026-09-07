@@ -1,0 +1,55 @@
+<section class="band" id="{{ block.anchor or 'enquiry' }}">
+  <div class="shell split">
+    <div class="split__text">
+      <h2 class="h2">{{ block.title }}</h2>
+      {% for p in block.body or [] %}<p>{{ p }}</p>{% endfor %}
+      {% if block.list %}
+      <ul class="list">
+        {% for i in block.list %}<li>{{ i }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+
+    <form class="form" method="post" action="{{ site.form_endpoint }}" data-form>
+      <input type="hidden" name="_language" value="{{ lang }}">
+      <input type="hidden" name="_subject" value="{{ block.subject }}">
+      <p class="form__trap" aria-hidden="true"><label>{{ block.fields.honeypot }}<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+
+      <p class="field">
+        <label for="f-company">{{ block.fields.company }}</label>
+        <input id="f-company" name="company" type="text" required autocomplete="organization">
+      </p>
+      <p class="field">
+        <label for="f-name">{{ block.fields.name }}</label>
+        <input id="f-name" name="name" type="text" required autocomplete="name">
+      </p>
+      <p class="field">
+        <label for="f-email">{{ block.fields.email }}</label>
+        <input id="f-email" name="email" type="email" required autocomplete="email">
+      </p>
+      <p class="field">
+        <label for="f-country">{{ block.fields.country }}</label>
+        <input id="f-country" name="country" type="text" autocomplete="country-name">
+      </p>
+      <fieldset class="field field--set">
+        <legend>{{ block.fields.interest }}</legend>
+        {% for opt in block.fields.interest_options %}
+        <label class="check"><input type="checkbox" name="interest" value="{{ opt }}"> <span>{{ opt }}</span></label>
+        {% endfor %}
+      </fieldset>
+      <p class="field">
+        <label for="f-volume">{{ block.fields.volume }}</label>
+        <input id="f-volume" name="volume" type="text" inputmode="numeric">
+      </p>
+      <p class="field">
+        <label for="f-message">{{ block.fields.message }}</label>
+        <textarea id="f-message" name="message" rows="4"></textarea>
+      </p>
+      <p class="field field--consent">
+        <label class="check"><input type="checkbox" name="consent" required> <span>{{ block.fields.consent }}</span></label>
+      </p>
+      <p><button class="btn" type="submit">{{ block.fields.submit }}</button></p>
+      <p class="form__fallback">{{ block.fields.fallback }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </form>
+  </div>
+</section>

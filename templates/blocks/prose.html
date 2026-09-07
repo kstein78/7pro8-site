@@ -1,0 +1,12 @@
+<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}{% if block.tone == 'paper' %} tone-paper{% endif %}">
+  <div class="shell prose">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead">{{ block.lead }}</p>{% endif %}
+    {% for p in block.body or [] %}<p>{{ p }}</p>{% endfor %}
+    {% if block.list %}
+    <ul class="list">
+      {% for i in block.list %}<li>{{ i }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</section>

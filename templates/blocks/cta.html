@@ -1,0 +1,13 @@
+<section class="closer">
+  <div class="shell closer__inner">
+    <div>
+      <h2 class="closer__title">{{ block.title }}</h2>
+      {% if block.text %}<p class="closer__text">{{ block.text }}</p>{% endif %}
+    </div>
+    <p class="closer__actions">
+      {% for a in block.actions %}
+      <a class="btn{% if not loop.first %} btn--quiet{% endif %}" href="{{ a.href }}">{{ a.label }}</a>
+      {% endfor %}
+    </p>
+  </div>
+</section>

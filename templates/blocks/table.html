@@ -1,0 +1,27 @@
+<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}{% if block.tone == 'paper' %} tone-paper{% endif %}">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+    <div class="tablewrap">
+      <table class="data">
+        <thead>
+          <tr>{% for h in block.head %}<th scope="col"{% if loop.index0 in (block.numeric or []) %} class="num"{% endif %}>{{ h }}</th>{% endfor %}</tr>
+        </thead>
+        <tbody>
+          {% for row in block.rows %}
+          <tr{% if row[0].startswith('=') %} class="data__total"{% endif %}>
+            {% for cell in row %}
+            {% if loop.first %}
+            <th scope="row">{{ cell.lstrip('=') }}</th>
+            {% else %}
+            <td{% if loop.index0 in (block.numeric or []) %} class="num"{% endif %}>{{ cell }}</td>
+            {% endif %}
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if block.footnote %}<p class="footnote">{{ block.footnote }}</p>{% endif %}
+  </div>
+</section>

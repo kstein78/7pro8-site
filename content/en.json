@@ -1,0 +1,1237 @@
+{
+  "ui": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "primary_nav": "Sections",
+    "language": "Language",
+    "language_soon": "Translation in preparation",
+    "tagline_short": "Interior partitions, Novi Sad",
+    "company_no": "Company no.",
+    "vat_no": "VAT",
+    "contact": "Contact",
+    "sections": "Sections",
+    "footer_note": "Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette."
+  },
+
+  "nav": [
+    { "slug": "product", "label": "Product" },
+    { "slug": "capabilities", "label": "Engineering" },
+    { "slug": "manufacturing", "label": "Manufacturing" },
+    { "slug": "portfolio", "label": "Projects" },
+    { "slug": "range", "label": "Availability" },
+    { "slug": "partners", "label": "Partners" }
+  ],
+
+  "pages": [
+    {
+      "slug": "",
+      "title": "7pro8",
+      "title_tag": "7pro8 — interior partitions for premium vehicles",
+      "description": "Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007, from Novi Sad, Serbia.",
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Privacy partitions, built in series",
+          "lead": "We design, tool and manufacture interior partitions for premium vehicles, and supply them to dealers and conversion shops as a kit that is ready to trim and fit.",
+          "actions": [
+            { "label": "See what we can supply", "href": "/range/" },
+            { "label": "Work with us", "href": "/partners/" }
+          ],
+          "image": {
+            "src": "home/hero-v-class-partition.jpg",
+            "alt": "Interior partition fitted in a Mercedes-Benz V-Class, seen from the rear compartment",
+            "caption": "Mercedes-Benz V-Class — partition with 43-inch monitor, console and ambient lighting",
+            "toggle_on": "Glass opaque",
+            "toggle_off": "Glass clear"
+          },
+          "facts": [
+            { "value": "2007", "label": "First partition built" },
+            { "value": "450+", "label": "Kits delivered to clients" },
+            { "value": "20+", "label": "Partition models developed" },
+            { "value": "4", "label": "Premium marques" }
+          ]
+        },
+        {
+          "type": "split",
+          "tone": "paper",
+          "title": "An engineering company, not a tuning shop",
+          "body": [
+            "We do not work on an individual car. We work on a car model: every project runs from 3D scanning of the interior through to production tooling, so the product can be built in series with repeatable geometry and repeatable quality.",
+            "Our clients are vehicle distributors, official dealerships and specialist conversion shops. They receive a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions."
+          ],
+          "action": { "label": "About the company", "href": "/company/" },
+          "image": {
+            "src": "home/tooling-mould.jpg",
+            "alt": "Production mould for forming a partition surface panel",
+            "caption": "Production tooling — the mould that makes the two-hundredth kit identical to the first"
+          }
+        },
+        {
+          "type": "grid",
+          "cols": 2,
+          "title": "Two classes of solution",
+          "lead": "The difference is not in the partition but in how much of the interior has to come apart to fit it. That decides which kind of partner can install the product.",
+          "items": [
+            {
+              "title": "Simple — 3 to 4 kits a year",
+              "text": "Fitted without a wholesale rebuild of the interior. The partition carries a glass raise-and-lower mechanism, sometimes fixed glass, and optionally electric curtains. Factory monitors and factory multimedia are used. The work is within reach of a dealer workshop: we installed the Rolls-Royce partitions on the official dealer's premises, using the dealer's own technicians.",
+              "list": [
+                "Mercedes-Maybach S-Class (X222)",
+                "Range Rover Long Wheelbase",
+                "Rolls-Royce Phantom EWB and Ghost EWB",
+                "Mercedes-Benz S-Class V222 Long"
+              ]
+            },
+            {
+              "title": "Complex — 30 to 40 kits a year",
+              "text": "These require a rebuild of the interior. At minimum a new rear bench with a console goes in; usually the whole rear is rebuilt — headliner, side panels, multimedia, lighting. We supply a partition ready for installation, and the partner needs to be a company capable of serious vehicle conversion.",
+              "list": [
+                "Mercedes-Benz V-Class / Metris",
+                "Mercedes-Benz Sprinter",
+                "Cadillac Escalade ESV",
+                "Mercedes-Benz VLE — in development"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "metrics",
+          "tone": "dark",
+          "title": "What the timing looks like from the partner's side",
+          "items": [
+            { "value": "4 months", "label": "Production cycle of one kit — planning stays on our side" },
+            { "value": "1 day", "label": "Effective lead time with an agreed delivery plan: transport from stock" },
+            { "value": "1–3 days", "label": "Installation of a simple partition by qualified technicians. Removal takes the same" }
+          ]
+        },
+        {
+          "type": "projects",
+          "title": "Selected projects",
+          "lead": "Fourteen vehicle models have gone through the workshop since 2007. Eight of them were taken all the way to series tooling.",
+          "items": [
+            { "href": "/portfolio/mercedes-benz-v-class-line-1/", "title": "Mercedes-Benz V-Class — line 1", "meta": "140 kits since 2015", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-1/cover.jpg" },
+            { "href": "/portfolio/mercedes-benz-v-class-line-2/", "title": "Mercedes-Benz V-Class — line 2", "meta": "204 kits since 2016", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-2/cover.jpg" },
+            { "href": "/portfolio/mercedes-benz-sprinter/", "title": "Mercedes-Benz Sprinter", "meta": "10 kits since 2020", "tag": "In series", "tag_kind": "series", "image": "portfolio/sprinter/cover.jpg" },
+            { "href": "/portfolio/mercedes-maybach-s-class-x222/", "title": "Mercedes-Maybach S-Class X222", "meta": "16 kits since 2016", "tag": "In series", "tag_kind": "series", "image": "portfolio/maybach-x222/cover.jpg" },
+            { "href": "/portfolio/range-rover-lwb/", "title": "Range Rover Long Wheelbase", "meta": "New generation, ready 2026", "tag": "Ready to launch", "tag_kind": "ready", "image": "portfolio/range-rover/cover.jpg" },
+            { "href": "/portfolio/rolls-royce-phantom-ewb/", "title": "Rolls-Royce Phantom EWB", "meta": "4 vehicles, 2012–2016", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/rr-phantom/cover.jpg" }
+          ]
+        },
+        {
+          "type": "split",
+          "flip": true,
+          "tone": "paper",
+          "title": "The next car is already in development",
+          "body": [
+            "The electric Mercedes-Benz VLE was unveiled on 10 March 2026 and has been in series production at the Vitoria plant in Spain since June 2026. It replaces the V-Class and the EQV — precisely the vehicle our core series product is built on.",
+            "A partner joining now receives the partition at the same time as the car reaches the market, rather than two or three years later."
+          ],
+          "action": { "label": "The VLE programme", "href": "/vle/" },
+          "image": {
+            "src": "home/vle-development.jpg",
+            "alt": "CAD model of a partition under development",
+            "caption": "Two full-size partition lines from 2026, a lightweight version from 2027"
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Tell us which model and which volume",
+          "text": "Send the vehicle, the market and the annual volume you have in mind. We reply with indicative pricing, scope of supply and a delivery plan.",
+          "actions": [
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
+            { "label": "Contact details", "href": "/contact/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "product",
+      "title": "Product",
+      "title_tag": "What a 7pro8 partition adds, and what it leaves alone",
+      "description": "A privacy partition turns the rear of a premium car into a separate working compartment — without cutting the body, disturbing the airbags or voiding the interior.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "What the partition adds, and what it leaves alone",
+          "lead": "A partition changes what the car is for. The engineering question that decides whether an owner will accept it is the second one: what does the conversion take away?"
+        },
+        {
+          "type": "grid",
+          "cols": 3,
+          "title": "What the car gains",
+          "items": [
+            { "title": "Privacy on demand", "text": "Electrochromic glass changes opacity at the touch of a button, the glass raises and lowers electrically, and the curtains are electrically operated. Privacy is there when it is wanted and out of the way when it is not." },
+            { "title": "Acoustic separation", "text": "A physical partition with the glass raised separates the rear from the front. Calls, meetings and documents stay in the rear, in the presence of a driver, a security detail or a hired chauffeur." },
+            { "title": "A rear that works as an office", "text": "Electrically operated folding seats, a console armrest, sliding boxes, a monitor up to 43 inches with electric lift, an intercom, a pass-through hatch, and auxiliary instruments — clock, speedometer, thermometer." },
+            { "title": "A level that is not on the factory price list", "text": "Among the models we work with, only the Rolls-Royce Phantom Extended has a factory partition — the Privacy Suite, from 2018, and only when ordering a new car. For Maybach, V-Class, Range Rover, Escalade and Sprinter no factory solution exists, including for cars already in service." },
+            { "title": "A change of vehicle category", "text": "The car moves from executive to chauffeur-driven: transport for company principals, diplomatic missions, VIP transfer and escorted travel. A different class of task, and a different price segment of service." },
+            { "title": "An interior that still looks factory", "text": "Trimming is carried out in materials from the vehicle manufacturer's own palette — leather, wood veneer, Alcantara. The interior stays whole rather than looking modified." }
+          ]
+        },
+        {
+          "type": "split",
+          "tone": "paper",
+          "title": "The objection every owner raises",
+          "body": [
+            "Premium car owners do not ask whether the partition looks good. They ask whether the conversion will spoil the car — its safety systems, its diagnostics, its residual value.",
+            "Our answer is not a promise about the quality of the installer's work. It is six decisions built into the product itself, which hold whoever fits it."
+          ],
+          "image": {
+            "src": "product/maybach-x222-interior.jpg",
+            "alt": "Mercedes-Maybach S-Class interior with the partition in place",
+            "caption": "Mercedes-Maybach S-Class (X222) — the partition sits inside the factory architecture of the interior"
+          }
+        },
+        {
+          "type": "grid",
+          "cols": 3,
+          "title": "What stays factory",
+          "items": [
+            { "title": "Body structure", "text": "The partition is a self-supporting module that sits on factory and prepared mounting points. The body is neither cut nor welded; the geometry and stiffness of the vehicle are untouched." },
+            { "title": "Passive safety", "text": "Factory belts and pretensioners, side and curtain airbags and seat mountings stay in place and work to factory logic. The partition sits between the rows and does not enter their deployment zones." },
+            { "title": "Vehicle electronics", "text": "Connection is made through factory connectors. The partition's wiring runs on a separate loom with its own protection. Factory data buses are not reprogrammed, so vehicle diagnostics stay clean." },
+            { "title": "Rear climate zone", "text": "The geometry of the partition is developed around the factory airflow, so the rear climate zone continues to work as the manufacturer designed it." },
+            { "title": "Interface and multimedia", "text": "Wherever possible the factory monitors and factory multimedia are used. The owner keeps using the familiar interface of the car rather than a parallel system." },
+            { "title": "Reversibility", "text": "Removal takes one to three days and the car returns to factory configuration. This protects residual value and removes the question at resale or lease return." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "In short",
+          "body": [
+            "The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it sits on top of it, and can be taken off again."
+          ],
+          "action": { "label": "How the kit is engineered", "href": "/capabilities/" }
+        },
+        {
+          "type": "cta",
+          "title": "Which car do you need it for?",
+          "text": "Nine models are documented in the portfolio, and a new one takes up to a year to develop.",
+          "actions": [
+            { "label": "See the projects", "href": "/portfolio/" },
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "capabilities",
+      "title": "Engineering",
+      "title_tag": "The full cycle in-house — design, engineering, tooling, production",
+      "description": "Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Novi Sad. One point of contact and one line of responsibility.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "One team, from the first sketch to the finished kit",
+          "lead": "Design, engineering, tooling manufacture and production are all done in-house. A partner does not have to coordinate several subcontractors, and there is nowhere for responsibility to fall between them."
+        },
+        {
+          "type": "process",
+          "steps": [
+            {
+              "title": "Design",
+              "text": "The design is signed off before engineering begins, so the partner sees the result before money is committed to the project.",
+              "list": [
+                "Design specification",
+                "3D scanning of the vehicle interior",
+                "Sketch drawings",
+                "Final photorealistic rendering"
+              ]
+            },
+            {
+              "title": "Engineering",
+              "text": "Development and tooling are entirely ours — including joint projects where the partner produces part of the panels.",
+              "list": [
+                "Surface engineering",
+                "Mechanism engineering",
+                "Mould and tooling engineering",
+                "Release of CAD drawings"
+              ]
+            },
+            {
+              "title": "Production",
+              "text": "The kit ships assembled and checked. What is left for the partner is trimming, fitting and connection.",
+              "list": [
+                "Mould fabrication",
+                "Forming of the surface panels",
+                "Fabrication of the structural frame",
+                "Frame and panel pre-assembly"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "tone": "paper",
+          "title": "Joint production, when that suits the partner better",
+          "body": [
+            "A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling stay with us in every case.",
+            "On the Sprinter we supply the frame with the driver's side fully prepared for trimming, and the partner makes the composite panels of the VIP side. The same model runs on the Range Rover and on the Mercedes-Maybach."
+          ],
+          "action": { "label": "How work with a partner is structured", "href": "/partners/" },
+          "image": {
+            "src": "capabilities/cad-model.jpg",
+            "alt": "CAD model of a partition with the glass lift mechanism",
+            "caption": "Surface and mechanism engineering — the CAD model the tooling is built from"
+          }
+        },
+        {
+          "type": "cta",
+          "title": "A new model takes up to a year",
+          "text": "Development from scratch runs up to twelve months depending on the complexity of the vehicle, and a cost-sharing model is possible in which the partner gains priority by market or by model.",
+          "actions": [
+            { "label": "Discuss a new project", "href": "/partners/#enquiry" },
+            { "label": "How we manufacture", "href": "/manufacturing/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "manufacturing",
+      "title": "Manufacturing",
+      "title_tag": "Why tooling matters more than craftsmanship",
+      "description": "Composites, metal work and 3D printing in-house. Every 7pro8 partition is formed from production tooling, so gaps, joints and mounting points repeat from the first kit to the two-hundredth.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Why tooling matters more than craftsmanship",
+          "lead": "A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what turns a good result into a repeatable one."
+        },
+        {
+          "type": "split",
+          "body": [
+            "We invest from €70,000 and up to a year of work to obtain the tooling for a model. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.",
+            "For a partner that means two things that show up directly in the workshop's costing: installation time can be planned, and there is no rework."
+          ],
+          "image": {
+            "src": "manufacturing/mould-panel-forming.jpg",
+            "alt": "Composite mould used to form a partition surface panel",
+            "caption": "Forming a surface panel from the production mould"
+          }
+        },
+        {
+          "type": "grid",
+          "cols": 3,
+          "tone": "paper",
+          "title": "What that takes on the shop floor",
+          "items": [
+            {
+              "title": "Materials",
+              "list": ["Composites", "Plastics", "Metals and alloys"]
+            },
+            {
+              "title": "Technologies",
+              "list": [
+                "Open and vacuum composite moulding",
+                "Metal work: milling, turning, laser cutting, bending, welding",
+                "3D printing: SLS, SLA, FDM"
+              ]
+            },
+            {
+              "title": "Quality of the kit",
+              "list": [
+                "High production accuracy",
+                "Kits arrive ready for installation",
+                "Bolt-on installation, no cutting or welding"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 3,
+          "title": "From frame to finished kit",
+          "items": [
+            { "src": "manufacturing/frame-sprinter.jpg", "alt": "Structural frame of a Sprinter partition", "caption": "Sprinter structural frame" },
+            { "src": "manufacturing/glass-mechanism.jpg", "alt": "Glass lift mechanism", "caption": "Glass lift mechanism — metal work" },
+            { "src": "manufacturing/v-class-assembly.jpg", "alt": "V-Class partitions on the assembly line", "caption": "V-Class partitions on the assembly line — series production from tooling" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Series production, not one-offs",
+          "text": "Eight models have been taken through to production tooling. Volume on those scales without any new investment in development.",
+          "actions": [
+            { "label": "What we can supply", "href": "/range/" },
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio",
+      "title": "Projects",
+      "title_tag": "Projects — partitions for Mercedes-Benz, Maybach, Rolls-Royce, Range Rover, Cadillac",
+      "description": "Nine documented partition projects: V-Class lines 1 and 2, Sprinter, Maybach X222, Range Rover LWB, Rolls-Royce Phantom and Ghost, armoured S-Class V222 and Cadillac Escalade ESV.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Projects",
+          "lead": "Each project below went through the full cycle: design, engineering, tooling and production. The volumes are what was actually built, not what was planned."
+        },
+        {
+          "type": "projects",
+          "items": [
+            { "href": "/portfolio/mercedes-benz-v-class-line-1/", "title": "Mercedes-Benz V-Class / Metris — line 1", "meta": "140 kits since 2015 · complex", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-1/cover.jpg" },
+            { "href": "/portfolio/mercedes-benz-v-class-line-2/", "title": "Mercedes-Benz V-Class — line 2", "meta": "204 kits since 2016 · complex", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-2/cover.jpg" },
+            { "href": "/portfolio/mercedes-benz-sprinter/", "title": "Mercedes-Benz Sprinter", "meta": "10 kits since 2020 · complex", "tag": "In series", "tag_kind": "series", "image": "portfolio/sprinter/cover.jpg" },
+            { "href": "/portfolio/mercedes-maybach-s-class-x222/", "title": "Mercedes-Maybach S-Class (X222)", "meta": "16 kits since 2016 · simple", "tag": "In series", "tag_kind": "series", "image": "portfolio/maybach-x222/cover.jpg" },
+            { "href": "/portfolio/range-rover-lwb/", "title": "Range Rover Long Wheelbase", "meta": "New generation ready 2026 · 14 kits 2015–2019", "tag": "Ready to launch", "tag_kind": "ready", "image": "portfolio/range-rover/cover.jpg" },
+            { "href": "/portfolio/rolls-royce-phantom-ewb/", "title": "Rolls-Royce Phantom EWB", "meta": "4 vehicles, 2012–2016 · simple", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/rr-phantom/cover.jpg" },
+            { "href": "/portfolio/rolls-royce-ghost-ewb/", "title": "Rolls-Royce Ghost EWB Series I", "meta": "5 vehicles, 2013–2017 · simple", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/rr-ghost/cover.jpg" },
+            { "href": "/portfolio/mercedes-benz-s-class-v222/", "title": "Mercedes-Benz S-Class V222 Long, armoured", "meta": "2016–2017 · closed by the client", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/s-class-v222/cover.jpg" },
+            { "href": "/portfolio/cadillac-escalade-esv/", "title": "Cadillac Escalade ESV", "meta": "Development suspended · complex", "tag": "On hold", "tag_kind": "hold", "image": "portfolio/escalade/cover.jpg" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "The complete record",
+          "body": [
+            "Every project since 2008, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project."
+          ],
+          "action": { "label": "Full project history", "href": "/range/" }
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/mercedes-benz-v-class-line-1",
+      "title": "Mercedes-Benz V-Class / Metris — line 1",
+      "title_tag": "Mercedes-Benz V-Class partition — line 1",
+      "description": "A series partition for the Mercedes-Benz V-Class and Metris: 140 kits since 2015, 12 to 20 kits a year, supplied ready for trimming and installation.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Mercedes-Benz V-Class / Metris — line 1",
+          "lead": "A series project for a vehicle conversion company, and one of the two core series products of 7pro8.",
+          "meta": [
+            { "label": "In production since", "value": "2015" },
+            { "label": "Kits produced", "value": "140" },
+            { "label": "Current output", "value": "12–20 a year" },
+            { "label": "Class", "value": "Complex" },
+            { "label": "Scope of supply", "value": "Ready for trimming and installation" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "How this works in practice",
+          "body": [
+            "The production cycle of one kit is four months. With an agreed annual delivery plan the partner receives the product from stock on a pre-arranged day, so the effective lead time is one day for transport. Production planning stays on our side.",
+            "The partition is supplied ready for trimming and installation; trimming, fitting and finishing are carried out by the partner."
+          ],
+          "spec_title": "Equipment",
+          "spec": [
+            "Two electrically operated folding seats",
+            "Central folding box, electrically operated",
+            "Electrochromic glass with electric raise-and-lower mechanism",
+            "Samsung 43-inch television with electric lift"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 3,
+          "items": [
+            { "src": "portfolio/v-class-line-1/01.jpg", "alt": "Kit on the shop floor ready for dispatch", "caption": "Kit on the shop floor, ready for dispatch" },
+            { "src": "portfolio/v-class-line-1/02.jpg", "alt": "Partition panels prior to trimming", "caption": "Partition panels prior to trimming" },
+            { "src": "portfolio/v-class-line-1/03.jpg", "alt": "Partition installed in the car", "caption": "Installed: 43-inch monitor with electric lift, console, ambient lighting" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "This line is running now",
+          "text": "Tooling is in place and the cycle is established, so volume scales without new investment in development.",
+          "actions": [
+            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/mercedes-benz-v-class-line-2",
+      "title": "Mercedes-Benz V-Class — line 2",
+      "title_tag": "Mercedes-Benz V-Class partition — line 2",
+      "description": "The second series partition line on the Mercedes-Benz V-Class: 204 kits since 2016, 10 to 40 kits a year, shown in the facelift body specification.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Mercedes-Benz V-Class — line 2",
+          "lead": "A second series project on the same body, for a different partner and in a different specification. Shown here in the version for the facelift body.",
+          "meta": [
+            { "label": "In production since", "value": "2016" },
+            { "label": "Kits produced", "value": "204" },
+            { "label": "Output range", "value": "10–40 a year" },
+            { "label": "Class", "value": "Complex" },
+            { "label": "Scope of supply", "value": "Ready for trimming and installation" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "Two partners, one body, different specifications",
+          "body": [
+            "Line 1 and line 2 run in parallel for two independent partners on the same vehicle. That is the practical evidence that the platform scales to the requirements of a specific market rather than to a single customer's taste.",
+            "Specification is agreed per line, and the price follows the annual volume."
+          ],
+          "spec_title": "Equipment",
+          "spec": [
+            "Two electrically operated folding seats",
+            "Central sliding boxes, electrically operated",
+            "Electrochromic or plain glass with electric raise-and-lower mechanism",
+            "Samsung 43-inch television with electric lift",
+            "Drive mechanism for electric curtains"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 2,
+          "items": [
+            { "src": "portfolio/v-class-line-2/01.jpg", "alt": "Kits on the assembly line", "caption": "Kits on the assembly line" },
+            { "src": "portfolio/v-class-line-2/02.jpg", "alt": "Partition seen from the front with monitor and console", "caption": "Partition from the front: monitor, console" },
+            { "src": "portfolio/v-class-line-2/03.jpg", "alt": "Rear zone with ambient lighting", "caption": "Rear zone with ambient lighting" },
+            { "src": "portfolio/v-class-line-2/04.jpg", "alt": "Version in light trim", "caption": "Version in light trim" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Available for a third market",
+          "text": "The tooling supports further lines with their own specification.",
+          "actions": [
+            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/mercedes-benz-sprinter",
+      "title": "Mercedes-Benz Sprinter",
+      "title_tag": "Mercedes-Benz Sprinter partition — joint production",
+      "description": "A joint production project on the Mercedes-Benz Sprinter: 7pro8 supplies the structural frame with the driver's side prepared for trimming, the partner makes the VIP-side panels.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Mercedes-Benz Sprinter",
+          "lead": "An example of joint production. We supply the partner a partition frame with the driver's side fully prepared for trimming; the partner makes the composite panels of the VIP side.",
+          "meta": [
+            { "label": "In production since", "value": "2020" },
+            { "label": "Kits produced", "value": "10" },
+            { "label": "Output", "value": "2–3 a year" },
+            { "label": "Class", "value": "Complex" },
+            { "label": "Scope of supply", "value": "Frame without VIP-side panels" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "A model for partners who build panels but not tooling",
+          "body": [
+            "Development, CAD documentation and production tooling are entirely ours. This is the working arrangement for a partner that has its own panel production but no engineering department and no tooling.",
+            "We run the same arrangement on the Range Rover and on the Mercedes-Maybach: the partner takes on exactly the share of production it is equipped for."
+          ],
+          "spec_title": "Equipment",
+          "spec": [
+            "Electrochromic or plain glass with electric raise-and-lower mechanism",
+            "Samsung 43-inch television",
+            "Drive mechanism for electric curtains"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 3,
+          "items": [
+            { "src": "portfolio/sprinter/01.jpg", "alt": "Structural frame of the Sprinter partition", "caption": "Structural frame — our area of responsibility" },
+            { "src": "portfolio/sprinter/02.jpg", "alt": "Frame assembled with the glass mechanism", "caption": "Frame assembled with the glass mechanism" },
+            { "src": "portfolio/sprinter/03.jpg", "alt": "Finished interior with partition, monitor and electric curtains", "caption": "Finished: partition, monitor, electric curtains" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Take the share you are equipped for",
+          "text": "From a complete turnkey kit down to a single structural frame with mechanisms.",
+          "actions": [
+            { "label": "Discuss a supply model", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/mercedes-maybach-s-class-x222",
+      "title": "Mercedes-Maybach S-Class (X222)",
+      "title_tag": "Mercedes-Maybach S-Class X222 partition",
+      "description": "A privacy partition for the Mercedes-Maybach S-Class X222: 16 kits since 2016, joint production, prepared for trimming. The marque's most expensive saloon has no factory partition on its price list.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Mercedes-Maybach S-Class (X222)",
+          "lead": "A joint production project: the partner produces the plastics, we produce the metal frame with the mechanism.",
+          "meta": [
+            { "label": "In production since", "value": "2016" },
+            { "label": "Kits produced", "value": "16" },
+            { "label": "Output while the car was current", "value": "About 3 a year" },
+            { "label": "Class", "value": "Simple" },
+            { "label": "Scope of supply", "value": "Prepared for trimming" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "The argument a dealer can use",
+          "body": [
+            "The Mercedes-Maybach is the marque's most expensive saloon, and there is no partition on its price list. This is the only way to answer a client who wants both a Maybach and privacy.",
+            "The model is now discontinued, but demand for the partition continues on the used market."
+          ],
+          "spec_title": "What the partition delivers",
+          "spec": [
+            "Rear privacy in a car where the factory does not offer it",
+            "Folding work tables in the body of the partition",
+            "Factory multimedia and factory trim preserved"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 3,
+          "items": [
+            { "src": "portfolio/maybach-x222/01.jpg", "alt": "Rear zone with the partition integrated into the interior", "caption": "The partition inside the factory architecture of the interior" },
+            { "src": "portfolio/maybach-x222/02.jpg", "alt": "Folding tables in the partition", "caption": "Folding tables in the partition" },
+            { "src": "portfolio/maybach-x222/03.jpg", "alt": "Table in the working position", "caption": "Table in the working position" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "A used-market opportunity",
+          "text": "Tooling is in place and the X222 car park is large.",
+          "actions": [
+            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/range-rover-lwb",
+      "title": "Range Rover Long Wheelbase",
+      "title_tag": "Range Rover Long Wheelbase partition",
+      "description": "A partition for the Range Rover Long Wheelbase: the new-generation project was completed in December 2025 and is ready for production; 14 kits were built on the previous generation between 2015 and 2019.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Range Rover Long Wheelbase",
+          "lead": "The new-generation project was completed in December 2025. Development, tooling and the first unit are ready; series production can start at a partner's request.",
+          "meta": [
+            { "label": "New generation", "value": "Ready for production, 2026" },
+            { "label": "Projected output", "value": "2–3 kits a year" },
+            { "label": "Previous generation", "value": "14 kits, 2015–2019" },
+            { "label": "Class", "value": "Simple" },
+            { "label": "Scope of supply", "value": "Ready for trimming and installation" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "Development is already paid for",
+          "body": [
+            "Around €70,000 has been invested in developing the new-generation partition. A partner taking this model receives a finished product with no R&D investment of its own and no waiting for tooling.",
+            "On the previous generation the project ran as joint production: our development and tooling, the partner making the decorative panels, us making the frame and mechanisms."
+          ],
+          "spec_title": "Equipment",
+          "spec": [
+            "Electrically operated lifting glass",
+            "Version with factory monitors available"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 2,
+          "items": [
+            { "src": "portfolio/range-rover/01.jpg", "alt": "Finished partition with lifting glass before trimming", "caption": "Finished product before trimming" },
+            { "src": "portfolio/range-rover/02.jpg", "alt": "The completed vehicle", "caption": "The completed vehicle" },
+            { "src": "portfolio/range-rover/03.jpg", "alt": "Rear zone with the partition", "caption": "Rear zone with the partition" },
+            { "src": "portfolio/range-rover/04.jpg", "alt": "Version with factory monitors", "caption": "Version with factory monitors" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "First partner starts the series",
+          "text": "The model is ready; the launch date is a decision, not a development programme.",
+          "actions": [
+            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/rolls-royce-phantom-ewb",
+      "title": "Rolls-Royce Phantom EWB",
+      "title_tag": "Rolls-Royce Phantom EWB partition",
+      "description": "A partition developed in 2011 for an official Rolls-Royce dealer and fitted on the dealership's own premises by its technicians. Four vehicles between 2012 and 2016.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Rolls-Royce Phantom EWB",
+          "lead": "The project was carried out for an official Rolls-Royce dealer. The partitions were installed on the dealership's own premises by its technicians — practical proof that fitting a simple partition is within reach of a dealer workshop.",
+          "meta": [
+            { "label": "Developed", "value": "2011" },
+            { "label": "Built", "value": "4 vehicles, 2012–2016" },
+            { "label": "Class", "value": "Simple" },
+            { "label": "Scope of supply", "value": "Trimmed, installed and connected" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "The only model the factory later answered",
+          "body": [
+            "This is the one model in our portfolio for which the manufacturer eventually offered a solution of its own — the Privacy Suite for the Phantom Extended, from 2018 and only when ordering a new car.",
+            "For every other model we work with, and for every Phantom already on the road, there is still no factory alternative."
+          ],
+          "spec_title": "Equipment",
+          "spec": [
+            "22-inch television",
+            "Version with factory multimedia and two factory monitors",
+            "Electrochromic glass with raise-and-lower mechanism",
+            "Electric curtain drive"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 3,
+          "items": [
+            { "src": "portfolio/rr-phantom/01.jpg", "alt": "The project vehicle", "caption": "The project vehicle" },
+            { "src": "portfolio/rr-phantom/02.jpg", "alt": "The complete interior", "caption": "The complete interior" },
+            { "src": "portfolio/rr-phantom/03.jpg", "alt": "Execution details of the partition", "caption": "Execution details" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Built to a dealer network's requirements",
+          "text": "Both Rolls-Royce projects were made for the official dealer network rather than the tuning market, so the product and the fitting procedure were tested against the most demanding marque in the segment.",
+          "actions": [
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/rolls-royce-ghost-ewb",
+      "title": "Rolls-Royce Ghost EWB Series I",
+      "title_tag": "Rolls-Royce Ghost EWB partition",
+      "description": "The second project for an official Rolls-Royce distributor: fixed electrochromic glass and factory monitors, five vehicles between 2013 and 2017.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Rolls-Royce Ghost EWB Series I",
+          "lead": "The second project for the official Rolls-Royce distributor. A more restrained solution than the Phantom — fixed electrochromic glass and factory monitors, minimum intervention for maximum effect.",
+          "meta": [
+            { "label": "Developed", "value": "2012" },
+            { "label": "Built", "value": "5 vehicles, 2013–2017" },
+            { "label": "Class", "value": "Simple" },
+            { "label": "Scope of supply", "value": "Fully finished and installed" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "Why this matters to a dealer",
+          "body": [
+            "Both Rolls-Royce projects were built for the official dealer network, not for the tuning market. The product and the installation procedure were tested against the requirements of the most demanding marque in the segment.",
+            "That is the reference we offer any dealer group considering the same step."
+          ],
+          "spec_title": "Equipment",
+          "spec": [
+            "Electrochromic glass",
+            "Factory monitors",
+            "Auxiliary instruments and controls in the body of the partition"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 2,
+          "items": [
+            { "src": "portfolio/rr-ghost/01.jpg", "alt": "Partition with factory monitors", "caption": "Partition with factory monitors" },
+            { "src": "portfolio/rr-ghost/02.jpg", "alt": "View from the passenger side", "caption": "View from the passenger side" },
+            { "src": "portfolio/rr-ghost/03.jpg", "alt": "The project vehicle", "caption": "The project vehicle" },
+            { "src": "portfolio/rr-ghost/04.jpg", "alt": "Controls and instruments in the partition", "caption": "Controls and instruments" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Tooling is retained",
+          "text": "The project can be restarted for a partner without repeat investment in development.",
+          "actions": [
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/mercedes-benz-s-class-v222",
+      "title": "Mercedes-Benz S-Class V222 Long, armoured",
+      "title_tag": "Armoured Mercedes-Benz S-Class V222 partition",
+      "description": "A partition for an armoured S-Class extended at the B-pillar. Development and production preparation were completed in full for a planned run of ten kits; the client closed the project and one car was built.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Mercedes-Benz S-Class V222 Long, armoured",
+          "lead": "A project for an armoured vehicle extended at the B-pillar. Development and production preparation were completed in full and ten kits were planned; the client closed the project for its own reasons, and one car was built.",
+          "meta": [
+            { "label": "Developed", "value": "2016–2017" },
+            { "label": "Built", "value": "1 vehicle" },
+            { "label": "Class", "value": "Simple" },
+            { "label": "Status", "value": "Tooling retained" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "The most demanding of the simple projects",
+          "body": [
+            "This is the only partition in the portfolio built for an armoured body, and technically the most demanding of the simple class. Production was prepared for a series run, so the project can be revived for a partner without repeat investment in development.",
+            "Armoured S-Class saloons are a market of their own — diplomatic missions, security services, corporate protection. Privacy there is not an option but part of protocol."
+          ],
+          "spec_title": "Equipment",
+          "spec": [
+            "Electrochromic glass with electric raise-and-lower drive",
+            "Rising 22-inch monitor",
+            "Upper information display",
+            "Wood veneer trim with ambient lighting"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 2,
+          "items": [
+            { "src": "portfolio/s-class-v222/01.jpg", "alt": "Monitor in the raised position", "caption": "Monitor in the raised position" },
+            { "src": "portfolio/s-class-v222/02.jpg", "alt": "Glass in the opaque state", "caption": "Glass in the opaque state" },
+            { "src": "portfolio/s-class-v222/03.jpg", "alt": "Upper panel with veneer, ambient lighting and clock", "caption": "Upper panel: veneer, ambient lighting, clock" },
+            { "src": "portfolio/s-class-v222/04.jpg", "alt": "Rear bench and console", "caption": "Rear bench and console" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Ready to revive",
+          "text": "For a partner in the armoured vehicle market, development is already done.",
+          "actions": [
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "portfolio/cadillac-escalade-esv",
+      "title": "Cadillac Escalade ESV",
+      "title_tag": "Cadillac Escalade ESV partition — project on hold",
+      "description": "A partition project for the Cadillac Escalade ESV, suspended pending a partner. Structurally simple, but the vehicle needs a different rear bench and a rebuild of the rear section.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Cadillac Escalade ESV",
+          "lead": "Structurally the partition is simple: the glass mechanism, factory monitors and the factory audio system. The difficulty is not in the partition but in the car.",
+          "meta": [
+            { "label": "Status", "value": "On hold" },
+            { "label": "Time to complete", "value": "1 year from restart" },
+            { "label": "Projected output", "value": "2–5 kits a year" },
+            { "label": "Class", "value": "Complex, by volume of work" }
+          ]
+        },
+        {
+          "type": "spec",
+          "title": "Why the project stopped",
+          "body": [
+            "If the factory rear bench is retained there is no legroom left for the rear passenger. The project therefore needs a different rear bench and a rebuild of the rear section, which by volume of work puts it in the complex class.",
+            "The Escalade ESV is a key model for the United States and the Middle East. The project is ready to be revived with a partner prepared to share the cost of completing development."
+          ],
+          "spec_title": "What is already done",
+          "spec": [
+            "Partition study completed in the vehicle interior",
+            "Structure of the solution defined",
+            "Remaining scope and timeline costed"
+          ]
+        },
+        {
+          "type": "gallery",
+          "cols": 2,
+          "items": [
+            { "src": "portfolio/escalade/01.jpg", "alt": "Partition study in the Cadillac Escalade interior", "caption": "Partition study in the vehicle interior" },
+            { "src": "portfolio/escalade/02.jpg", "alt": "Rear section of the Escalade interior", "caption": "Rear section — the part that has to be rebuilt" }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Looking for a partner for the US and Middle East",
+          "text": "Restarting the project takes a year and a partner willing to share the cost of completing it.",
+          "actions": [
+            { "label": "Discuss the Escalade", "href": "/partners/#enquiry" },
+            { "label": "All projects", "href": "/portfolio/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "range",
+      "title": "Availability",
+      "title_tag": "What 7pro8 can supply today — model programme and project history",
+      "description": "Models in series production, models ready to launch and models in development, with the complete 7pro8 project history from 2008 onwards.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "What we can supply today",
+          "lead": "Three states, and the difference between them is what a partner has to invest before the first kit arrives."
+        },
+        {
+          "type": "lineup",
+          "groups": [
+            {
+              "kind": "series",
+              "status": "In series",
+              "text": "Tooling is in place, the production cycle is established and delivery runs to an agreed plan. Volume scales without new investment in development.",
+              "items": [
+                "Mercedes-Benz V-Class / Metris — two lines, different specifications",
+                "Mercedes-Benz Sprinter",
+                "Mercedes-Maybach S-Class (X222)"
+              ]
+            },
+            {
+              "kind": "ready",
+              "status": "Ready to launch",
+              "text": "Development is paid for and done. The partner receives a finished product with no R&D investment — or, for the Escalade, shares the cost of completing the project.",
+              "items": [
+                "Range Rover Long Wheelbase — new generation, December 2025",
+                "Rolls-Royce Phantom EWB",
+                "Rolls-Royce Ghost EWB",
+                "Mercedes-Benz S-Class V222 Long",
+                "Cadillac Escalade ESV — on hold"
+              ]
+            },
+            {
+              "kind": "dev",
+              "status": "In development",
+              "text": "The electric Mercedes-Benz VLE replaces the V-Class and the EQV — the vehicle our core series product is built on.",
+              "items": [
+                "Mercedes-Benz VLE — two full-size partition lines, from 2026",
+                "Mercedes-Benz VLE Lite — lightweight version, from 2027"
+              ]
+            }
+          ],
+          "footnote": "In addition to partitions we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and interior panels to any design."
+        },
+        {
+          "type": "metrics",
+          "tone": "dark",
+          "items": [
+            { "value": "14", "label": "Vehicle models in the portfolio" },
+            { "value": "8", "label": "Projects taken through to series tooling" },
+            { "value": "460", "label": "Kits produced in total since 2008" }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Every project since 2008",
+          "lead": "The 2008–2010 projects were one-off works without series preparation. From the Rolls-Royce Phantom EWB in 2011 onwards, every project was executed with tooling and the capability for series production.",
+          "head": ["Vehicle", "Years", "Units", "Nature of the project"],
+          "numeric": [2],
+          "rows": [
+            ["Mercedes-Benz S-Class V221 Long", "2008", "1", "One-off work"],
+            ["ZiL-4107", "2008", "1", "One-off work"],
+            ["Mercedes-Benz S-Class V220 Long", "2009", "1", "One-off work"],
+            ["Maybach, armoured — copy of the original partition", "2010", "1", "One-off work"],
+            ["Mercedes-Benz GL", "2010", "1", "One-off work"],
+            ["Cadillac Escalade", "2010", "1", "One-off work"],
+            ["VW Multivan", "2010–2016", "60", "Series"],
+            ["Rolls-Royce Phantom EWB", "2011–2016", "4", "Full development, tooling, series"],
+            ["Rolls-Royce Ghost EWB Series I", "2013–2017", "5", "Full development, tooling, series"],
+            ["Range Rover Long Wheelbase", "2015–2019", "14", "Joint production"],
+            ["Mercedes-Benz V-Class — line 1", "since 2015", "140", "Series production"],
+            ["Mercedes-Benz V-Class — line 2", "since 2016", "204", "Series production"],
+            ["Mercedes-Benz S-Class V222 Long, armoured", "2016", "1", "Closed by the client"],
+            ["Mercedes-Maybach S-Class X222", "since 2016", "16", "Joint production"],
+            ["Mercedes-Benz Sprinter", "since 2020", "10", "Joint production"],
+            ["=Total produced", "", "460", ""]
+          ],
+          "footnote": "Current rate: 30 to 40 complex partitions a year, mostly V-Class with one or two Sprinter; 3 to 4 simple partitions a year on Maybach and Range Rover."
+        },
+        {
+          "type": "cta",
+          "title": "Indicative pricing on request",
+          "text": "Price is a function of annual volume, so we quote against a model, a market and a plan rather than publishing a list.",
+          "actions": [
+            { "label": "Request pricing", "href": "/partners/#enquiry" },
+            { "label": "The VLE programme", "href": "/vle/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "vle",
+      "title": "Mercedes-Benz VLE",
+      "title_tag": "Mercedes-Benz VLE partition — in development for 2026",
+      "description": "7pro8 is developing two full-size partition lines for the electric Mercedes-Benz VLE, in series production at Vitoria since June 2026, plus a lightweight version from 2027. Partner slots are open.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "tone": "dark",
+          "kicker": "In development",
+          "title": "A partition for the Mercedes-Benz VLE",
+          "lead": "The electric VLE was unveiled on 10 March 2026 and has been in series production at the Vitoria plant in Spain since June 2026. It replaces the V-Class and the EQV — precisely the vehicle our core series product is built on.",
+          "meta": [
+            { "label": "Full-size lines", "value": "Two, from 2026" },
+            { "label": "Lightweight version", "value": "VLE Lite, from 2027" },
+            { "label": "Class", "value": "Complex" },
+            { "label": "Partner slots", "value": "Open" }
+          ]
+        },
+        {
+          "type": "split",
+          "title": "Why the timing is the whole point",
+          "body": [
+            "Conversion products usually arrive two or three years after the car does, because development only starts once the vehicle is on the market and someone has bought one to measure.",
+            "We have been building partitions on this body since 2015 across two independent series lines, so the VLE is not a new platform for us. A partner joining now receives the product at the same time as the car reaches the market."
+          ],
+          "image": {
+            "src": "vle/cad-development.jpg",
+            "alt": "CAD development of the VLE partition",
+            "caption": "Development runs on the same cycle as every other model: scan, surfaces, mechanisms, tooling"
+          }
+        },
+        {
+          "type": "grid",
+          "cols": 3,
+          "tone": "paper",
+          "title": "What a partner gets by joining early",
+          "items": [
+            { "title": "Product at launch", "text": "The partition is ready when the conversion market starts asking for it, not after competitors have already answered." },
+            { "title": "Specification input", "text": "Lines are specified per partner. Joining during development means the specification is shaped around the market you sell into." },
+            { "title": "Priority by market or model", "text": "Where a partner shares development cost, priority by market or by model is part of the agreement." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "What we already know how to build on this body",
+          "body": [
+            "Two electrically operated folding seats, central sliding boxes, electrochromic or plain glass with an electric raise-and-lower mechanism, a 43-inch television with electric lift, electric curtain drives, and the rear module — a platform frame with console armrest for an optional rear bench.",
+            "All of it is in series on the V-Class today."
+          ],
+          "action": { "label": "See the V-Class lines", "href": "/portfolio/mercedes-benz-v-class-line-1/" }
+        },
+        {
+          "type": "cta",
+          "title": "Talk to us before the specification is frozen",
+          "text": "Tell us the market and the volume you would take, and we will tell you what is still open.",
+          "actions": [
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
+            { "label": "Contact details", "href": "/contact/" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "partners",
+      "title": "Partners",
+      "title_tag": "Working with 7pro8 — scope, responsibilities and lead times",
+      "description": "How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and how to request indicative pricing.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "How work with a partner is structured",
+          "lead": "The partner receives a kit ready for installation. Everything up to that point is ours; everything from trimming onwards is the partner's. The line is drawn in the same place on every project."
+        },
+        {
+          "type": "twocol",
+          "cols": [
+            {
+              "title": "Our responsibility",
+              "items": [
+                "Design and sign-off of the product appearance",
+                "Surface and mechanism engineering",
+                "Development and manufacture of production tooling",
+                "Production of the structural frame and surface panels",
+                "Pre-assembly and inspection of the kit",
+                "Templates and installation instructions",
+                "Delivery from stock to the agreed plan"
+              ]
+            },
+            {
+              "title": "The partner's responsibility",
+              "items": [
+                "Trimming in materials from the vehicle manufacturer's palette",
+                "Installation in the vehicle",
+                "Electrical connections, intercom, lighting",
+                "Final finishing of the interior",
+                "Warranty service to the end client"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "metrics",
+          "tone": "dark",
+          "items": [
+            { "value": "4 months", "label": "Production cycle of one kit" },
+            { "value": "1 day", "label": "Effective lead time with an agreed plan and timely advance payment — transport from stock" },
+            { "value": "1–3 days", "label": "Installation of a simple partition by qualified technicians; removal takes the same" }
+          ]
+        },
+        {
+          "type": "grid",
+          "cols": 3,
+          "tone": "paper",
+          "title": "What kind of partner each class needs",
+          "items": [
+            { "title": "Simple projects", "text": "The level of a dealer workshop or a small conversion atelier is enough. Substantial disassembly of the interior, extending the monitor wiring looms, fitting an intercom and additional switches — but no rebuild." },
+            { "title": "Complex projects", "text": "A company capable of serious vehicle conversion. At minimum a new rear bench with console goes in; usually headliner, side panels, multimedia and lighting are rebuilt too." },
+            { "title": "Joint production", "text": "For a partner with its own panel production but no engineering department, we supply the frame and mechanisms and the partner makes the panels. Development and tooling stay with us." }
+          ]
+        },
+        {
+          "type": "prose",
+          "title": "How pricing works",
+          "body": [
+            "Price is a function of annual volume. It is agreed with the partner in advance, improves at higher volumes and is reviewed at lower ones, so a published list price would be misleading in both directions.",
+            "Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.",
+            "For a model that does not exist yet, development from scratch takes up to a year depending on the complexity of the vehicle. A cost-sharing model is possible, under which the partner receives priority by market or by model.",
+            "Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan."
+          ]
+        },
+        {
+          "type": "form",
+          "anchor": "enquiry",
+          "title": "Partner enquiry",
+          "subject": "Partner enquiry from 7pro8.com",
+          "body": [
+            "We reply within two working days. If you would rather not use the form, write to us directly — the address is below and in the footer."
+          ],
+          "list": [
+            "Indicative pricing for the models you name",
+            "Scope of supply and what is left to your workshop",
+            "A realistic delivery plan for the volume you need"
+          ],
+          "fields": {
+            "company": "Company",
+            "name": "Your name",
+            "email": "Email",
+            "country": "Country or market",
+            "interest": "What are you interested in?",
+            "interest_options": [
+              "V-Class / Metris",
+              "Sprinter",
+              "Maybach S-Class",
+              "Range Rover LWB",
+              "Rolls-Royce",
+              "Escalade ESV",
+              "Mercedes-Benz VLE",
+              "A new model"
+            ],
+            "volume": "Expected volume per year",
+            "message": "Anything else we should know",
+            "consent": "I agree that 7pro8 may use these details to reply to this enquiry.",
+            "submit": "Send enquiry",
+            "fallback": "Or write to",
+            "honeypot": "Leave this field empty"
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "company",
+      "title": "Company",
+      "title_tag": "About 7pro8 — Novi Sad, Serbia, since 2007",
+      "description": "7pro8 built its first interior partition in 2007. Since then more than 20 partition models have been developed and over 450 kits delivered, from a workshop in Novi Sad, Serbia.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "An engineering company, not a tuning shop",
+          "lead": "7pro8 produced its first interior partition in 2007. Since then we have developed more than 20 partition models for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac, and delivered over 450 kits."
+        },
+        {
+          "type": "prose",
+          "body": [
+            "We do not work on an individual car — we work on a car model. Every project is a full cycle: from 3D scanning of the interior to the manufacture of production tooling that lets the product be built in series, with repeatable geometry and repeatable quality. That is what separates us from one-off customisation.",
+            "Our clients are vehicle distributors, official dealerships and specialist conversion shops. We supply them a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.",
+            "The company is based in Novi Sad, Serbia, and is led by Evgenii Abramov and Iliya Bolshakov."
+          ]
+        },
+        {
+          "type": "metrics",
+          "tone": "paper",
+          "items": [
+            { "value": "19 years", "label": "Continuous work in the segment, since 2007" },
+            { "value": "450+", "label": "Kits delivered to clients" },
+            { "value": "30–40", "label": "Complex partitions a year — current rate" }
+          ]
+        },
+        {
+          "type": "split",
+          "title": "Where the work happens",
+          "body": [
+            "Design, engineering, tooling and production all sit in the same building in Novi Sad. Serbia gives the company an unusual combination for this segment: engineering labour at a cost that supports series production, and duty-free industrial access to the European Union under the Stabilisation and Association Agreement.",
+            "Deliveries run to the European Union, the United Kingdom, the United Arab Emirates, the United States and the Middle East."
+          ],
+          "image": {
+            "src": "company/workshop.jpg",
+            "alt": "The 7pro8 workshop in Novi Sad",
+            "caption": "Novi Sad — design, engineering, tooling and assembly under one roof"
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Come and see the shop floor",
+          "text": "Partners are welcome to visit Novi Sad and look at kits in production before committing to anything.",
+          "actions": [
+            { "label": "Contact details", "href": "/contact/" },
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "title_tag": "Contact 7pro8 — Novi Sad, Serbia",
+      "description": "Contact 7pro8 DOO Novi Sad: address, email and telephone. Partner enquiries are answered within two working days.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "title": "Contact",
+          "lead": "Partner enquiries are answered within two working days. For anything about a specific model, the enquiry form gets you a faster and more useful reply than a bare email."
+        },
+        {
+          "type": "split",
+          "body": [
+            "7pro8 DOO Novi Sad, Serbia.",
+            "Working hours are 08:00 to 17:00 Central European Time, Monday to Friday. We correspond in English, German, Serbian and Russian.",
+            "Full postal address, company registration number, VAT number and telephone are in the footer of every page."
+          ],
+          "action": { "label": "Go to the enquiry form", "href": "/partners/#enquiry" },
+          "image": {
+            "src": "company/novi-sad.jpg",
+            "alt": "The 7pro8 premises in Novi Sad",
+            "caption": "Novi Sad, Serbia"
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Send the model, the market and the volume",
+          "text": "That is enough for us to come back with indicative pricing and a delivery plan.",
+          "actions": [
+            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+          ]
+        }
+      ]
+    }
+  ]
+}

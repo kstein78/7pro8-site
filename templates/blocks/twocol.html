@@ -1,0 +1,17 @@
+<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}{% if block.tone == 'paper' %} tone-paper{% endif %}">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+    <div class="responsibility">
+      {% for col in block.cols %}
+      <section class="responsibility__col">
+        <h3 class="responsibility__title">{{ col.title }}</h3>
+        {% if col.text %}<p class="responsibility__text">{{ col.text }}</p>{% endif %}
+        <ul class="ticks">
+          {% for i in col['items'] %}<li>{{ i }}</li>{% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
