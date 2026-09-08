@@ -1,11 +1,30 @@
 # Photography
 
-Drop files into `static/img/` using the paths below. Any slot without a file
-renders a labelled placeholder, so the site is reviewable now and gets better one
-photo at a time — nothing breaks while the set is incomplete.
+**Current state: every slot but one is filled, from the presentation.**
 
-Run `python build.py` and check `dist/_missing-images.txt` to see what is still
-outstanding.
+`tools/extract_deck_images.py` crops the photography straight out of the 2026
+partner deck:
+
+```bash
+python3 tools/extract_deck_images.py /path/to/unpacked/slides
+```
+
+The crop boxes are in that file, one line per image, so a bad crop is a
+two-number fix rather than a manual re-export.
+
+**These are presentation-resolution crops.** The deck pages are 1456x840, so the
+photographs come out between 350 and 720 pixels wide before upscaling. That is
+enough to judge a design on and enough for a first launch, but it is not enough
+for a full-bleed hero on a large screen. Replace them with the originals as those
+become available — the paths and the build stay the same, so it is a
+file-by-file swap with no code change.
+
+Only `portfolio/escalade/02.jpg` is still a placeholder: the Escalade slide
+carries a single photograph.
+
+Any slot without a file renders a labelled placeholder, so nothing breaks while
+the set is incomplete. Run `python build.py` and check
+`dist/_missing-images.txt` for what is outstanding.
 
 ## Format
 
@@ -79,6 +98,19 @@ visitors will judge the company on.
 |---|---|
 | `company/workshop.jpg` | The shop floor in Novi Sad, with work visibly in progress. |
 | `company/novi-sad.jpg` | The building or the city — used on the contact page. |
+
+## The logo
+
+`static/img/logo-7pro8.svg` is the isometric 7pro8 mark, redrawn as vector from
+the largest version in the decks (the TopCar cover slide). It is three flat
+polygon paths, one per face, at 619 bytes — so it stays sharp at any size and the
+favicon is generated from the same paths.
+
+It was traced, not copied, which means the geometry is accurate to within a pixel
+of the source render but is not the original artwork. **If the original vector
+file exists — .ai, .eps, .svg or .pdf from whoever drew it — replace this file
+with it.** The build will pick it up with no other change, as long as it keeps a
+`viewBox` and transparent background.
 
 ## Two things to check before publishing
 

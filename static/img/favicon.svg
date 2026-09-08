@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#191d20"/>
-  <rect x="10" y="14" width="44" height="30" fill="none" stroke="#93a6bc" stroke-width="3"/>
-  <rect x="16" y="20" width="32" height="12" fill="#33465f"/>
-  <rect x="10" y="48" width="44" height="4" fill="#93a6bc"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1205">
+<rect width="1240" height="1205" fill="#12141a"/>
+<g transform="translate(120,120)">
+<path class="mark__dark" fill="#7c7973" fill-rule="evenodd" d="M999.1 182.9 543.5 442.3 543.5 965.4 1000.0 703.4ZM855.2 577.3 857.9 662.5 694.5 755.8 692.7 668.7ZM855.2 388.1 857.0 474.2 694.5 567.5 692.7 480.5Z"/>
+<path class="mark__mid" fill="#b9b6b0" fill-rule="evenodd" d="M815.3 176.7 698.0 115.5 385.4 299.3 497.3 362.3ZM614.6 60.4 504.4 0.0 191.8 186.5 299.3 245.1Z"/>
+<path class="mark__light" fill="#e9e7e2" fill-rule="evenodd" d="M0.0 188.3 2.7 364.1 271.8 518.7 273.5 862.3 449.4 962.7 448.5 444.0Z"/>
+</g>
 </svg>

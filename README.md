@@ -62,6 +62,7 @@ static/
   img/             photography goes here (see IMAGES.md)
 tools/
   check_links.py
+  extract_deck_images.py   crops the photography out of the presentation slides
 deploy/
   Caddyfile        recommended server config
   nginx.conf       alternative
@@ -114,12 +115,19 @@ greys out that language instead of linking to a 404. German and Serbian are
 listed and greyed out — the source text for both already exists in
 `7pro8_Praesentation_DE.pdf` and `7pro8_Prezentacija_SR.pdf`.
 
-## Images
+## Images and the logo
 
-All photography lives in `static/img/`. Any slot without a file gets a labelled
-placeholder at build time and is listed in `dist/_missing-images.txt`, so the
-layout can be reviewed before the photos exist. See **IMAGES.md** for the full
-list of slots and what belongs in each.
+All photography lives in `static/img/`, and is currently filled from the 2026
+partner presentation by `tools/extract_deck_images.py`. Those crops are
+presentation-resolution and should be replaced by the original photographs before
+the site carries real traffic. Any slot without a file gets a labelled
+placeholder at build time and is listed in `dist/_missing-images.txt`.
+
+The logo is `static/img/logo-7pro8.svg`, redrawn as vector from the mark on the
+decks. If the original artwork file turns up, drop it in over this one.
+
+See **IMAGES.md** for the full slot list, the crop provenance and the two rights
+questions to settle before publishing.
 
 ---
 

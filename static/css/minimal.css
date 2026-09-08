@@ -161,12 +161,14 @@ p { margin: 0 0 1.1rem; max-width: 68ch; }
   flex-wrap: wrap;
 }
 
-.wordmark { display: flex; align-items: baseline; gap: 0.85rem; text-decoration: none; color: inherit; }
-.wordmark__mark {
+.wordmark { display: flex; align-items: center; gap: 0.8rem; text-decoration: none; color: inherit; }
+.wordmark__mark { width: 2rem; height: auto; flex: none; }
+.wordmark__name {
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 1.45rem;
-  letter-spacing: 0.02em;
+  font-size: 1.4rem;
+  letter-spacing: 0.01em;
+  line-height: 1;
 }
 .wordmark__line {
   font-family: var(--sans);
@@ -175,7 +177,9 @@ p { margin: 0 0 1.1rem; max-width: 68ch; }
   color: #949aa0;
   border-left: 1px solid var(--rule-dark);
   padding-left: 0.85rem;
+  line-height: 1.2;
 }
+@media (max-width: 34rem) { .wordmark__line { display: none; } }
 
 .nav { margin-left: auto; display: flex; align-items: center; gap: 1.75rem; }
 .nav__list, .langs { list-style: none; display: flex; margin: 0; padding: 0; }
