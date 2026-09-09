@@ -12,16 +12,32 @@
     "sections": "Sections",
     "footer_note": "Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette."
   },
-
   "nav": [
-    { "slug": "product", "label": "Product" },
-    { "slug": "capabilities", "label": "Engineering" },
-    { "slug": "manufacturing", "label": "Manufacturing" },
-    { "slug": "portfolio", "label": "Projects" },
-    { "slug": "range", "label": "Availability" },
-    { "slug": "partners", "label": "Partners" }
+    {
+      "slug": "product",
+      "label": "Product"
+    },
+    {
+      "slug": "capabilities",
+      "label": "Engineering"
+    },
+    {
+      "slug": "manufacturing",
+      "label": "Manufacturing"
+    },
+    {
+      "slug": "portfolio",
+      "label": "Projects"
+    },
+    {
+      "slug": "range",
+      "label": "Availability"
+    },
+    {
+      "slug": "partners",
+      "label": "Partners"
+    }
   ],
-
   "pages": [
     {
       "slug": "",
@@ -34,8 +50,14 @@
           "title": "Privacy partitions, built in series",
           "lead": "We design, tool and manufacture interior partitions for premium vehicles, and supply them to dealers and conversion shops as a kit that is ready to trim and fit.",
           "actions": [
-            { "label": "See what we can supply", "href": "/range/" },
-            { "label": "Work with us", "href": "/partners/" }
+            {
+              "label": "See what we can supply",
+              "href": "/range/"
+            },
+            {
+              "label": "Work with us",
+              "href": "/partners/"
+            }
           ],
           "image": {
             "src": "home/hero-v-class-partition.jpg",
@@ -45,10 +67,22 @@
             "toggle_off": "Glass clear"
           },
           "facts": [
-            { "value": "2007", "label": "First partition built" },
-            { "value": "450+", "label": "Kits delivered to clients" },
-            { "value": "20+", "label": "Partition models developed" },
-            { "value": "4", "label": "Premium marques" }
+            {
+              "value": "2007",
+              "label": "First partition built"
+            },
+            {
+              "value": "450+",
+              "label": "Kits delivered to clients"
+            },
+            {
+              "value": "20+",
+              "label": "Partition models developed"
+            },
+            {
+              "value": "4",
+              "label": "Premium marques"
+            }
           ]
         },
         {
@@ -59,7 +93,10 @@
             "We do not work on an individual car. We work on a car model: every project runs from 3D scanning of the interior through to production tooling, so the product can be built in series with repeatable geometry and repeatable quality.",
             "Our clients are vehicle distributors, official dealerships and specialist conversion shops. They receive a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions."
           ],
-          "action": { "label": "About the company", "href": "/company/" },
+          "action": {
+            "label": "About the company",
+            "href": "/company/"
+          },
           "image": {
             "src": "home/tooling-mould.jpg",
             "alt": "Production mould for forming a partition surface panel",
@@ -99,9 +136,18 @@
           "tone": "dark",
           "title": "What the timing looks like from the partner's side",
           "items": [
-            { "value": "4 months", "label": "Production cycle of one kit — planning stays on our side" },
-            { "value": "1 day", "label": "Effective lead time with an agreed delivery plan: transport from stock" },
-            { "value": "1–3 days", "label": "Installation of a simple partition by qualified technicians. Removal takes the same" }
+            {
+              "value": "4 months",
+              "label": "Production cycle of one kit — planning stays on our side"
+            },
+            {
+              "value": "1 day",
+              "label": "Effective lead time with an agreed delivery plan: transport from stock"
+            },
+            {
+              "value": "1–3 days",
+              "label": "Installation of a simple partition by qualified technicians. Removal takes the same"
+            }
           ]
         },
         {
@@ -109,12 +155,54 @@
           "title": "Selected projects",
           "lead": "Fourteen vehicle models have gone through the workshop since 2007. Eight of them were taken all the way to series tooling.",
           "items": [
-            { "href": "/portfolio/mercedes-benz-v-class-line-1/", "title": "Mercedes-Benz V-Class — line 1", "meta": "140 kits since 2015", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-1/cover.jpg" },
-            { "href": "/portfolio/mercedes-benz-v-class-line-2/", "title": "Mercedes-Benz V-Class — line 2", "meta": "204 kits since 2016", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-2/cover.jpg" },
-            { "href": "/portfolio/mercedes-benz-sprinter/", "title": "Mercedes-Benz Sprinter", "meta": "10 kits since 2020", "tag": "In series", "tag_kind": "series", "image": "portfolio/sprinter/cover.jpg" },
-            { "href": "/portfolio/mercedes-maybach-s-class-x222/", "title": "Mercedes-Maybach S-Class X222", "meta": "16 kits since 2016", "tag": "In series", "tag_kind": "series", "image": "portfolio/maybach-x222/cover.jpg" },
-            { "href": "/portfolio/range-rover-lwb/", "title": "Range Rover Long Wheelbase", "meta": "New generation, ready 2026", "tag": "Ready to launch", "tag_kind": "ready", "image": "portfolio/range-rover/cover.jpg" },
-            { "href": "/portfolio/rolls-royce-phantom-ewb/", "title": "Rolls-Royce Phantom EWB", "meta": "4 vehicles, 2012–2016", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/rr-phantom/cover.jpg" }
+            {
+              "href": "/portfolio/mercedes-benz-v-class-line-1/",
+              "title": "Mercedes-Benz V-Class — line 1",
+              "meta": "140 kits since 2015",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/v-class-line-1/cover.jpg"
+            },
+            {
+              "href": "/portfolio/mercedes-benz-v-class-line-2/",
+              "title": "Mercedes-Benz V-Class — line 2",
+              "meta": "204 kits since 2016",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/v-class-line-2/cover.jpg"
+            },
+            {
+              "href": "/portfolio/mercedes-benz-sprinter/",
+              "title": "Mercedes-Benz Sprinter",
+              "meta": "10 kits since 2020",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/sprinter/cover.jpg"
+            },
+            {
+              "href": "/portfolio/mercedes-maybach-s-class-x222/",
+              "title": "Mercedes-Maybach S-Class X222",
+              "meta": "16 kits since 2016",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/maybach-x222/cover.jpg"
+            },
+            {
+              "href": "/portfolio/range-rover-lwb/",
+              "title": "Range Rover Long Wheelbase",
+              "meta": "New generation, ready 2026",
+              "tag": "Ready to launch",
+              "tag_kind": "ready",
+              "image": "portfolio/range-rover/cover.jpg"
+            },
+            {
+              "href": "/portfolio/rolls-royce-phantom-ewb/",
+              "title": "Rolls-Royce Phantom EWB",
+              "meta": "4 vehicles, 2012–2016",
+              "tag": "Tooling retained",
+              "tag_kind": "ready",
+              "image": "portfolio/rr-phantom/cover.jpg"
+            }
           ]
         },
         {
@@ -126,7 +214,10 @@
             "The electric Mercedes-Benz VLE was unveiled on 10 March 2026 and has been in series production at the Vitoria plant in Spain since June 2026. It replaces the V-Class and the EQV — precisely the vehicle our core series product is built on.",
             "A partner joining now receives the partition at the same time as the car reaches the market, rather than two or three years later."
           ],
-          "action": { "label": "The VLE programme", "href": "/vle/" },
+          "action": {
+            "label": "The VLE programme",
+            "href": "/vle/"
+          },
           "image": {
             "src": "home/vle-development.jpg",
             "alt": "CAD model of a partition under development",
@@ -138,13 +229,18 @@
           "title": "Tell us which model and which volume",
           "text": "Send the vehicle, the market and the annual volume you have in mind. We reply with indicative pricing, scope of supply and a delivery plan.",
           "actions": [
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
-            { "label": "Contact details", "href": "/contact/" }
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "Contact details",
+              "href": "/contact/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "product",
       "title": "Product",
@@ -161,12 +257,30 @@
           "cols": 3,
           "title": "What the car gains",
           "items": [
-            { "title": "Privacy on demand", "text": "Electrochromic glass changes opacity at the touch of a button, the glass raises and lowers electrically, and the curtains are electrically operated. Privacy is there when it is wanted and out of the way when it is not." },
-            { "title": "Acoustic separation", "text": "A physical partition with the glass raised separates the rear from the front. Calls, meetings and documents stay in the rear, in the presence of a driver, a security detail or a hired chauffeur." },
-            { "title": "A rear that works as an office", "text": "Electrically operated folding seats, a console armrest, sliding boxes, a monitor up to 43 inches with electric lift, an intercom, a pass-through hatch, and auxiliary instruments — clock, speedometer, thermometer." },
-            { "title": "A level that is not on the factory price list", "text": "Among the models we work with, only the Rolls-Royce Phantom Extended has a factory partition — the Privacy Suite, from 2018, and only when ordering a new car. For Maybach, V-Class, Range Rover, Escalade and Sprinter no factory solution exists, including for cars already in service." },
-            { "title": "A change of vehicle category", "text": "The car moves from executive to chauffeur-driven: transport for company principals, diplomatic missions, VIP transfer and escorted travel. A different class of task, and a different price segment of service." },
-            { "title": "An interior that still looks factory", "text": "Trimming is carried out in materials from the vehicle manufacturer's own palette — leather, wood veneer, Alcantara. The interior stays whole rather than looking modified." }
+            {
+              "title": "Privacy on demand",
+              "text": "Electrochromic glass changes opacity at the touch of a button, the glass raises and lowers electrically, and the curtains are electrically operated. Privacy is there when it is wanted and out of the way when it is not."
+            },
+            {
+              "title": "Acoustic separation",
+              "text": "A physical partition with the glass raised separates the rear from the front. Calls, meetings and documents stay in the rear, in the presence of a driver, a security detail or a hired chauffeur."
+            },
+            {
+              "title": "A rear that works as an office",
+              "text": "Electrically operated folding seats, a console armrest, sliding boxes, a monitor up to 43 inches with electric lift, an intercom, a pass-through hatch, and auxiliary instruments — clock, speedometer, thermometer."
+            },
+            {
+              "title": "A level that is not on the factory price list",
+              "text": "Among the models we work with, only the Rolls-Royce Phantom Extended has a factory partition — the Privacy Suite, from 2018, and only when ordering a new car. For Maybach, V-Class, Range Rover, Escalade and Sprinter no factory solution exists, including for cars already in service."
+            },
+            {
+              "title": "A change of vehicle category",
+              "text": "The car moves from executive to chauffeur-driven: transport for company principals, diplomatic missions, VIP transfer and escorted travel. A different class of task, and a different price segment of service."
+            },
+            {
+              "title": "An interior that still looks factory",
+              "text": "Trimming is carried out in materials from the vehicle manufacturer's own palette — leather, wood veneer, Alcantara. The interior stays whole rather than looking modified."
+            }
           ]
         },
         {
@@ -188,12 +302,30 @@
           "cols": 3,
           "title": "What stays factory",
           "items": [
-            { "title": "Body structure", "text": "The partition is a self-supporting module that sits on factory and prepared mounting points. The body is neither cut nor welded; the geometry and stiffness of the vehicle are untouched." },
-            { "title": "Passive safety", "text": "Factory belts and pretensioners, side and curtain airbags and seat mountings stay in place and work to factory logic. The partition sits between the rows and does not enter their deployment zones." },
-            { "title": "Vehicle electronics", "text": "Connection is made through factory connectors. The partition's wiring runs on a separate loom with its own protection. Factory data buses are not reprogrammed, so vehicle diagnostics stay clean." },
-            { "title": "Rear climate zone", "text": "The geometry of the partition is developed around the factory airflow, so the rear climate zone continues to work as the manufacturer designed it." },
-            { "title": "Interface and multimedia", "text": "Wherever possible the factory monitors and factory multimedia are used. The owner keeps using the familiar interface of the car rather than a parallel system." },
-            { "title": "Reversibility", "text": "Removal takes one to three days and the car returns to factory configuration. This protects residual value and removes the question at resale or lease return." }
+            {
+              "title": "Body structure",
+              "text": "The partition is a self-supporting module that sits on factory and prepared mounting points. The body is neither cut nor welded; the geometry and stiffness of the vehicle are untouched."
+            },
+            {
+              "title": "Passive safety",
+              "text": "Factory belts and pretensioners, side and curtain airbags and seat mountings stay in place and work to factory logic. The partition sits between the rows and does not enter their deployment zones."
+            },
+            {
+              "title": "Vehicle electronics",
+              "text": "Connection is made through factory connectors. The partition's wiring runs on a separate loom with its own protection. Factory data buses are not reprogrammed, so vehicle diagnostics stay clean."
+            },
+            {
+              "title": "Rear climate zone",
+              "text": "The geometry of the partition is developed around the factory airflow, so the rear climate zone continues to work as the manufacturer designed it."
+            },
+            {
+              "title": "Interface and multimedia",
+              "text": "Wherever possible the factory monitors and factory multimedia are used. The owner keeps using the familiar interface of the car rather than a parallel system."
+            },
+            {
+              "title": "Reversibility",
+              "text": "Removal takes one to three days and the car returns to factory configuration. This protects residual value and removes the question at resale or lease return."
+            }
           ]
         },
         {
@@ -202,20 +334,28 @@
           "body": [
             "The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it sits on top of it, and can be taken off again."
           ],
-          "action": { "label": "How the kit is engineered", "href": "/capabilities/" }
+          "action": {
+            "label": "How the kit is engineered",
+            "href": "/capabilities/"
+          }
         },
         {
           "type": "cta",
           "title": "Which car do you need it for?",
           "text": "Nine models are documented in the portfolio, and a new one takes up to a year to develop.",
           "actions": [
-            { "label": "See the projects", "href": "/portfolio/" },
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+            {
+              "label": "See the projects",
+              "href": "/portfolio/"
+            },
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "capabilities",
       "title": "Engineering",
@@ -270,7 +410,10 @@
             "A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling stay with us in every case.",
             "On the Sprinter we supply the frame with the driver's side fully prepared for trimming, and the partner makes the composite panels of the VIP side. The same model runs on the Range Rover and on the Mercedes-Maybach."
           ],
-          "action": { "label": "How work with a partner is structured", "href": "/partners/" },
+          "action": {
+            "label": "How work with a partner is structured",
+            "href": "/partners/"
+          },
           "image": {
             "src": "capabilities/cad-model.jpg",
             "alt": "CAD model of a partition with the glass lift mechanism",
@@ -282,13 +425,18 @@
           "title": "A new model takes up to a year",
           "text": "Development from scratch runs up to twelve months depending on the complexity of the vehicle, and a cost-sharing model is possible in which the partner gains priority by market or by model.",
           "actions": [
-            { "label": "Discuss a new project", "href": "/partners/#enquiry" },
-            { "label": "How we manufacture", "href": "/manufacturing/" }
+            {
+              "label": "Discuss a new project",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "How we manufacture",
+              "href": "/manufacturing/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "manufacturing",
       "title": "Manufacturing",
@@ -320,7 +468,11 @@
           "items": [
             {
               "title": "Materials",
-              "list": ["Composites", "Plastics", "Metals and alloys"]
+              "list": [
+                "Composites",
+                "Plastics",
+                "Metals and alloys"
+              ]
             },
             {
               "title": "Technologies",
@@ -345,9 +497,21 @@
           "cols": 3,
           "title": "From frame to finished kit",
           "items": [
-            { "src": "manufacturing/frame-sprinter.jpg", "alt": "Structural frame of a Sprinter partition", "caption": "Sprinter structural frame" },
-            { "src": "manufacturing/glass-mechanism.jpg", "alt": "Glass lift mechanism", "caption": "Glass lift mechanism — metal work" },
-            { "src": "manufacturing/v-class-assembly.jpg", "alt": "V-Class partitions on the assembly line", "caption": "V-Class partitions on the assembly line — series production from tooling" }
+            {
+              "src": "manufacturing/frame-sprinter.jpg",
+              "alt": "Structural frame of a Sprinter partition",
+              "caption": "Sprinter structural frame"
+            },
+            {
+              "src": "manufacturing/glass-mechanism.jpg",
+              "alt": "Glass lift mechanism",
+              "caption": "Glass lift mechanism — metal work"
+            },
+            {
+              "src": "manufacturing/v-class-assembly.jpg",
+              "alt": "V-Class partitions on the assembly line",
+              "caption": "V-Class partitions on the assembly line — series production from tooling"
+            }
           ]
         },
         {
@@ -355,13 +519,18 @@
           "title": "Series production, not one-offs",
           "text": "Eight models have been taken through to production tooling. Volume on those scales without any new investment in development.",
           "actions": [
-            { "label": "What we can supply", "href": "/range/" },
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+            {
+              "label": "What we can supply",
+              "href": "/range/"
+            },
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio",
       "title": "Projects",
@@ -376,15 +545,78 @@
         {
           "type": "projects",
           "items": [
-            { "href": "/portfolio/mercedes-benz-v-class-line-1/", "title": "Mercedes-Benz V-Class / Metris — line 1", "meta": "140 kits since 2015 · complex", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-1/cover.jpg" },
-            { "href": "/portfolio/mercedes-benz-v-class-line-2/", "title": "Mercedes-Benz V-Class — line 2", "meta": "204 kits since 2016 · complex", "tag": "In series", "tag_kind": "series", "image": "portfolio/v-class-line-2/cover.jpg" },
-            { "href": "/portfolio/mercedes-benz-sprinter/", "title": "Mercedes-Benz Sprinter", "meta": "10 kits since 2020 · complex", "tag": "In series", "tag_kind": "series", "image": "portfolio/sprinter/cover.jpg" },
-            { "href": "/portfolio/mercedes-maybach-s-class-x222/", "title": "Mercedes-Maybach S-Class (X222)", "meta": "16 kits since 2016 · simple", "tag": "In series", "tag_kind": "series", "image": "portfolio/maybach-x222/cover.jpg" },
-            { "href": "/portfolio/range-rover-lwb/", "title": "Range Rover Long Wheelbase", "meta": "New generation ready 2026 · 14 kits 2015–2019", "tag": "Ready to launch", "tag_kind": "ready", "image": "portfolio/range-rover/cover.jpg" },
-            { "href": "/portfolio/rolls-royce-phantom-ewb/", "title": "Rolls-Royce Phantom EWB", "meta": "4 vehicles, 2012–2016 · simple", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/rr-phantom/cover.jpg" },
-            { "href": "/portfolio/rolls-royce-ghost-ewb/", "title": "Rolls-Royce Ghost EWB Series I", "meta": "5 vehicles, 2013–2017 · simple", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/rr-ghost/cover.jpg" },
-            { "href": "/portfolio/mercedes-benz-s-class-v222/", "title": "Mercedes-Benz S-Class V222 Long, armoured", "meta": "2016–2017 · closed by the client", "tag": "Tooling retained", "tag_kind": "ready", "image": "portfolio/s-class-v222/cover.jpg" },
-            { "href": "/portfolio/cadillac-escalade-esv/", "title": "Cadillac Escalade ESV", "meta": "Development suspended · complex", "tag": "On hold", "tag_kind": "hold", "image": "portfolio/escalade/cover.jpg" }
+            {
+              "href": "/portfolio/mercedes-benz-v-class-line-1/",
+              "title": "Mercedes-Benz V-Class / Metris — line 1",
+              "meta": "140 kits since 2015 · complex",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/v-class-line-1/cover.jpg"
+            },
+            {
+              "href": "/portfolio/mercedes-benz-v-class-line-2/",
+              "title": "Mercedes-Benz V-Class — line 2",
+              "meta": "204 kits since 2016 · complex",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/v-class-line-2/cover.jpg"
+            },
+            {
+              "href": "/portfolio/mercedes-benz-sprinter/",
+              "title": "Mercedes-Benz Sprinter",
+              "meta": "10 kits since 2020 · complex",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/sprinter/cover.jpg"
+            },
+            {
+              "href": "/portfolio/mercedes-maybach-s-class-x222/",
+              "title": "Mercedes-Maybach S-Class (X222)",
+              "meta": "16 kits since 2016 · simple",
+              "tag": "In series",
+              "tag_kind": "series",
+              "image": "portfolio/maybach-x222/cover.jpg"
+            },
+            {
+              "href": "/portfolio/range-rover-lwb/",
+              "title": "Range Rover Long Wheelbase",
+              "meta": "New generation ready 2026 · 14 kits 2015–2019",
+              "tag": "Ready to launch",
+              "tag_kind": "ready",
+              "image": "portfolio/range-rover/cover.jpg"
+            },
+            {
+              "href": "/portfolio/rolls-royce-phantom-ewb/",
+              "title": "Rolls-Royce Phantom EWB",
+              "meta": "4 vehicles, 2012–2016 · simple",
+              "tag": "Tooling retained",
+              "tag_kind": "ready",
+              "image": "portfolio/rr-phantom/cover.jpg"
+            },
+            {
+              "href": "/portfolio/rolls-royce-ghost-ewb/",
+              "title": "Rolls-Royce Ghost EWB Series I",
+              "meta": "5 vehicles, 2013–2017 · simple",
+              "tag": "Tooling retained",
+              "tag_kind": "ready",
+              "image": "portfolio/rr-ghost/cover.jpg"
+            },
+            {
+              "href": "/portfolio/mercedes-benz-s-class-v222/",
+              "title": "Mercedes-Benz S-Class V222 Long, armoured",
+              "meta": "2016–2017 · closed by the client",
+              "tag": "Tooling retained",
+              "tag_kind": "ready",
+              "image": "portfolio/s-class-v222/cover.jpg"
+            },
+            {
+              "href": "/portfolio/cadillac-escalade-esv/",
+              "title": "Cadillac Escalade ESV",
+              "meta": "Development suspended · complex",
+              "tag": "On hold",
+              "tag_kind": "hold",
+              "image": "portfolio/escalade/cover.jpg"
+            }
           ]
         },
         {
@@ -393,11 +625,13 @@
           "body": [
             "Every project since 2008, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project."
           ],
-          "action": { "label": "Full project history", "href": "/range/" }
+          "action": {
+            "label": "Full project history",
+            "href": "/range/"
+          }
         }
       ]
     },
-
     {
       "slug": "portfolio/mercedes-benz-v-class-line-1",
       "title": "Mercedes-Benz V-Class / Metris — line 1",
@@ -409,11 +643,26 @@
           "title": "Mercedes-Benz V-Class / Metris — line 1",
           "lead": "A series project for a vehicle conversion company, and one of the two core series products of 7pro8.",
           "meta": [
-            { "label": "In production since", "value": "2015" },
-            { "label": "Kits produced", "value": "140" },
-            { "label": "Current output", "value": "12–20 a year" },
-            { "label": "Class", "value": "Complex" },
-            { "label": "Scope of supply", "value": "Ready for trimming and installation" }
+            {
+              "label": "In production since",
+              "value": "2015"
+            },
+            {
+              "label": "Kits produced",
+              "value": "140"
+            },
+            {
+              "label": "Current output",
+              "value": "12–20 a year"
+            },
+            {
+              "label": "Class",
+              "value": "Complex"
+            },
+            {
+              "label": "Scope of supply",
+              "value": "Ready for trimming and installation"
+            }
           ]
         },
         {
@@ -435,9 +684,21 @@
           "type": "gallery",
           "cols": 3,
           "items": [
-            { "src": "portfolio/v-class-line-1/01.jpg", "alt": "Kit on the shop floor ready for dispatch", "caption": "Kit on the shop floor, ready for dispatch" },
-            { "src": "portfolio/v-class-line-1/02.jpg", "alt": "Partition panels prior to trimming", "caption": "Partition panels prior to trimming" },
-            { "src": "portfolio/v-class-line-1/03.jpg", "alt": "Partition installed in the car", "caption": "Installed: 43-inch monitor with electric lift, console, ambient lighting" }
+            {
+              "src": "portfolio/v-class-line-1/01.jpg",
+              "alt": "Kit on the shop floor ready for dispatch",
+              "caption": "Kit on the shop floor, ready for dispatch"
+            },
+            {
+              "src": "portfolio/v-class-line-1/02.jpg",
+              "alt": "Partition panels prior to trimming",
+              "caption": "Partition panels prior to trimming"
+            },
+            {
+              "src": "portfolio/v-class-line-1/03.jpg",
+              "alt": "Partition installed in the car",
+              "caption": "Installed: 43-inch monitor with electric lift, console, ambient lighting"
+            }
           ]
         },
         {
@@ -445,13 +706,18 @@
           "title": "This line is running now",
           "text": "Tooling is in place and the cycle is established, so volume scales without new investment in development.",
           "actions": [
-            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Ask for indicative pricing",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/mercedes-benz-v-class-line-2",
       "title": "Mercedes-Benz V-Class — line 2",
@@ -463,11 +729,26 @@
           "title": "Mercedes-Benz V-Class — line 2",
           "lead": "A second series project on the same body, for a different partner and in a different specification. Shown here in the version for the facelift body.",
           "meta": [
-            { "label": "In production since", "value": "2016" },
-            { "label": "Kits produced", "value": "204" },
-            { "label": "Output range", "value": "10–40 a year" },
-            { "label": "Class", "value": "Complex" },
-            { "label": "Scope of supply", "value": "Ready for trimming and installation" }
+            {
+              "label": "In production since",
+              "value": "2016"
+            },
+            {
+              "label": "Kits produced",
+              "value": "204"
+            },
+            {
+              "label": "Output range",
+              "value": "10–40 a year"
+            },
+            {
+              "label": "Class",
+              "value": "Complex"
+            },
+            {
+              "label": "Scope of supply",
+              "value": "Ready for trimming and installation"
+            }
           ]
         },
         {
@@ -490,10 +771,26 @@
           "type": "gallery",
           "cols": 2,
           "items": [
-            { "src": "portfolio/v-class-line-2/01.jpg", "alt": "Kits on the assembly line", "caption": "Kits on the assembly line" },
-            { "src": "portfolio/v-class-line-2/02.jpg", "alt": "Partition seen from the front with monitor and console", "caption": "Partition from the front: monitor, console" },
-            { "src": "portfolio/v-class-line-2/03.jpg", "alt": "Rear zone with ambient lighting", "caption": "Rear zone with ambient lighting" },
-            { "src": "portfolio/v-class-line-2/04.jpg", "alt": "Version in light trim", "caption": "Version in light trim" }
+            {
+              "src": "portfolio/v-class-line-2/01.jpg",
+              "alt": "Kits on the assembly line",
+              "caption": "Kits on the assembly line"
+            },
+            {
+              "src": "portfolio/v-class-line-2/02.jpg",
+              "alt": "Partition seen from the front with monitor and console",
+              "caption": "Partition from the front: monitor, console"
+            },
+            {
+              "src": "portfolio/v-class-line-2/03.jpg",
+              "alt": "Rear zone with ambient lighting",
+              "caption": "Rear zone with ambient lighting"
+            },
+            {
+              "src": "portfolio/v-class-line-2/04.jpg",
+              "alt": "Version in light trim",
+              "caption": "Version in light trim"
+            }
           ]
         },
         {
@@ -501,13 +798,18 @@
           "title": "Available for a third market",
           "text": "The tooling supports further lines with their own specification.",
           "actions": [
-            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Ask for indicative pricing",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/mercedes-benz-sprinter",
       "title": "Mercedes-Benz Sprinter",
@@ -519,11 +821,26 @@
           "title": "Mercedes-Benz Sprinter",
           "lead": "An example of joint production. We supply the partner a partition frame with the driver's side fully prepared for trimming; the partner makes the composite panels of the VIP side.",
           "meta": [
-            { "label": "In production since", "value": "2020" },
-            { "label": "Kits produced", "value": "10" },
-            { "label": "Output", "value": "2–3 a year" },
-            { "label": "Class", "value": "Complex" },
-            { "label": "Scope of supply", "value": "Frame without VIP-side panels" }
+            {
+              "label": "In production since",
+              "value": "2020"
+            },
+            {
+              "label": "Kits produced",
+              "value": "10"
+            },
+            {
+              "label": "Output",
+              "value": "2–3 a year"
+            },
+            {
+              "label": "Class",
+              "value": "Complex"
+            },
+            {
+              "label": "Scope of supply",
+              "value": "Frame without VIP-side panels"
+            }
           ]
         },
         {
@@ -544,9 +861,21 @@
           "type": "gallery",
           "cols": 3,
           "items": [
-            { "src": "portfolio/sprinter/01.jpg", "alt": "Structural frame of the Sprinter partition", "caption": "Structural frame — our area of responsibility" },
-            { "src": "portfolio/sprinter/02.jpg", "alt": "Frame assembled with the glass mechanism", "caption": "Frame assembled with the glass mechanism" },
-            { "src": "portfolio/sprinter/03.jpg", "alt": "Finished interior with partition, monitor and electric curtains", "caption": "Finished: partition, monitor, electric curtains" }
+            {
+              "src": "portfolio/sprinter/01.jpg",
+              "alt": "Structural frame of the Sprinter partition",
+              "caption": "Structural frame — our area of responsibility"
+            },
+            {
+              "src": "portfolio/sprinter/02.jpg",
+              "alt": "Frame assembled with the glass mechanism",
+              "caption": "Frame assembled with the glass mechanism"
+            },
+            {
+              "src": "portfolio/sprinter/03.jpg",
+              "alt": "Finished interior with partition, monitor and electric curtains",
+              "caption": "Finished: partition, monitor, electric curtains"
+            }
           ]
         },
         {
@@ -554,13 +883,18 @@
           "title": "Take the share you are equipped for",
           "text": "From a complete turnkey kit down to a single structural frame with mechanisms.",
           "actions": [
-            { "label": "Discuss a supply model", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Discuss a supply model",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/mercedes-maybach-s-class-x222",
       "title": "Mercedes-Maybach S-Class (X222)",
@@ -572,11 +906,26 @@
           "title": "Mercedes-Maybach S-Class (X222)",
           "lead": "A joint production project: the partner produces the plastics, we produce the metal frame with the mechanism.",
           "meta": [
-            { "label": "In production since", "value": "2016" },
-            { "label": "Kits produced", "value": "16" },
-            { "label": "Output while the car was current", "value": "About 3 a year" },
-            { "label": "Class", "value": "Simple" },
-            { "label": "Scope of supply", "value": "Prepared for trimming" }
+            {
+              "label": "In production since",
+              "value": "2016"
+            },
+            {
+              "label": "Kits produced",
+              "value": "16"
+            },
+            {
+              "label": "Output while the car was current",
+              "value": "About 3 a year"
+            },
+            {
+              "label": "Class",
+              "value": "Simple"
+            },
+            {
+              "label": "Scope of supply",
+              "value": "Prepared for trimming"
+            }
           ]
         },
         {
@@ -597,9 +946,21 @@
           "type": "gallery",
           "cols": 3,
           "items": [
-            { "src": "portfolio/maybach-x222/01.jpg", "alt": "Rear zone with the partition integrated into the interior", "caption": "The partition inside the factory architecture of the interior" },
-            { "src": "portfolio/maybach-x222/02.jpg", "alt": "Folding tables in the partition", "caption": "Folding tables in the partition" },
-            { "src": "portfolio/maybach-x222/03.jpg", "alt": "Table in the working position", "caption": "Table in the working position" }
+            {
+              "src": "portfolio/maybach-x222/01.jpg",
+              "alt": "Rear zone with the partition integrated into the interior",
+              "caption": "The partition inside the factory architecture of the interior"
+            },
+            {
+              "src": "portfolio/maybach-x222/02.jpg",
+              "alt": "Folding tables in the partition",
+              "caption": "Folding tables in the partition"
+            },
+            {
+              "src": "portfolio/maybach-x222/03.jpg",
+              "alt": "Table in the working position",
+              "caption": "Table in the working position"
+            }
           ]
         },
         {
@@ -607,13 +968,18 @@
           "title": "A used-market opportunity",
           "text": "Tooling is in place and the X222 car park is large.",
           "actions": [
-            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Ask for indicative pricing",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/range-rover-lwb",
       "title": "Range Rover Long Wheelbase",
@@ -625,11 +991,26 @@
           "title": "Range Rover Long Wheelbase",
           "lead": "The new-generation project was completed in December 2025. Development, tooling and the first unit are ready; series production can start at a partner's request.",
           "meta": [
-            { "label": "New generation", "value": "Ready for production, 2026" },
-            { "label": "Projected output", "value": "2–3 kits a year" },
-            { "label": "Previous generation", "value": "14 kits, 2015–2019" },
-            { "label": "Class", "value": "Simple" },
-            { "label": "Scope of supply", "value": "Ready for trimming and installation" }
+            {
+              "label": "New generation",
+              "value": "Ready for production, 2026"
+            },
+            {
+              "label": "Projected output",
+              "value": "2–3 kits a year"
+            },
+            {
+              "label": "Previous generation",
+              "value": "14 kits, 2015–2019"
+            },
+            {
+              "label": "Class",
+              "value": "Simple"
+            },
+            {
+              "label": "Scope of supply",
+              "value": "Ready for trimming and installation"
+            }
           ]
         },
         {
@@ -649,10 +1030,26 @@
           "type": "gallery",
           "cols": 2,
           "items": [
-            { "src": "portfolio/range-rover/01.jpg", "alt": "Finished partition with lifting glass before trimming", "caption": "Finished product before trimming" },
-            { "src": "portfolio/range-rover/02.jpg", "alt": "The completed vehicle", "caption": "The completed vehicle" },
-            { "src": "portfolio/range-rover/03.jpg", "alt": "Rear zone with the partition", "caption": "Rear zone with the partition" },
-            { "src": "portfolio/range-rover/04.jpg", "alt": "Version with factory monitors", "caption": "Version with factory monitors" }
+            {
+              "src": "portfolio/range-rover/01.jpg",
+              "alt": "Finished partition with lifting glass before trimming",
+              "caption": "Finished product before trimming"
+            },
+            {
+              "src": "portfolio/range-rover/02.jpg",
+              "alt": "The completed vehicle",
+              "caption": "The completed vehicle"
+            },
+            {
+              "src": "portfolio/range-rover/03.jpg",
+              "alt": "Rear zone with the partition",
+              "caption": "Rear zone with the partition"
+            },
+            {
+              "src": "portfolio/range-rover/04.jpg",
+              "alt": "Version with factory monitors",
+              "caption": "Version with factory monitors"
+            }
           ]
         },
         {
@@ -660,13 +1057,18 @@
           "title": "First partner starts the series",
           "text": "The model is ready; the launch date is a decision, not a development programme.",
           "actions": [
-            { "label": "Ask for indicative pricing", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Ask for indicative pricing",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/rolls-royce-phantom-ewb",
       "title": "Rolls-Royce Phantom EWB",
@@ -678,10 +1080,22 @@
           "title": "Rolls-Royce Phantom EWB",
           "lead": "The project was carried out for an official Rolls-Royce dealer. The partitions were installed on the dealership's own premises by its technicians — practical proof that fitting a simple partition is within reach of a dealer workshop.",
           "meta": [
-            { "label": "Developed", "value": "2011" },
-            { "label": "Built", "value": "4 vehicles, 2012–2016" },
-            { "label": "Class", "value": "Simple" },
-            { "label": "Scope of supply", "value": "Trimmed, installed and connected" }
+            {
+              "label": "Developed",
+              "value": "2011"
+            },
+            {
+              "label": "Built",
+              "value": "4 vehicles, 2012–2016"
+            },
+            {
+              "label": "Class",
+              "value": "Simple"
+            },
+            {
+              "label": "Scope of supply",
+              "value": "Trimmed, installed and connected"
+            }
           ]
         },
         {
@@ -703,9 +1117,21 @@
           "type": "gallery",
           "cols": 3,
           "items": [
-            { "src": "portfolio/rr-phantom/01.jpg", "alt": "The project vehicle", "caption": "The project vehicle" },
-            { "src": "portfolio/rr-phantom/02.jpg", "alt": "The complete interior", "caption": "The complete interior" },
-            { "src": "portfolio/rr-phantom/03.jpg", "alt": "Execution details of the partition", "caption": "Execution details" }
+            {
+              "src": "portfolio/rr-phantom/01.jpg",
+              "alt": "The project vehicle",
+              "caption": "The project vehicle"
+            },
+            {
+              "src": "portfolio/rr-phantom/02.jpg",
+              "alt": "The complete interior",
+              "caption": "The complete interior"
+            },
+            {
+              "src": "portfolio/rr-phantom/03.jpg",
+              "alt": "Execution details of the partition",
+              "caption": "Execution details"
+            }
           ]
         },
         {
@@ -713,13 +1139,18 @@
           "title": "Built to a dealer network's requirements",
           "text": "Both Rolls-Royce projects were made for the official dealer network rather than the tuning market, so the product and the fitting procedure were tested against the most demanding marque in the segment.",
           "actions": [
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/rolls-royce-ghost-ewb",
       "title": "Rolls-Royce Ghost EWB Series I",
@@ -731,10 +1162,22 @@
           "title": "Rolls-Royce Ghost EWB Series I",
           "lead": "The second project for the official Rolls-Royce distributor. A more restrained solution than the Phantom — fixed electrochromic glass and factory monitors, minimum intervention for maximum effect.",
           "meta": [
-            { "label": "Developed", "value": "2012" },
-            { "label": "Built", "value": "5 vehicles, 2013–2017" },
-            { "label": "Class", "value": "Simple" },
-            { "label": "Scope of supply", "value": "Fully finished and installed" }
+            {
+              "label": "Developed",
+              "value": "2012"
+            },
+            {
+              "label": "Built",
+              "value": "5 vehicles, 2013–2017"
+            },
+            {
+              "label": "Class",
+              "value": "Simple"
+            },
+            {
+              "label": "Scope of supply",
+              "value": "Fully finished and installed"
+            }
           ]
         },
         {
@@ -755,10 +1198,26 @@
           "type": "gallery",
           "cols": 2,
           "items": [
-            { "src": "portfolio/rr-ghost/01.jpg", "alt": "Partition with factory monitors", "caption": "Partition with factory monitors" },
-            { "src": "portfolio/rr-ghost/02.jpg", "alt": "View from the passenger side", "caption": "View from the passenger side" },
-            { "src": "portfolio/rr-ghost/03.jpg", "alt": "The project vehicle", "caption": "The project vehicle" },
-            { "src": "portfolio/rr-ghost/04.jpg", "alt": "Controls and instruments in the partition", "caption": "Controls and instruments" }
+            {
+              "src": "portfolio/rr-ghost/01.jpg",
+              "alt": "Partition with factory monitors",
+              "caption": "Partition with factory monitors"
+            },
+            {
+              "src": "portfolio/rr-ghost/02.jpg",
+              "alt": "View from the passenger side",
+              "caption": "View from the passenger side"
+            },
+            {
+              "src": "portfolio/rr-ghost/03.jpg",
+              "alt": "The project vehicle",
+              "caption": "The project vehicle"
+            },
+            {
+              "src": "portfolio/rr-ghost/04.jpg",
+              "alt": "Controls and instruments in the partition",
+              "caption": "Controls and instruments"
+            }
           ]
         },
         {
@@ -766,13 +1225,18 @@
           "title": "Tooling is retained",
           "text": "The project can be restarted for a partner without repeat investment in development.",
           "actions": [
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/mercedes-benz-s-class-v222",
       "title": "Mercedes-Benz S-Class V222 Long, armoured",
@@ -784,10 +1248,22 @@
           "title": "Mercedes-Benz S-Class V222 Long, armoured",
           "lead": "A project for an armoured vehicle extended at the B-pillar. Development and production preparation were completed in full and ten kits were planned; the client closed the project for its own reasons, and one car was built.",
           "meta": [
-            { "label": "Developed", "value": "2016–2017" },
-            { "label": "Built", "value": "1 vehicle" },
-            { "label": "Class", "value": "Simple" },
-            { "label": "Status", "value": "Tooling retained" }
+            {
+              "label": "Developed",
+              "value": "2016–2017"
+            },
+            {
+              "label": "Built",
+              "value": "1 vehicle"
+            },
+            {
+              "label": "Class",
+              "value": "Simple"
+            },
+            {
+              "label": "Status",
+              "value": "Tooling retained"
+            }
           ]
         },
         {
@@ -809,10 +1285,26 @@
           "type": "gallery",
           "cols": 2,
           "items": [
-            { "src": "portfolio/s-class-v222/01.jpg", "alt": "Monitor in the raised position", "caption": "Monitor in the raised position" },
-            { "src": "portfolio/s-class-v222/02.jpg", "alt": "Glass in the opaque state", "caption": "Glass in the opaque state" },
-            { "src": "portfolio/s-class-v222/03.jpg", "alt": "Upper panel with veneer, ambient lighting and clock", "caption": "Upper panel: veneer, ambient lighting, clock" },
-            { "src": "portfolio/s-class-v222/04.jpg", "alt": "Rear bench and console", "caption": "Rear bench and console" }
+            {
+              "src": "portfolio/s-class-v222/01.jpg",
+              "alt": "Monitor in the raised position",
+              "caption": "Monitor in the raised position"
+            },
+            {
+              "src": "portfolio/s-class-v222/02.jpg",
+              "alt": "Glass in the opaque state",
+              "caption": "Glass in the opaque state"
+            },
+            {
+              "src": "portfolio/s-class-v222/03.jpg",
+              "alt": "Upper panel with veneer, ambient lighting and clock",
+              "caption": "Upper panel: veneer, ambient lighting, clock"
+            },
+            {
+              "src": "portfolio/s-class-v222/04.jpg",
+              "alt": "Rear bench and console",
+              "caption": "Rear bench and console"
+            }
           ]
         },
         {
@@ -820,13 +1312,18 @@
           "title": "Ready to revive",
           "text": "For a partner in the armoured vehicle market, development is already done.",
           "actions": [
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "portfolio/cadillac-escalade-esv",
       "title": "Cadillac Escalade ESV",
@@ -838,10 +1335,22 @@
           "title": "Cadillac Escalade ESV",
           "lead": "Structurally the partition is simple: the glass mechanism, factory monitors and the factory audio system. The difficulty is not in the partition but in the car.",
           "meta": [
-            { "label": "Status", "value": "On hold" },
-            { "label": "Time to complete", "value": "1 year from restart" },
-            { "label": "Projected output", "value": "2–5 kits a year" },
-            { "label": "Class", "value": "Complex, by volume of work" }
+            {
+              "label": "Status",
+              "value": "On hold"
+            },
+            {
+              "label": "Time to complete",
+              "value": "1 year from restart"
+            },
+            {
+              "label": "Projected output",
+              "value": "2–5 kits a year"
+            },
+            {
+              "label": "Class",
+              "value": "Complex, by volume of work"
+            }
           ]
         },
         {
@@ -862,8 +1371,16 @@
           "type": "gallery",
           "cols": 2,
           "items": [
-            { "src": "portfolio/escalade/01.jpg", "alt": "Partition study in the Cadillac Escalade interior", "caption": "Partition study in the vehicle interior" },
-            { "src": "portfolio/escalade/02.jpg", "alt": "Rear section of the Escalade interior", "caption": "Rear section — the part that has to be rebuilt" }
+            {
+              "src": "portfolio/escalade/01.jpg",
+              "alt": "Partition study in the Cadillac Escalade interior",
+              "caption": "Partition study in the vehicle interior"
+            },
+            {
+              "src": "portfolio/escalade/02.jpg",
+              "alt": "Rear section of the Escalade interior",
+              "caption": "Rear section — the part that has to be rebuilt"
+            }
           ]
         },
         {
@@ -871,13 +1388,18 @@
           "title": "Looking for a partner for the US and Middle East",
           "text": "Restarting the project takes a year and a partner willing to share the cost of completing it.",
           "actions": [
-            { "label": "Discuss the Escalade", "href": "/partners/#enquiry" },
-            { "label": "All projects", "href": "/portfolio/" }
+            {
+              "label": "Discuss the Escalade",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "All projects",
+              "href": "/portfolio/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "range",
       "title": "Availability",
@@ -930,34 +1452,130 @@
           "type": "metrics",
           "tone": "dark",
           "items": [
-            { "value": "14", "label": "Vehicle models in the portfolio" },
-            { "value": "8", "label": "Projects taken through to series tooling" },
-            { "value": "460", "label": "Kits produced in total since 2008" }
+            {
+              "value": "14",
+              "label": "Vehicle models in the portfolio"
+            },
+            {
+              "value": "8",
+              "label": "Projects taken through to series tooling"
+            },
+            {
+              "value": "460",
+              "label": "Kits produced in total since 2008"
+            }
           ]
         },
         {
           "type": "table",
           "title": "Every project since 2008",
           "lead": "The 2008–2010 projects were one-off works without series preparation. From the Rolls-Royce Phantom EWB in 2011 onwards, every project was executed with tooling and the capability for series production.",
-          "head": ["Vehicle", "Years", "Units", "Nature of the project"],
-          "numeric": [2],
+          "head": [
+            "Vehicle",
+            "Years",
+            "Units",
+            "Nature of the project"
+          ],
+          "numeric": [
+            2
+          ],
           "rows": [
-            ["Mercedes-Benz S-Class V221 Long", "2008", "1", "One-off work"],
-            ["ZiL-4107", "2008", "1", "One-off work"],
-            ["Mercedes-Benz S-Class V220 Long", "2009", "1", "One-off work"],
-            ["Maybach, armoured — copy of the original partition", "2010", "1", "One-off work"],
-            ["Mercedes-Benz GL", "2010", "1", "One-off work"],
-            ["Cadillac Escalade", "2010", "1", "One-off work"],
-            ["VW Multivan", "2010–2016", "60", "Series"],
-            ["Rolls-Royce Phantom EWB", "2011–2016", "4", "Full development, tooling, series"],
-            ["Rolls-Royce Ghost EWB Series I", "2013–2017", "5", "Full development, tooling, series"],
-            ["Range Rover Long Wheelbase", "2015–2019", "14", "Joint production"],
-            ["Mercedes-Benz V-Class — line 1", "since 2015", "140", "Series production"],
-            ["Mercedes-Benz V-Class — line 2", "since 2016", "204", "Series production"],
-            ["Mercedes-Benz S-Class V222 Long, armoured", "2016", "1", "Closed by the client"],
-            ["Mercedes-Maybach S-Class X222", "since 2016", "16", "Joint production"],
-            ["Mercedes-Benz Sprinter", "since 2020", "10", "Joint production"],
-            ["=Total produced", "", "460", ""]
+            [
+              "Mercedes-Benz S-Class V221 Long",
+              "2008",
+              "1",
+              "One-off work"
+            ],
+            [
+              "ZiL-4107",
+              "2008",
+              "1",
+              "One-off work"
+            ],
+            [
+              "Mercedes-Benz S-Class V220 Long",
+              "2009",
+              "1",
+              "One-off work"
+            ],
+            [
+              "Maybach, armoured — copy of the original partition",
+              "2010",
+              "1",
+              "One-off work"
+            ],
+            [
+              "Mercedes-Benz GL",
+              "2010",
+              "1",
+              "One-off work"
+            ],
+            [
+              "Cadillac Escalade",
+              "2010",
+              "1",
+              "One-off work"
+            ],
+            [
+              "VW Multivan",
+              "2010–2016",
+              "60",
+              "Series"
+            ],
+            [
+              "Rolls-Royce Phantom EWB",
+              "2011–2016",
+              "4",
+              "Full development, tooling, series"
+            ],
+            [
+              "Rolls-Royce Ghost EWB Series I",
+              "2013–2017",
+              "5",
+              "Full development, tooling, series"
+            ],
+            [
+              "Range Rover Long Wheelbase",
+              "2015–2019",
+              "14",
+              "Joint production"
+            ],
+            [
+              "Mercedes-Benz V-Class — line 1",
+              "since 2015",
+              "140",
+              "Series production"
+            ],
+            [
+              "Mercedes-Benz V-Class — line 2",
+              "since 2016",
+              "204",
+              "Series production"
+            ],
+            [
+              "Mercedes-Benz S-Class V222 Long, armoured",
+              "2016",
+              "1",
+              "Closed by the client"
+            ],
+            [
+              "Mercedes-Maybach S-Class X222",
+              "since 2016",
+              "16",
+              "Joint production"
+            ],
+            [
+              "Mercedes-Benz Sprinter",
+              "since 2020",
+              "10",
+              "Joint production"
+            ],
+            [
+              "=Total produced",
+              "",
+              "460",
+              ""
+            ]
           ],
           "footnote": "Current rate: 30 to 40 complex partitions a year, mostly V-Class with one or two Sprinter; 3 to 4 simple partitions a year on Maybach and Range Rover."
         },
@@ -966,13 +1584,18 @@
           "title": "Indicative pricing on request",
           "text": "Price is a function of annual volume, so we quote against a model, a market and a plan rather than publishing a list.",
           "actions": [
-            { "label": "Request pricing", "href": "/partners/#enquiry" },
-            { "label": "The VLE programme", "href": "/vle/" }
+            {
+              "label": "Request pricing",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "The VLE programme",
+              "href": "/vle/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "vle",
       "title": "Mercedes-Benz VLE",
@@ -986,10 +1609,22 @@
           "title": "A partition for the Mercedes-Benz VLE",
           "lead": "The electric VLE was unveiled on 10 March 2026 and has been in series production at the Vitoria plant in Spain since June 2026. It replaces the V-Class and the EQV — precisely the vehicle our core series product is built on.",
           "meta": [
-            { "label": "Full-size lines", "value": "Two, from 2026" },
-            { "label": "Lightweight version", "value": "VLE Lite, from 2027" },
-            { "label": "Class", "value": "Complex" },
-            { "label": "Partner slots", "value": "Open" }
+            {
+              "label": "Full-size lines",
+              "value": "Two, from 2026"
+            },
+            {
+              "label": "Lightweight version",
+              "value": "VLE Lite, from 2027"
+            },
+            {
+              "label": "Class",
+              "value": "Complex"
+            },
+            {
+              "label": "Partner slots",
+              "value": "Open"
+            }
           ]
         },
         {
@@ -1011,9 +1646,18 @@
           "tone": "paper",
           "title": "What a partner gets by joining early",
           "items": [
-            { "title": "Product at launch", "text": "The partition is ready when the conversion market starts asking for it, not after competitors have already answered." },
-            { "title": "Specification input", "text": "Lines are specified per partner. Joining during development means the specification is shaped around the market you sell into." },
-            { "title": "Priority by market or model", "text": "Where a partner shares development cost, priority by market or by model is part of the agreement." }
+            {
+              "title": "Product at launch",
+              "text": "The partition is ready when the conversion market starts asking for it, not after competitors have already answered."
+            },
+            {
+              "title": "Specification input",
+              "text": "Lines are specified per partner. Joining during development means the specification is shaped around the market you sell into."
+            },
+            {
+              "title": "Priority by market or model",
+              "text": "Where a partner shares development cost, priority by market or by model is part of the agreement."
+            }
           ]
         },
         {
@@ -1023,20 +1667,28 @@
             "Two electrically operated folding seats, central sliding boxes, electrochromic or plain glass with an electric raise-and-lower mechanism, a 43-inch television with electric lift, electric curtain drives, and the rear module — a platform frame with console armrest for an optional rear bench.",
             "All of it is in series on the V-Class today."
           ],
-          "action": { "label": "See the V-Class lines", "href": "/portfolio/mercedes-benz-v-class-line-1/" }
+          "action": {
+            "label": "See the V-Class lines",
+            "href": "/portfolio/mercedes-benz-v-class-line-1/"
+          }
         },
         {
           "type": "cta",
           "title": "Talk to us before the specification is frozen",
           "text": "Tell us the market and the volume you would take, and we will tell you what is still open.",
           "actions": [
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" },
-            { "label": "Contact details", "href": "/contact/" }
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            },
+            {
+              "label": "Contact details",
+              "href": "/contact/"
+            }
           ]
         }
       ]
     },
-
     {
       "slug": "partners",
       "title": "Partners",
@@ -1079,9 +1731,18 @@
           "type": "metrics",
           "tone": "dark",
           "items": [
-            { "value": "4 months", "label": "Production cycle of one kit" },
-            { "value": "1 day", "label": "Effective lead time with an agreed plan and timely advance payment — transport from stock" },
-            { "value": "1–3 days", "label": "Installation of a simple partition by qualified technicians; removal takes the same" }
+            {
+              "value": "4 months",
+              "label": "Production cycle of one kit"
+            },
+            {
+              "value": "1 day",
+              "label": "Effective lead time with an agreed plan and timely advance payment — transport from stock"
+            },
+            {
+              "value": "1–3 days",
+              "label": "Installation of a simple partition by qualified technicians; removal takes the same"
+            }
           ]
         },
         {
@@ -1090,9 +1751,18 @@
           "tone": "paper",
           "title": "What kind of partner each class needs",
           "items": [
-            { "title": "Simple projects", "text": "The level of a dealer workshop or a small conversion atelier is enough. Substantial disassembly of the interior, extending the monitor wiring looms, fitting an intercom and additional switches — but no rebuild." },
-            { "title": "Complex projects", "text": "A company capable of serious vehicle conversion. At minimum a new rear bench with console goes in; usually headliner, side panels, multimedia and lighting are rebuilt too." },
-            { "title": "Joint production", "text": "For a partner with its own panel production but no engineering department, we supply the frame and mechanisms and the partner makes the panels. Development and tooling stay with us." }
+            {
+              "title": "Simple projects",
+              "text": "The level of a dealer workshop or a small conversion atelier is enough. Substantial disassembly of the interior, extending the monitor wiring looms, fitting an intercom and additional switches — but no rebuild."
+            },
+            {
+              "title": "Complex projects",
+              "text": "A company capable of serious vehicle conversion. At minimum a new rear bench with console goes in; usually headliner, side panels, multimedia and lighting are rebuilt too."
+            },
+            {
+              "title": "Joint production",
+              "text": "For a partner with its own panel production but no engineering department, we supply the frame and mechanisms and the partner makes the panels. Development and tooling stay with us."
+            }
           ]
         },
         {
@@ -1144,7 +1814,6 @@
         }
       ]
     },
-
     {
       "slug": "company",
       "title": "Company",
@@ -1168,9 +1837,18 @@
           "type": "metrics",
           "tone": "paper",
           "items": [
-            { "value": "19 years", "label": "Continuous work in the segment, since 2007" },
-            { "value": "450+", "label": "Kits delivered to clients" },
-            { "value": "30–40", "label": "Complex partitions a year — current rate" }
+            {
+              "value": "19 years",
+              "label": "Continuous work in the segment, since 2007"
+            },
+            {
+              "value": "450+",
+              "label": "Kits delivered to clients"
+            },
+            {
+              "value": "30–40",
+              "label": "Complex partitions a year — current rate"
+            }
           ]
         },
         {
@@ -1191,13 +1869,438 @@
           "title": "Come and see the shop floor",
           "text": "Partners are welcome to visit Novi Sad and look at kits in production before committing to anything.",
           "actions": [
-            { "label": "Contact details", "href": "/contact/" },
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+            {
+              "label": "The founder",
+              "href": "/founder/"
+            },
+            {
+              "label": "Contact details",
+              "href": "/contact/"
+            },
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            }
           ]
         }
       ]
     },
-
+    {
+      "slug": "founder",
+      "title": "Iliya Bolshakov",
+      "title_tag": "Iliya Bolshakov — founder of 7pro8",
+      "description": "A chronology of the work of Iliya Bolshakov, founder of 7pro8: from garage projects in the late 1990s and supercar interiors to the first Mercedes-Benz W221 partition in 2007.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "kicker": "Founder",
+          "title": "Iliya Bolshakov",
+          "lead": "DRAFT INTRODUCTION. Twenty-five years of hands-on work in one craft: the interior of a car as an engineering problem rather than as decoration.",
+          "meta": [
+            {
+              "label": "In the trade since",
+              "value": "≈1999"
+            },
+            {
+              "label": "First partition",
+              "value": "2007"
+            },
+            {
+              "label": "Projects below",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Draft page",
+          "body": [
+            "Every text on this page is a placeholder. The photographs and their order come from file dates and archive names; years marked ≈ still need confirming. This block is one line to delete in the content file."
+          ]
+        },
+        {
+          "type": "split",
+          "tone": "paper",
+          "title": "How it started",
+          "body": [
+            "DRAFT. A short biography goes here: where he came from, what he trained in, how a garage became a production shop, and why it all ended up converging on partitions.",
+            "DRAFT. A second paragraph on how he works. One or two concrete examples beat any amount of description."
+          ],
+          "image": {
+            "src": "founder/portrait.jpg",
+            "alt": "Portrait of Iliya Bolshakov",
+            "caption": "PORTRAIT SLOT — photograph needed"
+          }
+        },
+        {
+          "type": "chronicle",
+          "title": "The work, newest first",
+          "lead": "Twelve projects across more than twenty years, in reverse order: the present at the top, the beginning at the bottom.",
+          "entries": [
+            {
+              "year": "2022",
+              "title": "Electric trike with a canopy",
+              "role": "Personal project · frame, canopy, layout",
+              "body": [
+                "DRAFT. A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly."
+              ],
+              "cols": 3,
+              "images": [
+                {
+                  "src": "founder/scooter/01.jpg",
+                  "alt": "Trike with the canopy raised, in a field",
+                  "caption": "Canopy raised"
+                },
+                {
+                  "src": "founder/scooter/02.jpg",
+                  "alt": "Trike from the side",
+                  "caption": "Layout for two"
+                },
+                {
+                  "src": "founder/scooter/03.jpg",
+                  "alt": "Trike on the road",
+                  "caption": "Frame and seating"
+                }
+              ]
+            },
+            {
+              "year": "2009",
+              "title": "Interiors on the water",
+              "role": "Marine interiors · press",
+              "body": [
+                "DRAFT. Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press."
+              ],
+              "cols": 3,
+              "images": [
+                {
+                  "src": "founder/princess/01.jpg",
+                  "alt": "Motor yacht under way",
+                  "caption": "Motor yacht"
+                },
+                {
+                  "src": "founder/princess/02.jpg",
+                  "alt": "Yachting magazine cover",
+                  "caption": "Trade press"
+                },
+                {
+                  "src": "founder/princess/03.jpg",
+                  "alt": "Yachting magazine cover",
+                  "caption": "Trade press"
+                }
+              ]
+            },
+            {
+              "year": "2008",
+              "title": "Taxi roof sign",
+              "role": "Design · tooling · series",
+              "body": [
+                "DRAFT. An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/plafon/01.jpg",
+                  "alt": "Taxi with the roof sign fitted",
+                  "caption": "Fitted to the car"
+                },
+                {
+                  "src": "founder/plafon/02.jpg",
+                  "alt": "Roof sign lit at night",
+                  "caption": "Illumination"
+                },
+                {
+                  "src": "founder/plafon/03.jpg",
+                  "alt": "Roof sign in close-up",
+                  "caption": "Housing and screen"
+                },
+                {
+                  "src": "founder/plafon/04.jpg",
+                  "alt": "Rendering of the roof sign",
+                  "caption": "Project rendering"
+                }
+              ]
+            },
+            {
+              "year": "2008",
+              "title": "ZiL-4107 — state limousine interior",
+              "role": "Sketch · engineering · production",
+              "body": [
+                "DRAFT. A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior."
+              ],
+              "cols": 3,
+              "images": [
+                {
+                  "src": "founder/zil/01.jpg",
+                  "alt": "Hand sketch of the interior",
+                  "caption": "Layout sketch"
+                },
+                {
+                  "src": "founder/zil/02.jpg",
+                  "alt": "Finished interior, rear compartment",
+                  "caption": "Rear compartment"
+                },
+                {
+                  "src": "founder/zil/03.jpg",
+                  "alt": "Finished interior, trim detail",
+                  "caption": "Trim and materials"
+                }
+              ]
+            },
+            {
+              "year": "2007",
+              "title": "Mercedes-Benz S-Class W221 — the first partition",
+              "role": "Sketch · CAD · tooling · product",
+              "body": [
+                "DRAFT. The first partition, and where 7pro8 starts counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.",
+                "Everything the company builds in series today grew out of this job."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/w221/01.jpg",
+                  "alt": "Sketch of the interior with the partition",
+                  "caption": "Sketch"
+                },
+                {
+                  "src": "founder/w221/02.jpg",
+                  "alt": "Rendering of the interior",
+                  "caption": "Rendering"
+                },
+                {
+                  "src": "founder/w221/03.jpg",
+                  "alt": "CAD model of the partition frame",
+                  "caption": "Frame engineering"
+                },
+                {
+                  "src": "founder/w221/04.jpg",
+                  "alt": "Finished partition in the car",
+                  "caption": "Product in the car"
+                }
+              ]
+            },
+            {
+              "year": "≈2005",
+              "title": "Mercedes-Benz Vito — VIP interior",
+              "role": "Interior · multimedia · partition",
+              "body": [
+                "DRAFT. A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/vito/01.jpg",
+                  "alt": "Vito interior with individual seats",
+                  "caption": "Seats and consoles"
+                },
+                {
+                  "src": "founder/vito/02.jpg",
+                  "alt": "Rear zone with a monitor",
+                  "caption": "Multimedia"
+                },
+                {
+                  "src": "founder/vito/03.jpg",
+                  "alt": "Table in the working position",
+                  "caption": "Work table"
+                },
+                {
+                  "src": "founder/vito/04.jpg",
+                  "alt": "Interior trim",
+                  "caption": "Trim"
+                }
+              ]
+            },
+            {
+              "year": "2004",
+              "title": "Lamborghini Diablo VT",
+              "role": "Interior · audio · trim",
+              "body": [
+                "DRAFT. A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/diablo/01.jpg",
+                  "alt": "Lamborghini Diablo exterior",
+                  "caption": "The project car"
+                },
+                {
+                  "src": "founder/diablo/02.jpg",
+                  "alt": "Centre console",
+                  "caption": "Centre console"
+                },
+                {
+                  "src": "founder/diablo/03.jpg",
+                  "alt": "Instrument area",
+                  "caption": "Instrument area"
+                },
+                {
+                  "src": "founder/diablo/04.jpg",
+                  "alt": "Leather and carbon trim",
+                  "caption": "Materials"
+                }
+              ]
+            },
+            {
+              "year": "2003",
+              "title": "Chevrolet Corvette",
+              "role": "Interior · console · trim",
+              "body": [
+                "DRAFT. The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry."
+              ],
+              "cols": 3,
+              "images": [
+                {
+                  "src": "founder/corvette/01.jpg",
+                  "alt": "Corvette exterior",
+                  "caption": "The project car"
+                },
+                {
+                  "src": "founder/corvette/02.jpg",
+                  "alt": "Corvette from the rear",
+                  "caption": "Rear view"
+                },
+                {
+                  "src": "founder/corvette/03.jpg",
+                  "alt": "Centre console",
+                  "caption": "Console and trim"
+                }
+              ]
+            },
+            {
+              "year": "≈2003",
+              "title": "Hummer H1 — VIP interior",
+              "role": "Interior · lighting · multimedia",
+              "body": [
+                "DRAFT. An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client.",
+                "THE CLIENT IS DELIBERATELY NOT NAMED HERE — see the note on this page."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/hummer/01.jpg",
+                  "alt": "Hummer H1 exterior",
+                  "caption": "The project car"
+                },
+                {
+                  "src": "founder/hummer/02.jpg",
+                  "alt": "Rear bench and trim",
+                  "caption": "Rear compartment"
+                },
+                {
+                  "src": "founder/hummer/03.jpg",
+                  "alt": "Interior with ambient lighting",
+                  "caption": "Lighting and trim"
+                },
+                {
+                  "src": "founder/hummer/04.jpg",
+                  "alt": "Bar unit in the interior",
+                  "caption": "Interior equipment"
+                }
+              ]
+            },
+            {
+              "year": "2001",
+              "title": "Lincoln Reincarnation",
+              "role": "Body · interior · lighting",
+              "body": [
+                "DRAFT. The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/lincoln/01.jpg",
+                  "alt": "Lincoln Reincarnation exterior",
+                  "caption": "The project car"
+                },
+                {
+                  "src": "founder/lincoln/02.jpg",
+                  "alt": "The car from the rear, lights on",
+                  "caption": "Rear lighting"
+                },
+                {
+                  "src": "founder/lincoln/03.jpg",
+                  "alt": "Wheel arch lighting",
+                  "caption": "Lighting"
+                },
+                {
+                  "src": "founder/lincoln/04.jpg",
+                  "alt": "Interior of the car",
+                  "caption": "Interior"
+                }
+              ]
+            },
+            {
+              "year": "≈2000",
+              "title": "Workshop, team, first volumes",
+              "role": "Production · people",
+              "body": [
+                "DRAFT. The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/team/01.jpg",
+                  "alt": "The studio team by a car",
+                  "caption": "The team"
+                },
+                {
+                  "src": "founder/team/02.jpg",
+                  "alt": "The studio team, group photograph",
+                  "caption": "The team"
+                },
+                {
+                  "src": "founder/team/03.jpg",
+                  "alt": "The team behind a car",
+                  "caption": "The team"
+                },
+                {
+                  "src": "founder/team/04.jpg",
+                  "alt": "The studio building",
+                  "caption": "The workshop"
+                }
+              ]
+            },
+            {
+              "year": "≈1999",
+              "title": "Before the studio: a garage, racing, the press",
+              "role": "The beginning",
+              "body": [
+                "DRAFT. The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from."
+              ],
+              "cols": 2,
+              "images": [
+                {
+                  "src": "founder/workshop/01.jpg",
+                  "alt": "Working in the workshop",
+                  "caption": "The garage, early 2000s"
+                },
+                {
+                  "src": "founder/workshop/02.jpg",
+                  "alt": "Collage of working photographs",
+                  "caption": "From the archive"
+                }
+              ]
+            }
+          ],
+          "footnote": "Years come from photograph EXIF data and archive names. Those marked ≈ were reconstructed indirectly and need confirming. Images from before 2007 are scans of film prints and web graphics of the period, hence their resolution."
+        },
+        {
+          "type": "cta",
+          "title": "The line continues",
+          "text": "Everything 7pro8 builds in series today grew out of the work on this page.",
+          "actions": [
+            {
+              "label": "About the company",
+              "href": "/company/"
+            },
+            {
+              "label": "Projects",
+              "href": "/portfolio/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "slug": "contact",
       "title": "Contact",
@@ -1216,7 +2319,10 @@
             "Working hours are 08:00 to 17:00 Central European Time, Monday to Friday. We correspond in English, German, Serbian and Russian.",
             "Full postal address, company registration number, VAT number and telephone are in the footer of every page."
           ],
-          "action": { "label": "Go to the enquiry form", "href": "/partners/#enquiry" },
+          "action": {
+            "label": "Go to the enquiry form",
+            "href": "/partners/#enquiry"
+          },
           "image": {
             "src": "company/novi-sad.jpg",
             "alt": "The 7pro8 premises in Novi Sad",
@@ -1228,7 +2334,10 @@
           "title": "Send the model, the market and the volume",
           "text": "That is enough for us to come back with indicative pricing and a delivery plan.",
           "actions": [
-            { "label": "Start an enquiry", "href": "/partners/#enquiry" }
+            {
+              "label": "Start an enquiry",
+              "href": "/partners/#enquiry"
+            }
           ]
         }
       ]

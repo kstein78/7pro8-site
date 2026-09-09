@@ -1,4 +1,4 @@
-<section class="band{% if block.tone == 'dark' %} tone-dark{% endif %}">
+<section class="band">
   <div class="shell">
     {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
     {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
@@ -7,7 +7,7 @@
       <li class="project">
         <a class="project__link" href="{{ p.href }}">
           <span class="project__figure">
-            <img src="{{ img(p.image, p.title) }}" alt="{{ p.title }}" loading="lazy" width="900" height="600">
+            <img src="{{ img(p.image, p.title) }}" alt="{{ p.title }}" loading="lazy" width="1200" height="900">
           </span>
           <span class="project__body">
             <span class="project__title">{{ p.title }}</span>

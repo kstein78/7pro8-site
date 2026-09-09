@@ -5,14 +5,6 @@ files, so adding a language means translating one file rather than rewriting
 HTML, and correcting a figure means editing one line rather than hunting through
 markup.
 
-The same content is rendered in **two design themes**, so they can be compared
-side by side on identical text before one is chosen:
-
-| Theme | Output | Character |
-|---|---|---|
-| `minimal` | `dist/` | Light, technical, close to a supplier's datasheet |
-| `lux` | `dist-lux/` | Dark throughout, close to the 2026 partner presentation |
-
 No database, no CMS, no build toolchain beyond Python and Jinja2. The output is
 plain HTML that any web server can serve.
 
@@ -23,15 +15,11 @@ plain HTML that any web server can serve.
 ```bash
 pip install -r requirements.txt
 
-python build.py                          # builds both themes
-python build.py --theme lux              # one theme only
-python build.py --theme lux --serve      # ... and serve it on :8000
+python build.py                # builds into dist/
+python build.py --serve        # ... and serves it on :8000
 
-python tools/check_links.py dist         # every internal link and asset resolves
-python tools/check_links.py dist-lux
-
-python tools/make_preview.py                  # single-file previews, minimal
-python tools/make_preview.py --dist=dist-lux  # ... and lux
+python tools/check_links.py    # every internal link and asset resolves
+python tools/make_preview.py   # single-file previews of selected pages
 ```
 
 `make_preview.py` inlines the CSS, the script and every image into one HTML
@@ -50,24 +38,22 @@ content/
 templates/
   base.html        head, header, language switcher, footer
   page.html        renders a page's list of content blocks
-  theme-head.html  font links for the default theme
+  theme-head.html  font links
   404.html
   blocks/          one template per block type (hero, grid, table, form, ...)
-  themes/lux/      templates the lux theme overrides — everything else falls
-                   through to the shared set above
 static/
-  css/minimal.css
-  css/lux.css
+  css/site.css
   js/site.js       mobile nav, glass toggle, form submit — all optional
   img/             photography goes here (see IMAGES.md)
 tools/
   check_links.py
-  extract_deck_images.py   crops the photography out of the presentation slides
+  extract_deck_images.py     crops photography out of the presentation slides
+  extract_founder_images.py  collects the founder-page archive photography
+  add_founder_page.py        builds the founder page structure and placeholder copy
 deploy/
   Caddyfile        recommended server config
   nginx.conf       alternative
-dist/              generated, minimal theme — not committed
-dist-lux/          generated, lux theme — not committed
+dist/              generated — not committed
 preview/           generated single-file previews — not committed
 ```
 
@@ -83,22 +69,6 @@ Available block types: `hero`, `pagehead`, `prose`, `grid`, `split`, `process`,
 
 Most blocks accept `"tone": "paper"` or `"tone": "dark"` to change the band
 background.
-
-## Themes
-
-A theme is a stylesheet plus, optionally, a few template overrides. The build
-loads templates from `templates/themes/<name>/` first and falls back to the
-shared set, so a theme only contains what it actually changes — `lux` overrides
-three block templates and nothing else. Content, URLs, structured data and
-translations are shared, so a change to the text lands in both themes at once
-and there is no risk of the two drifting apart.
-
-Adding a third theme: create `static/css/<name>.css`, optionally
-`templates/themes/<name>/`, and register it in the `THEMES` dictionary at the
-top of `build.py`.
-
-Once a theme is chosen, the loser can be deleted in one commit: its CSS file,
-its `templates/themes/` directory and one line in `build.py`.
 
 ## Adding a language
 
@@ -276,37 +246,57 @@ Add them to the Caddyfile as `redir` lines once the mapping is confirmed.
 
 ## Design notes
 
-Both themes share the same markup, the same content and the same one interactive
-element: the switch in the hero that makes the glass opaque. It demonstrates the
-product instead of describing it. Nothing else animates on load or on scroll in
-either theme.
-
-### minimal
-
-The palette is taken from the product rather than from a stock luxury template:
-the grey of a composite panel before trimming as the page ground, the graphite of
-a finished interior for dark bands, and the blue-grey of electrochromic glass in
-its opaque state as the only accent. Typography is Archivo for headings and
-figures — tabular numerals throughout, so tables and specification lists align —
-and Newsreader for body text.
-
-Reads as an engineering supplier. Its risk is looking austere next to
-competitors who spend more on presentation.
-
-### lux
-
 Night ground throughout, as in the presentation. Bodoni Moda — a high-contrast
 didone — as the display face, Jost for labels set in the spaced capitals the deck
 uses for its section headers, and a brass accent taken from interior trim.
 Hairlines replace boxes and borders; the hero is a full-bleed photograph with the
 headline set over it; grid sets are numbered exactly as the deck numbers them.
 
-Reads as the presentation. Its risk is being much harder to photograph for: on a
-dark ground, a mediocre photo looks worse than it does on a light one, and every
-image has to be properly lit and colour-graded.
+The one interactive element is the switch in the hero that makes the glass
+opaque: it demonstrates the product instead of describing it. Nothing else
+animates on load or on scroll.
+
+The risk of this direction is photography. On a dark ground a mediocre photograph
+looks worse than it does on a light one, so every image needs to be properly lit
+and colour-graded before launch.
 
 ### Fonts
 
-Both themes load fonts from Google Fonts. Self-hosting them is worth doing before
+Fonts load from Google Fonts. Self-hosting them is worth doing before
 launch — it removes a third-party request and the cookie-consent question that
 comes with it in the EU.
+
+
+---
+
+## The founder page
+
+`/founder/` is a reverse-chronological record of Iliya Bolshakov's work, from the
+2022 trike back to the late-1990s garage projects. It is built by
+`tools/add_founder_page.py`, which writes the page structure and the placeholder
+copy into both content files, and by `tools/extract_founder_images.py`, which
+normalises the photography out of the project archives and the scanned prints.
+
+**Every text on that page is a placeholder** and every string of it is marked
+DRAFT or ЧЕРНОВИК. A red-tinted draft banner sits at the top of the page; delete
+that one block from the content file when the real copy lands.
+
+Dating: years come from photograph EXIF where it exists (the 2007 W221 partition,
+the 2008 taxi sign, the 2008 ZiL) and from archive names otherwise. Years marked
+≈ are inferred and need confirming. Two dating conflicts are worth resolving:
+
+- the ZiL interior photographs carry EXIF dates of February 2007, while the
+  project history in the partner deck lists ZiL-4107 as a 2008 project;
+- the archive timestamps on the pre-2007 folders are all 2008–2009, which is when
+  the files were collected rather than when the work was done.
+
+### Three things to settle before this page is published
+
+1. **The Hummer client.** The archive names a well-known public figure. The page
+   deliberately does not, and should not until that person has agreed in writing.
+2. **The registration plate** on the home-built car in the 1999 entry is legible
+   in both scans. Blur it or get the owner's agreement.
+3. **Rights to the SV-ART-era photographs.** Most of the pre-2007 images are
+   500x375 web graphics, which suggests they came off a website rather than from
+   original files. Confirm who owns them before publishing, and ask for the
+   originals — they will look far better than the scraped copies.

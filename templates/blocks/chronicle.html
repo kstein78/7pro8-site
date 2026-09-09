@@ -1,0 +1,29 @@
+<section class="band">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+    <ol class="chronicle">
+      {% for e in block.entries %}
+      <li class="chronicle__entry">
+        <p class="chronicle__year">{{ e.year }}</p>
+        <div class="chronicle__body">
+          <h3 class="chronicle__title">{{ e.title }}</h3>
+          {% if e.role %}<p class="chronicle__role">{{ e.role }}</p>{% endif %}
+          {% for p in e.body or [] %}<p>{{ p }}</p>{% endfor %}
+          {% if e.images %}
+          <div class="gallery gallery--{{ e.cols or 3 }} chronicle__gallery">
+            {% for im in e.images %}
+            <figure class="gallery__item">
+              <img src="{{ img(im.src, im.alt) }}" alt="{{ im.alt }}" loading="lazy" width="1200" height="900">
+              {% if im.caption %}<figcaption>{{ im.caption }}</figcaption>{% endif %}
+            </figure>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    {% if block.footnote %}<p class="footnote">{{ block.footnote }}</p>{% endif %}
+  </div>
+</section>

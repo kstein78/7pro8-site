@@ -1,6 +1,6 @@
-<section class="pagehead{% if block.tone == 'dark' %} tone-dark{% endif %}">
+<section class="pagehead">
   <div class="shell pagehead__inner">
-    {% if block.kicker %}<p class="kicker">{{ block.kicker }}</p>{% endif %}
+    <p class="eyebrow">{{ block.kicker or page.title }}</p>
     <h1 class="pagehead__title">{{ block.title }}</h1>
     {% if block.lead %}<p class="pagehead__lead">{{ block.lead }}</p>{% endif %}
     {% if block.meta %}

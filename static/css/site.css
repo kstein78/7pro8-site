@@ -657,3 +657,45 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
   .hero__veil { display: none; }
   .hero__frame .glass img { height: 20rem; }
 }
+
+/* --------------------------------------------------------------- chronicle */
+
+.chronicle { list-style: none; margin: 0; padding: 0; }
+.chronicle__entry {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+  border-top: 1px solid var(--hair);
+}
+.chronicle__entry:last-child { border-bottom: 1px solid var(--hair); }
+.chronicle__year {
+  font-family: var(--display);
+  font-size: clamp(1.6rem, 1.1rem + 1.6vw, 2.2rem);
+  color: var(--brass);
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 0.02em;
+  position: sticky;
+  top: 1.5rem;
+  align-self: start;
+}
+.chronicle__title { font-size: clamp(1.25rem, 1rem + 1vw, 1.7rem); margin-bottom: 0.6rem; }
+.chronicle__role {
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ivory-faint);
+  margin-bottom: 1.2rem;
+}
+.chronicle__gallery { margin-top: 1.8rem; }
+.chronicle__body p:last-child { margin-bottom: 0; }
+
+@media (max-width: 48rem) {
+  .chronicle__entry { grid-template-columns: 1fr; gap: 0.75rem; }
+  .chronicle__year { position: static; }
+}
+
+/* a draft banner, to be deleted before the page goes live */
+.callout--draft { border-top-color: #b4553a; }
+.callout--draft .callout__title { color: #d0715a; }

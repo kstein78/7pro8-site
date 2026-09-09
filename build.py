@@ -20,22 +20,14 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from jinja2 import ChoiceLoader, Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).parent.resolve()
 CONTENT = ROOT / "content"
 STATIC = ROOT / "static"
 TEMPLATES = ROOT / "templates"
 
-# Available themes. Each has a stylesheet at static/css/<name>.css and may
-# override any template by placing it in templates/themes/<name>/.
-THEMES = {
-    "minimal": "dist",
-    "lux": "dist-lux",
-}
-DEFAULT_THEME = "minimal"
-
-DIST = ROOT / THEMES[DEFAULT_THEME]
+DIST = ROOT / "dist"
 
 MISSING_IMAGES = []
 
@@ -59,11 +51,7 @@ role="img" aria-label="{alt}">
 </svg>
 """
 
-PLACEHOLDER_COLOURS = {
-    "minimal": {"bg": "#cfccc5", "line": "#a9a49a", "text": "#3f3c37", "dim": "#6b665e"},
-    "lux": {"bg": "#16181c", "line": "#33302a", "text": "#c0a265", "dim": "#6d6a64"},
-}
-PALETTE = PLACEHOLDER_COLOURS["minimal"]
+PALETTE = {"bg": "#16181c", "line": "#33302a", "text": "#c0a265", "dim": "#6d6a64"}
 
 
 def resolve_image(src, alt=""):
@@ -115,32 +103,21 @@ def page_url(lang, slug, default_lang):
     return f"{prefix}/{slug.strip('/')}/"
 
 
-def build(theme=DEFAULT_THEME, out_dir=None):
-    global DIST, PALETTE
-    DIST = ROOT / (out_dir or THEMES[theme])
-    PALETTE = PLACEHOLDER_COLOURS.get(theme, PLACEHOLDER_COLOURS["minimal"])
+def build():
     MISSING_IMAGES.clear()
 
     site = load("site.json")
     default_lang = site["default_language"]
     langs = [l["code"] for l in site["languages"]]
 
-    # Theme templates take precedence; anything a theme does not override
-    # falls through to the shared set.
     env = Environment(
-        loader=ChoiceLoader(
-            [
-                FileSystemLoader(str(TEMPLATES / "themes" / theme)),
-                FileSystemLoader(str(TEMPLATES)),
-            ]
-        ),
+        loader=FileSystemLoader(str(TEMPLATES)),
         autoescape=select_autoescape(["html"]),
         trim_blocks=True,
         lstrip_blocks=True,
     )
     env.globals["img"] = resolve_image
     env.globals["build_year"] = date.today().year
-    env.globals["theme"] = theme
 
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -197,7 +174,6 @@ def build(theme=DEFAULT_THEME, out_dir=None):
                 )
 
             rendered = page_template.render(
-                theme=theme,
                 site=site,
                 lang=lang,
                 lang_meta=lang_meta,
@@ -232,7 +208,7 @@ def build(theme=DEFAULT_THEME, out_dir=None):
     (DIST / "sitemap.xml").write_text("\n".join(sitemap) + "\n", encoding="utf-8")
 
     (DIST / "404.html").write_text(
-        env.get_template("404.html").render(site=site, theme=theme), encoding="utf-8"
+        env.get_template("404.html").render(site=site), encoding="utf-8"
     )
 
     (DIST / "robots.txt").write_text(
@@ -242,7 +218,7 @@ def build(theme=DEFAULT_THEME, out_dir=None):
         encoding="utf-8",
     )
 
-    print(f"\nBuilt {len(all_urls)} indexable pages into {DIST} (theme: {theme})")
+    print(f"\nBuilt {len(all_urls)} indexable pages into {DIST}")
 
     if MISSING_IMAGES:
         report = DIST / "_missing-images.txt"
@@ -267,22 +243,11 @@ def serve(port=8000):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--theme",
-        default="all",
-        choices=["all", *THEMES],
-        help="which theme to build (default: all)",
-    )
-    parser.add_argument("--out", help="override the output directory")
     parser.add_argument("--serve", action="store_true")
     parser.add_argument("--port", type=int, default=8000)
     args = parser.parse_args()
 
-    themes = list(THEMES) if args.theme == "all" else [args.theme]
-    rc = 0
-    for name in themes:
-        rc |= build(name, args.out if len(themes) == 1 else None)
-
+    rc = build()
     if args.serve:
         serve(args.port)
     sys.exit(rc)
