@@ -23,10 +23,36 @@ def gal(slug, items, cols=3):
     }
 
 
-def entry(year, title, role, body, slug, images, cols=3):
+def entry(year, title, role, body, slug, images, cols=3, where=None, where_note=None):
     e = {"year": year, "title": title, "role": role, "body": body}
+    if where:
+        e["where"] = where
+        if where_note:
+            e["where_note"] = where_note
     e.update(gal(slug, images, cols))
     return e
+
+
+# Career, as supplied. This is the one part of the page that is not a draft.
+CAREER_RU = [
+    {"years": "2000–2001", "org": "СКБ МАМИ", "role": "Макетчик-конструктор"},
+    {"years": "2001–2003", "org": "SV-ART", "role": "Конструктор, главный конструктор"},
+    {"years": "2003–2005", "org": "A-Level", "role": "Конструктор интерьера автомобиля"},
+    {"years": "2005–2007", "org": "ОАО «Автоганза»", "role": "Инженер-конструктор"},
+    {"years": "2007–2009", "org": "Cardi Design", "role": "Конструктор"},
+    {"years": "2009–2015", "org": "ОАО «Кар Фэйшн»", "role": "Конструктор интерьера автомобиля"},
+    {"years": "с 2015", "org": "7pro8", "role": "Совладелец", "current": True},
+]
+
+CAREER_EN = [
+    {"years": "2000–2001", "org": "SKB MAMI", "role": "Model maker and design engineer"},
+    {"years": "2001–2003", "org": "SV-ART", "role": "Design engineer, then chief design engineer"},
+    {"years": "2003–2005", "org": "A-Level", "role": "Vehicle interior design engineer"},
+    {"years": "2005–2007", "org": "Avtoganza", "role": "Design engineer"},
+    {"years": "2007–2009", "org": "Cardi Design", "role": "Design engineer"},
+    {"years": "2009–2015", "org": "Car Fashion", "role": "Vehicle interior design engineer"},
+    {"years": "since 2015", "org": "7pro8", "role": "Co-owner", "current": True},
+]
 
 
 RU_ENTRIES = [
@@ -260,6 +286,51 @@ EN_ENTRIES = [
 ]
 
 
+# Which employer each project falls under. Derived from the career dates above
+# against the photograph dates — it is a mapping, not something stated, and the
+# entries on period boundaries are marked as such.
+WHERE_RU = [
+    ("Личный проект", None),
+    ("Cardi Design / «Кар Фэйшн»", "граница периодов по датам — уточнить"),
+    ("Cardi Design", "по датам снимков"),
+    ("Cardi Design", "по датам снимков"),
+    ("«Автоганза» / Cardi Design", "год перехода; отсюда 7pro8 ведёт отсчёт первой перегородки"),
+    ("ОАО «Автоганза»", "по датам — уточнить"),
+    ("A-Level", "по датам; фотографии при этом из материалов SV-ART — расхождение"),
+    ("SV-ART / A-Level", "год перехода — уточнить"),
+    ("SV-ART", "по датам — уточнить"),
+    ("SV-ART", None),
+    ("SV-ART · СКБ МАМИ", "по датам — уточнить"),
+    ("До СКБ МАМИ", None),
+]
+
+WHERE_EN = [
+    ("Personal project", None),
+    ("Cardi Design / Car Fashion", "falls on a period boundary — to be confirmed"),
+    ("Cardi Design", "from photograph dates"),
+    ("Cardi Design", "from photograph dates"),
+    ("Avtoganza / Cardi Design", "the year of the move; 7pro8 dates its first partition from here"),
+    ("Avtoganza", "from dates — to be confirmed"),
+    ("A-Level", "from dates; the photographs, however, come from SV-ART material — a discrepancy"),
+    ("SV-ART / A-Level", "the year of the move — to be confirmed"),
+    ("SV-ART", "from dates — to be confirmed"),
+    ("SV-ART", None),
+    ("SV-ART · SKB MAMI", "from dates — to be confirmed"),
+    ("Before SKB MAMI", None),
+]
+
+
+def with_where(entries, where):
+    out = []
+    for e, (w, note) in zip(entries, where):
+        e = dict(e)
+        e["where"] = w
+        if note:
+            e["where_note"] = note
+        out.append(e)
+    return out
+
+
 def page(lang):
     p = "" if lang == "en" else "/ru"
     ru = lang == "ru"
@@ -281,15 +352,20 @@ def page(lang):
                 "kicker": "Основатель" if ru else "Founder",
                 "title": "Илья Большаков" if ru else "Iliya Bolshakov",
                 "lead": (
-                    "ЧЕРНОВИК ВВОДНОГО АБЗАЦА. Двадцать пять лет работы руками и головой в одном и "
-                    "том же ремесле: интерьер автомобиля как инженерная задача, а не как украшение."
+                    "Двадцать пять лет в одной специальности — конструктор автомобильного "
+                    "интерьера. Семь организаций, от макетного участка вузовского КБ до "
+                    "собственного производства, и одна и та же задача во всех: сделать так, чтобы "
+                    "деталь встала в салон и повторилась в следующем автомобиле."
                     if ru else
-                    "DRAFT INTRODUCTION. Twenty-five years of hands-on work in one craft: the interior "
-                    "of a car as an engineering problem rather than as decoration."
+                    "Twenty-five years in one discipline: vehicle interior design engineering. Seven "
+                    "organisations, from the model shop of a university design bureau to a "
+                    "production company of his own, and the same problem in all of them — make the "
+                    "part fit the interior, and make it repeat in the next car."
                 ),
                 "meta": [
-                    {"label": "В профессии с" if ru else "In the trade since", "value": "≈1999"},
+                    {"label": "В профессии с" if ru else "In the trade since", "value": "2000"},
                     {"label": "Первая перегородка" if ru else "First partition", "value": "2007"},
+                    {"label": "7pro8" if ru else "7pro8", "value": "с 2015" if ru else "since 2015"},
                     {"label": "Проектов ниже" if ru else "Projects below", "value": "12"},
                 ],
             },
@@ -297,31 +373,44 @@ def page(lang):
                 "type": "note",
                 "title": "Черновик страницы" if ru else "Draft page",
                 "body": [
-                    "Все тексты на этой странице — заготовки. Фотографии и порядок расставлены по "
-                    "датам файлов и по названиям архивов; годы со знаком ≈ подтверждения требуют. "
-                    "Этот блок удаляется одной строкой в content-файле."
+                    "Биография и таблица мест работы — настоящие. Описания проектов ниже — "
+                    "заготовки, помеченные словом ЧЕРНОВИК. Привязка проектов к периодам "
+                    "выведена из дат снимков, а не подтверждена: строки со знаком ≈ и пометкой "
+                    "«уточнить» надо проверить. Этот блок удаляется одной строкой в content-файле."
                     if ru else
-                    "Every text on this page is a placeholder. The photographs and their order come "
-                    "from file dates and archive names; years marked ≈ still need confirming. This "
-                    "block is one line to delete in the content file."
+                    "The biography and the career table are real. The project descriptions below are "
+                    "placeholders, each marked DRAFT. Which project belongs to which period was "
+                    "derived from photograph dates rather than confirmed: the lines marked ≈ and "
+                    "\u201cto be confirmed\u201d need checking. This block is one line to delete in "
+                    "the content file."
                 ],
             },
             {
                 "type": "split",
                 "tone": "paper",
-                "title": "Как это началось" if ru else "How it started",
+                "title": "Путь" if ru else "The route",
                 "body": [
-                    "ЧЕРНОВИК. Здесь — короткая биография: откуда пришёл, чему учился, как гараж "
-                    "превратился в производство и почему в итоге всё сошлось на перегородках."
+                    "Начал в 2000 году макетчиком-конструктором в СКБ МАМИ — то есть буквально с "
+                    "рук и с макета, а не с чертежа. Через год перешёл в SV-ART и за два года "
+                    "вырос до главного конструктора."
                     if ru else
-                    "DRAFT. A short biography goes here: where he came from, what he trained in, how "
-                    "a garage became a production shop, and why it all ended up converging on "
-                    "partitions.",
-                    "ЧЕРНОВИК. Второй абзац — про подход к работе. Один-два конкретных примера "
-                    "лучше любых определений."
+                    "He started in 2000 as a model maker and design engineer at SKB MAMI — that is, "
+                    "literally with his hands and with a mock-up rather than with a drawing. A year "
+                    "later he moved to SV-ART, and within two years was its chief design engineer.",
+                    "Дальше — A-Level, «Автоганза», Cardi Design, «Кар Фэйшн»: пятнадцать лет "
+                    "конструирования автомобильных интерьеров в компаниях, которые и создавали эту "
+                    "отрасль в России. С 2015 года — 7pro8 как собственное дело."
                     if ru else
-                    "DRAFT. A second paragraph on how he works. One or two concrete examples beat any "
-                    "amount of description.",
+                    "Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of "
+                    "engineering vehicle interiors inside the companies that built that industry in "
+                    "Russia. Since 2015, 7pro8 as a business of his own.",
+                    "ЧЕРНОВИК ТРЕТЬЕГО АБЗАЦА. Здесь не хватает того, чего нет в трудовой книжке: "
+                    "чему учился, почему из всего интерьера остались именно перегородки и что он "
+                    "сам считает своей лучшей работой."
+                    if ru else
+                    "DRAFT THIRD PARAGRAPH. What a CV does not carry belongs here: what he trained "
+                    "in, why of all interior work it was partitions that stayed, and which job he "
+                    "considers his best.",
                 ],
                 "image": {
                     "src": "founder/portrait.jpg",
@@ -330,21 +419,37 @@ def page(lang):
                 },
             },
             {
+                "type": "career",
+                "title": "Где и кем" if ru else "Where, and as what",
+                "roles": CAREER_RU if ru else CAREER_EN,
+                "footnote": (
+                    "Проекты ниже сделаны в разные из этих периодов. Прежде чем публиковать "
+                    "страницу, стоит подтвердить с бывшими работодателями, какие из работ можно "
+                    "показывать и под чьим именем."
+                    if ru else
+                    "The projects below were done across these periods. Before this page is "
+                    "published it is worth confirming with the former employers which of the work "
+                    "may be shown, and under whose name."
+                ),
+            },
+            {
                 "type": "chronicle",
                 "title": "Работы, от новых к старым" if ru else "The work, newest first",
                 "lead": (
-                    "Двенадцать проектов за двадцать с лишним лет. Порядок обратный: сегодняшнее "
-                    "сверху, начало внизу."
+                    "Двенадцать проектов за двадцать пять лет, от сегодняшнего к началу. Под "
+                    "названием каждого — период, к которому он относится по датам."
                     if ru else
-                    "Twelve projects across more than twenty years, in reverse order: the present at "
-                    "the top, the beginning at the bottom."
+                    "Twelve projects across twenty-five years, from the present back to the "
+                    "beginning. Under each title is the period it falls into by date."
                 ),
-                "entries": RU_ENTRIES if ru else EN_ENTRIES,
+                "entries": (with_where(RU_ENTRIES, WHERE_RU) if ru
+                            else with_where(EN_ENTRIES, WHERE_EN)),
                 "footnote": (
-                    "Годы взяты из EXIF-данных снимков и названий архивов. Отмеченные знаком ≈ "
-                    "восстановлены по косвенным признакам и требуют подтверждения. Снимки до "
-                    "2007 года — сканы плёночных отпечатков и веб-графика того времени, отсюда их "
-                    "разрешение."
+                    "Годы взяты из EXIF-данных снимков и названий архивов; отмеченные знаком ≈ "
+                    "восстановлены по косвенным признакам. Период под каждым названием выведен "
+                    "сопоставлением этих дат с таблицей мест работы — это вывод, а не факт из "
+                    "первых рук. Снимки до 2007 года — сканы плёночных отпечатков и веб-графика "
+                    "того времени, отсюда их разрешение."
                     if ru else
                     "Years come from photograph EXIF data and archive names. Those marked ≈ were "
                     "reconstructed indirectly and need confirming. Images from before 2007 are scans "

@@ -699,3 +699,48 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 /* a draft banner, to be deleted before the page goes live */
 .callout--draft { border-top-color: #b4553a; }
 .callout--draft .callout__title { color: #d0715a; }
+
+/* ------------------------------------------------------------------ career */
+
+.career { list-style: none; margin: 0; padding: 0; }
+.career__row {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+  align-items: baseline;
+  padding-block: 1.35rem;
+  border-top: 1px solid var(--hair);
+}
+.career__row:last-child { border-bottom: 1px solid var(--hair); }
+.career__years {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: var(--ivory-dim);
+  font-variant-numeric: lining-nums;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+.career__row--current .career__years,
+.career__row--current .career__org { color: var(--brass); }
+.career__what { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 1.5rem; }
+.career__org { font-size: 1.2rem; margin: 0; }
+.career__role {
+  margin: 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ivory-faint);
+}
+
+@media (max-width: 42rem) {
+  .career__row { grid-template-columns: 1fr; gap: 0.35rem; }
+}
+
+/* the period a chronicle entry belongs to */
+.chronicle__where {
+  margin: -0.8rem 0 1.2rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--ivory-faint);
+}
+.chronicle__where b { color: var(--ivory-dim); font-weight: 400; }

@@ -9,6 +9,7 @@
         <div class="chronicle__body">
           <h3 class="chronicle__title">{{ e.title }}</h3>
           {% if e.role %}<p class="chronicle__role">{{ e.role }}</p>{% endif %}
+          {% if e.where %}<p class="chronicle__where"><b>{{ e.where }}</b>{% if e.where_note %} — {{ e.where_note }}{% endif %}</p>{% endif %}
           {% for p in e.body or [] %}<p>{{ p }}</p>{% endfor %}
           {% if e.images %}
           <div class="gallery gallery--{{ e.cols or 3 }} chronicle__gallery">

@@ -1,0 +1,18 @@
+<section class="band{% if block.tone == 'paper' %} tone-paper{% endif %}">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+    <ol class="career">
+      {% for r in block.roles %}
+      <li class="career__row{% if r.current %} career__row--current{% endif %}">
+        <p class="career__years">{{ r.years }}</p>
+        <div class="career__what">
+          <h3 class="career__org">{{ r.org }}</h3>
+          <p class="career__role">{{ r.role }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    {% if block.footnote %}<p class="footnote">{{ block.footnote }}</p>{% endif %}
+  </div>
+</section>

@@ -158,6 +158,16 @@ own front-page claims, but a careful reader will notice all three.
    vehicle models — but nothing on the page explains that. Either add the
    explanation or use one number.
 
+4. **"Founded 2007" against "7pro8 as a separate firm since 2015".** The deck
+   dates the company to 2007; the founder's career record dates 7pro8 as a
+   business of its own to 2015, with the 2007 partition built while he was
+   employed elsewhere. Both statements can be true — 2007 is when the first
+   partition was built, 2015 is when the company became a company — but the site
+   currently only says the first one, and a partner who reads the founder page
+   and the company page together will notice. Pick one formulation and use it in
+   both places. The safest is the precise one: first partition 2007, company in
+   its own right since 2015.
+
 ### Deliberately not published
 
 The indicative price table from the deck (V-Class €25,000–28,000, Rolls-Royce
@@ -277,9 +287,17 @@ comes with it in the EU.
 copy into both content files, and by `tools/extract_founder_images.py`, which
 normalises the photography out of the project archives and the scanned prints.
 
-**Every text on that page is a placeholder** and every string of it is marked
-DRAFT or ЧЕРНОВИК. A red-tinted draft banner sits at the top of the page; delete
-that one block from the content file when the real copy lands.
+The biography and the career table are real, supplied by the subject. **The
+project descriptions are still placeholders**, each marked DRAFT or ЧЕРНОВИК. A
+red-tinted draft banner sits at the top of the page; delete that one block from
+the content file when the real copy lands.
+
+Each project also carries the career period it falls into. That mapping was
+derived by matching photograph dates against the career dates — it is an
+inference, not something stated, and the lines are labelled accordingly. Two of
+them are on period boundaries (the 2003 Corvette and the 2007 W221 partition) and
+one is an outright discrepancy: the Lamborghini Diablo is dated 2004, which falls
+in the A-Level period, but its photographs come from SV-ART material.
 
 Dating: years come from photograph EXIF where it exists (the 2007 W221 partition,
 the 2008 taxi sign, the 2008 ZiL) and from archive names otherwise. Years marked

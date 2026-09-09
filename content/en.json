@@ -1895,15 +1895,19 @@
           "type": "pagehead",
           "kicker": "Founder",
           "title": "Iliya Bolshakov",
-          "lead": "DRAFT INTRODUCTION. Twenty-five years of hands-on work in one craft: the interior of a car as an engineering problem rather than as decoration.",
+          "lead": "Twenty-five years in one discipline: vehicle interior design engineering. Seven organisations, from the model shop of a university design bureau to a production company of his own, and the same problem in all of them — make the part fit the interior, and make it repeat in the next car.",
           "meta": [
             {
               "label": "In the trade since",
-              "value": "≈1999"
+              "value": "2000"
             },
             {
               "label": "First partition",
               "value": "2007"
+            },
+            {
+              "label": "7pro8",
+              "value": "since 2015"
             },
             {
               "label": "Projects below",
@@ -1915,16 +1919,17 @@
           "type": "note",
           "title": "Draft page",
           "body": [
-            "Every text on this page is a placeholder. The photographs and their order come from file dates and archive names; years marked ≈ still need confirming. This block is one line to delete in the content file."
+            "The biography and the career table are real. The project descriptions below are placeholders, each marked DRAFT. Which project belongs to which period was derived from photograph dates rather than confirmed: the lines marked ≈ and “to be confirmed” need checking. This block is one line to delete in the content file."
           ]
         },
         {
           "type": "split",
           "tone": "paper",
-          "title": "How it started",
+          "title": "The route",
           "body": [
-            "DRAFT. A short biography goes here: where he came from, what he trained in, how a garage became a production shop, and why it all ended up converging on partitions.",
-            "DRAFT. A second paragraph on how he works. One or two concrete examples beat any amount of description."
+            "He started in 2000 as a model maker and design engineer at SKB MAMI — that is, literally with his hands and with a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.",
+            "Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8 as a business of his own.",
+            "DRAFT THIRD PARAGRAPH. What a CV does not carry belongs here: what he trained in, why of all interior work it was partitions that stayed, and which job he considers his best."
           ],
           "image": {
             "src": "founder/portrait.jpg",
@@ -1933,9 +1938,52 @@
           }
         },
         {
+          "type": "career",
+          "title": "Where, and as what",
+          "roles": [
+            {
+              "years": "2000–2001",
+              "org": "SKB MAMI",
+              "role": "Model maker and design engineer"
+            },
+            {
+              "years": "2001–2003",
+              "org": "SV-ART",
+              "role": "Design engineer, then chief design engineer"
+            },
+            {
+              "years": "2003–2005",
+              "org": "A-Level",
+              "role": "Vehicle interior design engineer"
+            },
+            {
+              "years": "2005–2007",
+              "org": "Avtoganza",
+              "role": "Design engineer"
+            },
+            {
+              "years": "2007–2009",
+              "org": "Cardi Design",
+              "role": "Design engineer"
+            },
+            {
+              "years": "2009–2015",
+              "org": "Car Fashion",
+              "role": "Vehicle interior design engineer"
+            },
+            {
+              "years": "since 2015",
+              "org": "7pro8",
+              "role": "Co-owner",
+              "current": true
+            }
+          ],
+          "footnote": "The projects below were done across these periods. Before this page is published it is worth confirming with the former employers which of the work may be shown, and under whose name."
+        },
+        {
           "type": "chronicle",
           "title": "The work, newest first",
-          "lead": "Twelve projects across more than twenty years, in reverse order: the present at the top, the beginning at the bottom.",
+          "lead": "Twelve projects across twenty-five years, from the present back to the beginning. Under each title is the period it falls into by date.",
           "entries": [
             {
               "year": "2022",
@@ -1961,7 +2009,8 @@
                   "alt": "Trike on the road",
                   "caption": "Frame and seating"
                 }
-              ]
+              ],
+              "where": "Personal project"
             },
             {
               "year": "2009",
@@ -1987,7 +2036,9 @@
                   "alt": "Yachting magazine cover",
                   "caption": "Trade press"
                 }
-              ]
+              ],
+              "where": "Cardi Design / Car Fashion",
+              "where_note": "falls on a period boundary — to be confirmed"
             },
             {
               "year": "2008",
@@ -2018,7 +2069,9 @@
                   "alt": "Rendering of the roof sign",
                   "caption": "Project rendering"
                 }
-              ]
+              ],
+              "where": "Cardi Design",
+              "where_note": "from photograph dates"
             },
             {
               "year": "2008",
@@ -2044,7 +2097,9 @@
                   "alt": "Finished interior, trim detail",
                   "caption": "Trim and materials"
                 }
-              ]
+              ],
+              "where": "Cardi Design",
+              "where_note": "from photograph dates"
             },
             {
               "year": "2007",
@@ -2076,7 +2131,9 @@
                   "alt": "Finished partition in the car",
                   "caption": "Product in the car"
                 }
-              ]
+              ],
+              "where": "Avtoganza / Cardi Design",
+              "where_note": "the year of the move; 7pro8 dates its first partition from here"
             },
             {
               "year": "≈2005",
@@ -2107,7 +2164,9 @@
                   "alt": "Interior trim",
                   "caption": "Trim"
                 }
-              ]
+              ],
+              "where": "Avtoganza",
+              "where_note": "from dates — to be confirmed"
             },
             {
               "year": "2004",
@@ -2138,7 +2197,9 @@
                   "alt": "Leather and carbon trim",
                   "caption": "Materials"
                 }
-              ]
+              ],
+              "where": "A-Level",
+              "where_note": "from dates; the photographs, however, come from SV-ART material — a discrepancy"
             },
             {
               "year": "2003",
@@ -2164,7 +2225,9 @@
                   "alt": "Centre console",
                   "caption": "Console and trim"
                 }
-              ]
+              ],
+              "where": "SV-ART / A-Level",
+              "where_note": "the year of the move — to be confirmed"
             },
             {
               "year": "≈2003",
@@ -2196,7 +2259,9 @@
                   "alt": "Bar unit in the interior",
                   "caption": "Interior equipment"
                 }
-              ]
+              ],
+              "where": "SV-ART",
+              "where_note": "from dates — to be confirmed"
             },
             {
               "year": "2001",
@@ -2227,7 +2292,8 @@
                   "alt": "Interior of the car",
                   "caption": "Interior"
                 }
-              ]
+              ],
+              "where": "SV-ART"
             },
             {
               "year": "≈2000",
@@ -2258,7 +2324,9 @@
                   "alt": "The studio building",
                   "caption": "The workshop"
                 }
-              ]
+              ],
+              "where": "SV-ART · SKB MAMI",
+              "where_note": "from dates — to be confirmed"
             },
             {
               "year": "≈1999",
@@ -2279,7 +2347,8 @@
                   "alt": "Collage of working photographs",
                   "caption": "From the archive"
                 }
-              ]
+              ],
+              "where": "Before SKB MAMI"
             }
           ],
           "footnote": "Years come from photograph EXIF data and archive names. Those marked ≈ were reconstructed indirectly and need confirming. Images from before 2007 are scans of film prints and web graphics of the period, hence their resolution."
