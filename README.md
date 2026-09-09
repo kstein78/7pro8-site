@@ -296,7 +296,11 @@ the 2008 taxi sign, the 2008 ZiL) and from archive names otherwise. Years marked
    deliberately does not, and should not until that person has agreed in writing.
 2. **The registration plate** on the home-built car in the 1999 entry is legible
    in both scans. Blur it or get the owner's agreement.
-3. **Rights to the SV-ART-era photographs.** Most of the pre-2007 images are
+3. **Authorship of the drawings.** The W221 sketch is signed "Chelnokov" in the
+   bottom-right corner, so at least some of the design work on that page was done
+   by someone else. A founder page that shows drawings without saying who drew
+   them invites the wrong conclusion; add credits.
+4. **Rights to the SV-ART-era photographs.** Most of the pre-2007 images are
    500x375 web graphics, which suggests they came off a website rather than from
    original files. Confirm who owns them before publishing, and ask for the
    originals — they will look far better than the scraped copies.

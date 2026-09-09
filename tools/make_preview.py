@@ -11,10 +11,18 @@ without running a web server.
 """
 
 import base64
+import io
 import mimetypes
 import pathlib
 import re
 import sys
+
+from PIL import Image
+
+# Previews inline every image, so they are downscaled to keep the single file
+# openable. The built site in dist/ always uses the full-size originals.
+PREVIEW_MAX_W = 900
+PREVIEW_QUALITY = 76
 
 ROOT = pathlib.Path(__file__).parent.parent
 OUT = ROOT / "preview"
@@ -24,6 +32,16 @@ DEFAULT_PAGES = ["/", "/portfolio/mercedes-benz-v-class-line-1/", "/partners/", 
 
 def data_uri(path):
     mime = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+    if mime in ("image/jpeg", "image/png"):
+        im = Image.open(path).convert("RGB")
+        if im.width > PREVIEW_MAX_W:
+            im = im.resize(
+                (PREVIEW_MAX_W, round(im.height * PREVIEW_MAX_W / im.width)),
+                Image.LANCZOS,
+            )
+        buf = io.BytesIO()
+        im.save(buf, "JPEG", quality=PREVIEW_QUALITY, optimize=True)
+        return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
     payload = base64.b64encode(path.read_bytes()).decode("ascii")
     return f"data:{mime};base64,{payload}"
 
@@ -79,10 +97,9 @@ def main(argv):
         print(f"{dist_name} does not exist — run build.py first")
         return 1
 
-    theme = dist_name.replace("dist-", "") if dist_name != "dist" else "minimal"
-    prefix = f"7pro8-{theme}"
+    prefix = "7pro8"
 
-    print(f"standalone previews ({theme}):")
+    print("standalone previews:")
     for page in args or DEFAULT_PAGES:
         inline(dist, prefix, page)
     return 0
