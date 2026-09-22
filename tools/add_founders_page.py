@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""One-off: insert the founder page into content/ru.json and content/en.json.
+"""Insert the joint founders page into content/ru.json and content/en.json.
+
+Replaces the earlier single-founder page (/founder/, now redirected).
 
 Kept in the repository so the page structure is reproducible, and so the
 placeholder copy is obvious at a glance rather than buried in a large JSON file.
@@ -31,28 +33,6 @@ def entry(year, title, role, body, slug, images, cols=3, where=None, where_note=
             e["where_note"] = where_note
     e.update(gal(slug, images, cols))
     return e
-
-
-# Career, as supplied. This is the one part of the page that is not a draft.
-CAREER_RU = [
-    {"years": "2000–2001", "org": "СКБ МАМИ", "role": "Макетчик-конструктор"},
-    {"years": "2001–2003", "org": "SV-ART", "role": "Конструктор, главный конструктор"},
-    {"years": "2003–2005", "org": "A-Level", "role": "Конструктор интерьера автомобиля"},
-    {"years": "2005–2007", "org": "ОАО «Автоганза»", "role": "Инженер-конструктор"},
-    {"years": "2007–2009", "org": "Cardi Design", "role": "Конструктор"},
-    {"years": "2009–2015", "org": "ОАО «Кар Фэйшн»", "role": "Конструктор интерьера автомобиля"},
-    {"years": "с 2015", "org": "7pro8", "role": "Совладелец", "current": True},
-]
-
-CAREER_EN = [
-    {"years": "2000–2001", "org": "SKB MAMI", "role": "Model maker and design engineer"},
-    {"years": "2001–2003", "org": "SV-ART", "role": "Design engineer, then chief design engineer"},
-    {"years": "2003–2005", "org": "A-Level", "role": "Vehicle interior design engineer"},
-    {"years": "2005–2007", "org": "Avtoganza", "role": "Design engineer"},
-    {"years": "2007–2009", "org": "Cardi Design", "role": "Design engineer"},
-    {"years": "2009–2015", "org": "Car Fashion", "role": "Vehicle interior design engineer"},
-    {"years": "since 2015", "org": "7pro8", "role": "Co-owner", "current": True},
-]
 
 
 RU_ENTRIES = [
@@ -320,11 +300,66 @@ WHERE_EN = [
 ]
 
 
-def with_where(entries, where):
+# --------------------------------------------------------------------------
+# Timeline data. Year spans are [from, to) on a shared axis.
+# Iliya Bolshakov: supplied by him — real.
+# Evgenii Abramov: NOT YET SUPPLIED — every segment is tentative and drawn
+# dashed until the real record replaces it.
+# --------------------------------------------------------------------------
+
+AXIS_START, AXIS_END = 2000, 2027
+TICKS = [2000, 2005, 2010, 2015, 2020, 2025]
+
+ILYA_SEGMENTS = {
+    "ru": [
+        (2000, 2001, "2000–2001", "СКБ МАМИ", "Макетчик-конструктор"),
+        (2001, 2003, "2001–2003", "SV-ART", "Конструктор, главный конструктор"),
+        (2003, 2005, "2003–2005", "A-Level", "Конструктор интерьера автомобиля"),
+        (2005, 2007, "2005–2007", "ОАО «Автоганза»", "Инженер-конструктор"),
+        (2007, 2009, "2007–2009", "Cardi Design", "Конструктор"),
+        (2009, 2015, "2009–2015", "ОАО «Кар Фэйшн»", "Конструктор интерьера автомобиля"),
+        (2015, AXIS_END, "с 2015", "7pro8", "Сооснователь, совладелец"),
+    ],
+    "en": [
+        (2000, 2001, "2000–2001", "SKB MAMI", "Model maker and design engineer"),
+        (2001, 2003, "2001–2003", "SV-ART", "Design engineer, then chief design engineer"),
+        (2003, 2005, "2003–2005", "A-Level", "Vehicle interior design engineer"),
+        (2005, 2007, "2005–2007", "Avtoganza", "Design engineer"),
+        (2007, 2009, "2007–2009", "Cardi Design", "Design engineer"),
+        (2009, 2015, "2009–2015", "Car Fashion", "Vehicle interior design engineer"),
+        (2015, AXIS_END, "since 2015", "7pro8", "Co-founder, co-owner"),
+    ],
+}
+
+EVGENII_SEGMENTS = {
+    "ru": [
+        (2001, 2015, "≈2001–2015", "Места работы уточняются", "Нужна биография — как у Ильи"),
+        (2015, AXIS_END, "с 2015", "7pro8", "Сооснователь"),
+    ],
+    "en": [
+        (2001, 2015, "≈2001–2015", "Career to be supplied", "Needs the same record as Iliya's"),
+        (2015, AXIS_END, "since 2015", "7pro8", "Co-founder"),
+    ],
+}
+
+
+def segments(rows, tentative_all=False):
+    out = []
+    for f, t, years, org, role in rows:
+        seg = {"from": f, "to": t, "years": years, "org": org, "role": role}
+        if org == "7pro8":
+            seg["current"] = True
+        elif tentative_all:
+            seg["tentative"] = True
+        out.append(seg)
+    return out
+
+
+def with_where(entries, where, prefix):
     out = []
     for e, (w, note) in zip(entries, where):
         e = dict(e)
-        e["where"] = w
+        e["where"] = f"{prefix}{w}"
         if note:
             e["where_note"] = note
         out.append(e)
@@ -334,94 +369,119 @@ def with_where(entries, where):
 def page(lang):
     p = "" if lang == "en" else "/ru"
     ru = lang == "ru"
+    ilya = "Илья Большаков" if ru else "Iliya Bolshakov"
+    evg = "Евгений Абрамов" if ru else "Evgenii Abramov"
+
     return {
-        "slug": "founder",
-        "title": "Илья Большаков" if ru else "Iliya Bolshakov",
-        "title_tag": ("Илья Большаков — основатель 7pro8" if ru
-                      else "Iliya Bolshakov — founder of 7pro8"),
+        "slug": "founders",
+        "title": "Основатели" if ru else "Founders",
+        "title_tag": (f"{evg} и {ilya} — основатели 7pro8" if ru
+                      else f"{evg} and {ilya} — founders of 7pro8"),
         "description": (
-            "Хронология работ Ильи Большакова, основателя 7pro8: от гаражных проектов конца "
-            "1990-х и салонов суперкаров до первой перегородки на Mercedes-Benz W221 в 2007 году."
+            "Евгений Абрамов и Илья Большаков работают вместе с начала 2000-х. Общая "
+            "хронология: места работы, первая перегородка 2007 года, 7pro8 как компания с 2015 года."
             if ru else
-            "A chronology of the work of Iliya Bolshakov, founder of 7pro8: from garage projects in "
-            "the late 1990s and supercar interiors to the first Mercedes-Benz W221 partition in 2007."
+            "Evgenii Abramov and Iliya Bolshakov have worked together since the early 2000s. A shared "
+            "chronology: careers, the first partition in 2007, 7pro8 as a company since 2015."
         ),
         "blocks": [
             {
                 "type": "pagehead",
-                "kicker": "Основатель" if ru else "Founder",
-                "title": "Илья Большаков" if ru else "Iliya Bolshakov",
+                "kicker": "Основатели" if ru else "Founders",
+                "title": f"{evg} и {ilya}" if ru else f"{evg} and {ilya}",
                 "lead": (
-                    "Двадцать пять лет в одной специальности — конструктор автомобильного "
-                    "интерьера. Семь организаций, от макетного участка вузовского КБ до "
-                    "собственного производства, и одна и та же задача во всех: сделать так, чтобы "
-                    "деталь встала в салон и повторилась в следующем автомобиле."
+                    "Вместе с начала 2000-х. Двадцать с лишним лет в одном ремесле — "
+                    "конструирование автомобильного интерьера, — сначала в чужих мастерских, с "
+                    "2015 года в своей. 7pro8 — это их общая работа, доведённая до серии."
                     if ru else
-                    "Twenty-five years in one discipline: vehicle interior design engineering. Seven "
-                    "organisations, from the model shop of a university design bureau to a "
-                    "production company of his own, and the same problem in all of them — make the "
-                    "part fit the interior, and make it repeat in the next car."
+                    "Together since the early 2000s. More than twenty years in one craft — "
+                    "vehicle interior engineering — first in other people's workshops and, since "
+                    "2015, in their own. 7pro8 is their shared work, taken through to series."
                 ),
                 "meta": [
-                    {"label": "В профессии с" if ru else "In the trade since", "value": "2000"},
+                    {"label": "Работают вместе" if ru else "Working together", "value": "с начала 2000-х" if ru else "since the early 2000s"},
                     {"label": "Первая перегородка" if ru else "First partition", "value": "2007"},
-                    {"label": "7pro8" if ru else "7pro8", "value": "с 2015" if ru else "since 2015"},
-                    {"label": "Проектов ниже" if ru else "Projects below", "value": "12"},
+                    {"label": "7pro8 как компания" if ru else "7pro8 as a company", "value": "с 2015" if ru else "since 2015"},
                 ],
             },
             {
                 "type": "note",
+                "variant": "draft",
                 "title": "Черновик страницы" if ru else "Draft page",
                 "body": [
-                    "Биография и таблица мест работы — настоящие. Описания проектов ниже — "
-                    "заготовки, помеченные словом ЧЕРНОВИК. Привязка проектов к периодам "
-                    "выведена из дат снимков, а не подтверждена: строки со знаком ≈ и пометкой "
-                    "«уточнить» надо проверить. Этот блок удаляется одной строкой в content-файле."
+                    "Настоящие данные здесь — биография и места работы Ильи Большакова. Всё, что "
+                    "относится к Евгению Абрамову, — заготовка: его места работы на шкале "
+                    "нарисованы пунктиром. Описания проектов помечены словом ЧЕРНОВИК. Этот блок "
+                    "удаляется одной строкой в content-файле."
                     if ru else
-                    "The biography and the career table are real. The project descriptions below are "
-                    "placeholders, each marked DRAFT. Which project belongs to which period was "
-                    "derived from photograph dates rather than confirmed: the lines marked ≈ and "
-                    "\u201cto be confirmed\u201d need checking. This block is one line to delete in "
-                    "the content file."
+                    "The real data here is Iliya Bolshakov's biography and career. Everything about "
+                    "Evgenii Abramov is a placeholder — his segments on the timeline are drawn "
+                    "dashed. The project descriptions are marked DRAFT. This block is one line to "
+                    "delete in the content file."
                 ],
             },
             {
-                "type": "split",
-                "tone": "paper",
-                "title": "Путь" if ru else "The route",
-                "body": [
-                    "Начал в 2000 году макетчиком-конструктором в СКБ МАМИ — то есть буквально с "
-                    "рук и с макета, а не с чертежа. Через год перешёл в SV-ART и за два года "
-                    "вырос до главного конструктора."
-                    if ru else
-                    "He started in 2000 as a model maker and design engineer at SKB MAMI — that is, "
-                    "literally with his hands and with a mock-up rather than with a drawing. A year "
-                    "later he moved to SV-ART, and within two years was its chief design engineer.",
-                    "Дальше — A-Level, «Автоганза», Cardi Design, «Кар Фэйшн»: пятнадцать лет "
-                    "конструирования автомобильных интерьеров в компаниях, которые и создавали эту "
-                    "отрасль в России. С 2015 года — 7pro8 как собственное дело."
-                    if ru else
-                    "Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of "
-                    "engineering vehicle interiors inside the companies that built that industry in "
-                    "Russia. Since 2015, 7pro8 as a business of his own.",
-                    "ЧЕРНОВИК ТРЕТЬЕГО АБЗАЦА. Здесь не хватает того, чего нет в трудовой книжке: "
-                    "чему учился, почему из всего интерьера остались именно перегородки и что он "
-                    "сам считает своей лучшей работой."
-                    if ru else
-                    "DRAFT THIRD PARAGRAPH. What a CV does not carry belongs here: what he trained "
-                    "in, why of all interior work it was partitions that stayed, and which job he "
-                    "considers his best.",
+                "type": "duo",
+                "people": [
+                    {
+                        "name": evg,
+                        "role": "Сооснователь 7pro8" if ru else "Co-founder, 7pro8",
+                        "portrait": "founders/abramov.jpg",
+                        "body": [
+                            "ЧЕРНОВИК. Два-три предложения о пути Евгения: с чего начинал, где "
+                            "работал, за что в компании отвечает сегодня. Нужна та же информация, "
+                            "что уже есть по Илье, — годы, организации, должности."
+                            if ru else
+                            "DRAFT. Two or three sentences on Evgenii's route: where he started, where "
+                            "he worked, what he is responsible for in the company today. The same "
+                            "record already supplied for Iliya is needed — years, organisations, roles.",
+                        ],
+                    },
+                    {
+                        "name": ilya,
+                        "role": "Сооснователь 7pro8" if ru else "Co-founder, 7pro8",
+                        "portrait": "founders/bolshakov.jpg",
+                        "body": [
+                            "Начал в 2000 году макетчиком-конструктором в СКБ МАМИ — с рук и с "
+                            "макета, а не с чертежа. Через год перешёл в SV-ART и за два года "
+                            "вырос до главного конструктора."
+                            if ru else
+                            "Started in 2000 as a model maker and design engineer at SKB MAMI — with "
+                            "his hands and a mock-up rather than with a drawing. A year later he moved "
+                            "to SV-ART, and within two years was its chief design engineer.",
+                            "Дальше — A-Level, «Автоганза», Cardi Design, «Кар Фэйшн»: пятнадцать "
+                            "лет конструирования автомобильных интерьеров в компаниях, которые "
+                            "создавали эту отрасль в России. С 2015 года — 7pro8."
+                            if ru else
+                            "Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of "
+                            "engineering vehicle interiors inside the companies that built that "
+                            "industry in Russia. Since 2015, 7pro8.",
+                        ],
+                    },
                 ],
-                "image": {
-                    "src": "founder/portrait.jpg",
-                    "alt": "Портрет Ильи Большакова" if ru else "Portrait of Iliya Bolshakov",
-                    "caption": "МЕСТО ПОД ПОРТРЕТ — нужна фотография" if ru else "PORTRAIT SLOT — photograph needed",
+            },
+            {
+                "type": "lanes",
+                "title": "Два пути на одной шкале" if ru else "Two routes on one axis",
+                "lead": (
+                    "Где работал каждый из основателей, год за годом. Пунктир — даты, которые ещё "
+                    "не подтверждены."
+                    if ru else
+                    "Where each founder worked, year by year. Dashed segments are dates not yet "
+                    "confirmed."
+                ),
+                "start": AXIS_START,
+                "end": AXIS_END,
+                "ticks": TICKS,
+                "together": {
+                    "from": 2001,
+                    "label": "Вместе — с начала 2000-х, точный год уточняется" if ru
+                             else "Together from the early 2000s — exact year to be confirmed",
                 },
-            },
-            {
-                "type": "career",
-                "title": "Где и кем" if ru else "Where, and as what",
-                "roles": CAREER_RU if ru else CAREER_EN,
+                "lanes": [
+                    {"name": evg, "segments": segments(EVGENII_SEGMENTS[lang], tentative_all=True)},
+                    {"name": ilya, "segments": segments(ILYA_SEGMENTS[lang])},
+                ],
                 "footnote": (
                     "Проекты ниже сделаны в разные из этих периодов. Прежде чем публиковать "
                     "страницу, стоит подтвердить с бывшими работодателями, какие из работ можно "
@@ -437,23 +497,25 @@ def page(lang):
                 "title": "Работы, от новых к старым" if ru else "The work, newest first",
                 "lead": (
                     "Двенадцать проектов за двадцать пять лет, от сегодняшнего к началу. Под "
-                    "названием каждого — период, к которому он относится по датам."
+                    "названием — где в это время работал Илья; участие Евгения в каждом проекте "
+                    "надо отметить отдельно."
                     if ru else
                     "Twelve projects across twenty-five years, from the present back to the "
-                    "beginning. Under each title is the period it falls into by date."
+                    "beginning. Under each title is where Iliya was working at the time; Evgenii's "
+                    "part in each project still needs to be marked."
                 ),
-                "entries": (with_where(RU_ENTRIES, WHERE_RU) if ru
-                            else with_where(EN_ENTRIES, WHERE_EN)),
+                "entries": (with_where(RU_ENTRIES, WHERE_RU, "Илья: ") if ru
+                            else with_where(EN_ENTRIES, WHERE_EN, "Iliya: ")),
                 "footnote": (
                     "Годы взяты из EXIF-данных снимков и названий архивов; отмеченные знаком ≈ "
                     "восстановлены по косвенным признакам. Период под каждым названием выведен "
-                    "сопоставлением этих дат с таблицей мест работы — это вывод, а не факт из "
-                    "первых рук. Снимки до 2007 года — сканы плёночных отпечатков и веб-графика "
-                    "того времени, отсюда их разрешение."
+                    "сопоставлением этих дат с местами работы — это вывод, а не факт из первых "
+                    "рук. Снимки до 2007 года — сканы отпечатков и веб-графика того времени."
                     if ru else
-                    "Years come from photograph EXIF data and archive names. Those marked ≈ were "
-                    "reconstructed indirectly and need confirming. Images from before 2007 are scans "
-                    "of film prints and web graphics of the period, hence their resolution."
+                    "Years come from photograph EXIF data and archive names; those marked ≈ were "
+                    "reconstructed indirectly. The period under each title was derived by matching "
+                    "those dates against the careers — an inference, not a first-hand fact. Images "
+                    "from before 2007 are scans of prints and web graphics of the period."
                 ),
             },
             {
@@ -477,21 +539,27 @@ def main():
     for lang in ("en", "ru"):
         path = CONTENT / f"{lang}.json"
         data = json.loads(path.read_text(encoding="utf-8"))
-        data["pages"] = [p for p in data["pages"] if p["slug"] != "founder"]
-        idx = next(i for i, p in enumerate(data["pages"]) if p["slug"] == "contact")
+        data["pages"] = [pg for pg in data["pages"] if pg["slug"] not in ("founder", "founders")]
+        idx = next(i for i, pg in enumerate(data["pages"]) if pg["slug"] == "contact")
         data["pages"].insert(idx, page(lang))
 
-        # and a way in, from the company page
-        company = next(p for p in data["pages"] if p["slug"] == "company")
+        pre = "/ru" if lang == "ru" else ""
+        company = next(pg for pg in data["pages"] if pg["slug"] == "company")
         for block in company["blocks"]:
             if block["type"] == "cta":
-                label = "Основатель компании" if lang == "ru" else "The founder"
-                href = ("/ru" if lang == "ru" else "") + "/founder/"
-                block["actions"] = [a for a in block["actions"] if a["href"] != href]
-                block["actions"].insert(0, {"label": label, "href": href})
+                block["actions"] = [a for a in block["actions"]
+                                    if not a["href"].endswith(("/founder/", "/founders/"))]
+                block["actions"].insert(0, {
+                    "label": "Основатели" if lang == "ru" else "The founders",
+                    "href": f"{pre}/founders/",
+                })
+
+        # navigation
+        data["nav"] = [n for n in data["nav"] if n["slug"] not in ("founder", "founders")]
+        data["nav"].append({"slug": "founders", "label": "Основатели" if lang == "ru" else "Founders"})
 
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"  {lang}.json: founder page inserted ({len(data['pages'])} pages)")
+        print(f"  {lang}.json: founders page in place ({len(data['pages'])} pages)")
 
 
 if __name__ == "__main__":

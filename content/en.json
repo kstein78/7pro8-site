@@ -36,6 +36,10 @@
     {
       "slug": "partners",
       "label": "Partners"
+    },
+    {
+      "slug": "founders",
+      "label": "Founders"
     }
   ],
   "pages": [
@@ -1870,8 +1874,8 @@
           "text": "Partners are welcome to visit Novi Sad and look at kits in production before committing to anything.",
           "actions": [
             {
-              "label": "The founder",
-              "href": "/founder/"
+              "label": "The founders",
+              "href": "/founders/"
             },
             {
               "label": "Contact details",
@@ -1886,96 +1890,155 @@
       ]
     },
     {
-      "slug": "founder",
-      "title": "Iliya Bolshakov",
-      "title_tag": "Iliya Bolshakov — founder of 7pro8",
-      "description": "A chronology of the work of Iliya Bolshakov, founder of 7pro8: from garage projects in the late 1990s and supercar interiors to the first Mercedes-Benz W221 partition in 2007.",
+      "slug": "founders",
+      "title": "Founders",
+      "title_tag": "Evgenii Abramov and Iliya Bolshakov — founders of 7pro8",
+      "description": "Evgenii Abramov and Iliya Bolshakov have worked together since the early 2000s. A shared chronology: careers, the first partition in 2007, 7pro8 as a company since 2015.",
       "blocks": [
         {
           "type": "pagehead",
-          "kicker": "Founder",
-          "title": "Iliya Bolshakov",
-          "lead": "Twenty-five years in one discipline: vehicle interior design engineering. Seven organisations, from the model shop of a university design bureau to a production company of his own, and the same problem in all of them — make the part fit the interior, and make it repeat in the next car.",
+          "kicker": "Founders",
+          "title": "Evgenii Abramov and Iliya Bolshakov",
+          "lead": "Together since the early 2000s. More than twenty years in one craft — vehicle interior engineering — first in other people's workshops and, since 2015, in their own. 7pro8 is their shared work, taken through to series.",
           "meta": [
             {
-              "label": "In the trade since",
-              "value": "2000"
+              "label": "Working together",
+              "value": "since the early 2000s"
             },
             {
               "label": "First partition",
               "value": "2007"
             },
             {
-              "label": "7pro8",
+              "label": "7pro8 as a company",
               "value": "since 2015"
-            },
-            {
-              "label": "Projects below",
-              "value": "12"
             }
           ]
         },
         {
           "type": "note",
+          "variant": "draft",
           "title": "Draft page",
           "body": [
-            "The biography and the career table are real. The project descriptions below are placeholders, each marked DRAFT. Which project belongs to which period was derived from photograph dates rather than confirmed: the lines marked ≈ and “to be confirmed” need checking. This block is one line to delete in the content file."
+            "The real data here is Iliya Bolshakov's biography and career. Everything about Evgenii Abramov is a placeholder — his segments on the timeline are drawn dashed. The project descriptions are marked DRAFT. This block is one line to delete in the content file."
           ]
         },
         {
-          "type": "split",
-          "tone": "paper",
-          "title": "The route",
-          "body": [
-            "He started in 2000 as a model maker and design engineer at SKB MAMI — that is, literally with his hands and with a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.",
-            "Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8 as a business of his own.",
-            "DRAFT THIRD PARAGRAPH. What a CV does not carry belongs here: what he trained in, why of all interior work it was partitions that stayed, and which job he considers his best."
-          ],
-          "image": {
-            "src": "founder/portrait.jpg",
-            "alt": "Portrait of Iliya Bolshakov",
-            "caption": "PORTRAIT SLOT — photograph needed"
-          }
+          "type": "duo",
+          "people": [
+            {
+              "name": "Evgenii Abramov",
+              "role": "Co-founder, 7pro8",
+              "portrait": "founders/abramov.jpg",
+              "body": [
+                "DRAFT. Two or three sentences on Evgenii's route: where he started, where he worked, what he is responsible for in the company today. The same record already supplied for Iliya is needed — years, organisations, roles."
+              ]
+            },
+            {
+              "name": "Iliya Bolshakov",
+              "role": "Co-founder, 7pro8",
+              "portrait": "founders/bolshakov.jpg",
+              "body": [
+                "Started in 2000 as a model maker and design engineer at SKB MAMI — with his hands and a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.",
+                "Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
+              ]
+            }
+          ]
         },
         {
-          "type": "career",
-          "title": "Where, and as what",
-          "roles": [
+          "type": "lanes",
+          "title": "Two routes on one axis",
+          "lead": "Where each founder worked, year by year. Dashed segments are dates not yet confirmed.",
+          "start": 2000,
+          "end": 2027,
+          "ticks": [
+            2000,
+            2005,
+            2010,
+            2015,
+            2020,
+            2025
+          ],
+          "together": {
+            "from": 2001,
+            "label": "Together from the early 2000s — exact year to be confirmed"
+          },
+          "lanes": [
             {
-              "years": "2000–2001",
-              "org": "SKB MAMI",
-              "role": "Model maker and design engineer"
+              "name": "Evgenii Abramov",
+              "segments": [
+                {
+                  "from": 2001,
+                  "to": 2015,
+                  "years": "≈2001–2015",
+                  "org": "Career to be supplied",
+                  "role": "Needs the same record as Iliya's",
+                  "tentative": true
+                },
+                {
+                  "from": 2015,
+                  "to": 2027,
+                  "years": "since 2015",
+                  "org": "7pro8",
+                  "role": "Co-founder",
+                  "current": true
+                }
+              ]
             },
             {
-              "years": "2001–2003",
-              "org": "SV-ART",
-              "role": "Design engineer, then chief design engineer"
-            },
-            {
-              "years": "2003–2005",
-              "org": "A-Level",
-              "role": "Vehicle interior design engineer"
-            },
-            {
-              "years": "2005–2007",
-              "org": "Avtoganza",
-              "role": "Design engineer"
-            },
-            {
-              "years": "2007–2009",
-              "org": "Cardi Design",
-              "role": "Design engineer"
-            },
-            {
-              "years": "2009–2015",
-              "org": "Car Fashion",
-              "role": "Vehicle interior design engineer"
-            },
-            {
-              "years": "since 2015",
-              "org": "7pro8",
-              "role": "Co-owner",
-              "current": true
+              "name": "Iliya Bolshakov",
+              "segments": [
+                {
+                  "from": 2000,
+                  "to": 2001,
+                  "years": "2000–2001",
+                  "org": "SKB MAMI",
+                  "role": "Model maker and design engineer"
+                },
+                {
+                  "from": 2001,
+                  "to": 2003,
+                  "years": "2001–2003",
+                  "org": "SV-ART",
+                  "role": "Design engineer, then chief design engineer"
+                },
+                {
+                  "from": 2003,
+                  "to": 2005,
+                  "years": "2003–2005",
+                  "org": "A-Level",
+                  "role": "Vehicle interior design engineer"
+                },
+                {
+                  "from": 2005,
+                  "to": 2007,
+                  "years": "2005–2007",
+                  "org": "Avtoganza",
+                  "role": "Design engineer"
+                },
+                {
+                  "from": 2007,
+                  "to": 2009,
+                  "years": "2007–2009",
+                  "org": "Cardi Design",
+                  "role": "Design engineer"
+                },
+                {
+                  "from": 2009,
+                  "to": 2015,
+                  "years": "2009–2015",
+                  "org": "Car Fashion",
+                  "role": "Vehicle interior design engineer"
+                },
+                {
+                  "from": 2015,
+                  "to": 2027,
+                  "years": "since 2015",
+                  "org": "7pro8",
+                  "role": "Co-founder, co-owner",
+                  "current": true
+                }
+              ]
             }
           ],
           "footnote": "The projects below were done across these periods. Before this page is published it is worth confirming with the former employers which of the work may be shown, and under whose name."
@@ -1983,7 +2046,7 @@
         {
           "type": "chronicle",
           "title": "The work, newest first",
-          "lead": "Twelve projects across twenty-five years, from the present back to the beginning. Under each title is the period it falls into by date.",
+          "lead": "Twelve projects across twenty-five years, from the present back to the beginning. Under each title is where Iliya was working at the time; Evgenii's part in each project still needs to be marked.",
           "entries": [
             {
               "year": "2022",
@@ -2010,7 +2073,7 @@
                   "caption": "Frame and seating"
                 }
               ],
-              "where": "Personal project"
+              "where": "Iliya: Personal project"
             },
             {
               "year": "2009",
@@ -2037,7 +2100,7 @@
                   "caption": "Trade press"
                 }
               ],
-              "where": "Cardi Design / Car Fashion",
+              "where": "Iliya: Cardi Design / Car Fashion",
               "where_note": "falls on a period boundary — to be confirmed"
             },
             {
@@ -2070,7 +2133,7 @@
                   "caption": "Project rendering"
                 }
               ],
-              "where": "Cardi Design",
+              "where": "Iliya: Cardi Design",
               "where_note": "from photograph dates"
             },
             {
@@ -2098,7 +2161,7 @@
                   "caption": "Trim and materials"
                 }
               ],
-              "where": "Cardi Design",
+              "where": "Iliya: Cardi Design",
               "where_note": "from photograph dates"
             },
             {
@@ -2132,7 +2195,7 @@
                   "caption": "Product in the car"
                 }
               ],
-              "where": "Avtoganza / Cardi Design",
+              "where": "Iliya: Avtoganza / Cardi Design",
               "where_note": "the year of the move; 7pro8 dates its first partition from here"
             },
             {
@@ -2165,7 +2228,7 @@
                   "caption": "Trim"
                 }
               ],
-              "where": "Avtoganza",
+              "where": "Iliya: Avtoganza",
               "where_note": "from dates — to be confirmed"
             },
             {
@@ -2198,7 +2261,7 @@
                   "caption": "Materials"
                 }
               ],
-              "where": "A-Level",
+              "where": "Iliya: A-Level",
               "where_note": "from dates; the photographs, however, come from SV-ART material — a discrepancy"
             },
             {
@@ -2226,7 +2289,7 @@
                   "caption": "Console and trim"
                 }
               ],
-              "where": "SV-ART / A-Level",
+              "where": "Iliya: SV-ART / A-Level",
               "where_note": "the year of the move — to be confirmed"
             },
             {
@@ -2260,7 +2323,7 @@
                   "caption": "Interior equipment"
                 }
               ],
-              "where": "SV-ART",
+              "where": "Iliya: SV-ART",
               "where_note": "from dates — to be confirmed"
             },
             {
@@ -2293,7 +2356,7 @@
                   "caption": "Interior"
                 }
               ],
-              "where": "SV-ART"
+              "where": "Iliya: SV-ART"
             },
             {
               "year": "≈2000",
@@ -2325,7 +2388,7 @@
                   "caption": "The workshop"
                 }
               ],
-              "where": "SV-ART · SKB MAMI",
+              "where": "Iliya: SV-ART · SKB MAMI",
               "where_note": "from dates — to be confirmed"
             },
             {
@@ -2348,10 +2411,10 @@
                   "caption": "From the archive"
                 }
               ],
-              "where": "Before SKB MAMI"
+              "where": "Iliya: Before SKB MAMI"
             }
           ],
-          "footnote": "Years come from photograph EXIF data and archive names. Those marked ≈ were reconstructed indirectly and need confirming. Images from before 2007 are scans of film prints and web graphics of the period, hence their resolution."
+          "footnote": "Years come from photograph EXIF data and archive names; those marked ≈ were reconstructed indirectly. The period under each title was derived by matching those dates against the careers — an inference, not a first-hand fact. Images from before 2007 are scans of prints and web graphics of the period."
         },
         {
           "type": "cta",

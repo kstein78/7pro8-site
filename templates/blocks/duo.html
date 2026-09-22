@@ -1,0 +1,18 @@
+<section class="band">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    <div class="duo">
+      {% for person in block.people %}
+      <article class="duo__person">
+        <figure class="duo__portrait">
+          <img src="{{ img(person.portrait, person.name) }}" alt="{{ person.name }}" loading="lazy" width="900" height="1125">
+        </figure>
+        <p class="duo__role">{{ person.role }}</p>
+        <h3 class="duo__name">{{ person.name }}</h3>
+        {% for p in person.body or [] %}<p>{{ p }}</p>{% endfor %}
+        {% if person.contact %}<p class="duo__contact">{{ person.contact }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

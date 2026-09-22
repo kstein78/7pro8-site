@@ -1,6 +1,6 @@
 <section class="band band--tight">
   <div class="shell">
-    <aside class="callout">
+    <aside class="callout{% if block.variant == 'draft' %} callout--draft{% endif %}">
       {% if block.title %}<h2 class="callout__title">{{ block.title }}</h2>{% endif %}
       {% for p in block.body or [] %}<p>{{ p }}</p>{% endfor %}
       {% if block.action %}<p><a class="btn btn--quiet" href="{{ block.action.href }}">{{ block.action.label }}</a></p>{% endif %}

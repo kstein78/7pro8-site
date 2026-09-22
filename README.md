@@ -279,46 +279,62 @@ comes with it in the EU.
 
 ---
 
-## The founder page
+## The founders page
 
-`/founder/` is a reverse-chronological record of Iliya Bolshakov's work, from the
-2022 trike back to the late-1990s garage projects. It is built by
-`tools/add_founder_page.py`, which writes the page structure and the placeholder
-copy into both content files, and by `tools/extract_founder_images.py`, which
-normalises the photography out of the project archives and the scanned prints.
+`/founders/` covers both founders, Evgenii Abramov and Iliya Bolshakov, who have
+worked together since the early 2000s. It replaced the earlier single-founder
+page; the old `/founder/` address redirects. Built by
+`tools/add_founders_page.py`, photography by `tools/extract_founder_images.py`.
 
-The biography and the career table are real, supplied by the subject. **The
-project descriptions are still placeholders**, each marked DRAFT or ЧЕРНОВИК. A
-red-tinted draft banner sits at the top of the page; delete that one block from
-the content file when the real copy lands.
+Sections: two portraits with short bios → a two-lane timeline on a shared year
+axis (block `lanes`), with a full career list per founder underneath → the
+twelve-project chronicle, newest first → closing links.
 
-Each project also carries the career period it falls into. That mapping was
-derived by matching photograph dates against the career dates — it is an
-inference, not something stated, and the lines are labelled accordingly. Two of
-them are on period boundaries (the 2003 Corvette and the 2007 W221 partition) and
-one is an outright discrepancy: the Lamborghini Diablo is dated 2004, which falls
-in the A-Level period, but its photographs come from SV-ART material.
+**What is real and what is a placeholder**
 
-Dating: years come from photograph EXIF where it exists (the 2007 W221 partition,
-the 2008 taxi sign, the 2008 ZiL) and from archive names otherwise. Years marked
-≈ are inferred and need confirming. Two dating conflicts are worth resolving:
+| Real | Placeholder |
+|---|---|
+| Iliya's career, 2000 → 7pro8 (supplied by him) | Everything about Evgenii: bio, career, portrait |
+| The project photographs and their EXIF-derived years | Every project description (marked DRAFT / ЧЕРНОВИК) |
+| | Both portraits |
+| | The exact year the two started working together |
 
-- the ZiL interior photographs carry EXIF dates of February 2007, while the
-  project history in the partner deck lists ZiL-4107 as a 2008 project;
-- the archive timestamps on the pre-2007 folders are all 2008–2009, which is when
-  the files were collected rather than when the work was done.
+Evgenii's lane is drawn dashed until his record arrives. To fill it, edit
+`EVGENII_SEGMENTS` in `tools/add_founders_page.py` — same shape as Iliya's
+list, one line per employer — and rerun the script and the build.
 
-### Three things to settle before this page is published
+Under each project the page says where *Iliya* was working at the time. That
+mapping is inferred from photograph dates and labelled as such; which projects
+Evgenii worked on is not recorded anywhere yet.
 
-1. **The Hummer client.** The archive names a well-known public figure. The page
-   deliberately does not, and should not until that person has agreed in writing.
-2. **The registration plate** on the home-built car in the 1999 entry is legible
-   in both scans. Blur it or get the owner's agreement.
-3. **Authorship of the drawings.** The W221 sketch is signed "Chelnokov" in the
-   bottom-right corner, so at least some of the design work on that page was done
-   by someone else. A founder page that shows drawings without saying who drew
-   them invites the wrong conclusion; add credits.
-4. **Rights to the SV-ART-era photographs.** Most of the pre-2007 images are
-   500x375 web graphics, which suggests they came off a website rather than from
-   original files. Confirm who owns them before publishing, and ask for the
-   originals — they will look far better than the scraped copies.
+### Before this page goes public
+
+1. **Evgenii's career and portrait**, and the year they started working together.
+2. **The Hummer client.** The archive names a well-known public figure. The page
+   does not, and should not without that person's written agreement.
+3. **The registration plate** on the home-built car is legible in the scans.
+4. **Drawing credits.** The W221 sketch is signed "Chelnokov": credit it.
+5. **Former employers.** Most projects on the page were done at SV-ART, A-Level,
+   Avtoganza, Cardi Design and Car Fashion. Confirm what may be shown and under
+   whose name.
+6. **"Founded 2007" vs "a company since 2015".** The page now says both
+   precisely — first partition 2007, company since 2015. The home and company
+   pages still say "founded 2007"; align them.
+7. **Two magazine covers** in the 2009 entry are 93 px thumbnails and will look
+   blurred at any size. Replace them or drop them.
+
+---
+
+## Redirects
+
+`content/site.json` → `redirects` maps old addresses to new ones: the renamed
+founder page and every old Squarespace URL (`/main/maybach-x222-a1` and so on).
+The build writes a meta-refresh stub for each, so they work on any static host,
+and `dist/_redirects.caddy` with proper 301 rules to paste into the Caddyfile.
+
+## A relative-URL copy for previews
+
+`dist/` uses root-absolute links, which is correct for 7pro8.com but breaks on
+any sub-path. `python tools/make_relative.py` writes `dist-relative/` with every
+internal link relative and pointing at an explicit `index.html`, and copies only
+the images actually used — that is the copy published for review.

@@ -1,0 +1,63 @@
+{# Two-lane career timeline. Each lane is one person; each segment is one
+   employer, placed on a shared year axis so overlaps read at a glance.
+   Segments marked "tentative" are drawn dashed: dates not yet confirmed. #}
+{% set span = block.end - block.start %}
+<section class="band tone-paper">
+  <div class="shell">
+    {% if block.title %}<h2 class="h2">{{ block.title }}</h2>{% endif %}
+    {% if block.lead %}<p class="lead lead--wide">{{ block.lead }}</p>{% endif %}
+
+    <div class="lanes" style="--span: {{ span }}">
+      <div class="lanes__scroll">
+        <div class="lanes__grid">
+          <div class="lanes__axis" aria-hidden="true">
+            {% for y in block.ticks %}
+            <span class="lanes__tick" style="grid-column: {{ y - block.start + 1 }} / span 1">{{ y }}</span>
+            {% endfor %}
+          </div>
+
+          {% if block.together %}
+          <div class="lanes__together" style="grid-column: {{ block.together.from - block.start + 1 }} / {{ span + 1 }}">
+            <span>{{ block.together.label }}</span>
+          </div>
+          {% endif %}
+
+          {% for lane in block.lanes %}
+          <p class="lanes__who">{{ lane.name }}</p>
+          <ol class="lanes__row">
+            {% for s in lane.segments %}
+            <li class="lanes__seg{% if s.tentative %} lanes__seg--tentative{% endif %}{% if s.current %} lanes__seg--current{% endif %}"
+                style="grid-column: {{ s.from - block.start + 1 }} / {{ s.to - block.start + 1 }}"
+                title="{{ s.years }} · {{ s.org }} · {{ s.role }}">
+              <span class="lanes__org">{{ s.org }}</span>
+              <span class="lanes__years">{{ s.years }}</span>
+            </li>
+            {% endfor %}
+          </ol>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="lanes__lists">
+      {% for lane in block.lanes %}
+      <section>
+        <h3 class="lanes__listname">{{ lane.name }}</h3>
+        <ol class="career">
+          {% for s in lane.segments|reverse %}
+          <li class="career__row{% if s.current %} career__row--current{% endif %}">
+            <p class="career__years">{{ s.years }}</p>
+            <div class="career__what">
+              <h4 class="career__org">{{ s.org }}</h4>
+              <p class="career__role">{{ s.role }}</p>
+            </div>
+          </li>
+          {% endfor %}
+        </ol>
+      </section>
+      {% endfor %}
+    </div>
+
+    {% if block.footnote %}<p class="footnote">{{ block.footnote }}</p>{% endif %}
+  </div>
+</section>
