@@ -22,6 +22,9 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+sys.path.insert(0, str(Path(__file__).parent / "tools"))
+import i18n  # noqa: E402
+
 ROOT = Path(__file__).parent.resolve()
 CONTENT = ROOT / "content"
 STATIC = ROOT / "static"
@@ -103,8 +106,24 @@ def page_url(lang, slug, default_lang):
     return f"{prefix}/{slug.strip('/')}/"
 
 
+UNTRANSLATED = {}
+
+
+def content_for(lang):
+    """Hand-written content/<lang>.json wins; otherwise generate from the
+    English source and content/i18n/<lang>.json."""
+    path = CONTENT / f"{lang}.json"
+    if path.exists():
+        return load(f"{lang}.json")
+    data, missing = i18n.generate(lang)
+    if data is not None:
+        UNTRANSLATED[lang] = missing
+    return data
+
+
 def build():
     MISSING_IMAGES.clear()
+    UNTRANSLATED.clear()
 
     site = load("site.json")
     default_lang = site["default_language"]
@@ -129,13 +148,17 @@ def build():
     all_urls = []
     page_template = env.get_template("page.html")
 
+    available = {
+        l["code"] for l in site["languages"]
+        if (CONTENT / f"{l['code']}.json").exists() or (CONTENT / "i18n" / f"{l['code']}.json").exists()
+    }
+
     for lang_meta in site["languages"]:
         lang = lang_meta["code"]
-        path = CONTENT / f"{lang}.json"
-        if not path.exists():
-            print(f"  skip {lang}: content/{lang}.json not found")
+        data = content_for(lang)
+        if data is None:
+            print(f"  skip {lang}: no content file and no translation table")
             continue
-        data = load(f"{lang}.json")
 
         pages = data["pages"]
         # every page needs to know where its siblings live, for the nav and
@@ -153,10 +176,11 @@ def build():
                 alternates.append(
                     {
                         "code": other["code"],
+                        "hreflang": other.get("html_lang", other["code"]),
                         "label": other["label"],
                         "url": page_url(other["code"], page["slug"], default_lang),
                         "current": other["code"] == lang,
-                        "available": (CONTENT / f"{other['code']}.json").exists(),
+                        "available": other["code"] in available,
                     }
                 )
 
@@ -243,6 +267,12 @@ def build():
     )
 
     print(f"\nBuilt {len(all_urls)} indexable pages into {DIST}")
+
+    for lang, missing in UNTRANSLATED.items():
+        report = DIST / f"_untranslated-{lang}.txt"
+        report.write_text("\n".join(missing) + ("\n" if missing else ""), encoding="utf-8")
+        state = f"{len(missing)} strings still in English" if missing else "fully translated"
+        print(f"{lang}: {state}" + (f" (see {report.name})" if missing else ""))
 
     if MISSING_IMAGES:
         report = DIST / "_missing-images.txt"

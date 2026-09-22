@@ -7,9 +7,12 @@ sub-path — a preview host, an artifact, a file:// folder. This writes
 dist-relative/ where every internal link is relative and points at an explicit
 index.html, and only the images actually referenced are copied.
 
-    python3 tools/make_relative.py            # after build.py
+    python3 tools/make_relative.py              # after build.py
+    python3 tools/make_relative.py --artifact   # also prepare the entry page
+                                                # for hosting as a claude.ai artifact
 """
 
+import json
 import os
 import pathlib
 import re
@@ -35,6 +38,24 @@ def rel_target(from_dir, url):
     if frag:
         rel += "#" + frag
     return rel
+
+
+def prepare_entry(title="7pro8.com"):
+    """Artifact hosting wraps the entry page in its own document skeleton, so
+    the entry file must not carry doctype/html/head/body of its own."""
+    p = OUT / "index.html"
+    s = p.read_text(encoding="utf-8")
+    s = re.sub(r"<!DOCTYPE html>\s*", "", s, flags=re.I)
+    s = re.sub(r"<html[^>]*>\s*", "", s, count=1)
+    s = re.sub(r"</?head>\s*", "", s)
+    s = re.sub(r"<body[^>]*>\s*", "", s, count=1)
+    s = s.replace("</body>", "").replace("</html>", "")
+    s = re.sub(r"<title>.*?</title>", f"<title>{title}</title>", s, count=1, flags=re.S)
+    p.write_text(s, encoding="utf-8")
+    listing = sorted(str(f.relative_to(OUT)) for f in OUT.rglob("*")
+                     if f.is_file() and f.name != "index.html" or (f.is_file() and f.parent != OUT))
+    (OUT.parent / "dist-relative.files.json").write_text(json.dumps(listing), encoding="utf-8")
+    print(f"entry page prepared; {len(listing)} supporting files listed in dist-relative.files.json")
 
 
 def main():
@@ -72,7 +93,9 @@ def main():
         dest.write_text(html, encoding="utf-8")
 
     # stylesheet and script are always needed; images only when referenced
-    for asset in used_assets | {"static/css/site.css", "static/js/site.js"}:
+    # fonts are referenced from the stylesheet, not the pages
+    fonts = {str(f.relative_to(SRC)) for f in (SRC / "static/fonts").glob("*.woff2")}
+    for asset in used_assets | fonts | {"static/css/site.css", "static/js/site.js"}:
         src = SRC / asset
         if src.exists():
             dst = OUT / asset
@@ -82,6 +105,8 @@ def main():
     files = [p for p in OUT.rglob("*") if p.is_file()]
     size = sum(p.stat().st_size for p in files) / 1e6
     print(f"{len(pages)} pages, {len(files)} files, {size:.1f} MB in {OUT.name}/")
+    if "--artifact" in sys.argv:
+        prepare_entry()
     return 0
 
 

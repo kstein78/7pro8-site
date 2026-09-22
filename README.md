@@ -70,20 +70,43 @@ Available block types: `hero`, `pagehead`, `prose`, `grid`, `split`, `process`,
 Most blocks accept `"tone": "paper"` or `"tone": "dark"` to change the band
 background.
 
-## Adding a language
+## Languages
 
-1. Copy `content/en.json` to `content/<code>.json`.
-2. Translate the values. Leave every `slug` and `type` exactly as it is —
-   URLs stay identical across languages so the language switcher works.
-3. Update the `href` values inside the file to point at the language prefix
-   (Russian links start with `/ru/`; English, as the default language, has no
-   prefix).
-4. Make sure the language is listed in `content/site.json`.
+Four languages, 20 pages each, 80 pages in total:
 
-The build skips any language whose file does not exist yet, and the switcher
-greys out that language instead of linking to a 404. German and Serbian are
-listed and greyed out — the source text for both already exists in
-`7pro8_Praesentation_DE.pdf` and `7pro8_Prezentacija_SR.pdf`.
+| Language | URL prefix | Source |
+|---|---|---|
+| English | `/` | `content/en.json` — the master text |
+| German | `/de/` | generated: `content/en.json` + `content/i18n/de*.json` |
+| Russian | `/ru/` | `content/ru.json` — written separately, not a translation |
+| Serbian (Latin) | `/sr/` | generated: `content/en.json` + `content/i18n/sr*.json` |
+
+**How German and Serbian work.** Every human-readable string in `en.json` has a
+translation in the table, keyed by a short hash of its English text. The build
+assembles the full German and Serbian sites from those two sources. Links get the
+language prefix automatically.
+
+Change an English sentence and its hash changes: the build then reports that
+string as untranslated for German and Serbian (`dist/_untranslated-de.txt`,
+`_untranslated-sr.txt`) and shows it in English until it is translated. A stale
+translation can never silently stay on the page.
+
+```bash
+python tools/i18n.py pending de   # what still needs translating, with keys
+python tools/i18n.py review sr    # EN and SR side by side, for proofreading
+```
+
+To fix a translation, find the English sentence in the review output, take its
+key, and edit that line in `content/i18n/de*.json` or `sr*.json`.
+
+Terminology follows the German and Serbian partner decks: *Trennwand, Bausatz,
+Werkzeug, Bezug, Einbau, Tragrahmen, Sichtpaneele*; *pregrada, komplet, alat,
+presvlačenje, montaža, noseći ram, vidljivi paneli*. Serbian is in Latin script,
+as in the deck, and pages declare `lang="sr-Latn"`.
+
+**Russian** stays a separate file because it was written as its own text, not
+translated. Changes to the English do not flow into it; `tools/add_founders_page.py`
+writes the founders page into both `en.json` and `ru.json`.
 
 ## Images and the logo
 
@@ -272,9 +295,15 @@ and colour-graded before launch.
 
 ### Fonts
 
-Fonts load from Google Fonts. Self-hosting them is worth doing before
-launch — it removes a third-party request and the cookie-consent question that
-comes with it in the EU.
+Self-hosted in `static/fonts/` (SIL Open Font License, licences included), taken
+from the Fontsource packages on npm. No request goes to Google, so there is no
+cookie-consent question in the EU.
+
+Bodoni Moda has no Cyrillic. Russian headings therefore fall through, glyph by
+glyph, to Playfair Display, the nearest high-contrast face that has Cyrillic.
+Latin words inside a Russian heading (model names) stay in Bodoni. Jost covers
+Latin, Latin-Ext and Cyrillic on its own. A browser downloads only the subsets a
+page actually uses: an English page loads two files, a Russian page three.
 
 
 ---

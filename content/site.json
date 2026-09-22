@@ -38,7 +38,8 @@
     {
       "code": "sr",
       "label": "Srpski",
-      "locale": "sr_RS"
+      "locale": "sr_RS",
+      "html_lang": "sr-Latn"
     }
   ],
   "redirects": {

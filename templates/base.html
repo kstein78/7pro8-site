@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}">
+<html lang="{{ lang_meta.html_lang or lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,7 @@
 <link rel="canonical" href="{{ site.base_url.rstrip('/') }}{{ page.url }}">
 {% for alt in alternates %}
 {% if alt.available %}
-<link rel="alternate" hreflang="{{ alt.code }}" href="{{ site.base_url.rstrip('/') }}{{ alt.url }}">
+<link rel="alternate" hreflang="{{ alt.hreflang }}" href="{{ site.base_url.rstrip('/') }}{{ alt.url }}">
 {% endif %}
 {% endfor %}
 
@@ -73,7 +73,7 @@
           {% if alt.current %}
           <span aria-current="true">{{ alt.code|upper }}</span>
           {% elif alt.available %}
-          <a href="{{ alt.url }}" hreflang="{{ alt.code }}">{{ alt.code|upper }}</a>
+          <a href="{{ alt.url }}" hreflang="{{ alt.hreflang }}">{{ alt.code|upper }}</a>
           {% else %}
           <span class="langs__soon" title="{{ data.ui.language_soon }}">{{ alt.code|upper }}</span>
           {% endif %}
