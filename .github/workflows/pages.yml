@@ -34,7 +34,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Build the site (preview: not indexable)
+      - name: "Build the site (preview: not indexable)"
         env:
           SITE_PREVIEW: "1"
         run: python build.py
