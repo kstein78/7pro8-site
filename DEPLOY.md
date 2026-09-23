@@ -14,25 +14,57 @@ Two targets, in the order they are needed:
 The archive already contains a git repository with its full history, so nothing
 needs initialising — only a remote and a push.
 
-```bash
-unzip 7pro8-site.zip
-cd 7pro8-site
+### Windows (PowerShell)
 
-git log --oneline | head -3        # should show the existing commits
+PowerShell has no `unzip`, `head` or `grep`; these are the equivalents.
+
+```powershell
+cd C:\Users\kstei\Desktop\7pro8\Site\Git
+
+# unpack (skip if the folder is already there)
+Expand-Archive -Path .\7pro8-site.zip -DestinationPath . -Force
+cd .\7pro8-site
+
+# the repository must already have commits and no remote
+git --no-pager log --oneline -3
+git remote -v
 ```
 
-Create the repository under the `kstein78` account. With the GitHub CLI:
+If `git --no-pager log` prints nothing or complains that this is not a
+repository, you are in the wrong folder or the archive was unpacked one level
+too deep: look for the folder that contains `build.py` and `.git`.
 
-```bash
-gh auth login                      # once, if not already authenticated
-gh repo create kstein78/7pro8-site --private --source=. --remote=origin --push
+```powershell
+# the repository on GitHub may already exist — creating it again fails with
+# "Name already exists on this account", which is harmless. Just point at it:
+git remote add origin https://github.com/kstein78/7pro8-site.git
+git branch -M main
+git push -u origin main
 ```
 
-Without the CLI: create an empty repository named `7pro8-site` at
-https://github.com/new (no README, no .gitignore — the repository already has
-them), then:
+If `git remote add` says the remote already exists, replace it instead:
+
+```powershell
+git remote set-url origin https://github.com/kstein78/7pro8-site.git
+```
+
+If the push asks for a password, let the GitHub CLI handle the credentials:
+
+```powershell
+gh auth setup-git
+git push -u origin main
+```
+
+`gh repo create ... --source=. --push` only works from a folder that already
+has commits. Run from an empty folder it creates the repository on GitHub and
+then stops, which is the state to recover from above.
+
+### macOS / Linux
 
 ```bash
+unzip 7pro8-site.zip && cd 7pro8-site
+git --no-pager log --oneline -3
+
 git remote add origin https://github.com/kstein78/7pro8-site.git
 git branch -M main
 git push -u origin main
@@ -124,11 +156,24 @@ python tools/check_links.py    # every internal link and asset
 python build.py --serve        # look at it on http://localhost:8000
 ```
 
+On Windows the same commands work in PowerShell with `python` (not `python3`).
+
 To see exactly what the preview will look like, including the sub-path:
 
 ```bash
 SITE_PREVIEW=1 python build.py && python tools/make_relative.py
 mkdir -p /tmp/pages && cp -r dist-relative /tmp/pages/7pro8-site
 cd /tmp/pages && python3 -m http.server 8080
+# then open http://localhost:8080/7pro8-site/
+```
+
+PowerShell (the environment variable is set differently):
+
+```powershell
+$env:SITE_PREVIEW = "1"; python build.py; python tools\make_relative.py
+$env:SITE_PREVIEW = ""          # clear it, or later builds stay noindex
+New-Item -ItemType Directory -Force $env:TEMP\pages | Out-Null
+Copy-Item -Recurse -Force .\dist-relative $env:TEMP\pages\7pro8-site
+cd $env:TEMP\pages; python -m http.server 8080
 # then open http://localhost:8080/7pro8-site/
 ```
