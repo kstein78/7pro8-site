@@ -211,6 +211,17 @@ the table.
 
 ## Deployment
 
+Step-by-step instructions, including the GitHub Pages preview used before the
+domain is ready, are in **DEPLOY.md**. What follows is the production server
+setup it refers to.
+
+### Preview vs production builds
+
+`SITE_PREVIEW=1 python build.py` marks every page `noindex, nofollow`, writes a
+`robots.txt` that disallows everything and adds a small `preview` marker in the
+corner. Use it for any staging host. The plain `python build.py` used for
+production does none of that.
+
 ### One-time setup on the Hetzner server
 
 ```bash
@@ -242,8 +253,10 @@ Settings → Secrets and variables → Actions:
 | `SSH_USER` | `deploy` |
 | `SSH_KNOWN_HOSTS` | output of `ssh-keyscan -H <host>` |
 
-After that every push to `main` builds the site, checks the links, and rsyncs it
-to a timestamped release directory. The `current` symlink is switched
+`.github/workflows/deploy-hetzner.yml` is deliberately manual (Actions → Run
+workflow) so it cannot fail while there is no server yet; the comment at the top
+of the file says how to make it automatic. It builds the site, checks the links,
+and rsyncs it to a timestamped release directory. The `current` symlink is switched
 atomically, so a half-uploaded build is never served, and the last five releases
 are kept for instant rollback:
 

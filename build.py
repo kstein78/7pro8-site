@@ -32,6 +32,10 @@ TEMPLATES = ROOT / "templates"
 
 DIST = ROOT / "dist"
 
+# Preview builds (GitHub Pages, any staging host) must not be indexed: the draft
+# should never outrank or pre-empt the real site. Set SITE_PREVIEW=1.
+PREVIEW = os.environ.get("SITE_PREVIEW") == "1"
+
 MISSING_IMAGES = []
 
 
@@ -137,6 +141,7 @@ def build():
     )
     env.globals["img"] = resolve_image
     env.globals["build_year"] = date.today().year
+    env.globals["preview"] = PREVIEW
 
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -259,14 +264,21 @@ def build():
         env.get_template("404.html").render(site=site), encoding="utf-8"
     )
 
-    (DIST / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n\nSitemap: "
-        + site["base_url"].rstrip("/")
-        + "/sitemap.xml\n",
-        encoding="utf-8",
-    )
+    if PREVIEW:
+        (DIST / "robots.txt").write_text(
+            "# preview build — not for indexing\nUser-agent: *\nDisallow: /\n",
+            encoding="utf-8",
+        )
+    else:
+        (DIST / "robots.txt").write_text(
+            "User-agent: *\nAllow: /\n\nSitemap: "
+            + site["base_url"].rstrip("/")
+            + "/sitemap.xml\n",
+            encoding="utf-8",
+        )
 
-    print(f"\nBuilt {len(all_urls)} indexable pages into {DIST}")
+    print(f"\nBuilt {len(all_urls)} pages into {DIST}"
+          + (" (preview: noindex)" if PREVIEW else ""))
 
     for lang, missing in UNTRANSLATED.items():
         report = DIST / f"_untranslated-{lang}.txt"

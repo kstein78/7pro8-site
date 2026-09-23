@@ -900,3 +900,20 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 /* draft marker on notes */
 .callout--draft { border-top-color: #b4553a; }
 .callout--draft .callout__title { color: #d0715a; }
+
+/* marker for preview deployments; absent from the production build */
+.previewmark {
+  position: fixed;
+  left: 0; bottom: 0;
+  margin: 0;
+  z-index: 40;
+  padding: 0.4rem 0.8rem;
+  background: var(--night);
+  border-top: 1px solid var(--brass);
+  border-right: 1px solid var(--brass);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--brass);
+  pointer-events: none;
+}

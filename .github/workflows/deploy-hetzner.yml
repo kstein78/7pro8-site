@@ -1,8 +1,15 @@
-name: Build and deploy
+name: Deploy to Hetzner (production)
+
+# The real site on 7pro8.com. Deliberately manual: run it from the Actions tab
+# when the server and the domain are ready. Until then the GitHub Pages preview
+# (pages.yml) is the one that runs on every push, so nothing here can fail for
+# want of a server.
+#
+# To make production deploys automatic later, add back:
+#   push:
+#     branches: [main]
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 concurrency:
@@ -42,7 +49,6 @@ jobs:
       #   SSH_USER         ssh user
       #   SSH_KNOWN_HOSTS  output of: ssh-keyscan -H <host>
       - name: Set up SSH
-        if: github.ref == 'refs/heads/main'
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
@@ -50,7 +56,6 @@ jobs:
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        if: github.ref == 'refs/heads/main'
         run: |
           RELEASE="/srv/7pro8/releases/$(date -u +%Y%m%d-%H%M%S)"
           ssh "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" "mkdir -p $RELEASE"
