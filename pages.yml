@@ -1,0 +1,66 @@
+name: Preview on GitHub Pages
+
+# Temporary home for the site while the domain is being arranged.
+# Every push to main rebuilds and republishes it, usually within a minute.
+#
+# The preview is built with SITE_PREVIEW=1, which adds a noindex tag to every
+# page and a robots.txt that disallows everything — a draft must never turn up
+# in search before the real site does. It is also built with relative links,
+# because Pages serves a project site from a sub-path (/<repo>/).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt pyyaml
+
+      - name: Validate the workflow files
+        run: python tools/check_workflows.py
+
+      - name: "Build the site (preview: not indexable)"
+        env:
+          SITE_PREVIEW: "1"
+        run: python build.py
+
+      - name: Check every internal link
+        run: python tools/check_links.py
+
+      - name: Rewrite links as relative for a sub-path host
+        run: python tools/make_relative.py
+
+      - name: Keep Jekyll's hands off the files
+        run: touch dist-relative/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist-relative
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
