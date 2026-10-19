@@ -5,12 +5,14 @@
     "primary_nav": "Sections",
     "language": "Language",
     "language_soon": "Translation in preparation",
-    "tagline_short": "Interior partitions, Novi Sad",
+    "tagline_short": "Interior partitions, Rakovac",
     "company_no": "Company no.",
     "vat_no": "VAT",
     "contact": "Contact",
     "sections": "Sections",
-    "footer_note": "Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette."
+    "footer_note": "Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette.",
+    "photo_credit": "Photographs",
+    "site_by": "Website by"
   },
   "nav": [
     {
@@ -47,7 +49,7 @@
       "slug": "",
       "title": "7pro8",
       "title_tag": "7pro8 — interior partitions for premium vehicles",
-      "description": "Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007, from Novi Sad, Serbia.",
+      "description": "Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007, from Rakovac, Serbia.",
       "blocks": [
         {
           "type": "hero",
@@ -364,7 +366,7 @@
       "slug": "capabilities",
       "title": "Engineering",
       "title_tag": "The full cycle in-house — design, engineering, tooling, production",
-      "description": "Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Novi Sad. One point of contact and one line of responsibility.",
+      "description": "Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Rakovac, near Novi Sad. One point of contact and one line of responsibility.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1821,8 +1823,8 @@
     {
       "slug": "company",
       "title": "Company",
-      "title_tag": "About 7pro8 — Novi Sad, Serbia, since 2007",
-      "description": "7pro8 built its first interior partition in 2007. Since then more than 20 partition models have been developed and over 450 kits delivered, from a workshop in Novi Sad, Serbia.",
+      "title_tag": "About 7pro8 — Rakovac, Serbia, building partitions since 2007",
+      "description": "7pro8 built its first interior partition in 2007. Since then more than 20 partition models have been developed and over 450 kits delivered, from a workshop in Rakovac, Serbia.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1834,7 +1836,7 @@
           "body": [
             "We do not work on an individual car — we work on a car model. Every project is a full cycle: from 3D scanning of the interior to the manufacture of production tooling that lets the product be built in series, with repeatable geometry and repeatable quality. That is what separates us from one-off customisation.",
             "Our clients are vehicle distributors, official dealerships and specialist conversion shops. We supply them a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.",
-            "The company is based in Novi Sad, Serbia, and is led by Evgenii Abramov and Iliya Bolshakov."
+            "The company is registered in Serbia as 7PRO8 DOO Rakovac, in the Novi Sad area, and is led by Evgenii Abramov, its director, and Iliya Bolshakov; the two hold it in equal shares."
           ]
         },
         {
@@ -1859,19 +1861,19 @@
           "type": "split",
           "title": "Where the work happens",
           "body": [
-            "Design, engineering, tooling and production all sit in the same building in Novi Sad. Serbia gives the company an unusual combination for this segment: engineering labour at a cost that supports series production, and duty-free industrial access to the European Union under the Stabilisation and Association Agreement.",
+            "Design, engineering, tooling and production all sit in the same building in Rakovac, twenty minutes from Novi Sad. Serbia gives the company an unusual combination for this segment: engineering labour at a cost that supports series production, and duty-free industrial access to the European Union under the Stabilisation and Association Agreement.",
             "Deliveries run to the European Union, the United Kingdom, the United Arab Emirates, the United States and the Middle East."
           ],
           "image": {
             "src": "company/workshop.jpg",
-            "alt": "The 7pro8 workshop in Novi Sad",
-            "caption": "Novi Sad — design, engineering, tooling and assembly under one roof"
+            "alt": "The 7pro8 workshop in Rakovac",
+            "caption": "Rakovac, near Novi Sad — design, engineering, tooling and assembly under one roof"
           }
         },
         {
           "type": "cta",
           "title": "Come and see the shop floor",
-          "text": "Partners are welcome to visit Novi Sad and look at kits in production before committing to anything.",
+          "text": "Partners are welcome to visit the workshop and look at kits in production before committing to anything.",
           "actions": [
             {
               "label": "The founders",
@@ -1928,15 +1930,16 @@
           "people": [
             {
               "name": "Evgenii Abramov",
-              "role": "Co-founder, 7pro8",
+              "role": "Director and co-owner, 7PRO8 DOO Rakovac",
               "portrait": "founders/abramov.jpg",
               "body": [
+                "Registered with the Serbian Business Registers Agency as the company's director, authorised to represent it independently, and holder of half of its share capital — the other half is held by Iliya Bolshakov.",
                 "DRAFT. Two or three sentences on Evgenii's route: where he started, where he worked, what he is responsible for in the company today. The same record already supplied for Iliya is needed — years, organisations, roles."
               ]
             },
             {
               "name": "Iliya Bolshakov",
-              "role": "Co-founder, 7pro8",
+              "role": "Co-owner, 7PRO8 DOO Rakovac",
               "portrait": "founders/bolshakov.jpg",
               "body": [
                 "Started in 2000 as a model maker and design engineer at SKB MAMI — with his hands and a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.",
@@ -2436,8 +2439,8 @@
     {
       "slug": "contact",
       "title": "Contact",
-      "title_tag": "Contact 7pro8 — Novi Sad, Serbia",
-      "description": "Contact 7pro8 DOO Novi Sad: address, email and telephone. Partner enquiries are answered within two working days.",
+      "title_tag": "Contact 7pro8 — Rakovac, Serbia",
+      "description": "Contact 7PRO8 DOO Rakovac: address, email and telephone. Partner enquiries are answered within two working days.",
       "blocks": [
         {
           "type": "pagehead",
@@ -2447,7 +2450,7 @@
         {
           "type": "split",
           "body": [
-            "7pro8 DOO Novi Sad, Serbia.",
+            "7PRO8 DOO Rakovac — Beočinski put 2, 21299 Rakovac, municipality of Beočin, Serbia.",
             "Working hours are 08:00 to 17:00 Central European Time, Monday to Friday. We correspond in English, German, Serbian and Russian.",
             "Full postal address, company registration number, VAT number and telephone are in the footer of every page."
           ],
@@ -2457,8 +2460,8 @@
           },
           "image": {
             "src": "company/novi-sad.jpg",
-            "alt": "The 7pro8 premises in Novi Sad",
-            "caption": "Novi Sad, Serbia"
+            "alt": "The 7pro8 premises in Rakovac",
+            "caption": "Rakovac, Serbia"
           }
         },
         {

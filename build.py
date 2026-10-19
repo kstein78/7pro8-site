@@ -264,6 +264,29 @@ def build():
         env.get_template("404.html").render(site=site), encoding="utf-8"
     )
 
+    # Service page: the photo inventory. Never linked, never indexed, never in
+    # the sitemap — it exists so the photography can be judged without opening
+    # every page and guessing. See tools/photo_audit.py.
+    import photo_audit  # noqa: E402
+
+    rows = photo_audit.collect(default_lang if (CONTENT / f"{default_lang}.json").exists() else "en")
+    order = ["missing", "replace", "tight", "ok", "good"]
+    counts = photo_audit.summary(rows)
+    photos_dir = DIST / "_photos"
+    photos_dir.mkdir(parents=True, exist_ok=True)
+    (photos_dir / "index.html").write_text(
+        env.get_template("photos.html").render(
+            site=site,
+            rows=rows,
+            tally=[(v, counts[v]) for v in order if v in counts],
+            unused=photo_audit.unused(),
+            generated=date.today().isoformat(),
+        ),
+        encoding="utf-8",
+    )
+    flagged = sum(counts.get(v, 0) for v in ("missing", "replace", "tight"))
+    print(f"  photo inventory: {len(rows)} images, {flagged} flagged — /_photos/")
+
     if PREVIEW:
         (DIST / "robots.txt").write_text(
             "# preview build — not for indexing\nUser-agent: *\nDisallow: /\n",
@@ -271,7 +294,7 @@ def build():
         )
     else:
         (DIST / "robots.txt").write_text(
-            "User-agent: *\nAllow: /\n\nSitemap: "
+            "User-agent: *\nAllow: /\nDisallow: /_photos/\n\nSitemap: "
             + site["base_url"].rstrip("/")
             + "/sitemap.xml\n",
             encoding="utf-8",

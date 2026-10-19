@@ -32,9 +32,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt pyyaml
 
-      - name: Build the site (preview: not indexable)
+      - name: Validate the workflow files
+        run: python tools/check_workflows.py
+
+      - name: "Build the site (preview: not indexable)"
         env:
           SITE_PREVIEW: "1"
         run: python build.py

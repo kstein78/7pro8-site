@@ -153,6 +153,7 @@ have downloaded the photographs from its CDN (see IMAGES.md).
 pip install -r requirements.txt
 python build.py                # production build into dist/
 python tools/check_links.py    # every internal link and asset
+python tools/check_workflows.py  # the GitHub Actions files parse
 python build.py --serve        # look at it on http://localhost:8000
 ```
 

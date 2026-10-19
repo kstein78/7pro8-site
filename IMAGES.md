@@ -1,26 +1,61 @@
 # Photography
 
-**Current state: every slot but one is filled, from the presentation.**
+**Every image on the site is © 7pro8.com** (`site.json` → `photo_credit`). The
+credit is printed in the footer of every page and on the inventory page.
 
-`tools/extract_deck_images.py` crops the photography straight out of the 2026
-partner deck:
+## The inventory page
+
+`/_photos/` — built on every run, linked from nowhere, `noindex`, and excluded
+in `robots.txt`. It lists every photograph the site uses with:
+
+* the size it is stored at,
+* the width of the slot it is painted into at the widest desktop layout,
+* the ratio between the two, which is what decides sharp or soft,
+* a verdict — **missing / replace / tight / ok / good** — and why,
+* where it is used, and where it came from.
+
+The same check runs on the command line:
 
 ```bash
-python3 tools/extract_deck_images.py /path/to/unpacked/slides
+python3 tools/photo_audit.py          # table
+python3 tools/photo_audit.py --json   # machine-readable
 ```
 
-The crop boxes are in that file, one line per image, so a bad crop is a
-two-number fix rather than a manual re-export.
+`replace` means the file is below three quarters of its slot width and is
+visibly soft — that one needs a new original. `good` means it also covers a 2×
+display.
 
-**These are presentation-resolution crops.** The deck pages are 1456x840, so the
-photographs come out between 350 and 720 pixels wide before upscaling. That is
-enough to judge a design on and enough for a first launch, but it is not enough
-for a full-bleed hero on a large screen. Replace them with the originals as those
-become available — the paths and the build stay the same, so it is a
-file-by-file swap with no code change.
+## Where the deck images come from
 
-Only `portfolio/escalade/02.jpg` is still a placeholder: the Escalade slide
-carries a single photograph.
+`tools/extract_deck_images.py` takes photography from the 2026 partner deck —
+**not** from page renders, but from the originals embedded in the PDF:
+
+```bash
+python3 tools/extract_deck_images.py path/to/7pro8_Presentation_EN.pdf
+```
+
+The crop boxes in that file are still expressed in the coordinates of the
+1456 px-wide page renders the design was composed against, because that is the
+readable way to describe a crop. The script maps them onto the originals:
+pdfplumber reports where each embedded image sits on its page in points, the
+render is a uniform scale of the page, so a render box becomes a fraction of
+the placed image's rectangle and then a rectangle on its native pixel grid.
+
+Two consequences worth knowing:
+
+* **Nothing is upscaled.** Output sizes are whatever the originals hold —
+  typically 830 to 1500 px wide, against the 350–720 px the renders gave.
+* **A crop that is a narrow strip is grown, not cut.** Forcing a 5:1 strip to
+  4:3 by centre-cropping throws away most of its width; the script widens the
+  short side inside the original instead, and only cuts when the original has
+  no room left.
+
+Where an image is still flagged after that, the deck's own original is the
+limit and the replacement has to come from the photography itself.
+
+`portfolio/escalade/02.jpg` and the two founder portraits
+(`founders/abramov.jpg`, `founders/bolshakov.jpg`) have no file at all: the
+Escalade slide carries a single photograph, and no portraits were supplied.
 
 Any slot without a file renders a labelled placeholder, so nothing breaks while
 the set is incomplete. Run `python build.py` and check

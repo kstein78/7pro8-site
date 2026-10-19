@@ -917,3 +917,14 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
   color: var(--brass);
   pointer-events: none;
 }
+
+/* development credit in the colophon — quieter than the legal lines above it */
+.colophon__by {
+  margin-top: 0.9rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--ivory-faint);
+  opacity: 0.75;
+}
+.colophon__by a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.22); }
+.colophon__by a:hover { color: var(--brass); border-bottom-color: var(--brass); }

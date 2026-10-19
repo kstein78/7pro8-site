@@ -102,6 +102,15 @@ def main():
             dst.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src, dst)
 
+    # site-level files that are not pages and are not referenced from any page
+    for extra in ("robots.txt",):
+        src = SRC / extra
+        if src.exists():
+            shutil.copy2(src, OUT / extra)
+    # 404.html is deliberately not copied: its links are root-absolute, which
+    # cannot work from a sub-path, and the host's own 404 page is fine for a
+    # preview. Production serves dist/404.html from the site root.
+
     files = [p for p in OUT.rglob("*") if p.is_file()]
     size = sum(p.stat().st_size for p in files) / 1e6
     print(f"{len(pages)} pages, {len(files)} files, {size:.1f} MB in {OUT.name}/")

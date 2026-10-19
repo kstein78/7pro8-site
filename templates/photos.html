@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Photo inventory — {{ site.legal_name_short or site.name }}</title>
+<link rel="stylesheet" href="/static/css/site.css">
+<style>
+  body { background: #0e0f11; }
+  .audit { width: min(100% - 2.5rem, 102rem); margin: 3rem auto 6rem; }
+  .audit h1 { margin-bottom: 0.4rem; }
+  .audit__intro { max-width: 70ch; color: var(--ivory-faint); line-height: 1.75; }
+  .audit__intro code { font-size: 0.9em; }
+  .tally { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 2rem 0 1rem; padding: 0; list-style: none; }
+  .tally li {
+    border: 1px solid var(--hair); padding: 0.45rem 0.9rem;
+    font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
+  }
+  .tally b { font-family: var(--display); font-size: 1.1rem; letter-spacing: 0; margin-right: 0.5rem; }
+  table.audit__table { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
+  .audit__table th {
+    text-align: left; font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--ivory-faint); font-weight: 400; padding: 0.9rem 0.6rem; border-bottom: 1px solid var(--hair);
+    position: sticky; top: 0; background: #0e0f11;
+  }
+  .audit__table td { padding: 0.55rem 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.06); vertical-align: top; }
+  .audit__table tbody tr:hover { background: rgba(255,255,255,0.03); }
+  .thumb { width: 108px; height: 72px; object-fit: cover; display: block; background: #1a1c1f; }
+  .mono { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.8rem; }
+  .flag {
+    display: inline-block; font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase;
+    padding: 0.2rem 0.55rem; border: 1px solid currentColor; white-space: nowrap;
+  }
+  .flag--missing { color: #ff8e7a; }
+  .flag--replace { color: #ffa14f; }
+  .flag--tight   { color: #e3c766; }
+  .flag--ok      { color: #9fc0a0; }
+  .flag--good    { color: #7fb98a; }
+  .why { color: var(--ivory-faint); font-size: 0.78rem; line-height: 1.5; }
+  .uses { color: var(--ivory-faint); font-size: 0.74rem; line-height: 1.5; }
+  .bar { height: 3px; background: rgba(255,255,255,0.1); margin-top: 0.4rem; }
+  .bar span { display: block; height: 100%; background: currentColor; }
+  .audit__unused { margin-top: 3.5rem; }
+  .audit__unused ul { columns: 2; font-size: 0.84rem; }
+  @media (max-width: 60rem) { .thumb { width: 72px; height: 48px; } .audit__table { font-size: 0.78rem; } }
+</style>
+</head>
+<body>
+<div class="audit">
+  <p class="eyebrow">Service page — not linked from the site, not indexed</p>
+  <h1 class="h1">Photo inventory</h1>
+  <p class="audit__intro">
+    Every photograph the site references, with the size it is stored at and the
+    width of the slot it is painted into at the widest desktop layout (the
+    content shell is 1248&nbsp;px). The ratio between the two is what decides
+    whether a photograph looks sharp or soft — a file listing cannot tell you that.
+    <b>Replace</b> means the image is below three quarters of its slot and is
+    visibly soft; <b>tight</b> means it only just covers it; <b>good</b> means it
+    also covers a 2× display. Regenerate this page with
+    <code>python build.py</code>; the underlying check is
+    <code>tools/photo_audit.py</code>.
+  </p>
+  <p class="audit__intro">
+    Images marked <i>partner deck</i> were taken from the embedded originals in
+    the 2026 presentation, at the full resolution those originals hold — nothing
+    is upscaled. Where such an image is still flagged, the deck itself is the
+    limit and a replacement has to come from the original photography.
+  </p>
+  <p class="audit__intro"><strong>{{ site.photo_credit }}</strong> — all photographs on this site.</p>
+
+  <ul class="tally">
+    {% for verdict, n in tally %}
+    <li class="flag--{{ verdict }}"><b>{{ n }}</b>{{ verdict }}</li>
+    {% endfor %}
+  </ul>
+
+  <table class="audit__table">
+    <thead>
+      <tr>
+        <th></th><th>File</th><th>Stored</th><th>Slot</th><th>Ratio</th>
+        <th>Status</th><th>Why</th><th>Used on</th><th>Source</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{% if r.width %}<img class="thumb" src="/static/img/{{ r.src }}" alt="" loading="lazy">{% endif %}</td>
+        <td class="mono">{{ r.src }}</td>
+        <td class="mono">{% if r.width %}{{ r.width }}×{{ r.height }}<br><span class="why">{{ r.kb }} KB</span>{% else %}—{% endif %}</td>
+        <td class="mono">{{ r.slot }} px</td>
+        <td class="mono flag--{{ r.verdict }}">
+          {{ "%.2f"|format(r.ratio) }}×
+          <span class="bar"><span style="width: {{ [r.ratio * 50, 100]|min }}%"></span></span>
+        </td>
+        <td><span class="flag flag--{{ r.verdict }}">{{ r.verdict }}</span></td>
+        <td class="why">{{ r.note }}</td>
+        <td class="uses">
+          {% for u in r.uses %}{{ u.page or 'home' }} · {{ u.block }}{% if not loop.last %}<br>{% endif %}{% endfor %}
+        </td>
+        <td class="uses">{{ r.source }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if unused %}
+  <div class="audit__unused">
+    <h2 class="h2">Not referenced by any page</h2>
+    <p class="audit__intro">
+      Present in <code>static/img/</code> but used by no block. Either a slot is
+      still to be written for them, or they can go.
+    </p>
+    <ul class="mono">
+      {% for rel in unused %}<li>{{ rel }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <p class="audit__intro" style="margin-top:3rem">Generated {{ generated }}.</p>
+</div>
+</body>
+</html>

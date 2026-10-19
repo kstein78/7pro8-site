@@ -33,11 +33,22 @@
   "name": {{ site.legal_name|tojson }},
   "alternateName": {{ site.name|tojson }},
   "url": {{ site.base_url|tojson }},
-  "foundingDate": {{ site.founded|tojson }},
+  {# The Serbian entity was registered in 2023; 2007 is when the first
+     partition was built, which is a claim about the work, not about this
+     legal person. Structured data must carry the registry date. #}
+  "foundingDate": {{ (site.registered or site.founded)|tojson }},
+  {% if site.registration_no %}
+  "identifier": [
+    {"@type": "PropertyValue", "name": "Matični broj", "value": {{ site.registration_no|tojson }}},
+    {"@type": "PropertyValue", "name": "PIB", "value": {{ site.vat_no|tojson }}}
+  ],
+  {% endif %}
+  {% if site.vat_no %}"vatID": {{ site.vat_no|tojson }},{% endif %}
   "address": {
     "@type": "PostalAddress",
     "streetAddress": {{ site.address.street|tojson }},
     "addressLocality": {{ site.address.city|tojson }},
+    "addressRegion": {{ site.address.municipality|tojson }},
     "postalCode": {{ site.address.postcode|tojson }},
     "addressCountry": {{ site.address.country_code|tojson }}
   },
@@ -112,7 +123,16 @@
     </div>
     <div class="colophon__note">
       <p>{{ data.ui.footer_note }}</p>
-      <p class="colophon__copy">© {{ site.founded }}–{{ build_year }} {{ site.legal_name }}</p>
+      {# The entity is from 2023; a range back to 2007 would claim copyright
+         for years in which this company did not exist. #}
+      <p class="colophon__copy">© {{ build_year }} {{ site.legal_name }}</p>
+      {% if site.photo_credit %}
+      <p class="colophon__copy">{{ data.ui.photo_credit }} {{ site.photo_credit }}</p>
+      {% endif %}
+      {% if site.built_by %}
+      <p class="colophon__by">{{ data.ui.site_by }}
+        <a href="{{ site.built_by.url }}" rel="noopener">{{ site.built_by.name }}</a></p>
+      {% endif %}
     </div>
   </div>
 </footer>

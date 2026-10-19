@@ -1,25 +1,32 @@
 {
-  "_comment": "Shared, language-independent configuration. Every value marked TODO must be replaced with real data before the site goes live — see README.md, section 'Data you have to supply'.",
+  "_comment": "Shared, language-independent configuration. Legal data comes from the Serbian business register (APR) entry for 7PRO8 DOO Rakovac; contact data from the register and the current 7pro8.com. Only form_endpoint is still TODO.",
   "name": "7pro8",
-  "legal_name": "7pro8 DOO Novi Sad",
+  "legal_name": "7PRO8 DOO Rakovac",
   "base_url": "https://www.7pro8.com",
   "founded": "2007",
-  "email": "TODO@7pro8.com",
-  "phone": "TODO +381 ...",
+  "email": "7pro8design@gmail.com",
+  "phone": "+381 63 8027259",
   "telegram": "https://t.me/Eugy01",
   "address": {
-    "street": "TODO street and number",
-    "city": "Novi Sad",
-    "postcode": "TODO",
+    "street": "Beočinski put 2",
+    "city": "Rakovac",
+    "municipality": "Beočin",
+    "postcode": "21299",
     "country": "Serbia",
     "country_code": "RS"
   },
-  "registration_no": "TODO",
-  "vat_no": "TODO",
+  "registration_no": "21899852",
+  "vat_no": "113613015",
   "share_image": "share/7pro8-share.jpg",
   "form_endpoint": "https://formspree.io/f/TODO_FORM_ID",
   "default_language": "en",
   "languages": [
+    {
+      "code": "sr",
+      "label": "Srpski",
+      "locale": "sr_RS",
+      "html_lang": "sr-Latn"
+    },
     {
       "code": "en",
       "label": "English",
@@ -34,12 +41,6 @@
       "code": "ru",
       "label": "Русский",
       "locale": "ru_RU"
-    },
-    {
-      "code": "sr",
-      "label": "Srpski",
-      "locale": "sr_RS",
-      "html_lang": "sr-Latn"
     }
   ],
   "redirects": {
@@ -54,5 +55,20 @@
     "main/rolls-royce-ghost-ewb/": "portfolio/rolls-royce-ghost-ewb/",
     "main/rolls-royce-phantom-ewb/": "portfolio/rolls-royce-phantom-ewb/",
     "main/": "portfolio/"
+  },
+  "legal_name_short": "7PRO8 DOO",
+  "legal_form": "Društvo sa ograničenom odgovornošću (LLC)",
+  "registered": "2023-03-31",
+  "activity_code": "2932",
+  "activity_name": "Manufacture of other parts and accessories for motor vehicles",
+  "director": "Evgenii Abramov",
+  "owners": [
+    "Evgenii Abramov — 50%",
+    "Iliya Bolshakov — 50%"
+  ],
+  "photo_credit": "© 7pro8.com",
+  "built_by": {
+    "name": "Optilife",
+    "url": "https://optilife.rs"
   }
 }
