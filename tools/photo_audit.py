@@ -62,17 +62,97 @@ def slot_width(block_type, cols, column_span=SHELL):
 
 
 def _image_size(path):
-    """Pixel size of an image file, without requiring Pillow for SVG."""
-    if path.suffix.lower() == ".svg":
+    """Pixel size of an image file, read from its header.
+
+    The build runs this on every image on every build, including in CI, so it
+    deliberately does not import Pillow: the site build should not acquire an
+    image-processing dependency just to read two integers. The extraction tools
+    in this folder do use Pillow, and they are run by hand.
+    """
+    suffix = path.suffix.lower()
+    if suffix == ".svg":
         text = path.read_text(encoding="utf-8", errors="ignore")[:2000]
         m = re.search(r'viewBox="[\d.\-]+ [\d.\-]+ ([\d.]+) ([\d.]+)"', text)
         if m:
             return int(float(m.group(1))), int(float(m.group(2)))
+        m = re.search(r'\bwidth="([\d.]+)"[^>]*\bheight="([\d.]+)"', text)
+        if m:
+            return int(float(m.group(1))), int(float(m.group(2)))
         return 0, 0
-    from PIL import Image
 
-    with Image.open(path) as im:
-        return im.size
+    with open(path, "rb") as fh:
+        head = fh.read(32)
+        if head[:8] == b"\x89PNG\r\n\x1a\n":
+            return (int.from_bytes(head[16:20], "big"),
+                    int.from_bytes(head[20:24], "big"))
+        if head[:6] in (b"GIF87a", b"GIF89a"):
+            return (int.from_bytes(head[6:8], "little"),
+                    int.from_bytes(head[8:10], "little"))
+        if head[:4] == b"RIFF" and head[8:12] == b"WEBP":
+            return _webp_size(fh, head)
+        if head[:2] == b"\xff\xd8":
+            return _jpeg_size(fh)
+    return 0, 0
+
+
+def _jpeg_size(fh):
+    """Walk the JPEG segments to the frame header that carries the size."""
+    fh.seek(2)
+    while True:
+        b = fh.read(1)
+        if not b:
+            return 0, 0
+        if b != b"\xff":
+            continue
+        marker = fh.read(1)
+        while marker == b"\xff":          # fill bytes are legal between segments
+            marker = fh.read(1)
+        if not marker:
+            return 0, 0
+        m = marker[0]
+        if m in (0xD8, 0xD9) or 0xD0 <= m <= 0xD7:
+            continue                       # standalone markers carry no length
+        length_bytes = fh.read(2)
+        if len(length_bytes) < 2:
+            return 0, 0
+        length = int.from_bytes(length_bytes, "big")
+        # SOF0..SOF15, except the four that are not frame headers
+        if 0xC0 <= m <= 0xCF and m not in (0xC4, 0xC8, 0xCC):
+            data = fh.read(5)
+            if len(data) < 5:
+                return 0, 0
+            return (int.from_bytes(data[3:5], "big"),
+                    int.from_bytes(data[1:3], "big"))
+        fh.seek(length - 2, 1)
+
+
+def _webp_size(fh, head):
+    """VP8, VP8L and VP8X each state the size differently."""
+    fh.seek(12)
+    chunk = fh.read(8)
+    if len(chunk) < 8:
+        return 0, 0
+    kind = chunk[:4]
+    if kind == b"VP8X":
+        data = fh.read(10)
+        if len(data) < 10:
+            return 0, 0
+        w = int.from_bytes(data[4:7], "little") + 1
+        h = int.from_bytes(data[7:10], "little") + 1
+        return w, h
+    if kind == b"VP8 ":
+        data = fh.read(10)
+        if len(data) < 10 or data[3:6] != b"\x9d\x01\x2a":
+            return 0, 0
+        return (int.from_bytes(data[6:8], "little") & 0x3FFF,
+                int.from_bytes(data[8:10], "little") & 0x3FFF)
+    if kind == b"VP8L":
+        data = fh.read(5)
+        if len(data) < 5 or data[0] != 0x2F:
+            return 0, 0
+        bits = int.from_bytes(data[1:5], "little")
+        return (bits & 0x3FFF) + 1, ((bits >> 14) & 0x3FFF) + 1
+    return 0, 0
 
 
 def _provenance():

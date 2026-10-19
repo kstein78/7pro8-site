@@ -1,0 +1,11 @@
+# Only for the tools in tools/ that are run by hand — never for build.py.
+#
+# The site build must stay on Jinja2 and the standard library alone, because
+# CI installs requirements.txt and nothing else. A build that needs anything
+# from this file is a build that fails on GitHub Actions; tools/photo_audit.py
+# reads image headers itself for exactly that reason.
+Pillow>=10.0        # extract_deck_images, extract_founder_images, upgrade_from_library
+pdfplumber>=0.11    # extract_deck_images: where each image sits on its page
+pikepdf>=8.0        # extract_deck_images: the embedded originals
+opencv-python>=4.9  # upgrade_from_library: locating a crop inside a larger photo
+numpy>=1.26         # with opencv

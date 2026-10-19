@@ -53,6 +53,31 @@ Two consequences worth knowing:
 Where an image is still flagged after that, the deck's own original is the
 limit and the replacement has to come from the photography itself.
 
+## Upgrading from the old site's image library
+
+The Squarespace site that 7pro8.com ran on until now holds 172 photographs,
+many of them the same shots the deck uses but larger. `tools/photo_audit.py`
+is what says which slots would benefit; `tools/upgrade_from_library.py` does
+the swap:
+
+```bash
+python3 tools/upgrade_from_library.py /path/to/library --dry-run
+python3 tools/upgrade_from_library.py /path/to/library
+```
+
+It finds each slot's twin in the library by multi-scale template matching,
+locates the current crop inside it, and re-cuts the same framing at the
+library's resolution — so the page layout does not move. A match below 0.75
+is refused, because around 0.6 it is a different photograph of the same car
+rather than the same frame. Twenty images were re-cut this way, several from
+roughly 1000 px to 2000–2500 px.
+
+**The public CDN caps downloads at 2500 px and re-encodes to WebP.** A
+photograph the markup declares as 5472×3648 arrives as 2500×1667. The camera
+originals exist only inside the Squarespace admin, one asset at a time, and
+Squarespace's own export does not include images at all. If the originals are
+ever wanted, they have to be pulled before that subscription ends.
+
 `portfolio/escalade/02.jpg` and the two founder portraits
 (`founders/abramov.jpg`, `founders/bolshakov.jpg`) have no file at all: the
 Escalade slide carries a single photograph, and no portraits were supplied.
