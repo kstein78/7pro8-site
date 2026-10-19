@@ -182,3 +182,28 @@ with it.** The build will pick it up with no other change, as long as it keeps a
    are the most likely of the nine projects to carry a confidentiality
    obligation. Confirm before that page goes live, or publish it with detail
    shots only.
+
+### Hand-picked replacements
+
+`tools/library_picks.py` holds the slots where the library's photograph was
+chosen over the deck's, with the reason for each. It is a short, deliberate
+list rather than an automatic sweep, and it records the ones that were tried
+and put back — `company/workshop.jpg` and `manufacturing/v-class-assembly.jpg`
+both have better photographs in the library and worse ones for their captions.
+
+```bash
+python3 tools/library_picks.py /path/to/library --dry-run
+```
+
+### What was removed
+
+Three images left the prototype because no replacement exists at a usable size
+and they were below half their slot width: `portfolio/escalade/02.jpg` (never
+had a file), and the two 93x126 Princess thumbnails on the founders page. Their
+galleries keep their column count, so the surviving image stays the size it was
+designed at instead of stretching across the band.
+
+The founders' archive photographs stay as they are. They are scans and
+period web graphics at 400–500 px, there is nothing better anywhere, and the
+inventory flags them as `tight` rather than `replace` for that reason. They
+only improve if the prints are found and scanned.
