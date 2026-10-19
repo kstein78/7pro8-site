@@ -49,7 +49,7 @@
       "slug": "",
       "title": "7pro8",
       "title_tag": "7pro8 — interior partitions for premium vehicles",
-      "description": "Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007, from Rakovac, Serbia.",
+      "description": "Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007 from Serbia, and into the EU without customs duty.",
       "blocks": [
         {
           "type": "hero",
@@ -366,7 +366,7 @@
       "slug": "capabilities",
       "title": "Engineering",
       "title_tag": "The full cycle in-house — design, engineering, tooling, production",
-      "description": "Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Rakovac, near Novi Sad. One point of contact and one line of responsibility.",
+      "description": "Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Vojvodina, northern Serbia. One point of contact and one line of responsibility.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1694,7 +1694,7 @@
       "slug": "partners",
       "title": "Partners",
       "title_tag": "Working with 7pro8 — scope, responsibilities and lead times",
-      "description": "How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and how to request indicative pricing.",
+      "description": "How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and why a kit shipped from Serbia reaches an EU partner with no customs duty.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1772,6 +1772,7 @@
           "body": [
             "Price is a function of annual volume. It is agreed with the partner in advance, improves at higher volumes and is reviewed at lower ones, so a published list price would be misleading in both directions.",
             "Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.",
+            "Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.",
             "For a model that does not exist yet, development from scratch takes up to a year depending on the complexity of the vehicle. A cost-sharing model is possible, under which the partner receives priority by market or by model.",
             "Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan."
           ]
@@ -1818,8 +1819,8 @@
     {
       "slug": "company",
       "title": "Company",
-      "title_tag": "About 7pro8 — Rakovac, Serbia, building partitions since 2007",
-      "description": "We built our first interior partition in 2007. Since then we have developed more than 20 partition models and delivered over 450 kits, from a workshop in Rakovac, Serbia.",
+      "title_tag": "About 7pro8 — partitions built in Serbia since 2007",
+      "description": "We built our first interior partition in 2007. Since then we have developed more than 20 partition models and delivered over 450 kits, from a workshop in Vojvodina, in northern Serbia.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1856,7 +1857,7 @@
           "type": "split",
           "title": "Where the work happens",
           "body": [
-            "Design, engineering, tooling and production all sit in the same building in Rakovac, twenty minutes from Novi Sad. Serbia gives us an unusual combination for this segment: engineering labour at a cost that supports series production, and duty-free industrial access to the European Union under the Stabilisation and Association Agreement.",
+            "Design, engineering, tooling and production all sit in the same building in Vojvodina, the northern province of Serbia, twenty minutes from Novi Sad. For this segment that is an unusual combination: engineering labour at a cost that supports series production, and a country whose industrial goods have entered the European Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. Serbia has been a candidate for EU membership since 2012.",
             "Deliveries run to the European Union, the United Kingdom, the United Arab Emirates, the United States and the Middle East."
           ],
           "image": {
