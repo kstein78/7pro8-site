@@ -120,7 +120,16 @@ h1, h2, h3 {
   line-height: 1.14;
   margin: 0;
   text-wrap: balance;
-  font-variation-settings: "opsz" 72;
+  /* Optical size is the whole point of a didone. Bodoni Moda's display cut is
+     drawn for 60-100 px, and below about 30 px its hairlines fall under one
+     device pixel and break up. Pinning "opsz" to 72 for every heading put that
+     display cut on 21 px subheads. It showed worst on digits: Cyrillic letters
+     fall through to Playfair, which has no opsz axis and stayed solid, while
+     the digits stayed in Bodoni at 72 and thinned to nothing, so a line like
+     "Простые — 3-4 комплекта в год" lost its numbers. Optical sizing is now
+     automatic, which is what the axis is for: every heading gets the cut that
+     was drawn for its size. */
+  font-optical-sizing: auto;
 }
 
 .h2 {
@@ -286,7 +295,6 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
   font-size: clamp(2.4rem, 1.2rem + 4.6vw, 4.6rem);
   max-width: 16ch;
   margin-bottom: 1.5rem;
-  font-variation-settings: "opsz" 96;
 }
 .hero__lead {
   font-size: clamp(1.1rem, 1rem + 0.6vw, 1.35rem);
@@ -371,7 +379,6 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 .pagehead__title {
   font-size: clamp(2.1rem, 1.2rem + 3.4vw, 3.7rem);
   max-width: 17ch;
-  font-variation-settings: "opsz" 96;
 }
 .pagehead__lead {
   font-size: clamp(1.1rem, 1rem + 0.55vw, 1.35rem);
@@ -928,3 +935,61 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 }
 .colophon__by a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.22); }
 .colophon__by a:hover { color: var(--brass); border-bottom-color: var(--brass); }
+
+/* --------------------------------------------- display face at text sizes */
+
+/* Several places use the display face below ~1.6rem, where even the right
+   optical size reads lighter than the body text around it. In Russian the gap
+   is wider: the letters come from Playfair, a sturdier face than Bodoni at the
+   same nominal weight, so a heading with a number in it looked like two fonts
+   fighting. Half a step of weight closes it — Bodoni Moda is variable, and
+   Playfair Cyrillic 500 is already among the self-hosted files, so both sides
+   of a mixed line move together. */
+.cell__title,
+.cell::before,
+.pagehead__meta dd,
+.career__years,
+.project__title,
+.colophon__name,
+.chronicle__year {
+  font-weight: 500;
+}
+
+/* The big standalone figures — "4 месяца", "1 день", "1–3 дня" — are the worst
+   case: a Bodoni numeral carrying the whole meaning next to a Playfair word
+   that is drawn much sturdier. 600 is a real weight on both sides, not a
+   synthesised bold: Bodoni Moda is variable across 400-900, and the Playfair
+   Cyrillic face is declared for 500-900, so the letters stay at their drawn
+   500 while the numeral catches up to them. */
+.facts__value,
+.metrics__value {
+  font-weight: 600;
+}
+
+/* And these figures get the text cut on purpose, against the automatic rule
+   above. A standalone number at 35 px still gets a fairly display-like optical
+   size from the browser, which is right for a word and wrong for a numeral
+   that has to be read at a glance on a phone. Pinning the axis low gives the
+   drawing made for small sizes — thicker hairlines, sturdier stems — and at
+   600 the Bodoni numerals finally sit at the same colour as the Playfair
+   Cyrillic words beside them. Checked against 400, 600 and 700 at opsz auto,
+   14 and 8: 700 overshoots, because the Playfair face tops out at its drawn
+   500 and the digits then outweigh the letters. */
+.facts__value,
+.metrics__value,
+.chronicle__year,
+.career__years,
+.cell::before {
+  font-variation-settings: "opsz" 14;
+}
+
+/* Digits are the thinnest shapes in a didone and the ones that have to be read
+   exactly — a volume, a year, a lead time. Tabular figures also stop them
+   shifting between rows in the chronology and the tables. */
+.facts__value,
+.metrics__value,
+.career__years,
+.chronicle__year,
+.cell::before {
+  font-variant-numeric: lining-nums tabular-nums;
+}
