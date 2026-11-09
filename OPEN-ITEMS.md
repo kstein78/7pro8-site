@@ -4,13 +4,13 @@ Everything the site used to say about itself while it was being built now lives
 here instead. Nothing on these lines is visible to a visitor: the pages read as
 finished, and this file is the list to work through.
 
-## Needs a file
+## Portraits
 
-- `static/img/founders/bolshakov.jpg` — Iliya's portrait. Evgenii's is in place,
-  cropped from the photograph supplied on 9 November. Any phone picture works if
-  it is sent as a *file* rather than as a photo, which is what shrank the first
-  one to 853 px. Both portraits are rendered at 4:5 and held back to a little
-  over a third of their colour, so a casual snapshot settles in fine.
+Both are in place and cropped to the same face scale, so the pair reads as a
+set. Both are a little under the 604 px card width — Evgenii's at 520 px,
+Iliya's at 453 — which shows as slight softness on a large retina screen and
+nowhere else. The fix costs nothing: the same photographs sent as *files* in
+Telegram, not as photos, arrive at full resolution.
 
 ## Project descriptions — written from the photographs, not from the founders
 
