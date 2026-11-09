@@ -178,6 +178,10 @@ province appear only in the legal address: the footer, the registered-office
 line on the contact page and the structured data. Any new copy follows the same
 rule.
 
+The EU duty-free argument (partners page, company page, home description)
+holds for kits made in Serbia: preferential origin needs sufficient working or
+processing there and a proof of origin with each shipment.
+
 ### Deliberately not published
 
 The indicative price table from the deck is **not** on the site, and its figures
