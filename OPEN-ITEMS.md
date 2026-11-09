@@ -4,6 +4,25 @@ Everything the site used to say about itself while it was being built now lives
 here instead. Nothing on these lines is visible to a visitor: the pages read as
 finished, and this file is the list to work through.
 
+## Before launch — not the founders' to answer
+
+- **Form backend.** `form_endpoint` in `content/site.json` is still a
+  placeholder. Until it is replaced, the form opens the visitor's mail program
+  with the enquiry filled in, addressed to the site email — nothing is lost, but
+  a visitor without a mail program set up gets nothing. A Formspree or
+  Web3Forms account takes a few minutes; paste its endpoint in and the form
+  posts directly.
+- **The email address.** Every page shows `7pro8design@gmail.com`. For a
+  partner weighing a €25,000 order, an address at `@7pro8.com` is worth more
+  than any design change — and it needs the domain moved off Squarespace first.
+- **One headline kit count.** The hero and the company page say 450+; the
+  history table on the availability page adds up to 460. Both come from the
+  deck. Either the hero becomes 460, or the table gets a line saying where the
+  other ten went.
+- **20+ partition models against 14 vehicle models.** Different counts
+  (partition variants versus vehicles), but no page says so. One sentence on
+  the availability page would do it, or drop one of the numbers.
+
 ## Portraits
 
 Both are in place at the same size, 453 × 567, with the eye lines on one level and

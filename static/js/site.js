@@ -35,7 +35,44 @@
      the endpoint is unavailable the form still submits normally and the
      mailto fallback below it stays visible.                               */
   var form = document.querySelector("[data-form]");
-  if (form && window.fetch && form.getAttribute("action").indexOf("http") === 0) {
+
+  /* No form backend yet: the action is a mailto: link. Instead of the
+     browser's raw text/plain post, open the visitor's mail program with the
+     enquiry written out as a readable message.                            */
+  if (form && form.getAttribute("action").indexOf("mailto:") === 0) {
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      var trap = form.querySelector('[name="_gotcha"]');
+      if (trap && trap.value) {
+        return;
+      }
+      var lines = [];
+      var seen = {};
+      Array.prototype.forEach.call(form.elements, function (el) {
+        if (!el.name || el.name.charAt(0) === "_" || el.name === "consent" || seen[el.name]) {
+          return;
+        }
+        var label, value;
+        if (el.type === "checkbox") {
+          seen[el.name] = true;
+          var picked = form.querySelectorAll('[name="' + el.name + '"]:checked');
+          value = Array.prototype.map.call(picked, function (c) { return c.value; }).join(", ");
+          var set = el.closest("fieldset");
+          label = set && set.querySelector("legend") ? set.querySelector("legend").textContent : el.name;
+        } else {
+          value = el.value;
+          var l = el.id ? form.querySelector('label[for="' + el.id + '"]') : null;
+          label = l ? l.textContent : el.name;
+        }
+        if (value && value.trim()) {
+          label = label.trim();
+          lines.push(label + (/[?:]$/.test(label) ? " " : ": ") + value.trim());
+        }
+      });
+      window.location.href = form.getAttribute("action") +
+        "&body=" + encodeURIComponent(lines.join("\n"));
+    });
+  } else if (form && window.fetch && form.getAttribute("action").indexOf("http") === 0) {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
       var button = form.querySelector('button[type="submit"]');

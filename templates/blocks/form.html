@@ -10,7 +10,12 @@
       {% endif %}
     </div>
 
-    <form class="form" method="post" action="{{ site.form_endpoint }}" data-form>
+    {#- Until a real form backend is configured (form_endpoint still TODO), the
+        form composes an email instead of posting to a dead endpoint. -#}
+    {%- set form_live = site.form_endpoint and 'TODO' not in site.form_endpoint %}
+    <form class="form" method="post" data-form
+          {%- if form_live %} action="{{ site.form_endpoint }}"
+          {%- else %} action="mailto:{{ site.email }}?subject={{ block.subject | urlencode }}" enctype="text/plain"{% endif %}>
       <input type="hidden" name="_language" value="{{ lang }}">
       <input type="hidden" name="_subject" value="{{ block.subject }}">
       <p class="form__trap" aria-hidden="true"><label>{{ block.fields.honeypot }}<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>

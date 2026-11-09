@@ -124,18 +124,16 @@ questions to settle before publishing.
 
 ---
 
-## Data you have to supply before going live
+## Data still to supply before going live
 
-These are marked `TODO` in `content/site.json` and appear in the footer of every
-page and in the structured data:
+Contact and legal data in `content/site.json` are filled from the Serbian
+business register (APR) and the current site. One field is left:
 
-| Field | Why it matters |
+| Field | State |
 |---|---|
-| `email` | Currently a Gmail address on the live site. A `@7pro8.com` address is worth more than any design change on a €25,000 sale. |
-| `phone` | There is no telephone number anywhere on the current site. |
-| `address.street`, `address.postcode` | Required for the Organization schema and for basic credibility. |
-| `registration_no`, `vat_no` | Serbian company registration (matični broj) and PIB. |
-| `form_endpoint` | A form backend. Formspree or Web3Forms both work with a static site; free tiers are enough for this volume. Without it the form falls back to the mailto link underneath. |
+| `form_endpoint` | Still `https://formspree.io/f/TODO_FORM_ID`. While it contains `TODO`, the enquiry form does not post anywhere: on submit it opens the visitor's mail program with the enquiry written out (labels in the page's language) and addressed to `email`. Put a real Formspree or Web3Forms endpoint in and the form posts to it, with the same mailto fallback underneath. |
+
+The address in `email` is still a Gmail one; see OPEN-ITEMS.md.
 
 ---
 
@@ -160,36 +158,19 @@ rounded or invented during the build.
 | Per-project volumes and years | Project pages | Deck portfolio slides |
 | VLE unveiled 10 March 2026, series production at Vitoria since June 2026 | Home, VLE, availability | Deck product range slide |
 
-### Three inconsistencies in the source material — please resolve
+### Inconsistencies in the source material
 
-These exist in the presentation itself. The site currently follows the deck's
-own front-page claims, but a careful reader will notice all three.
+The deck contradicts itself in a few places. The open ones — 450+ against 460
+kits, and 20+ partition models against 14 vehicle models — are in
+OPEN-ITEMS.md with the rest of the list. Settled:
 
-1. **2005 vs 2007.** The live site footer reads `© 2005-2026`; the deck says the
-   company was founded in 2007 and produced its first partition that year. The
-   new site uses 2007 everywhere. If 2005 is the correct incorporation date and
-   2007 the first partition, the copy should say both explicitly.
-
-2. **450+ vs 460 kits.** The deck cover says "over 450 kits delivered since
-   2007"; the history table totals 460 kits since 2008. The site uses 450+ in
-   the hero and 460 in the history table, which is defensible but looks careless
-   side by side. Pick one headline number.
-
-3. **20+ partition models vs 14 vehicle models.** The cover claims more than 20
-   partition models; the history table lists 14 vehicles and 8 projects taken to
-   series tooling. These count different things — partition variants versus
-   vehicle models — but nothing on the page explains that. Either add the
-   explanation or use one number.
-
-4. **"Founded 2007" against "7pro8 as a separate firm since 2015".** The deck
-   dates the company to 2007; the founder's career record dates 7pro8 as a
-   business of its own to 2015, with the 2007 partition built while he was
-   employed elsewhere. Both statements can be true — 2007 is when the first
-   partition was built, 2015 is when the company became a company — but the site
-   currently only says the first one, and a partner who reads the founder page
-   and the company page together will notice. Pick one formulation and use it in
-   both places. The safest is the precise one: first partition 2007, company in
-   its own right since 2015.
+- **2005 against 2007.** The old site's footer said 2005; the new one uses the
+  deck's 2007 everywhere, as the year of the first partition.
+- **"Founded 2007" against "7pro8 as a firm since 2015".** The pages now say
+  what each year is: the first partition in 2007, the company in its own right
+  since 2015 (founders page), registered in Serbia as 7PRO8 DOO (company page,
+  and `foundingDate` 2023 in the structured data). No page claims production in
+  Serbia since 2007 any more.
 
 ### Deliberately not published
 
