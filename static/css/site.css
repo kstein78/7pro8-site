@@ -603,6 +603,9 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 .gallery--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .gallery__item { margin: 0; }
 .gallery__item img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; filter: saturate(0.9); }
+/* Scans of print pages come in every proportion; cropping them to 4:3 would cut
+   the cars in half, so these sit whole inside the same 4:3 cell. */
+.gallery--contain .gallery__item img { object-fit: contain; background: var(--night-2); }
 
 @media (max-width: 50rem) { .gallery--2, .gallery--3 { grid-template-columns: 1fr; } }
 

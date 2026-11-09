@@ -1897,7 +1897,7 @@
           "type": "pagehead",
           "kicker": "Founders",
           "title": "Evgenii Abramov and Iliya Bolshakov",
-          "lead": "Both of us have been in the industry since the early nineties. We met at CARDI, worked together at Avtoganza, and in 2008 built our own engineering group. Since 2015 that group is 7pro8: our shared work, taken through to series.",
+          "lead": "Both of us have been in the industry since the early nineties. We met at Cardi, worked together at Avtoganza, and in 2008 built our own engineering group. Since 2015 that group is 7pro8: our shared work, taken through to series.",
           "meta": [
             {
               "label": "As our own team",
@@ -1921,7 +1921,7 @@
               "role": "Founder",
               "portrait": "founders/abramov.jpg",
               "body": [
-                "Joined CARDI in 1992, the same year he entered the institute: industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98. He stayed at CARDI until 2007, latterly as its chief designer and lead project manager, which is where he and Iliya met. In the mid-2000s the two of them also worked together in Avtoganza's tuning department, on engineering and production. In 2008 they set up the engineering and production group this company grew out of."
+                "Joined Cardi in 1992, the same year he entered the institute: industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98. He stayed at Cardi until 2007, latterly as its chief designer and lead project manager, which is where he and Iliya met. In the mid-2000s the two of them also worked together in Avtoganza's tuning department, on engineering and production. In 2008 they set up the engineering and production group this company grew out of."
               ]
             },
             {
@@ -1929,7 +1929,7 @@
               "role": "Founder",
               "portrait": "founders/bolshakov.jpg",
               "body": [
-                "An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined CARDI (SKB MAMI) as a model maker and design engineer, which is where he and Evgenii met. A year later he moved to SV-ART, where within two years he was chief design engineer.",
+                "An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined Cardi (SKB MAMI) as a model maker and design engineer, which is where he and Evgenii met. A year later he moved to SV-ART, where within two years he was chief design engineer.",
                 "Then A-Level, Avtoganza's tuning department alongside Evgenii, Cardi Design, and from 2009 the engineering and production group the two of them ran, formally on the staff of CarFashion. Fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
               ]
             }
@@ -1963,7 +1963,7 @@
                   "from": 1992,
                   "to": 2007,
                   "years": "1992–2007",
-                  "org": "CARDI",
+                  "org": "Cardi",
                   "role": "Designer, then chief designer and lead project manager"
                 },
                 {
@@ -2019,8 +2019,8 @@
                   "from": 2000,
                   "to": 2001,
                   "years": "2000–2001",
-                  "org": "CARDI (SKB MAMI)",
-                  "short": "CARDI",
+                  "org": "Cardi (SKB MAMI)",
+                  "short": "Cardi",
                   "role": "Model maker and design engineer"
                 },
                 {
@@ -2073,12 +2073,13 @@
         {
           "type": "chronicle",
           "title": "The work, newest first",
-          "lead": "Twelve projects across twenty-five years, from the present back to the beginning. Under each title is where we were working at the time.",
+          "lead": "Fifteen projects across thirty years, from the present back to the beginning. Under each title: whose project it was, and where we were working at the time.",
           "entries": [
             {
               "year": "2022",
               "title": "Electric trike with a canopy",
-              "role": "Co-founder",
+              "role": "Iliya",
+              "where": "Personal project",
               "body": [
                 "A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly."
               ],
@@ -2099,13 +2100,46 @@
                   "alt": "Trike on the road",
                   "caption": "Frame and seating"
                 }
+              ]
+            },
+            {
+              "year": "2009",
+              "title": "Rolls-Royce Phantom — rear compartment",
+              "role": "Iliya and Evgenii",
+              "where": "Our own engineering and production group",
+              "body": [
+                "A rebuilt rear compartment for a Rolls-Royce Phantom: seats and trim in pale leather, curtains, veneer. A one-off, still without tooling for series — the series partition for the Phantom EWB came in 2011."
               ],
-              "where": "Iliya: Personal project"
+              "cols": 2,
+              "fit": "contain",
+              "images": [
+                {
+                  "src": "founder/phantom/01.jpg",
+                  "alt": "Rolls-Royce Phantom with the doors open",
+                  "caption": "The project car"
+                },
+                {
+                  "src": "founder/phantom/02.jpg",
+                  "alt": "Phantom rear compartment in pale leather",
+                  "caption": "Rear compartment"
+                },
+                {
+                  "src": "founder/phantom/03.jpg",
+                  "alt": "Curtains and veneer trim",
+                  "caption": "Curtains and veneer"
+                },
+                {
+                  "src": "founder/phantom/04.jpg",
+                  "alt": "Backs of the front seats",
+                  "caption": "Front seat backs"
+                }
+              ]
             },
             {
               "year": "2009",
               "title": "Interiors on the water",
-              "role": "Co-founder",
+              "role": "Iliya",
+              "where": "Cardi Design / our own engineering group",
               "body": [
                 "Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press."
               ],
@@ -2116,13 +2150,56 @@
                   "alt": "Motor yacht under way",
                   "caption": "Motor yacht"
                 }
+              ]
+            },
+            {
+              "year": "2008",
+              "title": "Mercedes-Benz Viano — interior, exterior and a motorised monitor",
+              "role": "Iliya and Evgenii",
+              "where": "Evgenii: our own group · Iliya: Cardi Design",
+              "body": [
+                "A van with a changed exterior and a new rear interior: quilted seats, curtains, veneer. A separate job in the same car: a ceiling monitor on an electric drive, its mechanism designed in 3D and built for this interior."
               ],
-              "where": "Iliya: Cardi Design / our own engineering group"
+              "cols": 3,
+              "fit": "contain",
+              "images": [
+                {
+                  "src": "founder/viano/01.jpg",
+                  "alt": "Mercedes-Benz Viano after the work",
+                  "caption": "Exterior"
+                },
+                {
+                  "src": "founder/viano/02.jpg",
+                  "alt": "Rear interior with quilted seats",
+                  "caption": "Rear interior"
+                },
+                {
+                  "src": "founder/viano/03.jpg",
+                  "alt": "Interior with the ceiling monitor",
+                  "caption": "Interior with the monitor"
+                },
+                {
+                  "src": "founder/viano/04.jpg",
+                  "alt": "3D model of the monitor mechanism",
+                  "caption": "Monitor mechanism, 3D"
+                },
+                {
+                  "src": "founder/viano/05.jpg",
+                  "alt": "Monitor mechanism with its drive",
+                  "caption": "The drive on the bench"
+                },
+                {
+                  "src": "founder/viano/06.jpg",
+                  "alt": "The monitor lowered in the car",
+                  "caption": "Monitor in the car"
+                }
+              ]
             },
             {
               "year": "2008",
               "title": "Taxi roof sign",
-              "role": "Co-founder",
+              "role": "Iliya and Evgenii",
+              "where": "Evgenii: our own group · Iliya: Cardi Design",
               "body": [
                 "An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later."
               ],
@@ -2148,13 +2225,13 @@
                   "alt": "Rendering of the roof sign",
                   "caption": "Project rendering"
                 }
-              ],
-              "where": "Iliya: Cardi Design"
+              ]
             },
             {
               "year": "2008",
-              "title": "ZiL-4107 — state limousine interior",
-              "role": "Co-founder",
+              "title": "ZiL-41047 — state limousine interior",
+              "role": "Iliya and Evgenii",
+              "where": "Evgenii: our own group · Iliya: Cardi Design",
               "body": [
                 "A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior."
               ],
@@ -2175,12 +2252,14 @@
                   "alt": "Finished interior, trim detail",
                   "caption": "Trim and materials"
                 }
-              ],
-              "where": "Iliya: Cardi Design"
+              ]
             },
             {
               "year": "2007",
               "title": "Mercedes-Benz S-Class W221 — the first partition",
+              "role": "Iliya and Evgenii",
+              "where": "Evgenii: Cardi · Iliya: Avtoganza / Cardi Design",
+              "where_note": "the year of the move; we date our first partition from here",
               "body": [
                 "The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.",
                 "Everything we build in series today grew out of this job."
@@ -2207,13 +2286,13 @@
                   "alt": "Finished partition in the car",
                   "caption": "Product in the car"
                 }
-              ],
-              "where": "Iliya: Avtoganza / Cardi Design",
-              "where_note": "the year of the move; we date our first partition from here"
+              ]
             },
             {
               "year": "≈2005",
               "title": "Mercedes-Benz Vito — VIP interior",
+              "role": "Iliya",
+              "where": "Avtoganza, tuning department",
               "body": [
                 "A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on."
               ],
@@ -2239,12 +2318,13 @@
                   "alt": "Interior trim",
                   "caption": "Trim"
                 }
-              ],
-              "where": "Iliya and Evgenii: Avtoganza, tuning department"
+              ]
             },
             {
               "year": "2004",
               "title": "Lamborghini Diablo VT",
+              "role": "Iliya",
+              "where": "A-Level",
               "body": [
                 "A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all."
               ],
@@ -2270,12 +2350,14 @@
                   "alt": "Leather and carbon trim",
                   "caption": "Materials"
                 }
-              ],
-              "where": "Iliya: A-Level"
+              ]
             },
             {
               "year": "2003",
               "title": "Chevrolet Corvette",
+              "role": "Iliya",
+              "where": "SV-ART / A-Level",
+              "where_note": "the year of the move",
               "body": [
                 "The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry."
               ],
@@ -2296,13 +2378,13 @@
                   "alt": "Centre console",
                   "caption": "Console and trim"
                 }
-              ],
-              "where": "Iliya: SV-ART / A-Level",
-              "where_note": "the year of the move"
+              ]
             },
             {
               "year": "≈2003",
               "title": "Hummer H1 — VIP interior",
+              "role": "Iliya",
+              "where": "SV-ART",
               "body": [
                 "An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client."
               ],
@@ -2328,12 +2410,13 @@
                   "alt": "Bar unit in the interior",
                   "caption": "Interior equipment"
                 }
-              ],
-              "where": "Iliya: SV-ART"
+              ]
             },
             {
               "year": "2001",
               "title": "Lincoln Reincarnation",
+              "role": "Iliya",
+              "where": "SV-ART",
               "body": [
                 "The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years."
               ],
@@ -2359,12 +2442,13 @@
                   "alt": "Interior of the car",
                   "caption": "Interior"
                 }
-              ],
-              "where": "Iliya: SV-ART"
+              ]
             },
             {
               "year": "≈2000",
               "title": "Workshop, team, first volumes",
+              "role": "Iliya",
+              "where": "Cardi (SKB MAMI) · SV-ART",
               "body": [
                 "The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof."
               ],
@@ -2390,12 +2474,13 @@
                   "alt": "The studio building",
                   "caption": "The workshop"
                 }
-              ],
-              "where": "Iliya: CARDI (SKB MAMI) · SV-ART"
+              ]
             },
             {
               "year": "≈1999",
               "title": "Before the studio: a garage, racing, the press",
+              "role": "Iliya",
+              "where": "Before Cardi",
               "body": [
                 "The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from."
               ],
@@ -2411,11 +2496,48 @@
                   "alt": "Collage of working photographs",
                   "caption": "From the archive"
                 }
+              ]
+            },
+            {
+              "year": "1992–2003",
+              "title": "One-off cars at Cardi",
+              "role": "Evgenii",
+              "where": "Cardi",
+              "body": [
+                "Concept cars and single-example cars built at Cardi in the years Evgenii went there from designer to chief designer: from the sketch to the finished car."
               ],
-              "where": "Iliya: before CARDI"
+              "cols": 2,
+              "fit": "contain",
+              "images": [
+                {
+                  "src": "founder/cardi/01.jpg",
+                  "alt": "Concept roadster on a mountain road",
+                  "caption": "Concept roadster"
+                },
+                {
+                  "src": "founder/cardi/02.jpg",
+                  "alt": "Silver roadster",
+                  "caption": "Silver roadster"
+                },
+                {
+                  "src": "founder/cardi/03.jpg",
+                  "alt": "Two-tone coupé",
+                  "caption": "Two-tone coupé"
+                },
+                {
+                  "src": "founder/cardi/04.jpg",
+                  "alt": "Orange roadster",
+                  "caption": "Orange roadster"
+                },
+                {
+                  "src": "founder/cardi/05.jpg",
+                  "alt": "Red coupé",
+                  "caption": "Red coupé"
+                }
+              ]
             }
           ],
-          "footnote": "Years come from photograph EXIF data and archive names; those marked ≈ were reconstructed indirectly. The period under each title was derived by matching those dates against the careers — an inference, not a first-hand fact. Images from before 2007 are scans of prints and web graphics of the period."
+          "footnote": "Years come from the photographs and the archives; those marked ≈ are approximate. Images from before 2007, and the pages from Evgenii's portfolio, are scans of prints."
         },
         {
           "type": "cta",

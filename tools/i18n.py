@@ -30,7 +30,7 @@ TABLES = CONTENT / "i18n"
 # keys whose values are identifiers, paths or options — never translated
 SKIP_KEYS = {
     "slug", "type", "src", "href", "tag_kind", "kind", "variant", "anchor",
-    "portrait", "tone", "image", "share_image",
+    "portrait", "tone", "image", "share_image", "fit",
 }
 NUMERIC = re.compile(r"[\d\s.,–\-+%€≈/]*")
 

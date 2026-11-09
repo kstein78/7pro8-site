@@ -12,7 +12,7 @@
           {% if e.where %}<p class="chronicle__where"><b>{{ e.where }}</b>{% if e.where_note %} — {{ e.where_note }}{% endif %}</p>{% endif %}
           {% for p in e.body or [] %}<p>{{ p }}</p>{% endfor %}
           {% if e.images %}
-          <div class="gallery gallery--{{ e.cols or 3 }} chronicle__gallery">
+          <div class="gallery gallery--{{ e.cols or 3 }} chronicle__gallery{% if e.fit == 'contain' %} gallery--contain{% endif %}">
             {% for im in e.images %}
             <figure class="gallery__item">
               <img src="{{ img(im.src, im.alt) }}" alt="{{ im.alt }}" loading="lazy" width="1200" height="900">
