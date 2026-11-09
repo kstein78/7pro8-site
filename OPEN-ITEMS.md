@@ -41,11 +41,6 @@ the repository is public.
 
 ## Facts to confirm
 
-- **The year Iliya started at MAMI.** He has confirmed the rest: lecturer at the
-  Machine Parts department of the Moscow Automotive and Mechanical Institute
-  until 1998, then the paint shop at Lada Favorit until 2000. The start of the
-  teaching years is the one date nobody has given, so that segment is drawn
-  dashed from 1993 and its label reads "until 1998" rather than a range.
 - **AZLK, 1997–98.** Added to Evgenii's card as he asked. Worth confirming the
   years and the job title, since they overlap his years at CARDI and the page now
   states both.

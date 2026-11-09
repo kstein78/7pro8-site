@@ -1929,7 +1929,7 @@
               "role": "Founder",
               "portrait": "founders/bolshakov.jpg",
               "body": [
-                "Started in 2000 as a model maker and design engineer at SKB MAMI — with his hands and a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.",
+                "An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined SKB MAMI as a model maker and design engineer, and a year later SV-ART, where within two years he was chief design engineer.",
                 "Then A-Level, Avtoganza, Cardi Design and CarFashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
               ]
             }
@@ -1938,7 +1938,7 @@
         {
           "type": "lanes",
           "title": "Two routes on one axis",
-          "lead": "Where each of us worked, year by year. A dashed segment is a date we have not pinned down.",
+          "lead": "Where each of us worked, year by year.",
           "start": 1992,
           "end": 2027,
           "ticks": [
@@ -1987,17 +1987,16 @@
               "name": "Iliya Bolshakov",
               "segments": [
                 {
-                  "from": 1993,
-                  "to": 1998,
-                  "years": "until 1998",
+                  "from": 1992,
+                  "to": 1997,
+                  "years": "1992–1997",
                   "org": "Moscow Automotive and Mechanical Institute (MAMI)",
-                  "role": "Lecturer, Machine Parts department",
-                  "tentative": true
+                  "role": "Lecturer, Machine Parts and Mechanisms department"
                 },
                 {
-                  "from": 1998,
+                  "from": 1997,
                   "to": 2000,
-                  "years": "1998–2000",
+                  "years": "1997–2000",
                   "org": "Lada Favorit",
                   "role": "Paint shop"
                 },
