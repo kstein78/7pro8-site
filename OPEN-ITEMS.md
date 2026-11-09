@@ -31,13 +31,24 @@ and every one still needs Iliya or Evgenii to confirm or rewrite it.
 - ≈2000 — **Workshop, team, first volumes**
 - ≈1999 — **Before the studio: a garage, racing, the press**
 
+## Deliberately left off the page
+
+Neither founder is described as director, and no share split is shown. Both are
+"co-founders" together and "founder" individually, which is as much as a partner
+needs. The registry fields that held the directorship and the 50/50 split were
+removed from `content/site.json` as well — they were not rendered anywhere, but
+the repository is public.
+
 ## Facts to confirm
 
-- **When the two of them actually started working together.** The page now says
-  they met at CARDI and formed one engineering group in 2008, which is what
-  Evgenii's own biography says. The earlier wording, "together since the early
-  2000s", is not supported by the two CVs: Evgenii was at CARDI until 2007 and
-  Iliya joined Cardi Design in 2007.
+- **"Both of us have been in the industry since the early nineties."** This is
+  the line the founders asked for, and it is worth one more look before the page
+  goes out: Evgenii's own account starts in 1992, but the career record supplied
+  for Iliya starts in 2000, at SKB MAMI. If Iliya was in the trade before that,
+  the line stands as written; if not, it needs a different opening.
+- **AZLK, 1997–98.** Added to Evgenii's card as he asked. Worth confirming the
+  years and the job title, since they overlap his years at CARDI and the page now
+  states both.
 - **CarFashion.** The company writes itself CARFASHION, one word, on its own VK
   community (vk.ru/carfashion_rus) and as carfashionmoscow on Facebook. The site
   uses CarFashion. Worth one word from Iliya that this is the same company he

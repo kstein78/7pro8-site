@@ -1832,7 +1832,7 @@
           "body": [
             "We do not work on an individual car — we work on a car model. Every project is a full cycle: from 3D scanning of the interior to the manufacture of production tooling that lets the product be built in series, with repeatable geometry and repeatable quality. That is what separates us from one-off customisation.",
             "Our clients are vehicle distributors, official dealerships and specialist conversion shops. We supply them a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.",
-            "In Serbia we are registered as 7PRO8 DOO Rakovac, in the Novi Sad area. Evgenii Abramov is our director and represents the company independently; he and Iliya Bolshakov hold it in equal shares."
+            "In Serbia we are registered as 7PRO8 DOO Rakovac, in the Novi Sad area. Evgenii Abramov and Iliya Bolshakov are its co-founders."
           ]
         },
         {
@@ -1897,7 +1897,7 @@
           "type": "pagehead",
           "kicker": "Founders",
           "title": "Evgenii Abramov and Iliya Bolshakov",
-          "lead": "Two engineers out of the Moscow body shops — Evgenii from 1992, Iliya from 2000. They met at CARDI, and in 2008 built one engineering group out of it. Since 2015 that group is 7pro8: our shared work, taken through to series.",
+          "lead": "Both of us have been in the industry since the early nineties. We met at CARDI, and in 2008 built one engineering group out of it. Since 2015 that group is 7pro8: our shared work, taken through to series.",
           "meta": [
             {
               "label": "Working together",
@@ -1918,16 +1918,15 @@
           "people": [
             {
               "name": "Evgenii Abramov",
-              "role": "Director and co-owner, 7PRO8 DOO Rakovac",
+              "role": "Founder",
               "portrait": "founders/abramov.jpg",
               "body": [
-                "Registered with the Serbian Business Registers Agency as our director, authorised to represent the company independently, and holder of half the share capital — the other half is held by Iliya Bolshakov.",
-                "In vehicle tuning since 1992, the year he entered the Moscow Polytechnic University and joined the body atelier CARDI — industrial design and one-off concept cars. He stayed until 2007, latterly as its chief designer and lead project manager, and that is where he and Iliya met. In 2008 the two of them set up the engineering and production group this company grew out of."
+                "Joined CARDI in 1992, the same year he entered the institute: industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98. He stayed at CARDI until 2007, latterly as its chief designer and lead project manager, which is where he and Iliya met. In 2008 the two of them set up the engineering and production group this company grew out of."
               ]
             },
             {
               "name": "Iliya Bolshakov",
-              "role": "Co-owner, 7PRO8 DOO Rakovac",
+              "role": "Founder",
               "portrait": "founders/bolshakov.jpg",
               "body": [
                 "Started in 2000 as a model maker and design engineer at SKB MAMI — with his hands and a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.",
@@ -2026,7 +2025,7 @@
                   "to": 2027,
                   "years": "since 2015",
                   "org": "7pro8",
-                  "role": "Co-founder, co-owner",
+                  "role": "Co-founder",
                   "current": true
                 }
               ]
@@ -2041,7 +2040,7 @@
             {
               "year": "2022",
               "title": "Electric trike with a canopy",
-              "role": "Personal project · frame, canopy, layout",
+              "role": "Co-founder",
               "body": [
                 "A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly."
               ],
@@ -2068,7 +2067,7 @@
             {
               "year": "2009",
               "title": "Interiors on the water",
-              "role": "Marine interiors · press",
+              "role": "Co-founder",
               "body": [
                 "Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press."
               ],
@@ -2085,7 +2084,7 @@
             {
               "year": "2008",
               "title": "Taxi roof sign",
-              "role": "Design · tooling · series",
+              "role": "Co-founder",
               "body": [
                 "An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later."
               ],
@@ -2118,7 +2117,7 @@
             {
               "year": "2008",
               "title": "ZiL-4107 — state limousine interior",
-              "role": "Sketch · engineering · production",
+              "role": "Co-founder",
               "body": [
                 "A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior."
               ],
@@ -2146,7 +2145,7 @@
             {
               "year": "2007",
               "title": "Mercedes-Benz S-Class W221 — the first partition",
-              "role": "Sketch · CAD · tooling · product",
+              "role": "Co-founder",
               "body": [
                 "The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.",
                 "Everything we build in series today grew out of this job."
@@ -2180,7 +2179,7 @@
             {
               "year": "≈2005",
               "title": "Mercedes-Benz Vito — VIP interior",
-              "role": "Interior · multimedia · partition",
+              "role": "Co-founder",
               "body": [
                 "A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on."
               ],
@@ -2212,7 +2211,7 @@
             {
               "year": "2004",
               "title": "Lamborghini Diablo VT",
-              "role": "Interior · audio · trim",
+              "role": "Co-founder",
               "body": [
                 "A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all."
               ],
@@ -2244,7 +2243,7 @@
             {
               "year": "2003",
               "title": "Chevrolet Corvette",
-              "role": "Interior · console · trim",
+              "role": "Co-founder",
               "body": [
                 "The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry."
               ],
@@ -2272,7 +2271,7 @@
             {
               "year": "≈2003",
               "title": "Hummer H1 — VIP interior",
-              "role": "Interior · lighting · multimedia",
+              "role": "Co-founder",
               "body": [
                 "An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client."
               ],
@@ -2304,7 +2303,7 @@
             {
               "year": "2001",
               "title": "Lincoln Reincarnation",
-              "role": "Body · interior · lighting",
+              "role": "Co-founder",
               "body": [
                 "The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years."
               ],
@@ -2336,7 +2335,7 @@
             {
               "year": "≈2000",
               "title": "Workshop, team, first volumes",
-              "role": "Production · people",
+              "role": "Co-founder",
               "body": [
                 "The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof."
               ],
@@ -2368,7 +2367,7 @@
             {
               "year": "≈1999",
               "title": "Before the studio: a garage, racing, the press",
-              "role": "The beginning",
+              "role": "Co-founder",
               "body": [
                 "The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from."
               ],
