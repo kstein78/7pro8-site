@@ -41,13 +41,22 @@ the repository is public.
 
 ## Facts to confirm
 
-- **AZLK, 1997–98.** Added to Evgenii's card as he asked. Worth confirming the
-  years and the job title, since they overlap his years at CARDI and the page now
-  states both.
-- **CarFashion.** The company writes itself CARFASHION, one word, on its own VK
-  community (vk.ru/carfashion_rus) and as carfashionmoscow on Facebook. The site
-  uses CarFashion. Worth one word from Iliya that this is the same company he
-  worked at from 2009 to 2015 — the VK community now sells seat covers.
+- **AZLK, 1997–98.** On Evgenii's card as he asked, and now on the timeline as a
+  second line under CARDI. Worth confirming the job title.
+- **Avtoganza, Evgenii's years.** Evgenii says the two of them worked together
+  in Avtoganza's tuning department, engineering and production, and that he was
+  there a little longer than Iliya — "you can ignore that". The timeline gives
+  him Iliya's 2005–2007, drawn on a second line under CARDI because the page also
+  says he stayed at CARDI until 2007. If CARDI actually ended when Avtoganza
+  began, his CARDI bar should stop there and Avtoganza move up onto the first line.
+- **The group and CarFashion are one thing** (Evgenii). Both founders' work books
+  sat at CarFashion while they worked independently as their own group, so the
+  timeline now calls Iliya's 2009–2015 the engineering and production group,
+  "formally on the staff of CarFashion", same as Evgenii's. Evgenii's bar starts
+  in 2008 and Iliya's in 2009 (his Cardi Design runs 2007–2009) — the years are
+  as each of them gave them; one of the two may want to match the other.
+- **SKB MAMI is CARDI** (Evgenii). Iliya's 2000–2001 now reads "CARDI (SKB MAMI)",
+  which also makes it the place the two met.
 - **Which former employers' work may be shown.** The chronology carries projects
   done inside SV-ART, A-Level, Avtoganza, Cardi Design and CarFashion. Some of
   those photographs may not be ours to publish.
@@ -59,6 +68,13 @@ the repository is public.
 From the bank document: turnover by year, per-unit prices, the pipeline with
 named prospects, and the Russian sole-proprietorship. None of it belongs on a
 public page, and it is not in the content files either.
+
+## Chronicle
+
+The line under each project title said "Co-founder" for every project back to
+1999. Before the 2008 group there was nothing to be a co-founder of, so the line
+now appears only from 2008 on. Where the two founders worked at the time is
+still given from Iliya's career, except the Avtoganza years, which now name both.
 
 ## Photography
 

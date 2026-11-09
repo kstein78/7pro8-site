@@ -29,7 +29,7 @@
             <li class="lanes__seg{% if s.tentative %} lanes__seg--tentative{% endif %}{% if s.current %} lanes__seg--current{% endif %}"
                 style="grid-column: {{ s.from - block.start + 1 }} / {{ s.to - block.start + 1 }}"
                 title="{{ s.years }} · {{ s.org }} · {{ s.role }}">
-              <span class="lanes__org">{{ s.org }}</span>
+              <span class="lanes__org">{{ s.short or s.org }}</span>
               <span class="lanes__years">{{ s.years }}</span>
             </li>
             {% endfor %}

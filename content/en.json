@@ -1897,10 +1897,10 @@
           "type": "pagehead",
           "kicker": "Founders",
           "title": "Evgenii Abramov and Iliya Bolshakov",
-          "lead": "Both of us have been in the industry since the early nineties. We met at CARDI, and in 2008 built one engineering group out of it. Since 2015 that group is 7pro8: our shared work, taken through to series.",
+          "lead": "Both of us have been in the industry since the early nineties. We met at CARDI, worked together at Avtoganza, and in 2008 built our own engineering group. Since 2015 that group is 7pro8: our shared work, taken through to series.",
           "meta": [
             {
-              "label": "Working together",
+              "label": "As our own team",
               "value": "since 2008"
             },
             {
@@ -1921,7 +1921,7 @@
               "role": "Founder",
               "portrait": "founders/abramov.jpg",
               "body": [
-                "Joined CARDI in 1992, the same year he entered the institute: industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98. He stayed at CARDI until 2007, latterly as its chief designer and lead project manager, which is where he and Iliya met. In 2008 the two of them set up the engineering and production group this company grew out of."
+                "Joined CARDI in 1992, the same year he entered the institute: industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98. He stayed at CARDI until 2007, latterly as its chief designer and lead project manager, which is where he and Iliya met. In the mid-2000s the two of them also worked together in Avtoganza's tuning department, on engineering and production. In 2008 they set up the engineering and production group this company grew out of."
               ]
             },
             {
@@ -1929,8 +1929,8 @@
               "role": "Founder",
               "portrait": "founders/bolshakov.jpg",
               "body": [
-                "An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined SKB MAMI as a model maker and design engineer, and a year later SV-ART, where within two years he was chief design engineer.",
-                "Then A-Level, Avtoganza, Cardi Design and CarFashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
+                "An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined CARDI (SKB MAMI) as a model maker and design engineer, which is where he and Evgenii met. A year later he moved to SV-ART, where within two years he was chief design engineer.",
+                "Then A-Level, Avtoganza's tuning department alongside Evgenii, Cardi Design, and from 2009 the engineering and production group the two of them ran, formally on the staff of CarFashion. Fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
               ]
             }
           ]
@@ -1953,7 +1953,7 @@
           ],
           "together": {
             "from": 2008,
-            "label": "Together"
+            "label": "Our own team"
           },
           "lanes": [
             {
@@ -1967,11 +1967,25 @@
                   "role": "Designer, then chief designer and lead project manager"
                 },
                 {
+                  "from": 1997,
+                  "to": 1998,
+                  "years": "1997–1998",
+                  "org": "AZLK",
+                  "role": "Designer"
+                },
+                {
+                  "from": 2005,
+                  "to": 2007,
+                  "years": "2005–2007",
+                  "org": "Avtoganza",
+                  "role": "Tuning department: engineering and production"
+                },
+                {
                   "from": 2008,
                   "to": 2015,
                   "years": "2008–2015",
                   "org": "Engineering and production group",
-                  "role": "Co-founder"
+                  "role": "Co-founder; formally on the staff of CarFashion"
                 },
                 {
                   "from": 2015,
@@ -1991,6 +2005,7 @@
                   "to": 1997,
                   "years": "1992–1997",
                   "org": "Moscow Automotive and Mechanical Institute (MAMI)",
+                  "short": "MAMI",
                   "role": "Lecturer, Machine Parts and Mechanisms department"
                 },
                 {
@@ -2004,7 +2019,8 @@
                   "from": 2000,
                   "to": 2001,
                   "years": "2000–2001",
-                  "org": "SKB MAMI",
+                  "org": "CARDI (SKB MAMI)",
+                  "short": "CARDI",
                   "role": "Model maker and design engineer"
                 },
                 {
@@ -2026,7 +2042,7 @@
                   "to": 2007,
                   "years": "2005–2007",
                   "org": "Avtoganza",
-                  "role": "Design engineer"
+                  "role": "Design engineer, tuning department"
                 },
                 {
                   "from": 2007,
@@ -2039,8 +2055,8 @@
                   "from": 2009,
                   "to": 2015,
                   "years": "2009–2015",
-                  "org": "CarFashion",
-                  "role": "Vehicle interior design engineer"
+                  "org": "Engineering and production group",
+                  "role": "Co-founder; formally on the staff of CarFashion"
                 },
                 {
                   "from": 2015,
@@ -2057,7 +2073,7 @@
         {
           "type": "chronicle",
           "title": "The work, newest first",
-          "lead": "Twelve projects across twenty-five years, from the present back to the beginning. Under each title is where Iliya was working at the time; Evgenii's part in each project still needs to be marked.",
+          "lead": "Twelve projects across twenty-five years, from the present back to the beginning. Under each title is where we were working at the time.",
           "entries": [
             {
               "year": "2022",
@@ -2101,7 +2117,7 @@
                   "caption": "Motor yacht"
                 }
               ],
-              "where": "Iliya: Cardi Design / CarFashion"
+              "where": "Iliya: Cardi Design / our own engineering group"
             },
             {
               "year": "2008",
@@ -2133,8 +2149,7 @@
                   "caption": "Project rendering"
                 }
               ],
-              "where": "Iliya: Cardi Design",
-              "where_note": "from photograph dates"
+              "where": "Iliya: Cardi Design"
             },
             {
               "year": "2008",
@@ -2161,13 +2176,11 @@
                   "caption": "Trim and materials"
                 }
               ],
-              "where": "Iliya: Cardi Design",
-              "where_note": "from photograph dates"
+              "where": "Iliya: Cardi Design"
             },
             {
               "year": "2007",
               "title": "Mercedes-Benz S-Class W221 — the first partition",
-              "role": "Co-founder",
               "body": [
                 "The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.",
                 "Everything we build in series today grew out of this job."
@@ -2201,7 +2214,6 @@
             {
               "year": "≈2005",
               "title": "Mercedes-Benz Vito — VIP interior",
-              "role": "Co-founder",
               "body": [
                 "A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on."
               ],
@@ -2228,12 +2240,11 @@
                   "caption": "Trim"
                 }
               ],
-              "where": "Iliya: Avtoganza"
+              "where": "Iliya and Evgenii: Avtoganza, tuning department"
             },
             {
               "year": "2004",
               "title": "Lamborghini Diablo VT",
-              "role": "Co-founder",
               "body": [
                 "A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all."
               ],
@@ -2265,7 +2276,6 @@
             {
               "year": "2003",
               "title": "Chevrolet Corvette",
-              "role": "Co-founder",
               "body": [
                 "The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry."
               ],
@@ -2293,7 +2303,6 @@
             {
               "year": "≈2003",
               "title": "Hummer H1 — VIP interior",
-              "role": "Co-founder",
               "body": [
                 "An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client."
               ],
@@ -2325,7 +2334,6 @@
             {
               "year": "2001",
               "title": "Lincoln Reincarnation",
-              "role": "Co-founder",
               "body": [
                 "The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years."
               ],
@@ -2357,7 +2365,6 @@
             {
               "year": "≈2000",
               "title": "Workshop, team, first volumes",
-              "role": "Co-founder",
               "body": [
                 "The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof."
               ],
@@ -2384,12 +2391,11 @@
                   "caption": "The workshop"
                 }
               ],
-              "where": "Iliya: SV-ART · SKB MAMI"
+              "where": "Iliya: CARDI (SKB MAMI) · SV-ART"
             },
             {
               "year": "≈1999",
               "title": "Before the studio: a garage, racing, the press",
-              "role": "Co-founder",
               "body": [
                 "The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from."
               ],
@@ -2406,7 +2412,7 @@
                   "caption": "From the archive"
                 }
               ],
-              "where": "Iliya: Before SKB MAMI"
+              "where": "Iliya: before CARDI"
             }
           ],
           "footnote": "Years come from photograph EXIF data and archive names; those marked ≈ were reconstructed indirectly. The period under each title was derived by matching those dates against the careers — an inference, not a first-hand fact. Images from before 2007 are scans of prints and web graphics of the period."

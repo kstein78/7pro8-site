@@ -874,6 +874,10 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
   grid-template-columns: repeat(var(--span), minmax(0, 1fr));
   list-style: none; margin: 0; padding: 0;
 }
+/* A job held alongside another (AZLK and Avtoganza beside CARDI) has to sit
+   on a second line of the same lane; dense placement keeps everything else on
+   the first line instead of following the overlap down. */
+.lanes__row { grid-auto-flow: dense; row-gap: 3px; }
 .lanes__axis { border-bottom: 1px solid var(--hair); padding-bottom: 0.6rem; margin-bottom: 0.4rem; }
 .lanes__tick {
   font-family: var(--display);
