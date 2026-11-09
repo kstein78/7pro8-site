@@ -1046,3 +1046,30 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 .cell::before {
   font-variant-numeric: lining-nums tabular-nums;
 }
+
+/* ===================================================== readability layer
+   Switched by "type" in content/site.json ("legible" / "classic"); set
+   "classic", or delete this section, to return to the original type. Any page
+   can be viewed either way with ?type=classic or ?type=legible.
+   Same family, same lightness of touch: Jost is a variable font, so the body
+   goes from 300 to 360 rather than to a bold, and the two greys move up until
+   small text clears 4.5:1 on the night ground (the faint grey was 3.5:1). */
+
+html.type-legible {
+  --ivory-dim:   #b4b0a7;   /* was #9c988f */
+  --ivory-faint: #8f8b83;   /* was #6d6a64 */
+}
+html.type-legible body { font-weight: 360; }
+
+/* the smallest spaced capitals: a touch larger and one step heavier */
+html.type-legible :is(.wordmark__line, .facts__label, .pagehead__meta dt,
+  .split__figure figcaption, .gallery figcaption, .project__meta, .tag,
+  .field label, .field legend, .colophon__label, .chronicle__role,
+  .career__role, .duo__role, .lanes__together, .glass__bar, .data thead th) {
+  font-size: 0.74rem;
+  font-weight: 420;
+}
+html.type-legible :is(.chronicle__where, .lanes__org) { font-weight: 420; }
+html.type-legible :is(.lanes__years, .colophon__by) { font-size: 0.7rem; font-weight: 400; }
+html.type-legible :is(.kicker, .eyebrow, .nav__list a, .langs a, .langs span,
+  .lineup__status, .spec__title, .callout__title) { font-weight: 450; }

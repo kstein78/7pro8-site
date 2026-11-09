@@ -18,6 +18,8 @@
   "registration_no": "21899852",
   "vat_no": "113613015",
   "share_image": "share/7pro8-share.jpg",
+  "_type_comment": "type: legible = the readability layer at the end of site.css; classic = the original thin, dim small type. Preview either on any page with ?type=classic or ?type=legible. Branch type-classic holds the site as it was before the layer.",
+  "type": "legible",
   "form_endpoint": "https://formspree.io/f/TODO_FORM_ID",
   "default_language": "en",
   "languages": [

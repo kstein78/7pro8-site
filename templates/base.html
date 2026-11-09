@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ lang_meta.html_lang or lang }}">
+<html lang="{{ lang_meta.html_lang or lang }}" class="type-{{ site.type or 'classic' }}">
 <head>
+<script>/* ?type=classic|legible shows the site in that typography for this tab */
+(function(){var d=document.documentElement,m=/[?&]type=(classic|legible)\b/.exec(location.search),v=null;try{if(m)sessionStorage.setItem("type",m[1]);v=sessionStorage.getItem("type");}catch(e){v=m&&m[1];}if(v)d.className=d.className.replace(/\btype-\w+/,"type-"+v);})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title_tag or page.title }}{% if page.slug %} — {{ site.name }}{% endif %}</title>

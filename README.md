@@ -297,6 +297,19 @@ The risk of this direction is photography. On a dark ground a mediocre photograp
 looks worse than it does on a light one, so every image needs to be properly lit
 and colour-graded before launch.
 
+### Readability layer — and how to undo it
+
+`"type": "legible"` in `content/site.json` switches on the last section of
+`static/css/site.css`: body text at weight 360 instead of 300, lighter greys
+(small text at 5.7:1 contrast instead of 3.6:1), and the smallest spaced
+capitals a touch larger. Three ways back to the original, quickest first:
+
+- **Look, don't change:** open any page with `?type=classic` (or
+  `?type=legible`); the choice holds for that browser tab.
+- **Switch:** set `"type": "classic"` in `content/site.json` and push.
+- **Everything as it was:** the branch `type-classic` is the site exactly as
+  it stood before the layer.
+
 ### Fonts
 
 Self-hosted in `static/fonts/` (SIL Open Font License, licences included), taken
