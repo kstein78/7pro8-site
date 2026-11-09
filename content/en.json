@@ -49,7 +49,7 @@
       "slug": "",
       "title": "7pro8",
       "title_tag": "7pro8 — interior partitions for premium vehicles",
-      "description": "Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007. Made in Serbia, into the EU without customs duty.",
+      "description": "Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007; a company registered in Serbia since 2023.",
       "blocks": [
         {
           "type": "hero",
@@ -366,7 +366,7 @@
       "slug": "capabilities",
       "title": "Engineering",
       "title_tag": "The full cycle in-house — design, engineering, tooling, production",
-      "description": "Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Vojvodina, northern Serbia. One point of contact and one line of responsibility.",
+      "description": "Design, engineering, tooling manufacture and production of interior partitions are handled by one team. One point of contact and one line of responsibility.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1694,7 +1694,7 @@
       "slug": "partners",
       "title": "Partners",
       "title_tag": "Working with 7pro8 — scope, responsibilities and lead times",
-      "description": "How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and why a kit shipped from Serbia reaches an EU partner with no customs duty.",
+      "description": "How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and how price and delivery terms are agreed.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1772,7 +1772,7 @@
           "body": [
             "Price is a function of annual volume. It is agreed with the partner in advance, improves at higher volumes and is reviewed at lower ones, so a published list price would be misleading in both directions.",
             "Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.",
-            "Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.",
+            "Delivery terms, customs clearance and import duties depend on the destination country. We agree them with each partner as part of the quote.",
             "For a model that does not exist yet, development from scratch takes up to a year depending on the complexity of the vehicle. A cost-sharing model is possible, under which the partner receives priority by market or by model.",
             "Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan."
           ]
@@ -1820,7 +1820,7 @@
       "slug": "company",
       "title": "Company",
       "title_tag": "About 7pro8 — vehicle partitions since 2007",
-      "description": "We built our first interior partition in 2007. Since then we have developed more than 20 partition models and delivered over 450 kits. Today design, engineering and production share one workshop in Vojvodina, in northern Serbia.",
+      "description": "We built our first interior partition in 2007. Since then we have developed more than 20 partition models and delivered over 450 kits. Since 2023 the company has been registered in Serbia.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1832,7 +1832,7 @@
           "body": [
             "We do not work on an individual car — we work on a car model. Every project is a full cycle: from 3D scanning of the interior to the manufacture of production tooling that lets the product be built in series, with repeatable geometry and repeatable quality. That is what separates us from one-off customisation.",
             "Our clients are vehicle distributors, official dealerships and specialist conversion shops. We supply them a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.",
-            "In Serbia we are registered as 7PRO8 DOO Rakovac, in the Novi Sad area. Evgenii Abramov and Iliya Bolshakov are its co-founders."
+            "Since 2023 we have been registered in Serbia as 7PRO8 DOO. Evgenii Abramov and Iliya Bolshakov are its co-founders."
           ]
         },
         {
@@ -1855,15 +1855,15 @@
         },
         {
           "type": "split",
-          "title": "Where the work happens",
+          "title": "A company in Serbia",
           "body": [
-            "Design, engineering, tooling and production all sit in the same building in Vojvodina, the northern province of Serbia, twenty minutes from Novi Sad. For this segment that is an unusual combination: engineering labour at a cost that supports series production, and a country whose industrial goods have entered the European Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. Serbia has been a candidate for EU membership since 2012.",
+            "Serbia has been a candidate for membership of the European Union since 2012. Our working day runs on Central European Time, and we correspond in English, German, Serbian and Russian.",
             "Deliveries run to the European Union, the United Kingdom, the United Arab Emirates, the United States and the Middle East."
           ],
           "image": {
             "src": "company/workshop.jpg",
-            "alt": "The 7pro8 workshop in Rakovac",
-            "caption": "Rakovac, near Novi Sad — design, engineering, tooling and assembly under one roof"
+            "alt": "A partition on the 7pro8 shop floor, before trimming",
+            "caption": "A partition between assembly and trimming"
           }
         },
         {
@@ -2559,8 +2559,8 @@
     {
       "slug": "contact",
       "title": "Contact",
-      "title_tag": "Contact 7pro8 — Rakovac, Serbia",
-      "description": "Contact 7PRO8 DOO Rakovac: address, email and telephone. Partner enquiries are answered within two working days.",
+      "title_tag": "Contact 7pro8 — Serbia",
+      "description": "Contact 7pro8: address, email and telephone. Partner enquiries are answered within two working days.",
       "blocks": [
         {
           "type": "pagehead",
@@ -2570,7 +2570,7 @@
         {
           "type": "split",
           "body": [
-            "7PRO8 DOO Rakovac — Beočinski put 2, 21299 Rakovac, municipality of Beočin, Serbia.",
+            "Registered office: 7PRO8 DOO Rakovac, Beočinski put 2, 21299 Rakovac, Serbia.",
             "Working hours are 08:00 to 17:00 Central European Time, Monday to Friday. We correspond in English, German, Serbian and Russian.",
             "Full postal address, company registration number, VAT number and telephone are in the footer of every page."
           ],
@@ -2580,8 +2580,7 @@
           },
           "image": {
             "src": "company/novi-sad.jpg",
-            "alt": "The 7pro8 premises in Rakovac",
-            "caption": "Rakovac, Serbia"
+            "alt": "Passenger compartment in cream leather"
           }
         },
         {

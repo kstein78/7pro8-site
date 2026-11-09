@@ -1,6 +1,6 @@
 # 7pro8.com
 
-Static site for 7pro8 DOO Novi Sad. Every page is generated from JSON content
+Static site for 7pro8 (7PRO8 DOO, Serbia). Every page is generated from JSON content
 files, so adding a language means translating one file rather than rewriting
 HTML, and correcting a figure means editing one line rather than hunting through
 markup.
@@ -168,15 +168,20 @@ OPEN-ITEMS.md with the rest of the list. Settled:
   deck's 2007 everywhere, as the year of the first partition.
 - **"Founded 2007" against "7pro8 as a firm since 2015".** The pages now say
   what each year is: the first partition in 2007, the company in its own right
-  since 2015 (founders page), registered in Serbia as 7PRO8 DOO (company page,
-  and `foundingDate` 2023 in the structured data). No page claims production in
-  Serbia since 2007 any more.
+  since 2015 (founders page), registered in Serbia as 7PRO8 DOO since 2023
+  (company page, and `foundingDate` in the structured data).
+
+### Geography
+
+The site names the country, Serbia, and where it helps, Europe. The town and the
+province appear only in the legal address: the footer, the registered-office
+line on the contact page and the structured data. Any new copy follows the same
+rule.
 
 ### Deliberately not published
 
-The indicative price table from the deck (V-Class €25,000–28,000, Rolls-Royce
-Phantom €60,000–70,000, new project from €70,000, Escalade completion cost
-€80,000–90,000) is **not** on the site, by design:
+The indicative price table from the deck is **not** on the site, and its figures
+are not in this repository either (it is public), by design:
 
 - it is the negotiating position, and publishing it removes the room to move;
 - it points KLASSEN and every other competitor straight at the price shelf;

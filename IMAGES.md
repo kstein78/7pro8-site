@@ -156,7 +156,7 @@ visitors will judge the company on.
 
 | Path | What it should show |
 |---|---|
-| `company/workshop.jpg` | The shop floor in Novi Sad, with work visibly in progress. |
+| `company/workshop.jpg` | The shop floor, with work visibly in progress. |
 | `company/novi-sad.jpg` | The building or the city — used on the contact page. |
 
 ## The logo
