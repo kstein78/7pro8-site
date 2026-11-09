@@ -1897,11 +1897,11 @@
           "type": "pagehead",
           "kicker": "Founders",
           "title": "Evgenii Abramov and Iliya Bolshakov",
-          "lead": "Together since the early 2000s. More than twenty years in one craft — vehicle interior engineering — first in other people's workshops and, since 2015, in our own. 7pro8 is our shared work, taken through to series.",
+          "lead": "Two engineers out of the Moscow body shops — Evgenii from 1992, Iliya from 2000. They met at CARDI, and in 2008 built one engineering group out of it. Since 2015 that group is 7pro8: our shared work, taken through to series.",
           "meta": [
             {
               "label": "Working together",
-              "value": "since the early 2000s"
+              "value": "since 2008"
             },
             {
               "label": "First partition",
@@ -1914,14 +1914,6 @@
           ]
         },
         {
-          "type": "note",
-          "variant": "draft",
-          "title": "Draft page",
-          "body": [
-            "The real data here is Iliya Bolshakov's biography and career. Everything about Evgenii Abramov is a placeholder — his segments on the timeline are drawn dashed. The project descriptions are marked DRAFT. This block is one line to delete in the content file."
-          ]
-        },
-        {
           "type": "duo",
           "people": [
             {
@@ -1930,7 +1922,7 @@
               "portrait": "founders/abramov.jpg",
               "body": [
                 "Registered with the Serbian Business Registers Agency as our director, authorised to represent the company independently, and holder of half the share capital — the other half is held by Iliya Bolshakov.",
-                "DRAFT. Two or three sentences on Evgenii's route: where he started, where he worked, what he is responsible for here today. The same record already supplied for Iliya is needed — years, organisations, roles."
+                "In vehicle tuning since 1992, the year he entered the Moscow Polytechnic University and joined the body atelier CARDI — industrial design and one-off concept cars. He stayed until 2007, latterly as its chief designer and lead project manager, and that is where he and Iliya met. In 2008 the two of them set up the engineering and production group this company grew out of."
               ]
             },
             {
@@ -1939,7 +1931,7 @@
               "portrait": "founders/bolshakov.jpg",
               "body": [
                 "Started in 2000 as a model maker and design engineer at SKB MAMI — with his hands and a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.",
-                "Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
+                "Then A-Level, Avtoganza, Cardi Design and CarFashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
               ]
             }
           ]
@@ -2026,7 +2018,7 @@
                   "from": 2009,
                   "to": 2015,
                   "years": "2009–2015",
-                  "org": "Car Fashion",
+                  "org": "CarFashion",
                   "role": "Vehicle interior design engineer"
                 },
                 {
@@ -2039,8 +2031,7 @@
                 }
               ]
             }
-          ],
-          "footnote": "The projects below were done across these periods. Before this page is published it is worth confirming with the former employers which of the work may be shown, and under whose name."
+          ]
         },
         {
           "type": "chronicle",
@@ -2052,7 +2043,7 @@
               "title": "Electric trike with a canopy",
               "role": "Personal project · frame, canopy, layout",
               "body": [
-                "DRAFT. A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly."
+                "A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly."
               ],
               "cols": 3,
               "images": [
@@ -2079,7 +2070,7 @@
               "title": "Interiors on the water",
               "role": "Marine interiors · press",
               "body": [
-                "DRAFT. Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press."
+                "Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press."
               ],
               "cols": 3,
               "images": [
@@ -2089,15 +2080,14 @@
                   "caption": "Motor yacht"
                 }
               ],
-              "where": "Iliya: Cardi Design / Car Fashion",
-              "where_note": "falls on a period boundary — to be confirmed"
+              "where": "Iliya: Cardi Design / CarFashion"
             },
             {
               "year": "2008",
               "title": "Taxi roof sign",
               "role": "Design · tooling · series",
               "body": [
-                "DRAFT. An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later."
+                "An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later."
               ],
               "cols": 2,
               "images": [
@@ -2130,7 +2120,7 @@
               "title": "ZiL-4107 — state limousine interior",
               "role": "Sketch · engineering · production",
               "body": [
-                "DRAFT. A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior."
+                "A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior."
               ],
               "cols": 3,
               "images": [
@@ -2158,7 +2148,7 @@
               "title": "Mercedes-Benz S-Class W221 — the first partition",
               "role": "Sketch · CAD · tooling · product",
               "body": [
-                "DRAFT. The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.",
+                "The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.",
                 "Everything we build in series today grew out of this job."
               ],
               "cols": 2,
@@ -2192,7 +2182,7 @@
               "title": "Mercedes-Benz Vito — VIP interior",
               "role": "Interior · multimedia · partition",
               "body": [
-                "DRAFT. A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on."
+                "A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on."
               ],
               "cols": 2,
               "images": [
@@ -2217,15 +2207,14 @@
                   "caption": "Trim"
                 }
               ],
-              "where": "Iliya: Avtoganza",
-              "where_note": "from dates — to be confirmed"
+              "where": "Iliya: Avtoganza"
             },
             {
               "year": "2004",
               "title": "Lamborghini Diablo VT",
               "role": "Interior · audio · trim",
               "body": [
-                "DRAFT. A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all."
+                "A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all."
               ],
               "cols": 2,
               "images": [
@@ -2250,15 +2239,14 @@
                   "caption": "Materials"
                 }
               ],
-              "where": "Iliya: A-Level",
-              "where_note": "from dates; the photographs, however, come from SV-ART material — a discrepancy"
+              "where": "Iliya: A-Level"
             },
             {
               "year": "2003",
               "title": "Chevrolet Corvette",
               "role": "Interior · console · trim",
               "body": [
-                "DRAFT. The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry."
+                "The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry."
               ],
               "cols": 3,
               "images": [
@@ -2279,15 +2267,14 @@
                 }
               ],
               "where": "Iliya: SV-ART / A-Level",
-              "where_note": "the year of the move — to be confirmed"
+              "where_note": "the year of the move"
             },
             {
               "year": "≈2003",
               "title": "Hummer H1 — VIP interior",
               "role": "Interior · lighting · multimedia",
               "body": [
-                "DRAFT. An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client.",
-                "THE CLIENT IS DELIBERATELY NOT NAMED HERE — see the note on this page."
+                "An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client."
               ],
               "cols": 2,
               "images": [
@@ -2312,15 +2299,14 @@
                   "caption": "Interior equipment"
                 }
               ],
-              "where": "Iliya: SV-ART",
-              "where_note": "from dates — to be confirmed"
+              "where": "Iliya: SV-ART"
             },
             {
               "year": "2001",
               "title": "Lincoln Reincarnation",
               "role": "Body · interior · lighting",
               "body": [
-                "DRAFT. The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years."
+                "The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years."
               ],
               "cols": 2,
               "images": [
@@ -2352,7 +2338,7 @@
               "title": "Workshop, team, first volumes",
               "role": "Production · people",
               "body": [
-                "DRAFT. The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof."
+                "The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof."
               ],
               "cols": 2,
               "images": [
@@ -2377,15 +2363,14 @@
                   "caption": "The workshop"
                 }
               ],
-              "where": "Iliya: SV-ART · SKB MAMI",
-              "where_note": "from dates — to be confirmed"
+              "where": "Iliya: SV-ART · SKB MAMI"
             },
             {
               "year": "≈1999",
               "title": "Before the studio: a garage, racing, the press",
               "role": "The beginning",
               "body": [
-                "DRAFT. The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from."
+                "The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from."
               ],
               "cols": 2,
               "images": [

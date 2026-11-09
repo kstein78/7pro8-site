@@ -822,7 +822,15 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
   gap: clamp(2.5rem, 6vw, 5.5rem);
 }
 .duo__portrait { margin: 0 0 1.75rem; }
-.duo__portrait img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; filter: saturate(0.85); }
+/* The founders' portraits are ordinary photographs taken on ordinary days —
+   one of them in an orange drone-racing shirt — and they sit on a near-black
+   page next to Bodoni. Holding them back to a little over a third of their
+   colour settles them into the page without draining the faces, and it gives
+   the two portraits a common treatment whatever they were shot in. */
+.duo__portrait img {
+  width: 100%; aspect-ratio: 4 / 5; object-fit: cover;
+  filter: grayscale(0.6) contrast(1.03);
+}
 .duo__role {
   font-size: 0.68rem; letter-spacing: 0.26em; text-transform: uppercase;
   color: var(--brass); margin-bottom: 0.7rem;
