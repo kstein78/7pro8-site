@@ -26,12 +26,33 @@
           <p class="lanes__who">{{ lane.name }}</p>
           <ol class="lanes__row">
             {% for s in lane.segments %}
-            <li class="lanes__seg{% if s.tentative %} lanes__seg--tentative{% endif %}{% if s.current %} lanes__seg--current{% endif %}"
-                style="grid-column: {{ s.from - block.start + 1 }} / {{ s.to - block.start + 1 }}"
-                title="{{ s.years }} · {{ s.org }} · {{ s.role }}">
-              <span class="lanes__org">{{ s.short or s.org }}</span>
+            {#- Rough text widths at the narrowest layout (one year ≈ 34 px):
+                 org ≈ 6.9 px a character, years ≈ 6.2 px, plus padding. A
+                 segment too short for its longest word or its years carries no
+                 text; its label hangs below it as a flag that may run past its
+                 end, and the grid stacks flags that would collide.          -#}
+            {%- set label = s.short or s.org %}
+            {%- set years_n = s.to - s.from %}
+            {%- set word_px = (label.split(' ')|map('length')|max) * 6.9 %}
+            {%- set years_px = (s.years|length) * 6.2 %}
+            {%- set narrow = ([word_px, years_px]|max) + 16 > years_n * 34 %}
+            {%- set col = s.from - block.start + 1 %}
+            <li class="lanes__seg{% if s.tentative %} lanes__seg--tentative{% endif %}{% if s.current %} lanes__seg--current{% endif %}{% if narrow %} lanes__seg--narrow{% endif %}"
+                style="grid-column: {{ col }} / {{ s.to - block.start + 1 }}"
+                title="{{ s.years }} · {{ s.org }} · {{ s.role }}"{% if narrow %} aria-hidden="true"{% endif %}>
+              {%- if not narrow %}
+              <span class="lanes__org">{{ label }}</span>
+              <span class="lanes__years">{{ s.years }}</span>
+              {%- endif %}
+            </li>
+            {%- if narrow %}
+            {%- set flag_n = ((([label|length * 6.9, years_px]|max) + 14) / 34)|round(0, 'ceil')|int %}
+            {%- set flag_n = [flag_n, span - col + 1]|min %}
+            <li class="lanes__flag" style="grid-column: {{ col }} / span {{ flag_n }}" title="{{ s.years }} · {{ s.org }} · {{ s.role }}">
+              <span class="lanes__org">{{ label }}</span>
               <span class="lanes__years">{{ s.years }}</span>
             </li>
+            {%- endif %}
             {% endfor %}
           </ol>
           {% endfor %}
