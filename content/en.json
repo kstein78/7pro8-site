@@ -2477,7 +2477,7 @@
             },
             {
               "year": "≈1999–2002",
-              "title": "Before the studio: a garage, racing, the press",
+              "title": "Garage, racing, the press",
               "role": "Iliya",
               "where": "Before CARDI · SV-ART",
               "body": [
@@ -2552,6 +2552,17 @@
             }
           ],
           "footnote": "Years come from the photographs and the archives; those marked ≈ are approximate. Images from before 2007, and the pages from Evgenii's portfolio, are scans of prints."
+        },
+        {
+          "type": "gallery",
+          "items": [
+            {
+              "src": "founder/road/01.jpg",
+              "alt": "At the wheel, with a donkey looking in through the open window",
+              "caption": "Road test, with a local expert"
+            }
+          ],
+          "align": "center"
         },
         {
           "type": "cta",

@@ -606,6 +606,8 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 /* Scans of print pages come in every proportion; cropping them to 4:3 would cut
    the cars in half, so these sit whole inside the same 4:3 cell. */
 .gallery--contain .gallery__item img { object-fit: contain; background: var(--night-2); }
+/* One picture on its own, centred in the band rather than left in half of it. */
+.gallery--center { grid-template-columns: minmax(0, 46rem); justify-content: center; }
 /* Single prints of mixed orientation: each at its own proportions, no crop. */
 .gallery--natural { align-items: start; }
 .gallery--natural .gallery__item img { aspect-ratio: auto; height: auto; }
