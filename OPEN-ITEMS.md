@@ -13,7 +13,7 @@ finished, and this file is the list to work through.
   Web3Forms account takes a few minutes; paste its endpoint in and the form
   posts directly.
 - **The email address.** Every page shows `7pro8design@gmail.com`. For a
-  partner weighing a five-figure order, an address at `@7pro8.com` is worth more
+  partner weighing a €25,000 order, an address at `@7pro8.com` is worth more
   than any design change — and it needs the domain moved off Squarespace first.
 - **One headline kit count.** The hero and the company page say 450+; the
   history table on the availability page adds up to 460. Both come from the
@@ -92,8 +92,8 @@ the repository is public.
 
 ## Deliberately not on the site
 
-From the bank document: turnover, per-unit prices, the pipeline with named
-prospects and the corporate details behind them. None of it belongs on a
+From the bank document: turnover by year, per-unit prices, the pipeline with
+named prospects, and the Russian sole-proprietorship. None of it belongs on a
 public page, and it is not in the content files either.
 
 ## Chronicle

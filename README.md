@@ -184,8 +184,9 @@ processing there and a proof of origin with each shipment.
 
 ### Deliberately not published
 
-The indicative price table from the deck is **not** on the site, and its figures
-are not in this repository either (it is public), by design:
+The indicative price table from the deck (V-Class €25,000–28,000, Rolls-Royce
+Phantom €60,000–70,000, new project from €70,000, Escalade completion cost
+€80,000–90,000) is **not** on the site, by design:
 
 - it is the negotiating position, and publishing it removes the room to move;
 - it points KLASSEN and every other competitor straight at the price shelf;
