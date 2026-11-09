@@ -2483,19 +2483,34 @@
               "body": [
                 "The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from."
               ],
-              "cols": 2,
+              "cols": 3,
               "images": [
                 {
                   "src": "founder/workshop/01.jpg",
-                  "alt": "Working in the workshop",
-                  "caption": "The garage, early 2000s"
+                  "alt": "Working on a moulded part at the bench"
                 },
                 {
                   "src": "founder/workshop/02.jpg",
-                  "alt": "Collage of working photographs",
-                  "caption": "From the archive"
+                  "alt": "In the rear seat of a converted interior"
+                },
+                {
+                  "src": "founder/workshop/03.jpg",
+                  "alt": "Outside the workshop at night, on a pile of boxes"
+                },
+                {
+                  "src": "founder/workshop/04.jpg",
+                  "alt": "On a pier beside motor yachts"
+                },
+                {
+                  "src": "founder/workshop/05.jpg",
+                  "alt": "Working on the rear of an Audi estate"
+                },
+                {
+                  "src": "founder/workshop/06.jpg",
+                  "alt": "A mirrored ceiling in a converted interior"
                 }
-              ]
+              ],
+              "fit": "natural"
             },
             {
               "year": "1992–2003",
