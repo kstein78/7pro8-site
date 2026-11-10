@@ -280,15 +280,22 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 /* -------------------------------------------------------------------- hero */
 
 .hero { position: relative; }
-.hero__frame { position: relative; }
-.hero__frame .glass img { width: 100%; height: clamp(30rem, 78vh, 46rem); object-fit: cover; }
+/* Photograph, veil and text share one grid cell, so the frame is as tall as
+   the photograph or the text, whichever needs more. A three-line Russian
+   headline on a short laptop screen no longer climbs into the caption and
+   the header; at ordinary sizes nothing moves. */
+.hero__frame { position: relative; display: grid; }
+.hero__frame > .glass, .hero__frame > .hero__veil, .hero__frame > .hero__overlay { grid-area: 1 / 1; }
+.hero__frame .glass { min-height: clamp(30rem, 78vh, 46rem); }
+.hero__frame .glass img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hero__veil {
   position: absolute; inset: 0;
   background: linear-gradient(to top, rgba(12,13,15,0.96) 8%, rgba(12,13,15,0.55) 45%, rgba(12,13,15,0.25) 100%);
   pointer-events: none;
 }
 .hero__overlay {
-  position: absolute; inset: auto 0 0 0;
+  position: relative; align-self: end;
+  padding-top: 6rem;   /* clear of the caption bar */
   padding-bottom: clamp(2rem, 5vw, 4rem);
 }
 .hero__title {
@@ -318,6 +325,7 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 
 .glass__bar {
   position: absolute; top: 0; left: 0; right: 0;
+  z-index: 2;   /* above the hero veil, so the caption stays white */
   display: flex; align-items: center; justify-content: space-between; gap: 1.5rem;
   padding: 1.2rem clamp(1.25rem, 4vw, 2.5rem);
   font-family: var(--sans);
@@ -335,11 +343,10 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
    image cannot rescue it without dulling the whole picture. It carries its own
    plate instead, which stays legible against any photograph put here later. */
 .glass__caption {
-  color: var(--ivory); max-width: 34ch; line-height: 1.65;
-  padding: 0.55rem 0.9rem;
-  background: rgba(12,13,15,0.6);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
+  /* No plate: on the V-Class frame it ran into the headline. White text, and
+     a soft shadow so it still reads over the lit window behind it. */
+  color: #fff; line-height: 1.65;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.75), 0 0 12px rgba(0,0,0,0.45);
 }
 .glass__switch {
   display: inline-flex; align-items: center; gap: 0.8rem;
@@ -388,7 +395,7 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 
 @media (max-width: 62rem) {
   .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
-  .hero__frame .glass img { height: clamp(24rem, 62vh, 34rem); }
+  .hero__frame .glass { min-height: clamp(24rem, 62vh, 34rem); }
 }
 
 /* ---------------------------------------------------------------- pagehead */
@@ -748,9 +755,11 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 @media (max-width: 42rem) {
   .glass__caption { display: none; }
   .glass__bar { justify-content: flex-end; }
+  .hero__frame { display: block; }
   .hero__overlay { position: static; padding-block: 2.5rem 0; }
   .hero__veil { display: none; }
-  .hero__frame .glass img { height: 20rem; }
+  .hero__frame .glass { min-height: 0; }
+  .hero__frame .glass img { position: static; height: 20rem; }
 }
 
 /* --------------------------------------------------------------- chronicle */
@@ -1065,7 +1074,7 @@ html.type-legible body { font-weight: 360; }
 html.type-legible :is(.wordmark__line, .facts__label, .pagehead__meta dt,
   .split__figure figcaption, .gallery figcaption, .project__meta, .tag,
   .field label, .field legend, .colophon__label, .chronicle__role,
-  .career__role, .duo__role, .lanes__together, .glass__bar, .data thead th) {
+  .career__role, .duo__role, .lanes__together, .data thead th) {
   font-size: 0.74rem;
   font-weight: 420;
 }
