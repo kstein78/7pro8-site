@@ -26,11 +26,12 @@ finished, and this file is the list to work through.
 ## Portraits
 
 Both are in place at the same size, 453 × 567, with the eye lines on one level and
-the heads at one scale. Evgenii's original is cut at the crown and has no room
-above his head, so to bring his eyes down to Iliya's height the top 60 px of his
-frame were rebuilt: out-of-focus background and the last few millimetres of hair
-(`tools/` has no script for it; it was a one-off). If he can send the same
-photograph uncropped, or any with air above the head, that patch goes away.
+the heads at one scale. Evgenii's original is cut a few pixels into the crown and
+has no room above his head, so the top 70 px of his frame are built by
+`tools/rebuild_abramov_portrait.py`: the background from the side colours of the
+top rows, blurred like the rest, and the crown as the continuation of the head
+outline filled with his own hair texture. If he can send the same photograph
+uncropped, or any with air above the head, that step goes away.
 
 Both are a little under the 604 px card width, which shows as slight softness on
 a large retina screen and nowhere else. Photographs sent as *files* in Telegram,
