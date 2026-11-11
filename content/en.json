@@ -1952,7 +1952,7 @@
             2025
           ],
           "together": {
-            "from": 2008,
+            "from": 2009,
             "label": "Our own team"
           },
           "lanes": [
@@ -1961,10 +1961,11 @@
               "segments": [
                 {
                   "from": 1992,
-                  "to": 2008,
-                  "years": "1992–2008",
-                  "org": "SKB MAMI (CARDI)",
-                  "role": "Designer, then chief designer and lead project manager"
+                  "to": 1997,
+                  "years": "1992–1997",
+                  "org": "Moscow Automotive and Mechanical Institute (MAMI)",
+                  "short": "MAMI",
+                  "role": "Studies and work"
                 },
                 {
                   "from": 1997,
@@ -1974,16 +1975,30 @@
                   "role": "Designer"
                 },
                 {
+                  "from": 1998,
+                  "to": 2005,
+                  "years": "1998–2005",
+                  "org": "SKB MAMI (CARDI)",
+                  "role": "Designer"
+                },
+                {
                   "from": 2005,
-                  "to": 2008,
-                  "years": "2005–2008",
+                  "to": 2007,
+                  "years": "2005–2007",
                   "org": "Avtoganza",
                   "role": "Tuning department: engineering and production"
                 },
                 {
-                  "from": 2008,
+                  "from": 2007,
+                  "to": 2009,
+                  "years": "2007–2009",
+                  "org": "CARDI",
+                  "role": "Chief designer and lead project manager"
+                },
+                {
+                  "from": 2009,
                   "to": 2015,
-                  "years": "2008–2015",
+                  "years": "2009–2015",
                   "org": "Engineering and production group",
                   "role": "Co-founder; formally on the staff of CarFashion"
                 },
