@@ -1921,7 +1921,7 @@
               "role": "Founder",
               "portrait": "founders/abramov.jpg",
               "body": [
-                "Entered MAMI in 1992 and worked there while he studied. Designer at AZLK, the Moscow car plant, in 1997–98. From 1998 at SKB MAMI (CARDI): industrial design and one-off concept cars, and the place where he and Iliya met. In 2005–2007 the two of them worked together in Avtoganza's tuning department, on engineering and production, then both went back to CARDI, he now as its chief designer and lead project manager. In 2009 they set up the engineering and production group, formally on the staff of CarFashion, that this company grew out of."
+                "Entered MAMI in 1992 and at the same time started work at CARDI, the institute's special design bureau (SKB MAMI): industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98, then back at CARDI from 1998, which is where he and Iliya met. In 2005–2007 the two of them worked together in Avtoganza's tuning department, on engineering and production, then both went back to CARDI, he now as its chief designer and lead project manager. In 2009 they set up the engineering and production group, formally on the staff of CarFashion, that this company grew out of."
               ]
             },
             {
@@ -1963,9 +1963,9 @@
                   "from": 1992,
                   "to": 1997,
                   "years": "1992–1997",
-                  "org": "Moscow Automotive and Mechanical Institute (MAMI)",
-                  "short": "MAMI",
-                  "role": "Studies and work"
+                  "org": "MAMI and SKB MAMI (CARDI)",
+                  "short": "MAMI · CARDI",
+                  "role": "Student at MAMI, working at CARDI alongside"
                 },
                 {
                   "from": 1997,
@@ -1978,7 +1978,7 @@
                   "from": 1998,
                   "to": 2005,
                   "years": "1998–2005",
-                  "org": "SKB MAMI (CARDI)",
+                  "org": "CARDI",
                   "role": "Designer"
                 },
                 {
