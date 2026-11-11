@@ -533,7 +533,7 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 }
 .data tbody th { font-weight: 400; color: var(--ivory); padding-right: 2rem; }
 .data td { color: var(--ivory-dim); }
-.data .num { text-align: right; font-variant-numeric: tabular-nums; padding-right: 0; }
+.data .num { text-align: right; font-variant-numeric: tabular-nums; padding-right: 2.5rem; }
 .data__total th, .data__total td {
   color: var(--ivory);
   font-family: var(--display);

@@ -696,14 +696,14 @@
               "caption": "Kit on the shop floor, ready for dispatch"
             },
             {
-              "src": "portfolio/v-class-line-1/02.jpg",
-              "alt": "Partition panels prior to trimming",
-              "caption": "Partition panels prior to trimming"
-            },
-            {
               "src": "portfolio/v-class-line-1/03.jpg",
               "alt": "Partition installed in the car",
               "caption": "Installed: 43-inch monitor with electric lift, console, ambient lighting"
+            },
+            {
+              "src": "portfolio/v-class-line-1/04.jpg",
+              "alt": "The line's previous version in the car: light leather, 43″ monitor, contour lighting",
+              "caption": "Previous version, 2015–2025"
             }
           ]
         },
@@ -775,7 +775,7 @@
         },
         {
           "type": "gallery",
-          "cols": 2,
+          "cols": 3,
           "items": [
             {
               "src": "portfolio/v-class-line-2/01.jpg",
@@ -791,11 +791,6 @@
               "src": "portfolio/v-class-line-2/03.jpg",
               "alt": "Rear zone with ambient lighting",
               "caption": "Rear zone with ambient lighting"
-            },
-            {
-              "src": "portfolio/v-class-line-2/04.jpg",
-              "alt": "Version in light trim",
-              "caption": "Version in light trim"
             }
           ]
         },
@@ -1038,23 +1033,13 @@
           "items": [
             {
               "src": "portfolio/range-rover/01.jpg",
-              "alt": "Finished partition with lifting glass before trimming",
-              "caption": "Finished product before trimming"
+              "alt": "New-generation partition with lifting glass, before trimming",
+              "caption": "New-generation partition, before trimming"
             },
             {
               "src": "portfolio/range-rover/02.jpg",
-              "alt": "The completed vehicle",
-              "caption": "The completed vehicle"
-            },
-            {
-              "src": "portfolio/range-rover/03.jpg",
-              "alt": "Rear zone with the partition",
-              "caption": "Rear zone with the partition"
-            },
-            {
-              "src": "portfolio/range-rover/04.jpg",
-              "alt": "Version with factory monitors",
-              "caption": "Version with factory monitors"
+              "alt": "Range Rover of the previous generation with our partition",
+              "caption": "Previous generation: our partition in the car, 2015–2019"
             }
           ]
         },
@@ -1868,8 +1853,8 @@
         },
         {
           "type": "cta",
-          "title": "Come and see the shop floor",
-          "text": "Partners are welcome to visit the workshop and look at kits in production before committing to anything.",
+          "title": "Come and meet us",
+          "text": "Partners are welcome to visit, meet the team and go through their project before committing to anything.",
           "actions": [
             {
               "label": "The founders",

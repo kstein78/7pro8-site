@@ -142,11 +142,11 @@ visitors will judge the company on.
 
 | Path | Deck slide | Current site page |
 |---|---|---|
-| `portfolio/v-class-line-1/cover.jpg`, `01`–`03` | V-Class line 1 | `/main/mercedes-benz-v-class-a1` |
-| `portfolio/v-class-line-2/cover.jpg`, `01`–`04` | V-Class line 2 | `/main/mercedesbenz-vclass-busmanufacture` |
+| `portfolio/v-class-line-1/cover.jpg`, `01`, `03`, `04` | V-Class line 1 | `/main/mercedes-benz-v-class-a1` |
+| `portfolio/v-class-line-2/cover.jpg`, `01`–`03` | V-Class line 2 | `/main/mercedesbenz-vclass-busmanufacture` |
 | `portfolio/sprinter/cover.jpg`, `01`–`03` | Sprinter | `/main/mercedes-benz-sprinter` |
 | `portfolio/maybach-x222/cover.jpg`, `01`–`03` | Maybach X222 | `/main/maybach-x222-a1` |
-| `portfolio/range-rover/cover.jpg`, `01`–`04` | Range Rover LWB | `/main/range-rover-long-a1` |
+| `portfolio/range-rover/cover.jpg`, `01`–`02` | Range Rover LWB | `/main/range-rover-long-a1` |
 | `portfolio/rr-phantom/cover.jpg`, `01`–`03` | Rolls-Royce Phantom EWB | `/main/rolls-royce-phantom-ewb` |
 | `portfolio/rr-ghost/cover.jpg`, `01`–`04` | Rolls-Royce Ghost EWB | `/main/rolls-royce-ghost-ewb` |
 | `portfolio/s-class-v222/cover.jpg`, `01`–`04` | S-Class V222 armoured | `/main/mercedes-benz-v222-long-armortech` |

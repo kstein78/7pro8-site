@@ -48,7 +48,8 @@ CROPS = [
     ("home/vle-development.jpg", 3, (518, 194, 936, 388), (3, 2)),
     ("share/7pro8-share.jpg", 10, (77, 452, 798, 738), (1200, 630)),
     # project covers
-    ("portfolio/v-class-line-1/cover.jpg", 4, (830, 118, 1378, 396), (4, 3)),
+    # V-Class line 1 cover: not from the deck. The deck's photo here is the
+    # line 2 partition; the cover is cut from v-class-line-1/04.jpg instead.
     ("portfolio/v-class-line-2/cover.jpg", 11, (656, 478, 1006, 740), (4, 3)),
     ("portfolio/sprinter/cover.jpg", 12, (76, 478, 424, 740), (4, 3)),
     ("portfolio/maybach-x222/cover.jpg", 14, (76, 142, 798, 400), (4, 3)),
@@ -69,12 +70,13 @@ CROPS = [
     ("company/novi-sad.jpg", 12, (450, 478, 798, 740), (4, 3)),
     # project galleries
     ("portfolio/v-class-line-1/01.jpg", 10, (77, 140, 428, 400), (3, 2)),
-    ("portfolio/v-class-line-1/02.jpg", 10, (449, 140, 798, 400), (3, 2)),
+    # v-class-line-1/02.jpg (panels before trimming) left out: it is the line 2
+    # partition, and not one to show.
     ("portfolio/v-class-line-1/03.jpg", 10, (77, 452, 798, 738), (3, 2)),
     ("portfolio/v-class-line-2/01.jpg", 11, (656, 138, 1006, 396), (3, 2)),
     ("portfolio/v-class-line-2/02.jpg", 11, (1026, 138, 1380, 396), (3, 2)),
     ("portfolio/v-class-line-2/03.jpg", 11, (656, 478, 1006, 740), (3, 2)),
-    ("portfolio/v-class-line-2/04.jpg", 11, (1026, 478, 1380, 740), (3, 2)),
+    ("portfolio/v-class-line-1/04.jpg", 11, (1026, 478, 1380, 740), (3, 2)),
     ("portfolio/sprinter/01.jpg", 12, (76, 138, 298, 396), (3, 2)),
     ("portfolio/sprinter/02.jpg", 12, (324, 138, 542, 396), (3, 2)),
     ("portfolio/sprinter/03.jpg", 12, (76, 478, 424, 740), (3, 2)),
@@ -83,8 +85,7 @@ CROPS = [
     ("portfolio/maybach-x222/03.jpg", 14, (324, 478, 544, 740), (3, 2)),
     ("portfolio/range-rover/01.jpg", 13, (76, 210, 712, 620), (3, 2)),
     ("portfolio/range-rover/02.jpg", 13, (740, 186, 1380, 400), (3, 2)),
-    ("portfolio/range-rover/03.jpg", 13, (740, 505, 1050, 676), (3, 2)),
-    ("portfolio/range-rover/04.jpg", 13, (1070, 505, 1380, 676), (3, 2)),
+    # range-rover/03 and 04 on this slide are not 7pro8 partitions: left out.
     ("portfolio/rr-phantom/01.jpg", 16, (76, 140, 796, 398), (3, 2)),
     ("portfolio/rr-phantom/02.jpg", 16, (76, 478, 300, 740), (3, 2)),
     ("portfolio/rr-phantom/03.jpg", 16, (320, 478, 550, 740), (3, 2)),

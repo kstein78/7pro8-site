@@ -53,9 +53,12 @@ PICKS = {
     # which gains 50 px and loses the page.
 
     # 651 px into a 604 px slot, and the library has the same kind of light-trim
-    # V-Class interior at 1125 px.
-    "portfolio/v-class-line-2/04.jpg": (
-        "016_photo_2023-06-22_18-23-00.webp", "V-Class interior in light trim"),
+    # V-Class interior at 1125 px. It is line 1's previous version (2015-2025),
+    # per Iliya, so it lives on line 1's page and is that line's cover too.
+    "portfolio/v-class-line-1/04.jpg": (
+        "016_photo_2023-06-22_18-23-00.webp", "V-Class line 1, previous version"),
+    "portfolio/v-class-line-1/cover.jpg": (
+        "016_photo_2023-06-22_18-23-00.webp", "V-Class line 1, previous version"),
 }
 
 
