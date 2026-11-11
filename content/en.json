@@ -1897,11 +1897,11 @@
           "type": "pagehead",
           "kicker": "Founders",
           "title": "Evgenii Abramov and Iliya Bolshakov",
-          "lead": "Both of us have been in the industry since the early nineties. We met at CARDI, worked together at Avtoganza, and in 2008 built our own engineering group. Since 2015 that group is 7pro8: our shared work, taken through to series.",
+          "lead": "Both of us have been in the industry since the early nineties. We met at CARDI, worked together at Avtoganza, and in 2009 built our own engineering group. Since 2015 that group is 7pro8: our shared work, taken through to series.",
           "meta": [
             {
               "label": "As our own team",
-              "value": "since 2008"
+              "value": "since 2009"
             },
             {
               "label": "First partition",
@@ -1921,7 +1921,7 @@
               "role": "Founder",
               "portrait": "founders/abramov.jpg",
               "body": [
-                "Joined SKB MAMI (CARDI) in 1992, the same year he entered the institute: industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98. He stayed at CARDI until 2008, latterly as its chief designer and lead project manager, which is where he and Iliya met. In the mid-2000s the two of them also worked together in Avtoganza's tuning department, on engineering and production. In 2008 they set up the engineering and production group this company grew out of."
+                "Entered MAMI in 1992 and worked there while he studied. Designer at AZLK, the Moscow car plant, in 1997–98. From 1998 at SKB MAMI (CARDI): industrial design and one-off concept cars, and the place where he and Iliya met. In 2005–2007 the two of them worked together in Avtoganza's tuning department, on engineering and production, then both went back to CARDI, he now as its chief designer and lead project manager. In 2009 they set up the engineering and production group, formally on the staff of CarFashion, that this company grew out of."
               ]
             },
             {
@@ -1930,7 +1930,7 @@
               "portrait": "founders/bolshakov.jpg",
               "body": [
                 "An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined SKB MAMI (CARDI) as a model maker and design engineer, which is where he and Evgenii met. A year later he moved to SV-ART, where within two years he was chief design engineer.",
-                "Then A-Level, Avtoganza's tuning department alongside Evgenii, CARDI, and from 2009 the engineering and production group the two of them ran, formally on the staff of CarFashion. Fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
+                "Then A-Level, followed, alongside Evgenii, by Avtoganza's tuning department and CARDI again, and from 2009 the engineering and production group the two of them ran, formally on the staff of CarFashion. Fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8."
               ]
             }
           ]
@@ -2170,7 +2170,7 @@
               "year": "2008",
               "title": "Mercedes-Benz Viano — interior, exterior and a motorised monitor",
               "role": "Iliya and Evgenii",
-              "where": "Evgenii: our own group · Iliya: CARDI",
+              "where": "CARDI",
               "body": [
                 "A van with a changed exterior and a new rear interior: quilted seats, curtains, veneer. A separate job in the same car: a ceiling monitor on an electric drive, its mechanism designed in 3D and built for this interior."
               ],
@@ -2213,7 +2213,7 @@
               "year": "2008",
               "title": "Taxi roof sign",
               "role": "Iliya and Evgenii",
-              "where": "Evgenii: our own group · Iliya: CARDI",
+              "where": "CARDI",
               "body": [
                 "An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later."
               ],
@@ -2245,7 +2245,7 @@
               "year": "2008",
               "title": "ZiL-41047 — state limousine interior",
               "role": "Iliya and Evgenii",
-              "where": "Evgenii: our own group · Iliya: CARDI",
+              "where": "CARDI",
               "body": [
                 "A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior."
               ],
@@ -2272,7 +2272,7 @@
               "year": "2007",
               "title": "Mercedes-Benz S-Class W221 — the first partition",
               "role": "Iliya and Evgenii",
-              "where": "Evgenii: CARDI · Iliya: Avtoganza / CARDI",
+              "where": "Avtoganza / CARDI",
               "where_note": "the year of the move; we date our first partition from here",
               "body": [
                 "The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.",
