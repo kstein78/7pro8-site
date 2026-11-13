@@ -13,8 +13,8 @@ DE  Sprache
 EN  Translation in preparation
 DE  Übersetzung in Vorbereitung
 
-EN  Interior partitions, Novi Sad
-DE  Interieur-Trennwände, Novi Sad
+EN  Interior partitions, Serbia
+DE  Innenraum-Trennwände, Serbien
 
 EN  Company no.
 DE  Handelsregister-Nr.
@@ -27,6 +27,12 @@ DE  Kontakt
 
 EN  Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette.
 DE  Bausätze werden ohne Bezug, Endausbau und Einbau geliefert, sofern nicht anders vereinbart. Die Bezugsmaterialien stammen aus der Palette des Fahrzeugherstellers.
+
+EN  Photographs
+DE  Fotografien
+
+EN  Website by
+DE  Website von
 
 EN  Product
 DE  Produkt
@@ -55,8 +61,8 @@ DE  7pro8
 EN  7pro8 — interior partitions for premium vehicles
 DE  7pro8 — Interieur-Trennwände für Premiumfahrzeuge
 
-EN  Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007, from Novi Sad, Serbia.
-DE  Design, Engineering und Serienfertigung von Trennwänden für Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover und Cadillac. Über 450 Bausätze seit 2007, aus Novi Sad, Serbien.
+EN  Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007. A company in Serbia, delivering into the EU without customs duty.
+DE  Design, Konstruktion und Serienfertigung von Trennwänden für Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover und Cadillac. Über 450 Sätze seit 2007. Ein Unternehmen in Serbien, mit zollfreier Lieferung in die EU.
 
 EN  Privacy partitions, built in series
 DE  Trennwände aus der Serienfertigung
@@ -70,11 +76,11 @@ DE  Was wir liefern können
 EN  Work with us
 DE  Zusammenarbeit
 
-EN  Interior partition fitted in a Mercedes-Benz V-Class, seen from the rear compartment
-DE  Interieur-Trennwand in einer Mercedes-Benz V-Class, gesehen aus dem Fond
+EN  Interior partition in a Mercedes-Maybach S-Class X222, seen from the rear compartment
+DE  Trennwand im Innenraum einer Mercedes-Maybach S-Klasse X222, Blick aus dem Fond
 
-EN  Mercedes-Benz V-Class — partition with 43-inch monitor, console and ambient lighting
-DE  Mercedes-Benz V-Class — Trennwand mit 43-Zoll-Monitor, Konsole und Ambientebeleuchtung
+EN  Mercedes-Maybach S-Class X222 — a 7pro8 partition with the factory monitors
+DE  Mercedes-Maybach S-Klasse X222 — Trennwand von 7pro8 mit den Serienmonitoren
 
 EN  Glass opaque
 DE  Glas undurchsichtig
@@ -103,8 +109,8 @@ DE  Wir arbeiten nicht am einzelnen Fahrzeug, sondern am Fahrzeugmodell: Jedes P
 EN  Our clients are vehicle distributors, official dealerships and specialist conversion shops. They receive a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.
 DE  Unsere Kunden sind Fahrzeugdistributoren, Vertragshändler und spezialisierte Umbaubetriebe. Sie erhalten einen montagefertigen Bausatz; Bezug, Einbau und Endausbau übernimmt der Partner nach unseren Schablonen und Anleitungen.
 
-EN  About the company
-DE  Über das Unternehmen
+EN  About us
+DE  Über uns
 
 EN  Production mould for forming a partition surface panel
 DE  Produktionsform für die Fertigung eines Sichtpaneels
@@ -118,8 +124,8 @@ DE  Zwei Klassen von Lösungen
 EN  The difference is not in the partition but in how much of the interior has to come apart to fit it. That decides which kind of partner can install the product.
 DE  Der Unterschied liegt nicht in der Trennwand, sondern darin, wie viel vom Interieur für den Einbau zerlegt werden muss. Das entscheidet, welcher Partner das Produkt einbauen kann.
 
-EN  Simple — 3 to 4 kits a year
-DE  Einfach — 3 bis 4 Bausätze pro Jahr
+EN  Simple
+DE  Einfach
 
 EN  Fitted without a wholesale rebuild of the interior. The partition carries a glass raise-and-lower mechanism, sometimes fixed glass, and optionally electric curtains. Factory monitors and factory multimedia are used. The work is within reach of a dealer workshop: we installed the Rolls-Royce partitions on the official dealer's premises, using the dealer's own technicians.
 DE  Einbau ohne vollständigen Umbau des Interieurs. Die Trennwand trägt einen Hub-Senk-Mechanismus für das Glas, manchmal feststehendes Glas, optional elektrische Vorhänge. Serienmäßige Monitore und serienmäßiges Multimedia werden genutzt. Die Arbeit ist für eine Händlerwerkstatt machbar: Die Rolls-Royce-Trennwände haben wir auf dem Gelände des Vertragshändlers mit dessen eigenen Technikern eingebaut.
@@ -136,8 +142,8 @@ DE  Rolls-Royce Phantom EWB und Ghost EWB
 EN  Mercedes-Benz S-Class V222 Long
 DE  Mercedes-Benz S-Klasse V222 Lang
 
-EN  Complex — 30 to 40 kits a year
-DE  Komplex — 30 bis 40 Bausätze pro Jahr
+EN  Complex
+DE  Komplex
 
 EN  These require a rebuild of the interior. At minimum a new rear bench with a console goes in; usually the whole rear is rebuilt — headliner, side panels, multimedia, lighting. We supply a partition ready for installation, and the partner needs to be a company capable of serious vehicle conversion.
 DE  Diese erfordern einen Umbau des Interieurs. Mindestens kommt eine neue Rücksitzbank mit Konsole hinein; meist wird der gesamte Fond neu aufgebaut — Dachhimmel, Seitenverkleidungen, Multimedia, Beleuchtung. Wir liefern eine montagefertige Trennwand, der Partner muss ein Betrieb mit Kompetenz für ernsthafte Fahrzeugumbauten sein.
@@ -154,8 +160,8 @@ DE  Cadillac Escalade ESV
 EN  Mercedes-Benz VLE — in development
 DE  Mercedes-Benz VLE — in Entwicklung
 
-EN  What the timing looks like from the partner's side
-DE  Wie die Termine aus Sicht des Partners aussehen
+EN  What the timing looks like from the partner's side for a project in series production
+DE  Wie die Termine aus Sicht des Partners bei einem Projekt in Serienfertigung aussehen
 
 EN  4 months
 DE  4 Monate
@@ -172,8 +178,8 @@ DE  Tatsächliche Wartezeit bei abgestimmtem Lieferplan: Transport ab Lager
 EN  1–3 days
 DE  1–3 Tage
 
-EN  Installation of a simple partition by qualified technicians. Removal takes the same
-DE  Einbau einer einfachen Trennwand durch qualifiziertes Personal. Der Ausbau dauert genauso lang
+EN  Installation of a simple partition by qualified technicians
+DE  Einbau einer einfachen Trennwand durch qualifiziertes Personal
 
 EN  Selected projects
 DE  Ausgewählte Projekte
@@ -226,8 +232,8 @@ DE  Das nächste Fahrzeug ist bereits in Entwicklung
 EN  The electric Mercedes-Benz VLE was unveiled on 10 March 2026 and has been in series production at the Vitoria plant in Spain since June 2026. It replaces the V-Class and the EQV — precisely the vehicle our core series product is built on.
 DE  Der elektrische Mercedes-Benz VLE wurde am 10. März 2026 vorgestellt und läuft seit Juni 2026 im Werk Vitoria in Spanien in Serie. Er ersetzt V-Class und EQV — also genau das Fahrzeug, auf dem unser Kernserienprodukt aufbaut.
 
-EN  A partner joining now receives the partition at the same time as the car reaches the market, rather than two or three years later.
-DE  Ein Partner, der jetzt einsteigt, erhält die Trennwand zeitgleich mit dem Markteintritt des Fahrzeugs — nicht zwei oder drei Jahre später.
+EN  A partner joining now takes part from the design stage and receives the partition in 2027, not the two or three years after the car's launch that conversion products usually take.
+DE  Ein Partner, der jetzt einsteigt, ist ab der Konstruktionsphase dabei und erhält die Trennwand 2027 — nicht erst zwei oder drei Jahre nach dem Marktstart des Fahrzeugs, wie bei Umbauprodukten üblich.
 
 EN  The VLE programme
 DE  Das VLE-Programm
@@ -274,8 +280,8 @@ DE  Elektrochromes Glas ändert seine Transparenz auf Knopfdruck, das Glas fähr
 EN  Acoustic separation
 DE  Akustische Trennung
 
-EN  A physical partition with the glass raised separates the rear from the front. Calls, meetings and documents stay in the rear, in the presence of a driver, a security detail or a hired chauffeur.
-DE  Eine feste Trennwand mit hochgefahrenem Glas trennt den Fond vom vorderen Bereich. Telefonate, Besprechungen und Unterlagen bleiben im Fond — in Anwesenheit eines Fahrers, eines Personenschutzes oder eines angemieteten Chauffeurs.
+EN  A physical partition with the glass raised separates the rear from the front. It greatly reduces how much of a conversation the driver and security can hear. Confidentiality comes from the construction, not from trust.
+DE  Eine physische Trennwand mit hochgefahrener Scheibe trennt den Fond vom vorderen Bereich. Sie verringert deutlich, wie viel Fahrer und Sicherheitspersonal von einem Gespräch hören. Die Vertraulichkeit sichert die Konstruktion, nicht das Vertrauen.
 
 EN  A rear that works as an office
 DE  Ein Fond, der als Büro funktioniert
@@ -295,20 +301,17 @@ DE  Ein Wechsel der Fahrzeugklasse
 EN  The car moves from executive to chauffeur-driven: transport for company principals, diplomatic missions, VIP transfer and escorted travel. A different class of task, and a different price segment of service.
 DE  Das Fahrzeug wird vom Dienstwagen zum Chauffeurfahrzeug: Transport für Unternehmensleitung, diplomatische Vertretungen, VIP-Transfer und begleitete Fahrten. Eine andere Klasse von Aufgaben und ein anderes Preissegment der Dienstleistung.
 
-EN  An interior that still looks factory
-DE  Ein Interieur, das weiterhin nach Werk aussieht
+EN  The original design concept is kept
+DE  Das ursprüngliche Designkonzept bleibt erhalten
 
-EN  Trimming is carried out in materials from the vehicle manufacturer's own palette — leather, wood veneer, Alcantara. The interior stays whole rather than looking modified.
-DE  Der Bezug erfolgt in Materialien aus der eigenen Palette des Fahrzeugherstellers — Leder, Holzfurnier, Alcantara. Das Interieur bleibt geschlossen und wirkt nicht umgebaut.
+EN  The interior is transformed in line with the latest trends in automotive design, using the finest and most up-to-date materials, while the car's original design concept is preserved.
+DE  Der Innenraum wird nach den neuesten Trends im Automobildesign mit hochwertigsten und modernsten Materialien umgestaltet, wobei das ursprüngliche Designkonzept des Fahrzeugs erhalten bleibt.
 
 EN  The objection every owner raises
 DE  Der Einwand, den jeder Besitzer erhebt
 
 EN  Premium car owners do not ask whether the partition looks good. They ask whether the conversion will spoil the car — its safety systems, its diagnostics, its residual value.
 DE  Besitzer von Premiumfahrzeugen fragen nicht, ob die Trennwand gut aussieht. Sie fragen, ob der Umbau das Auto verdirbt — seine Sicherheitssysteme, seine Diagnose, seinen Restwert.
-
-EN  Our answer is not a promise about the quality of the installer's work. It is six decisions built into the product itself, which hold whoever fits it.
-DE  Unsere Antwort ist kein Versprechen über die Sorgfalt des Monteurs. Es sind sechs Entscheidungen, die im Produkt selbst liegen und gelten, wer auch immer es einbaut.
 
 EN  Mercedes-Maybach S-Class interior with the partition in place
 DE  Interieur einer Mercedes-Maybach S-Klasse mit eingebauter Trennwand
@@ -352,14 +355,14 @@ DE  Wo möglich, werden die serienmäßigen Monitore und das serienmäßige Mult
 EN  Reversibility
 DE  Rückbaubarkeit
 
-EN  Removal takes one to three days and the car returns to factory configuration. This protects residual value and removes the question at resale or lease return.
-DE  Der Ausbau dauert ein bis drei Tage, das Fahrzeug kehrt in den Serienzustand zurück. Das schützt den Restwert und erledigt die Frage beim Verkauf oder bei der Leasingrückgabe.
+EN  When needed, the car returns to factory configuration. This protects residual value and removes the question at resale or lease return.
+DE  Bei Bedarf wird das Fahrzeug in den Serienzustand zurückversetzt. Das schützt den Restwert und erledigt die Frage beim Verkauf oder bei der Leasingrückgabe.
 
 EN  In short
 DE  Kurz gesagt
 
-EN  The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it sits on top of it, and can be taken off again.
-DE  Das Fahrzeug behält alles, wofür der Besitzer den Hersteller bezahlt hat, und gewinnt eine Funktion, die der Hersteller nicht anbietet. Der Umbau konkurriert nicht mit der Werksentwicklung — er setzt darauf auf und lässt sich wieder entfernen.
+EN  The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it complements it.
+DE  Das Fahrzeug behält alles, wofür der Besitzer den Hersteller bezahlt hat, und gewinnt eine Funktion, die der Hersteller nicht anbietet. Der Umbau konkurriert nicht mit der Werksentwicklung — er ergänzt sie.
 
 EN  How the kit is engineered
 DE  Wie der Bausatz entwickelt wird
@@ -367,8 +370,8 @@ DE  Wie der Bausatz entwickelt wird
 EN  Which car do you need it for?
 DE  Für welches Fahrzeug brauchen Sie sie?
 
-EN  Nine models are documented in the portfolio, and a new one takes up to a year to develop.
-DE  Neun Modelle sind im Portfolio dokumentiert; die Entwicklung eines neuen dauert bis zu einem Jahr.
+EN  Nine models are documented in the portfolio.
+DE  Im Portfolio sind neun Modelle dokumentiert.
 
 EN  See the projects
 DE  Projekte ansehen
@@ -376,8 +379,8 @@ DE  Projekte ansehen
 EN  The full cycle in-house — design, engineering, tooling, production
 DE  Der volle Zyklus im Haus — Design, Engineering, Werkzeugbau, Fertigung
 
-EN  Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Novi Sad. One point of contact and one line of responsibility.
-DE  Design, Engineering, Werkzeugbau und Fertigung der Interieur-Trennwände liegen bei einem Team in Novi Sad. Ein Ansprechpartner, eine Verantwortungsebene.
+EN  Design, engineering, tooling manufacture and production of interior partitions are handled by one team. One point of contact and one line of responsibility.
+DE  Design, Konstruktion, Werkzeugbau und Fertigung der Trennwände liegen bei einem Team. Ein Ansprechpartner und eine Verantwortungslinie.
 
 EN  One team, from the first sketch to the finished kit
 DE  Ein Team, von der ersten Skizze bis zum fertigen Bausatz
@@ -421,8 +424,8 @@ DE  Freigabe der CAD-Konstruktionsunterlagen
 EN  Production
 DE  Fertigung
 
-EN  The kit ships assembled and checked. What is left for the partner is trimming, fitting and connection.
-DE  Der Bausatz wird montiert und geprüft ausgeliefert. Dem Partner bleiben Bezug, Einbau und Anschluss.
+EN  The kit ships assembled and checked. What is left for the partner is trimming, fitting and connection. We make active use of current technology: laser scanning, additive manufacturing, CAD/CAM systems on licensed software, vacuum and infusion moulding of parts. We keep looking for ways to raise the technological level of production.
+DE  Der Bausatz wird montiert und geprüft ausgeliefert. Dem Partner bleiben Bezug, Einbau und Anschluss. Wir setzen aktiv moderne Technologien ein: Laserscanning, additive Fertigung, CAD/CAM-Systeme mit lizenzierter Software, Vakuum- und Infusionsformen von Bauteilen. Uns geht es darum, das technologische Niveau der Fertigung weiter zu steigern.
 
 EN  Mould fabrication
 DE  Werkzeug- und Formenbau
@@ -451,32 +454,23 @@ DE  Wie die Arbeit mit dem Partner abläuft
 EN  CAD model of a partition with the glass lift mechanism
 DE  CAD-Modell einer Trennwand mit Scheibenhubmechanismus
 
-EN  Surface and mechanism engineering — the CAD model the tooling is built from
-DE  Flächen- und Mechanik-Engineering — das CAD-Modell, nach dem das Werkzeug gebaut wird
+EN  CAD model of the partition's surfaces
+DE  CAD-Modell der Flächen der Trennwand
 
-EN  A new model takes up to a year
-DE  Ein neues Modell dauert bis zu einem Jahr
-
-EN  Development from scratch runs up to twelve months depending on the complexity of the vehicle, and a cost-sharing model is possible in which the partner gains priority by market or by model.
-DE  Eine Neuentwicklung dauert je nach Komplexität des Fahrzeugs bis zu zwölf Monate. Eine Kostenteilung ist möglich, bei der der Partner Priorität nach Markt oder Modell erhält.
-
-EN  Discuss a new project
-DE  Neues Projekt besprechen
-
-EN  How we manufacture
-DE  Wie wir fertigen
+EN  Surface and mechanism engineering — the CAD models the tooling is built from
+DE  Flächen- und Mechanik-Engineering — die CAD-Modelle, nach denen das Werkzeug gebaut wird
 
 EN  Why tooling matters more than craftsmanship
 DE  Warum Werkzeuge wichtiger sind als Handwerkskunst
 
-EN  Composites, metal work and 3D printing in-house. Every 7pro8 partition is formed from production tooling, so gaps, joints and mounting points repeat from the first kit to the two-hundredth.
-DE  Verbundwerkstoffe, Metallbearbeitung und 3D-Druck im Haus. Jede 7pro8-Trennwand wird mit Produktionswerkzeugen gefertigt, sodass Spaltmaße, Fugen und Befestigungspunkte vom ersten bis zum zweihundertsten Bausatz gleich sind.
+EN  Composites, metal work and 3D printing in-house. Every partition we build is formed from production tooling, so gaps, joints and mounting points repeat from the first kit to the two-hundredth.
+DE  Composites, Metallbearbeitung und 3D-Druck im eigenen Haus. Jede Trennwand formen wir über Serienwerkzeuge, deshalb wiederholen sich Spaltmaße, Fügestellen und Befestigungspunkte vom ersten bis zum zweihundertsten Satz.
 
 EN  A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what turns a good result into a repeatable one.
 DE  Eine von Hand angepasste Trennwand existiert in einem einzigen Exemplar: die nächste wird anders. Das Werkzeug macht aus einem guten Ergebnis ein wiederholbares.
 
-EN  We invest from €70,000 and up to a year of work to obtain the tooling for a model. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.
-DE  Wir investieren ab 70.000 € und bis zu einem Jahr Arbeit, um die Werkzeuge für ein Modell zu erhalten. Danach wiederholt jedes Teil den Prototyp. Spaltmaße, Fugen und Befestigungspunkte sind beim ersten und beim zweihundertsten Bausatz identisch.
+EN  Before a model goes into series production, we build the tooling for it. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.
+DE  Bevor ein Modell in Serie geht, bauen wir die Werkzeuge dafür. Danach wiederholt jedes Teil den Prototyp. Spaltmaße, Fugen und Befestigungspunkte sind beim ersten und beim zweihundertsten Bausatz identisch.
 
 EN  For a partner that means two things that show up directly in the workshop's costing: installation time can be planned, and there is no rework.
 DE  Für den Partner bedeutet das zwei Dinge, die direkt in der Kalkulation der Werkstatt auftauchen: planbare Einbauzeiten und keine Nacharbeit.
@@ -607,8 +601,8 @@ DE  Auf Eis
 EN  The complete record
 DE  Die vollständige Übersicht
 
-EN  Every project since 2008, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project.
-DE  Alle Projekte seit 2008, einschließlich der frühen Einzelanfertigungen und der VW-Multivan-Serie, stehen mit Jahren, Stückzahlen und Art des Projekts auf der Seite zur Lieferbarkeit.
+EN  Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project.
+DE  Alle Projekte seit 2007, einschließlich der frühen Einzelanfertigungen und der VW-Multivan-Serie, stehen mit Jahren, Stückzahlen und Art des Projekts auf der Seite zur Lieferbarkeit.
 
 EN  Full project history
 DE  Vollständige Projekthistorie
@@ -619,8 +613,8 @@ DE  Trennwand für Mercedes-Benz V-Class — Linie 1
 EN  A series partition for the Mercedes-Benz V-Class and Metris: 140 kits since 2015, 12 to 20 kits a year, supplied ready for trimming and installation.
 DE  Eine Serientrennwand für Mercedes-Benz V-Class und Metris: 140 Bausätze seit 2015, 12 bis 20 Bausätze pro Jahr, geliefert bereit für Bezug und Einbau.
 
-EN  A series project for a vehicle conversion company, and one of the two core series products of 7pro8.
-DE  Ein Serienprojekt für einen Fahrzeugumbaubetrieb und eines der beiden Kernserienprodukte von 7pro8.
+EN  A series project for a vehicle conversion company, and one of our two core series products.
+DE  Ein Serienprojekt für einen Fahrzeugumrüster und eines unserer beiden Kern-Serienprodukte.
 
 EN  In production since
 DE  In Fertigung seit
@@ -636,9 +630,6 @@ DE  12–20 pro Jahr
 
 EN  Class
 DE  Klasse
-
-EN  Complex
-DE  Komplex
 
 EN  Scope of supply
 DE  Lieferumfang
@@ -658,11 +649,11 @@ DE  Die Trennwand wird bereit für Bezug und Einbau geliefert; Bezug, Einbau und
 EN  Equipment
 DE  Ausstattung
 
-EN  Two electrically operated folding seats
-DE  Zwei elektrisch betätigte Klappsitze
+EN  Two electrically operated fold-out seats with document pockets
+DE  Zwei elektrisch betätigte Klappsitze mit Dokumententaschen
 
-EN  Central folding box, electrically operated
-DE  Zentrale Klappbox mit elektrischem Antrieb
+EN  Central sliding drawer, electrically operated
+DE  Zentrale ausfahrbare Schublade, elektrisch betätigt
 
 EN  Electrochromic glass with electric raise-and-lower mechanism
 DE  Elektrochromes Glas mit elektrischem Hub-Senk-Mechanismus
@@ -670,20 +661,32 @@ DE  Elektrochromes Glas mit elektrischem Hub-Senk-Mechanismus
 EN  Samsung 43-inch television with electric lift
 DE  Samsung-Fernseher 43 Zoll mit elektrischem Hub
 
+EN  Ambient lighting
+DE  Ambientebeleuchtung
+
+EN  Clock
+DE  Uhr
+
+EN  Umbrella holders
+DE  Schirmhalterungen
+
 EN  Kit on the shop floor ready for dispatch
 DE  Bausatz in der Werkstatt, versandbereit
 
 EN  Kit on the shop floor, ready for dispatch
 DE  Bausatz in der Werkstatt, versandbereit
 
-EN  Partition panels prior to trimming
-DE  Trennwandpaneele vor dem Bezug
-
 EN  Partition installed in the car
 DE  Trennwand im Fahrzeug eingebaut
 
-EN  Installed: 43-inch monitor with electric lift, console, ambient lighting
-DE  Eingebaut: 43-Zoll-Monitor mit elektrischem Hub, Konsole, Ambientebeleuchtung
+EN  The partition in the car
+DE  Die Trennwand im Fahrzeug
+
+EN  The line's previous version in the car: light leather, 43″ monitor, contour lighting
+DE  Die Trennwand der Linie in der Vorgängerversion im Fahrzeug: helles Leder, 43″-Monitor, Konturbeleuchtung
+
+EN  Previous version, 2015–2025
+DE  Vorgängerversion, 2015–2025
 
 EN  This line is running now
 DE  Diese Linie läuft jetzt
@@ -721,6 +724,9 @@ DE  Linie 1 und Linie 2 laufen parallel für zwei unabhängige Partner auf demse
 EN  Specification is agreed per line, and the price follows the annual volume.
 DE  Die Ausstattung wird je Linie abgestimmt, der Preis folgt der Jahresstückzahl.
 
+EN  Two electrically operated folding seats
+DE  Zwei elektrisch betätigte Klappsitze
+
 EN  Central sliding boxes, electrically operated
 DE  Zentrale ausfahrbare Boxen mit elektrischem Antrieb
 
@@ -730,20 +736,20 @@ DE  Elektrochromes oder normales Glas mit elektrischem Hub-Senk-Mechanismus
 EN  Drive mechanism for electric curtains
 DE  Antriebsmechanismus für elektrische Vorhänge
 
+EN  Audio preparation (speakers)
+DE  Akustikvorbereitung (Lautsprecher)
+
+EN  Umbrella holder
+DE  Schirmhalterung
+
 EN  Kits on the assembly line
 DE  Bausätze in der Montage
 
-EN  Partition seen from the front with monitor and console
-DE  Trennwand von vorn mit Monitor und Konsole
-
-EN  Partition from the front: monitor, console
-DE  Trennwand von vorn: Monitor, Konsole
+EN  The partition in the car with the seats folded out
+DE  Die Trennwand im Fahrzeug mit ausgeklappten Sitzen
 
 EN  Rear zone with ambient lighting
 DE  Fondbereich mit Ambientebeleuchtung
-
-EN  Version in light trim
-DE  Version in heller Ausführung
 
 EN  Available for a third market
 DE  Verfügbar für einen dritten Markt
@@ -754,8 +760,8 @@ DE  Die Werkzeuge tragen weitere Linien mit eigener Ausstattung.
 EN  Mercedes-Benz Sprinter partition — joint production
 DE  Trennwand für Mercedes-Benz Sprinter — Gemeinschaftsfertigung
 
-EN  A joint production project on the Mercedes-Benz Sprinter: 7pro8 supplies the structural frame with the driver's side prepared for trimming, the partner makes the VIP-side panels.
-DE  Ein Gemeinschaftsprojekt auf dem Mercedes-Benz Sprinter: 7pro8 liefert den Tragrahmen mit für den Bezug vorbereiteter Fahrerseite, der Partner fertigt die Paneele der VIP-Seite.
+EN  A joint production project on the Mercedes-Benz Sprinter: we supply the structural frame with the driver's side prepared for trimming, the partner makes the VIP-side panels.
+DE  Ein gemeinsames Fertigungsprojekt auf dem Mercedes-Benz Sprinter: Wir liefern den tragenden Rahmen mit der Fahrerseite bezugsfertig, der Partner fertigt die Paneele der VIP-Seite.
 
 EN  An example of joint production. We supply the partner a partition frame with the driver's side fully prepared for trimming; the partner makes the composite panels of the VIP side.
 DE  Ein Beispiel für Gemeinschaftsfertigung. Wir liefern dem Partner einen Trennwandrahmen mit vollständig für den Bezug vorbereiteter Fahrerseite; die Verbundpaneele der VIP-Seite fertigt der Partner selbst.
@@ -811,17 +817,14 @@ DE  Trennwand für Mercedes-Maybach S-Klasse X222
 EN  A privacy partition for the Mercedes-Maybach S-Class X222: 16 kits since 2016, joint production, prepared for trimming. The marque's most expensive saloon has no factory partition on its price list.
 DE  Eine Trennwand für die Mercedes-Maybach S-Klasse X222: 16 Bausätze seit 2016, Gemeinschaftsfertigung, vorbereitet für den Bezug. Die teuerste Limousine der Marke hat keine Werkstrennwand in der Preisliste.
 
-EN  A joint production project: the partner produces the plastics, we produce the metal frame with the mechanism.
-DE  Ein Gemeinschaftsprojekt: Der Partner fertigt die Kunststoffteile, wir den Metallrahmen mit Mechanik.
+EN  A joint production project: the partner produces the surface panels, we produce the metal frame with the mechanism.
+DE  Ein Gemeinschaftsprojekt: Der Partner fertigt die Sichtpaneele, wir den Metallrahmen mit Mechanik.
 
 EN  Output while the car was current
 DE  Ausstoß während der Bauzeit des Modells
 
 EN  About 3 a year
 DE  Etwa 3 pro Jahr
-
-EN  Simple
-DE  Einfach
 
 EN  Prepared for trimming
 DE  Vorbereitet für den Bezug
@@ -841,8 +844,8 @@ DE  Was die Trennwand leistet
 EN  Rear privacy in a car where the factory does not offer it
 DE  Privatsphäre im Fond, wo das Werk sie nicht anbietet
 
-EN  Folding work tables in the body of the partition
-DE  Klappbare Arbeitstische im Korpus der Trennwand
+EN  Curved electrochromic glass — more legroom for the rear passengers
+DE  Gebogenes elektrochromes Glas — mehr Beinfreiheit für die Fondpassagiere
 
 EN  Factory multimedia and factory trim preserved
 DE  Serienmäßiges Multimedia und serienmäßiger Innenausbau bleiben erhalten
@@ -853,11 +856,11 @@ DE  Fondbereich mit in das Interieur integrierter Trennwand
 EN  The partition inside the factory architecture of the interior
 DE  Die Trennwand in der serienmäßigen Architektur des Interieurs
 
-EN  Folding tables in the partition
-DE  Klapptische in der Trennwand
+EN  The partition with the factory monitors, seen from the rear seats
+DE  Die Trennwand mit den Serienmonitoren, Blick von der Rückbank
 
-EN  Table in the working position
-DE  Tisch in Arbeitsstellung
+EN  Rear seat and partition, side view
+DE  Fondsitz und Trennwand, seitliche Ansicht
 
 EN  A used-market opportunity
 DE  Eine Chance auf dem Gebrauchtmarkt
@@ -895,8 +898,8 @@ DE  14 Bausätze, 2015–2019
 EN  Development is already paid for
 DE  Die Entwicklung ist bereits bezahlt
 
-EN  Around €70,000 has been invested in developing the new-generation partition. A partner taking this model receives a finished product with no R&D investment of its own and no waiting for tooling.
-DE  In die Entwicklung der Trennwand für die neue Generation wurden rund 70.000 € investiert. Ein Partner, der dieses Modell übernimmt, erhält ein fertiges Produkt ohne eigene F&E-Investition und ohne Wartezeit auf Werkzeuge.
+EN  Development of the new-generation partition is complete. A partner taking this model receives a finished product with no R&D investment of its own and no waiting for tooling.
+DE  Die Entwicklung der Trennwand für die neue Generation ist abgeschlossen. Ein Partner, der dieses Modell übernimmt, erhält ein fertiges Produkt ohne eigene F&E-Investition und ohne Wartezeit auf Werkzeuge.
 
 EN  On the previous generation the project ran as joint production: our development and tooling, the partner making the decorative panels, us making the frame and mechanisms.
 DE  Auf der vorherigen Generation lief das Projekt als Gemeinschaftsfertigung: unsere Entwicklung und Werkzeuge, der Partner fertigte die Dekorpaneele, wir Rahmen und Mechanik.
@@ -907,20 +910,17 @@ DE  Elektrisch betätigte Hubscheibe
 EN  Version with factory monitors available
 DE  Version mit serienmäßigen Monitoren verfügbar
 
-EN  Finished partition with lifting glass before trimming
-DE  Fertige Trennwand mit Hubscheibe vor dem Bezug
+EN  New-generation partition with lifting glass, before trimming
+DE  Trennwand der neuen Generation mit Hubscheibe, vor dem Beziehen
 
-EN  Finished product before trimming
-DE  Fertiges Produkt vor dem Bezug
+EN  New-generation partition, before trimming
+DE  Trennwand der neuen Generation, vor dem Beziehen
 
-EN  The completed vehicle
-DE  Das fertige Fahrzeug
+EN  Range Rover of the previous generation with our partition
+DE  Range Rover der Vorgängergeneration mit unserer Trennwand
 
-EN  Rear zone with the partition
-DE  Fondbereich mit Trennwand
-
-EN  Version with factory monitors
-DE  Version mit serienmäßigen Monitoren
+EN  Previous generation: our partition in the car, 2015–2019
+DE  Vorgängergeneration: unsere Trennwand im Fahrzeug, 2015–2019
 
 EN  First partner starts the series
 DE  Der erste Partner startet die Serie
@@ -967,11 +967,11 @@ DE  Elektrochromes Glas mit Hub-Senk-Mechanismus
 EN  Electric curtain drive
 DE  Elektrischer Vorhangantrieb
 
+EN  The complete interior partition
+DE  Die Trennwand des Innenraums im Ganzen
+
 EN  The project vehicle
 DE  Das Projektfahrzeug
-
-EN  The complete interior
-DE  Das Interieur im Ganzen
 
 EN  Execution details of the partition
 DE  Ausführungsdetails der Trennwand
@@ -1141,12 +1141,6 @@ DE  Ausarbeitung der Trennwand im Interieur des Cadillac Escalade
 EN  Partition study in the vehicle interior
 DE  Ausarbeitung der Trennwand im Fahrzeuginterieur
 
-EN  Rear section of the Escalade interior
-DE  Hinterer Bereich des Escalade-Interieurs
-
-EN  Rear section — the part that has to be rebuilt
-DE  Hinterer Bereich — der Teil, der umgebaut werden muss
-
 EN  Looking for a partner for the US and Middle East
 DE  Partner für USA und Nahen Osten gesucht
 
@@ -1159,8 +1153,8 @@ DE  Über den Escalade sprechen
 EN  What 7pro8 can supply today — model programme and project history
 DE  Was 7pro8 heute liefern kann — Modellprogramm und Projekthistorie
 
-EN  Models in series production, models ready to launch and models in development, with the complete 7pro8 project history from 2008 onwards.
-DE  Modelle in Serienfertigung, startbereite Modelle und Modelle in Entwicklung, dazu die vollständige Projekthistorie von 7pro8 seit 2008.
+EN  Models in series production, models ready to launch and models in development, with our complete project history from 2007 onwards.
+DE  Modelle in Serie, startbereite Modelle und Modelle in Entwicklung, dazu unsere vollständige Projekthistorie ab 2007.
 
 EN  What we can supply today
 DE  Was wir heute liefern können
@@ -1192,11 +1186,11 @@ DE  In Entwicklung
 EN  The electric Mercedes-Benz VLE replaces the V-Class and the EQV — the vehicle our core series product is built on.
 DE  Der elektrische Mercedes-Benz VLE ersetzt V-Class und EQV — das Fahrzeug, auf dem unser Kernserienprodukt aufbaut.
 
-EN  Mercedes-Benz VLE — two full-size partition lines, from 2026
-DE  Mercedes-Benz VLE — zwei vollwertige Trennwandlinien, ab 2026
+EN  Mercedes-Benz VLE — two full-size partition lines, in design since 2026, ready in 2027
+DE  Mercedes-Benz VLE — zwei vollwertige Trennwandlinien, in Konstruktion seit 2026, fertig 2027
 
-EN  Mercedes-Benz VLE Lite — lightweight version, from 2027
-DE  Mercedes-Benz VLE Lite — leichtere Ausführung, ab 2027
+EN  Mercedes-Benz VLE Lite — lightweight version, in design, ready in 2027
+DE  Mercedes-Benz VLE Lite — leichtere Ausführung, in Konstruktion, fertig 2027
 
 EN  In addition to partitions we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and interior panels to any design.
 DE  Neben Trennwänden entwickeln und fertigen wir Fondmodule — einen Podestrahmen mit Konsolen-Armlehne für den Einbau einer optionalen Rücksitzbank — sowie Innenverkleidungen nach beliebigem Design.
@@ -1207,14 +1201,14 @@ DE  Fahrzeugmodelle im Portfolio
 EN  Projects taken through to series tooling
 DE  Projekte bis zum Serienwerkzeug geführt
 
-EN  Kits produced in total since 2008
-DE  Bausätze insgesamt seit 2008 gefertigt
+EN  Kits produced since 2007
+DE  Bausätze seit 2007 gefertigt
 
-EN  Every project since 2008
-DE  Alle Projekte seit 2008
+EN  Every project since 2007
+DE  Alle Projekte seit 2007
 
-EN  The 2008–2010 projects were one-off works without series preparation. From the Rolls-Royce Phantom EWB in 2011 onwards, every project was executed with tooling and the capability for series production.
-DE  Die Projekte 2008–2010 waren Einzelanfertigungen ohne Serienvorbereitung. Ab dem Rolls-Royce Phantom EWB im Jahr 2011 wurde jedes Projekt mit Werkzeugbau und der Möglichkeit zur Serienfertigung umgesetzt.
+EN  The 2007–2010 projects were one-off works without series preparation. From the Rolls-Royce Phantom EWB in 2011 onwards, every project was executed with tooling and the capability for series production.
+DE  Die Projekte 2007–2010 waren Einzelanfertigungen ohne Serienvorbereitung. Ab dem Rolls-Royce Phantom EWB im Jahr 2011 wurde jedes Projekt mit Werkzeugbau und der Möglichkeit zur Serienfertigung umgesetzt.
 
 EN  Vehicle
 DE  Fahrzeug
@@ -1234,8 +1228,8 @@ DE  Mercedes-Benz S-Klasse V221 Lang
 EN  One-off work
 DE  Einzelanfertigung
 
-EN  ZiL-4107
-DE  ZiL-4107
+EN  ZiL-41047
+DE  ZiL-41047
 
 EN  Mercedes-Benz S-Class V220 Long
 DE  Mercedes-Benz S-Klasse V220 Lang
@@ -1294,11 +1288,11 @@ DE  Preise anfragen
 EN  Mercedes-Benz VLE
 DE  Mercedes-Benz VLE
 
-EN  Mercedes-Benz VLE partition — in development for 2026
-DE  Trennwand für Mercedes-Benz VLE — in Entwicklung für 2026
+EN  Mercedes-Benz VLE partition — in development, ready in 2027
+DE  Trennwand für Mercedes-Benz VLE — in Entwicklung, fertig 2027
 
-EN  7pro8 is developing two full-size partition lines for the electric Mercedes-Benz VLE, in series production at Vitoria since June 2026, plus a lightweight version from 2027. Partner slots are open.
-DE  7pro8 entwickelt zwei vollwertige Trennwandlinien für den elektrischen Mercedes-Benz VLE, der seit Juni 2026 in Vitoria in Serie läuft, dazu eine leichtere Ausführung ab 2027. Plätze für Partner sind offen.
+EN  We are developing two full-size partition lines and a lightweight version for the electric Mercedes-Benz VLE, in series production at Vitoria since June 2026. Design work began in 2026; the first partitions will be ready in 2027. Partner slots are open.
+DE  Wir entwickeln zwei Trennwandlinien in voller Größe und eine Leichtbauversion für den elektrischen Mercedes-Benz VLE, der seit Juni 2026 in Vitoria in Serie läuft. Die Konstruktion läuft seit 2026, die ersten Trennwände sind 2027 fertig. Partnerplätze sind offen.
 
 EN  A partition for the Mercedes-Benz VLE
 DE  Eine Trennwand für den Mercedes-Benz VLE
@@ -1309,14 +1303,14 @@ DE  Der elektrische VLE wurde am 10. März 2026 vorgestellt und läuft seit Juni
 EN  Full-size lines
 DE  Vollwertige Linien
 
-EN  Two, from 2026
-DE  Zwei, ab 2026
+EN  Two, ready in 2027
+DE  Zwei, fertig 2027
 
 EN  Lightweight version
 DE  Leichtere Ausführung
 
-EN  VLE Lite, from 2027
-DE  VLE Lite, ab 2027
+EN  VLE Lite, ready in 2027
+DE  VLE Lite, fertig 2027
 
 EN  Partner slots
 DE  Plätze für Partner
@@ -1330,8 +1324,8 @@ DE  Warum der Zeitpunkt alles entscheidet
 EN  Conversion products usually arrive two or three years after the car does, because development only starts once the vehicle is on the market and someone has bought one to measure.
 DE  Umbauprodukte kommen meist zwei oder drei Jahre nach dem Fahrzeug, weil die Entwicklung erst beginnt, wenn das Fahrzeug auf dem Markt ist und jemand eines zum Vermessen gekauft hat.
 
-EN  We have been building partitions on this body since 2015 across two independent series lines, so the VLE is not a new platform for us. A partner joining now receives the product at the same time as the car reaches the market.
-DE  Wir bauen Trennwände auf dieser Karosserie seit 2015 in zwei unabhängigen Serienlinien — der VLE ist für uns keine neue Plattform. Ein Partner, der jetzt einsteigt, erhält das Produkt zeitgleich mit dem Markteintritt des Fahrzeugs.
+EN  We have been building partitions for the V-Class, the VLE's predecessor, since 2015 across two independent series lines, so this class of vehicle is not new to us. A partner joining now takes part from the design stage and is among the first to receive the product in 2027.
+DE  Trennwände für die V-Klasse, den Vorgänger des VLE, bauen wir seit 2015 in zwei unabhängigen Serienlinien — diese Fahrzeugklasse ist für uns kein Neuland. Ein Partner, der jetzt einsteigt, ist ab der Konstruktionsphase dabei und erhält das Produkt 2027 als einer der Ersten.
 
 EN  CAD development of the VLE partition
 DE  CAD-Entwicklung der VLE-Trennwand
@@ -1360,8 +1354,8 @@ DE  Priorität nach Markt oder Modell
 EN  Where a partner shares development cost, priority by market or by model is part of the agreement.
 DE  Trägt ein Partner Entwicklungskosten mit, ist Priorität nach Markt oder Modell Teil der Vereinbarung.
 
-EN  What we already know how to build on this body
-DE  Was wir auf dieser Karosserie bereits bauen
+EN  What we already build in series for the V-Class
+DE  Was wir für die V-Klasse bereits in Serie bauen
 
 EN  Two electrically operated folding seats, central sliding boxes, electrochromic or plain glass with an electric raise-and-lower mechanism, a 43-inch television with electric lift, electric curtain drives, and the rear module — a platform frame with console armrest for an optional rear bench.
 DE  Zwei elektrisch betätigte Klappsitze, zentrale ausfahrbare Boxen, elektrochromes oder normales Glas mit elektrischem Hub-Senk-Mechanismus, ein 43-Zoll-Fernseher mit elektrischem Hub, elektrische Vorhangantriebe und das Fondmodul — ein Podestrahmen mit Konsolen-Armlehne für eine optionale Rücksitzbank.
@@ -1381,8 +1375,8 @@ DE  Nennen Sie uns Markt und Stückzahl, die Sie abnehmen würden — wir sagen 
 EN  Working with 7pro8 — scope, responsibilities and lead times
 DE  Zusammenarbeit mit 7pro8 — Umfang, Verantwortung und Lieferzeiten
 
-EN  How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and how to request indicative pricing.
-DE  Wie die Arbeit mit einem 7pro8-Partner abläuft: was wir liefern, was der Partner übernimmt, Fertigungs- und Lieferzeiten und wie man Richtpreise anfragt.
+EN  How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and why a kit shipped from Serbia reaches an EU partner with no customs duty.
+DE  Wie die Zusammenarbeit mit einem 7pro8-Partner aufgebaut ist: was wir liefern, was der Partner übernimmt, Fertigungs- und Lieferzeiten und warum ein Satz aus Serbien zollfrei bei einem Partner in der EU ankommt.
 
 EN  The partner receives a kit ready for installation. Everything up to that point is ours; everything from trimming onwards is the partner's. The line is drawn in the same place on every project.
 DE  Der Partner erhält einen montagefertigen Bausatz. Alles bis dahin liegt bei uns, alles ab dem Bezug beim Partner. Die Grenze liegt bei jedem Projekt an derselben Stelle.
@@ -1435,9 +1429,6 @@ DE  Fertigungszyklus eines Bausatzes
 EN  Effective lead time with an agreed plan and timely advance payment — transport from stock
 DE  Tatsächliche Wartezeit bei abgestimmtem Plan und fristgerechter Anzahlung — Transport ab Lager
 
-EN  Installation of a simple partition by qualified technicians; removal takes the same
-DE  Einbau einer einfachen Trennwand durch qualifiziertes Personal; der Ausbau dauert genauso lang
-
 EN  What kind of partner each class needs
 DE  Welchen Partner jede Klasse braucht
 
@@ -1465,8 +1456,11 @@ DE  Der Preis hängt von der Jahresstückzahl ab. Er wird mit dem Partner vorab 
 EN  Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.
 DE  Geliefert wird nach Plan, nicht auf Bestellung. Der Fertigungszyklus eines Bausatzes beträgt vier Monate, doch mit abgestimmtem Lieferplan und fristgerechter Anzahlung geht das Produkt an einem vorab vereinbarten Tag ab Lager.
 
-EN  For a model that does not exist yet, development from scratch takes up to a year depending on the complexity of the vehicle. A cost-sharing model is possible, under which the partner receives priority by market or by model.
-DE  Für ein Modell, das es noch nicht gibt, dauert eine Neuentwicklung je nach Komplexität des Fahrzeugs bis zu einem Jahr. Eine Kostenteilung ist möglich, bei der der Partner Priorität nach Markt oder Modell erhält.
+EN  Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.
+DE  Versandt wird aus Serbien, einem EU-Beitrittskandidaten, dessen Industriewaren seit 2000 zollfrei in die Union gelangen — ein Status, der später im Stabilisierungs- und Assoziierungsabkommen festgeschrieben wurde. Für einen Partner in der EU heißt das: kein Zoll auf einen Satz, nur Einfuhrumsatzsteuer und die übliche Abfertigung. Außerhalb der EU gilt der Tarif des Einfuhrlandes.
+
+EN  For a vehicle that has no partition yet, a cost-sharing arrangement is possible, under which the partner receives priority by market or by model.
+DE  Für ein Fahrzeug, für das es noch keine Trennwand gibt, ist eine Kostenteilung möglich, bei der der Partner Vorrang nach Markt oder nach Modell erhält.
 
 EN  Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan.
 DE  Nennen Sie uns Modell, Markt und geplante Stückzahl — wir schicken Richtpreise, Lieferumfang und einen Lieferplan.
@@ -1543,14 +1537,14 @@ DE  Oder schreiben Sie an
 EN  Leave this field empty
 DE  Dieses Feld bitte leer lassen
 
-EN  About 7pro8 — Novi Sad, Serbia, since 2007
-DE  Über 7pro8 — Novi Sad, Serbien, seit 2007
+EN  About 7pro8 — vehicle partitions since 2007
+DE  Über 7pro8 — Fahrzeug-Trennwände seit 2007
 
-EN  7pro8 built its first interior partition in 2007. Since then more than 20 partition models have been developed and over 450 kits delivered, from a workshop in Novi Sad, Serbia.
-DE  7pro8 hat 2007 die erste Interieur-Trennwand gebaut. Seither wurden mehr als 20 Trennwandmodelle entwickelt und über 450 Bausätze ausgeliefert, aus einer Werkstatt in Novi Sad, Serbien.
+EN  We built our first interior partition in 2007. Since then we have developed more than 20 partition models and delivered over 450 kits. Since 2023 the company has been registered in Serbia.
+DE  Unsere erste Innenraum-Trennwand haben wir 2007 gebaut. Seither haben wir mehr als 20 Trennwandmodelle entwickelt und über 450 Sätze ausgeliefert. Seit 2023 ist das Unternehmen in Serbien eingetragen.
 
-EN  7pro8 produced its first interior partition in 2007. Since then we have developed more than 20 partition models for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac, and delivered over 450 kits.
-DE  7pro8 hat 2007 die erste Interieur-Trennwand gefertigt. Seither haben wir mehr als 20 Trennwandmodelle für Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover und Cadillac entwickelt und über 450 Bausätze ausgeliefert.
+EN  We produced our first interior partition in 2007. Since then we have developed more than 20 partition models for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac, and delivered over 450 kits.
+DE  Unsere erste Innenraum-Trennwand haben wir 2007 gebaut. Seither haben wir mehr als 20 Trennwandmodelle für Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover und Cadillac entwickelt und über 450 Sätze ausgeliefert.
 
 EN  We do not work on an individual car — we work on a car model. Every project is a full cycle: from 3D scanning of the interior to the manufacture of production tooling that lets the product be built in series, with repeatable geometry and repeatable quality. That is what separates us from one-off customisation.
 DE  Wir arbeiten nicht am einzelnen Fahrzeug, sondern am Fahrzeugmodell. Jedes Projekt ist ein vollständiger Zyklus: vom 3D-Scan des Interieurs bis zur Fertigung der Produktionswerkzeuge, die eine Serienfertigung mit reproduzierbarer Geometrie und reproduzierbarer Qualität ermöglichen. Genau das unterscheidet uns von der Einzelanfertigung.
@@ -1558,8 +1552,8 @@ DE  Wir arbeiten nicht am einzelnen Fahrzeug, sondern am Fahrzeugmodell. Jedes P
 EN  Our clients are vehicle distributors, official dealerships and specialist conversion shops. We supply them a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.
 DE  Unsere Kunden sind Fahrzeugdistributoren, Vertragshändler und spezialisierte Umbaubetriebe. Wir liefern ihnen einen montagefertigen Bausatz; Bezug, Einbau und Endausbau übernimmt der Partner nach unseren Schablonen und Anleitungen.
 
-EN  The company is based in Novi Sad, Serbia, and is led by Evgenii Abramov and Iliya Bolshakov.
-DE  Das Unternehmen hat seinen Sitz in Novi Sad, Serbien, und wird von Evgenii Abramov und Iliya Bolshakov geführt.
+EN  Since 2023 we have been registered in Serbia as 7PRO8 DOO. Evgenii Abramov and Ilya Bolshakov are its co-founders.
+DE  Seit 2023 sind wir in Serbien als 7PRO8 DOO eingetragen. Mitgründer sind Evgenii Abramov und Ilya Bolshakov.
 
 EN  19 years
 DE  19 Jahre
@@ -1570,47 +1564,41 @@ DE  Durchgehende Tätigkeit im Segment, seit 2007
 EN  Complex partitions a year — current rate
 DE  Komplexe Trennwände pro Jahr — aktuelle Rate
 
-EN  Where the work happens
-DE  Wo gearbeitet wird
+EN  A company in Serbia
+DE  Ein Unternehmen in Serbien
 
-EN  Design, engineering, tooling and production all sit in the same building in Novi Sad. Serbia gives the company an unusual combination for this segment: engineering labour at a cost that supports series production, and duty-free industrial access to the European Union under the Stabilisation and Association Agreement.
-DE  Design, Engineering, Werkzeugbau und Fertigung befinden sich im selben Gebäude in Novi Sad. Serbien bietet dem Unternehmen eine für dieses Segment ungewöhnliche Kombination: Ingenieursarbeit zu Kosten, die Serienfertigung tragen, und zollfreien Zugang für Industriegüter in die Europäische Union nach dem Stabilisierungs- und Assoziierungsabkommen.
+EN  Serbia has been a candidate for membership of the European Union since 2012, and its industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. Our working day runs on Central European Time, and we correspond in English, German, Serbian and Russian.
+DE  Serbien ist seit 2012 Beitrittskandidat der Europäischen Union, und seine Industriewaren gelangen seit 2000 zollfrei in die Union — ein Status, der später im Stabilisierungs- und Assoziierungsabkommen festgeschrieben wurde. Unser Arbeitstag läuft nach mitteleuropäischer Zeit, und wir korrespondieren auf Englisch, Deutsch, Serbisch und Russisch.
 
-EN  Deliveries run to the European Union, the United Kingdom, the United Arab Emirates, the United States and the Middle East.
-DE  Geliefert wird in die Europäische Union, das Vereinigte Königreich, die Vereinigten Arabischen Emirate, die USA und den Nahen Osten.
+EN  We are looking for partners in the European Union, the United Kingdom, the United States, the United Arab Emirates and elsewhere in the Middle East.
+DE  Wir suchen Partner in der Europäischen Union, im Vereinigten Königreich, in den USA, in den Vereinigten Arabischen Emiraten und im übrigen Nahen Osten.
 
-EN  The 7pro8 workshop in Novi Sad
-DE  Die Werkstatt von 7pro8 in Novi Sad
+EN  Let's talk
+DE  Sprechen wir darüber
 
-EN  Novi Sad — design, engineering, tooling and assembly under one roof
-DE  Novi Sad — Design, Engineering, Werkzeugbau und Montage unter einem Dach
-
-EN  Come and see the shop floor
-DE  Besuchen Sie unsere Fertigung
-
-EN  Partners are welcome to visit Novi Sad and look at kits in production before committing to anything.
-DE  Partner sind willkommen, Novi Sad zu besuchen und sich Bausätze in der Fertigung anzusehen, bevor sie sich zu etwas verpflichten.
+EN  We are based in Serbia and glad to hear from partners. Write or call, and we will go through your project, the timing and the terms before anything is agreed.
+DE  Wir sitzen in Serbien und freuen uns über jede Anfrage von Partnern. Schreiben Sie uns oder rufen Sie an – wir gehen Ihr Projekt, die Termine und die Bedingungen durch, bevor irgendetwas vereinbart wird.
 
 EN  The founders
 DE  Die Gründer
 
-EN  Evgenii Abramov and Iliya Bolshakov — founders of 7pro8
-DE  Evgenii Abramov und Iliya Bolshakov — Gründer von 7pro8
+EN  Evgenii Abramov and Ilya Bolshakov — founders of 7pro8
+DE  Evgenii Abramov und Ilya Bolshakov — Gründer von 7pro8
 
-EN  Evgenii Abramov and Iliya Bolshakov have worked together since the early 2000s. A shared chronology: careers, the first partition in 2007, 7pro8 as a company since 2015.
-DE  Evgenii Abramov und Iliya Bolshakov arbeiten seit Anfang der 2000er-Jahre zusammen. Eine gemeinsame Chronik: Werdegänge, die erste Trennwand 2007, 7pro8 als Unternehmen seit 2015.
+EN  Evgenii Abramov and Ilya Bolshakov have worked together since the early 2000s. A shared chronology: careers, the first partition in 2007, 7pro8 as a company since 2015.
+DE  Evgenii Abramov und Ilya Bolshakov arbeiten seit Anfang der 2000er-Jahre zusammen. Eine gemeinsame Chronik: Werdegänge, die erste Trennwand 2007, 7pro8 als Unternehmen seit 2015.
 
-EN  Evgenii Abramov and Iliya Bolshakov
-DE  Evgenii Abramov und Iliya Bolshakov
+EN  Evgenii Abramov and Ilya Bolshakov
+DE  Evgenii Abramov und Ilya Bolshakov
 
-EN  Together since the early 2000s. More than twenty years in one craft — vehicle interior engineering — first in other people's workshops and, since 2015, in their own. 7pro8 is their shared work, taken through to series.
-DE  Zusammen seit Anfang der 2000er-Jahre. Mehr als zwanzig Jahre in einem Handwerk — Engineering von Fahrzeuginterieurs —, zuerst in fremden Werkstätten und seit 2015 in der eigenen. 7pro8 ist ihre gemeinsame Arbeit, bis zur Serie gebracht.
+EN  Both of us have been in the industry since the early nineties. We met at CARDI, worked together at Avtoganza, and in 2009 built our own engineering group. Since 2015 that group is 7pro8: our shared work, taken through to series.
+DE  Beide seit Anfang der Neunziger in der Branche. Kennengelernt haben wir uns bei CARDI, zusammengearbeitet bei Autohansa, und 2009 haben wir unsere eigene Ingenieurgruppe gegründet. Seit 2015 ist diese Gruppe 7pro8: unsere gemeinsame Arbeit, bis in die Serie geführt.
 
-EN  Working together
-DE  Zusammenarbeit
+EN  As our own team
+DE  Als eigenes Team
 
-EN  since the early 2000s
-DE  seit Anfang der 2000er
+EN  since 2009
+DE  seit 2009
 
 EN  First partition
 DE  Erste Trennwand
@@ -1618,50 +1606,86 @@ DE  Erste Trennwand
 EN  7pro8 as a company
 DE  7pro8 als Unternehmen
 
-EN  Draft page
-DE  Entwurf der Seite
-
-EN  The real data here is Iliya Bolshakov's biography and career. Everything about Evgenii Abramov is a placeholder — his segments on the timeline are drawn dashed. The project descriptions are marked DRAFT. This block is one line to delete in the content file.
-DE  Echte Daten auf dieser Seite sind die Biografie und der Werdegang von Iliya Bolshakov. Alles zu Evgenii Abramov ist ein Platzhalter — seine Abschnitte auf der Zeitleiste sind gestrichelt. Die Projektbeschreibungen sind mit ENTWURF gekennzeichnet. Dieser Block wird mit einer Zeile in der Content-Datei gelöscht.
-
 EN  Evgenii Abramov
 DE  Evgenii Abramov
 
-EN  Co-founder, 7pro8
-DE  Mitgründer, 7pro8
+EN  Founder
+DE  Gründer
 
-EN  DRAFT. Two or three sentences on Evgenii's route: where he started, where he worked, what he is responsible for in the company today. The same record already supplied for Iliya is needed — years, organisations, roles.
-DE  ENTWURF. Zwei oder drei Sätze zu Evgeniis Weg: womit er angefangen hat, wo er gearbeitet hat, wofür er heute im Unternehmen verantwortlich ist. Benötigt werden dieselben Angaben wie bei Iliya — Jahre, Organisationen, Funktionen.
+EN  Entered MAMI in 1992 and at the same time started work at CARDI, the institute's special design bureau (SKB MAMI): industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98, then back at CARDI from 1998, which is where he and Ilya met. In 2005–2007 the two of them worked together in Avtoganza's tuning department, on engineering and production, then both went back to CARDI, he now as its chief designer and lead project manager. In 2009 they set up the engineering and production group, formally on the staff of CarFashion, that this company grew out of.
+DE  1992 begann er sein Studium am MAMI und arbeitete parallel bei CARDI, dem Sonderkonstruktionsbüro des Instituts (SKB MAMI): Industriedesign und Konzeptfahrzeuge in Einzelstücken. 1997–98 Designer im Moskauer Automobilwerk AZLK, ab 1998 wieder bei CARDI – dort lernten er und Ilya sich kennen. 2005–2007 arbeiteten die beiden gemeinsam in der Tuning-Abteilung von Autohansa, in Konstruktion und Fertigung, und kehrten dann beide zu CARDI zurück, er nun als Chefdesigner und leitender Projektmanager. 2009 gründeten sie die Ingenieur- und Fertigungsgruppe, formal bei CarFashion angestellt, aus der dieses Unternehmen hervorgegangen ist.
 
-EN  Iliya Bolshakov
-DE  Iliya Bolshakov
+EN  Ilya Bolshakov
+DE  Ilya Bolshakov
 
-EN  Started in 2000 as a model maker and design engineer at SKB MAMI — with his hands and a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.
-DE  Er begann im Jahr 2000 als Modellbauer und Konstrukteur im SKB MAMI — mit den Händen und am Modell, nicht an der Zeichnung. Ein Jahr später wechselte er zu SV-ART und war innerhalb von zwei Jahren Chefkonstrukteur.
+EN  An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined SKB MAMI (CARDI) as a model maker and design engineer, which is where he and Evgenii met. A year later he moved to SV-ART, where within two years he was chief design engineer.
+DE  Ingenieur von der Ausbildung her: MAMI, 1988–92, Verbrennungsmotoren. Danach lehrte er dort fünf Jahre am Lehrstuhl für Maschinenelemente und Getriebe und arbeitete anschließend in der Lackiererei von Lada Favorit. 2000 kam er als Modellbauer und Konstrukteur zu SKB MAMI (CARDI), und dort lernten er und Evgenii sich kennen. Ein Jahr später wechselte er zu SV-ART, wo er innerhalb von zwei Jahren Chefkonstrukteur wurde.
 
-EN  Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8.
-DE  Danach A-Level, Avtoganza, Cardi Design und Car Fashion: fünfzehn Jahre Konstruktion von Fahrzeuginterieurs in den Unternehmen, die diese Branche in Russland aufgebaut haben. Seit 2015 7pro8.
+EN  Then A-Level, followed, alongside Evgenii, by Avtoganza's tuning department and CARDI again, and from 2009 the engineering and production group the two of them ran, formally on the staff of CarFashion. Fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8.
+DE  Danach A-Level, dann gemeinsam mit Evgenii die Tuning-Abteilung von Autohansa und erneut CARDI und ab 2009 die gemeinsame Ingenieur- und Fertigungsgruppe der beiden, formal bei CarFashion angestellt. Fünfzehn Jahre Konstruktion von Fahrzeuginterieurs in den Unternehmen, die diese Branche in Russland aufgebaut haben. Seit 2015 7pro8.
 
 EN  Two routes on one axis
 DE  Zwei Wege auf einer Zeitachse
 
-EN  Where each founder worked, year by year. Dashed segments are dates not yet confirmed.
-DE  Wo jeder der Gründer gearbeitet hat, Jahr für Jahr. Gestrichelte Abschnitte sind noch nicht bestätigte Daten.
+EN  Where each of us worked, year by year.
+DE  Wo jeder von uns gearbeitet hat, Jahr für Jahr.
 
-EN  Together from the early 2000s — exact year to be confirmed
-DE  Zusammen seit Anfang der 2000er — das genaue Jahr wird noch bestätigt
+EN  Our own team
+DE  Eigenes Team
 
-EN  Career to be supplied
-DE  Werdegang folgt
+EN  MAMI and SKB MAMI (CARDI)
+DE  MAMI und SKB MAMI (CARDI)
 
-EN  Needs the same record as Iliya's
-DE  Dieselben Angaben wie bei Iliya benötigt
+EN  MAMI · CARDI
+DE  MAMI · CARDI
+
+EN  Student at MAMI, working at CARDI alongside
+DE  Studium am MAMI, parallel Arbeit bei CARDI
+
+EN  AZLK
+DE  AZLK
+
+EN  Designer
+DE  Designer
+
+EN  CARDI
+DE  CARDI
+
+EN  Avtoganza
+DE  Autohansa
+
+EN  Tuning department: engineering and production
+DE  Tuning-Abteilung: Konstruktion und Fertigung
+
+EN  Chief designer and lead project manager
+DE  Chefdesigner und leitender Projektmanager
+
+EN  Engineering and production group
+DE  Ingenieur- und Fertigungsgruppe
+
+EN  Co-founder; formally on the staff of CarFashion
+DE  Mitgründer; formal bei CarFashion angestellt
 
 EN  Co-founder
 DE  Mitgründer
 
-EN  SKB MAMI
-DE  SKB MAMI
+EN  Moscow Automotive and Mechanical Institute (MAMI)
+DE  Moskauer Automobil- und Maschinenbauinstitut (MAMI)
+
+EN  MAMI
+DE  MAMI
+
+EN  Lecturer, Machine Parts and Mechanisms department
+DE  Dozent am Lehrstuhl für Maschinenelemente und Getriebe
+
+EN  Lada Favorit
+DE  Lada Favorit
+
+EN  Paint shop
+DE  Lackiererei
+
+EN  SKB MAMI (CARDI)
+DE  SKB MAMI (CARDI)
 
 EN  Model maker and design engineer
 DE  Modellbauer und Konstrukteur
@@ -1678,68 +1702,65 @@ DE  A-Level
 EN  Vehicle interior design engineer
 DE  Konstrukteur für Fahrzeuginterieurs
 
-EN  Avtoganza
-DE  Avtoganza
+EN  Design engineer, tuning department
+DE  Konstrukteur, Tuning-Abteilung
 
 EN  Design engineer
 DE  Konstrukteur
 
-EN  Cardi Design
-DE  Cardi Design
-
-EN  Car Fashion
-DE  Car Fashion
-
-EN  Co-founder, co-owner
-DE  Mitgründer, Mitinhaber
-
-EN  The projects below were done across these periods. Before this page is published it is worth confirming with the former employers which of the work may be shown, and under whose name.
-DE  Die folgenden Projekte entstanden in verschiedenen dieser Zeiträume. Vor der Veröffentlichung dieser Seite sollte mit den früheren Arbeitgebern geklärt werden, welche Arbeiten unter wessen Namen gezeigt werden dürfen.
-
 EN  The work, newest first
 DE  Die Arbeiten, die neuesten zuerst
 
-EN  Twelve projects across twenty-five years, from the present back to the beginning. Under each title is where Iliya was working at the time; Evgenii's part in each project still needs to be marked.
-DE  Zwölf Projekte aus fünfundzwanzig Jahren, von heute zurück zum Anfang. Unter jedem Titel steht, wo Iliya damals gearbeitet hat; Evgeniis Anteil an den einzelnen Projekten muss noch ergänzt werden.
+EN  Thirteen projects from 1992 to 2009 — the work 7pro8 grew out of. Under each title: whose project it was, and where we were working at the time.
+DE  Dreizehn Projekte von 1992 bis 2009 — die Arbeit, aus der 7pro8 hervorgegangen ist. Unter jedem Titel: wessen Projekt es war und wo wir damals gearbeitet haben.
 
-EN  Electric trike with a canopy
-DE  Elektro-Trike mit Dach
+EN  Rolls-Royce Phantom — rear compartment
+DE  Rolls-Royce Phantom — Fond
 
-EN  Personal project · frame, canopy, layout
-DE  Privates Projekt · Rahmen, Dach, Sitzanordnung
+EN  Ilya and Evgenii
+DE  Ilya und Evgenii
 
-EN  DRAFT. A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly.
-DE  ENTWURF. Ein privates Projekt außerhalb des Automobilbereichs: Rahmen, Schutzdach und Sitzanordnung für zwei Personen. Komplett von Hand gebaut, von der Konstruktion bis zur Endmontage.
+EN  Our own engineering and production group
+DE  Eigene Ingenieur- und Fertigungsgruppe
 
-EN  Trike with the canopy raised, in a field
-DE  Trike mit aufgeklapptem Dach auf einer Wiese
+EN  A rebuilt rear compartment for a Rolls-Royce Phantom: seats and trim in pale leather, curtains, veneer. A one-off, still without tooling for series — the series partition for the Phantom EWB came in 2011.
+DE  Ein neu aufgebauter Fond für einen Rolls-Royce Phantom: Sitze und Verkleidung in hellem Leder, Vorhänge, Furnier. Ein Einzelstück, noch ohne Werkzeuge für eine Serie — die Serien-Trennwand für den Phantom EWB kam 2011.
 
-EN  Canopy raised
-DE  Dach aufgeklappt
+EN  Rolls-Royce Phantom with the doors open
+DE  Rolls-Royce Phantom mit geöffneten Türen
 
-EN  Trike from the side
-DE  Trike von der Seite
+EN  The project car
+DE  Das Projektfahrzeug
 
-EN  Layout for two
-DE  Sitzanordnung für zwei
+EN  Phantom rear compartment in pale leather
+DE  Fond des Phantom in hellem Leder
 
-EN  Trike on the road
-DE  Trike auf der Straße
+EN  Rear compartment
+DE  Fondbereich
 
-EN  Frame and seating
-DE  Rahmen und Sitze
+EN  Curtains and veneer trim
+DE  Vorhänge und Furnierverkleidung
 
-EN  Iliya: Personal project
-DE  Iliya: privates Projekt
+EN  Curtains and veneer
+DE  Vorhänge und Furnier
+
+EN  Backs of the front seats
+DE  Rückseiten der Vordersitze
+
+EN  Front seat backs
+DE  Rückseiten der Vordersitze
 
 EN  Interiors on the water
 DE  Interieurs auf dem Wasser
 
-EN  Marine interiors · press
-DE  Yachtinterieurs · Fachpresse
+EN  Ilya
+DE  Ilya
 
-EN  DRAFT. Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press.
-DE  ENTWURF. Arbeit an Boots- und Yachtinterieurs: dieselbe Aufgabe wie im Auto, aber andere Materialien, andere Feuchtigkeit und andere Regeln. Projekte aus dieser Zeit erschienen in der Fachpresse.
+EN  CARDI / our own engineering group
+DE  CARDI / eigene Ingenieurgruppe
+
+EN  Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press.
+DE  Arbeit an Boots- und Yachtinterieurs: dieselbe Aufgabe wie im Auto, aber andere Materialien, andere Feuchtigkeit und andere Regeln. Projekte aus dieser Zeit erschienen in der Fachpresse.
 
 EN  Motor yacht under way
 DE  Motoryacht in Fahrt
@@ -1747,65 +1768,53 @@ DE  Motoryacht in Fahrt
 EN  Motor yacht
 DE  Motoryacht
 
-EN  Yachting magazine cover
-DE  Titelseite eines Yachtmagazins
+EN  Mercedes-Benz Viano — interior, exterior and a motorised monitor
+DE  Mercedes-Benz Viano — Innenraum, Exterieur und ein motorisierter Monitor
 
-EN  Trade press
-DE  Fachpresse
+EN  A van with a changed exterior and a new rear interior: quilted seats, curtains, veneer. A separate job in the same car: a ceiling monitor on an electric drive, its mechanism designed in 3D and built for this interior.
+DE  Ein Van mit verändertem Exterieur und neuem Fond: gesteppte Sitze, Vorhänge, Furnier. Ein eigener Auftrag im selben Fahrzeug: ein Deckenmonitor mit elektrischem Antrieb, dessen Mechanik in 3D konstruiert und für diesen Innenraum gebaut wurde.
 
-EN  Iliya: Cardi Design / Car Fashion
-DE  Iliya: Cardi Design / Car Fashion
+EN  Mercedes-Benz Viano after the work
+DE  Mercedes-Benz Viano nach dem Umbau
 
-EN  falls on a period boundary — to be confirmed
-DE  liegt auf einer Periodengrenze — zu bestätigen
+EN  Exterior
+DE  Exterieur
 
-EN  Taxi roof sign
-DE  Taxi-Dachschild
+EN  Rear interior with quilted seats
+DE  Fond mit gesteppten Sitzen
 
-EN  Design · tooling · series
-DE  Design · Werkzeuge · Serie
+EN  Rear interior
+DE  Fond
 
-EN  DRAFT. An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later.
-DE  ENTWURF. Ein beleuchtetes Dachschild für Taxis: Design, 3D-Modell, Werkzeuge und Serienfertigung. Klein im Format, aber vollständig im Zyklus — derselbe Weg von der Skizze zur Stückzahl, den die Trennwände zehn Jahre später gehen sollten.
+EN  Interior with the ceiling monitor
+DE  Innenraum mit dem Deckenmonitor
 
-EN  Taxi with the roof sign fitted
-DE  Taxi mit montiertem Dachschild
+EN  Interior with the monitor
+DE  Innenraum mit Monitor
 
-EN  Fitted to the car
-DE  Am Fahrzeug montiert
+EN  3D model of the monitor mechanism
+DE  3D-Modell der Monitormechanik
 
-EN  Roof sign lit at night
-DE  Beleuchtetes Dachschild bei Nacht
+EN  Monitor mechanism, 3D
+DE  Monitormechanik, 3D
 
-EN  Illumination
-DE  Beleuchtung
+EN  Monitor mechanism with its drive
+DE  Monitormechanik mit Antrieb
 
-EN  Roof sign in close-up
-DE  Dachschild in Nahaufnahme
+EN  The drive on the bench
+DE  Der Antrieb auf dem Prüfstand
 
-EN  Housing and screen
-DE  Gehäuse und Bildschirm
+EN  The monitor lowered in the car
+DE  Der abgesenkte Monitor im Fahrzeug
 
-EN  Rendering of the roof sign
-DE  Visualisierung des Dachschilds
+EN  Monitor in the car
+DE  Monitor im Fahrzeug
 
-EN  Project rendering
-DE  Projektvisualisierung
+EN  ZiL-41047 — state limousine interior
+DE  ZiL-41047 — Interieur einer Staatslimousine
 
-EN  Iliya: Cardi Design
-DE  Iliya: Cardi Design
-
-EN  from photograph dates
-DE  nach Aufnahmedaten
-
-EN  ZiL-4107 — state limousine interior
-DE  ZiL-4107 — Interieur einer Staatslimousine
-
-EN  Sketch · engineering · production
-DE  Skizze · Engineering · Fertigung
-
-EN  DRAFT. A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior.
-DE  ENTWURF. Ein vollständiger Umbau des Interieurs einer sowjetischen Staatslimousine. Das Projekt begann mit Handskizzen — Anordnung des Fonds, Sitze, Ausstattung — und führte bis zum fertigen Interieur.
+EN  A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior.
+DE  Ein vollständiger Umbau des Interieurs einer sowjetischen Staatslimousine. Das Projekt begann mit Handskizzen — Anordnung des Fonds, Sitze, Ausstattung — und führte bis zum fertigen Interieur.
 
 EN  Hand sketch of the interior
 DE  Handskizze des Interieurs
@@ -1816,26 +1825,26 @@ DE  Skizze der Anordnung
 EN  Finished interior, rear compartment
 DE  Fertiges Interieur, Fondbereich
 
-EN  Rear compartment
-DE  Fondbereich
-
 EN  Finished interior, trim detail
 DE  Fertiges Interieur, Ausstattungsdetail
 
 EN  Trim and materials
 DE  Ausstattung und Materialien
 
-EN  Mercedes-Benz S-Class W221 — the first partition
-DE  Mercedes-Benz S-Klasse W221 — die erste Trennwand
+EN  Mercedes-Benz S-Class V221 — the first partition
+DE  Mercedes-Benz S-Klasse V221 — die erste Trennwand
 
-EN  Sketch · CAD · tooling · product
-DE  Skizze · CAD · Werkzeuge · Produkt
+EN  Avtoganza / CARDI
+DE  Autohansa / CARDI
 
-EN  DRAFT. The first partition, and where 7pro8 starts counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.
-DE  ENTWURF. Die erste Trennwand und der Punkt, ab dem 7pro8 zählt. Das Projekt durchlief den vollen Zyklus, der später zum Standard wurde: Skizze, 3D-Modell, Engineering des Scheibenhubmechanismus, Werkzeuge, fertiges Produkt.
+EN  the year of the move; we date our first partition from here
+DE  das Jahr des Wechsels; ab hier datieren wir unsere erste Trennwand
 
-EN  Everything the company builds in series today grew out of this job.
-DE  Alles, was das Unternehmen heute in Serie baut, ist aus dieser Arbeit hervorgegangen.
+EN  The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.
+DE  Die erste Trennwand, ab der wir zählen. Das Projekt durchlief den vollen Zyklus, der später zum Standard wurde: Skizze, 3D-Modell, Konstruktion des Scheibenhebers, Werkzeuge, fertiges Produkt.
+
+EN  Everything we build in series today grew out of this job.
+DE  Alles, was wir heute in Serie bauen, ist aus dieser Arbeit entstanden.
 
 EN  Sketch of the interior with the partition
 DE  Skizze des Interieurs mit Trennwand
@@ -1861,20 +1870,14 @@ DE  Fertige Trennwand im Fahrzeug
 EN  Product in the car
 DE  Produkt im Fahrzeug
 
-EN  Iliya: Avtoganza / Cardi Design
-DE  Iliya: Avtoganza / Cardi Design
-
-EN  the year of the move; 7pro8 dates its first partition from here
-DE  das Jahr des Wechsels; ab hier datiert 7pro8 seine erste Trennwand
-
 EN  Mercedes-Benz Vito — VIP interior
 DE  Mercedes-Benz Vito — VIP-Interieur
 
-EN  Interior · multimedia · partition
-DE  Interieur · Multimedia · Trennwand
+EN  Avtoganza, tuning department
+DE  Autohansa, Tuning-Abteilung
 
-EN  DRAFT. A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on.
-DE  ENTWURF. Ein Transporter, der zum mobilen Büro wurde: Einzelsitze, Konsolen, Multimedia und eine Interieur-Trennwand. Ein frühes Beispiel genau der Arbeit, auf der später das Seriengeschäft aufgebaut wurde.
+EN  A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on.
+DE  Ein Transporter, der zum mobilen Büro wurde: Einzelsitze, Konsolen, Multimedia und eine Interieur-Trennwand. Ein frühes Beispiel genau der Arbeit, auf der später das Seriengeschäft aufgebaut wurde.
 
 EN  Vito interior with individual seats
 DE  Vito-Interieur mit Einzelsitzen
@@ -1888,6 +1891,9 @@ DE  Fondbereich mit Monitor
 EN  Multimedia
 DE  Multimedia
 
+EN  Table in the working position
+DE  Tisch in Arbeitsstellung
+
 EN  Work table
 DE  Arbeitstisch
 
@@ -1897,26 +1903,14 @@ DE  Innenausstattung
 EN  Trim
 DE  Ausstattung
 
-EN  Iliya: Avtoganza
-DE  Iliya: Avtoganza
-
-EN  from dates — to be confirmed
-DE  nach Datum — zu bestätigen
-
 EN  Lamborghini Diablo VT
 DE  Lamborghini Diablo VT
 
-EN  Interior · audio · trim
-DE  Interieur · Audio · Ausstattung
-
-EN  DRAFT. A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all.
-DE  ENTWURF. Ein vollständiger Interieurumbau eines Supersportwagens: Mittelkonsole, Instrumentenbereich, Audiosystem, Ausstattung in Leder und Carbon. Eine Arbeit, die exakte Passung in einem engen Innenraum ohne eine einzige ebene Fläche verlangt.
+EN  A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all.
+DE  Ein vollständiger Interieurumbau eines Supersportwagens: Mittelkonsole, Instrumentenbereich, Audiosystem, Ausstattung in Leder und Carbon. Eine Arbeit, die exakte Passung in einem engen Innenraum ohne eine einzige ebene Fläche verlangt.
 
 EN  Lamborghini Diablo exterior
 DE  Lamborghini Diablo von außen
-
-EN  The project car
-DE  Das Projektfahrzeug
 
 EN  Centre console
 DE  Mittelkonsole
@@ -1927,20 +1921,17 @@ DE  Instrumentenbereich
 EN  Leather and carbon trim
 DE  Ausstattung in Leder und Carbon
 
-EN  Iliya: A-Level
-DE  Iliya: A-Level
-
-EN  from dates; the photographs, however, come from SV-ART material — a discrepancy
-DE  nach Datum; die Fotos stammen jedoch aus SV-ART-Material — eine Unstimmigkeit
-
 EN  Chevrolet Corvette
 DE  Chevrolet Corvette
 
-EN  Interior · console · trim
-DE  Interieur · Konsole · Ausstattung
+EN  SV-ART / A-Level
+DE  SV-ART / A-Level
 
-EN  DRAFT. The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry.
-DE  ENTWURF. Das Interieur einer klassischen Corvette: neue Mittelkonsole, Ausstattung und Technik. Eines der Projekte, die Anfang der 2000er-Jahre das russische Tuning zu einer Branche gemacht haben.
+EN  the year of the move
+DE  das Jahr des Wechsels
+
+EN  The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry.
+DE  Das Interieur einer klassischen Corvette: neue Mittelkonsole, Ausstattung und Technik. Eines der Projekte, die Anfang der 2000er-Jahre das russische Tuning zu einer Branche gemacht haben.
 
 EN  Corvette exterior
 DE  Corvette von außen
@@ -1954,23 +1945,11 @@ DE  Heckansicht
 EN  Console and trim
 DE  Konsole und Ausstattung
 
-EN  Iliya: SV-ART / A-Level
-DE  Iliya: SV-ART / A-Level
-
-EN  the year of the move — to be confirmed
-DE  das Jahr des Wechsels — zu bestätigen
-
 EN  Hummer H1 — VIP interior
 DE  Hummer H1 — VIP-Interieur
 
-EN  Interior · lighting · multimedia
-DE  Interieur · Licht · Multimedia
-
-EN  DRAFT. An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client.
-DE  ENTWURF. Ein Geländewagen mit repräsentativem Interieur: Sitzbank, Furnier, Ambientebeleuchtung, Multimedia. Gebaut für einen Privatkunden.
-
-EN  THE CLIENT IS DELIBERATELY NOT NAMED HERE — see the note on this page.
-DE  DER KUNDE WIRD HIER BEWUSST NICHT GENANNT — siehe Hinweis auf dieser Seite.
+EN  An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client.
+DE  Ein Geländewagen mit repräsentativem Interieur: Sitzbank, Furnier, Ambientebeleuchtung, Multimedia. Gebaut für einen Privatkunden.
 
 EN  Hummer H1 exterior
 DE  Hummer H1 von außen
@@ -1990,17 +1969,17 @@ DE  Bar im Interieur
 EN  Interior equipment
 DE  Ausstattung des Interieurs
 
-EN  Iliya: SV-ART
-DE  Iliya: SV-ART
-
 EN  Lincoln Reincarnation
 DE  Lincoln Reincarnation
 
-EN  Body · interior · lighting
-DE  Karosserie · Interieur · Licht
+EN  SV-ART · CARDI
+DE  SV-ART · CARDI
 
-EN  DRAFT. The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years.
-DE  ENTWURF. Das sichtbarste Projekt der frühen Zeit: ein Fahrzeug mit komplett umgebauter Karosserie und neuem Interieur, gezeigt auf Messen und besprochen in der Presse. Der Projektname blieb dem Studio jahrelang verbunden.
+EN  The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press.
+DE  Das sichtbarste Projekt der frühen Zeit: ein Fahrzeug mit komplett umgebauter Karosserie und neuem Interieur, gezeigt auf Messen und besprochen in der Presse.
+
+EN  A joint project of SV-ART and CARDI: CARDI did the design and the bodywork, SV-ART the interior, the lighting, the instrument panel and the rest of the trim.
+DE  Ein gemeinsames Projekt von SV-ART und CARDI: CARDI übernahm Design und Karosseriearbeiten, SV-ART den Innenraum, die Beleuchtung, die Armaturentafel und die übrige Ausstattung.
 
 EN  Lincoln Reincarnation exterior
 DE  Lincoln Reincarnation von außen
@@ -2026,11 +2005,11 @@ DE  Interieur
 EN  Workshop, team, first volumes
 DE  Werkstatt, Team, erste Stückzahlen
 
-EN  Production · people
-DE  Fertigung · Menschen
+EN  SKB MAMI (CARDI) · SV-ART
+DE  SKB MAMI (CARDI) · SV-ART
 
-EN  DRAFT. The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof.
-DE  ENTWURF. Die Zeit, in der aus einer Werkstatt ein Unternehmen mit eigener Fertigung wurde: Design, Modellbau, Metall, Sattlerei, Furnier, Elektronik — alles unter einem Dach.
+EN  The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof.
+DE  Die Zeit, in der aus einer Werkstatt ein Unternehmen mit eigener Fertigung wurde: Design, Modellbau, Metall, Sattlerei, Furnier, Elektronik — alles unter einem Dach.
 
 EN  The studio team by a car
 DE  Das Team des Studios an einem Fahrzeug
@@ -2050,53 +2029,137 @@ DE  Das Studiogebäude
 EN  The workshop
 DE  Die Werkstatt
 
-EN  Iliya: SV-ART · SKB MAMI
-DE  Iliya: SV-ART · SKB MAMI
+EN  Garage, racing, the press
+DE  Garage, Rennen, Presse
 
-EN  Before the studio: a garage, racing, the press
-DE  Vor dem Studio: Garage, Rennen, Presse
+EN  Before CARDI · SV-ART
+DE  Vor CARDI · SV-ART
 
-EN  The beginning
-DE  Der Anfang
+EN  The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from.
+DE  Der ganz frühe Anfang: Handarbeit in einer ungeheizten Garage, Eigenbauten aus dem, was gerade da war, Rundstreckenrennen und die ersten Kontakte zur Motorpresse. Hier hat alles angefangen.
 
-EN  DRAFT. The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from.
-DE  ENTWURF. Der ganz frühe Anfang: Handarbeit in einer ungeheizten Garage, Eigenbauten aus dem, was gerade da war, Rundstreckenrennen und die ersten Kontakte zur Motorpresse. Hier hat alles angefangen.
+EN  Working on a moulded part at the bench
+DE  Arbeit an einem Formteil an der Werkbank
 
-EN  Working in the workshop
-DE  Arbeit in der Werkstatt
+EN  In the rear seat of a converted interior
+DE  Im Fondsitz eines umgebauten Innenraums
 
-EN  The garage, early 2000s
-DE  Die Garage, Anfang der 2000er
+EN  Outside the workshop at night, on a pile of boxes
+DE  Nachts vor der Werkstatt, auf einem Berg Kartons
 
-EN  Collage of working photographs
-DE  Collage aus Arbeitsfotos
+EN  On a pier beside motor yachts
+DE  Auf einem Steg neben Motoryachten
 
-EN  From the archive
-DE  Aus dem Archiv
+EN  Working on the rear of an Audi estate
+DE  Arbeit am Heck eines Audi Kombi
 
-EN  Iliya: Before SKB MAMI
-DE  Iliya: vor dem SKB MAMI
+EN  A mirrored ceiling in a converted interior
+DE  Eine verspiegelte Decke in einem umgebauten Innenraum
 
-EN  Years come from photograph EXIF data and archive names; those marked ≈ were reconstructed indirectly. The period under each title was derived by matching those dates against the careers — an inference, not a first-hand fact. Images from before 2007 are scans of prints and web graphics of the period.
-DE  Die Jahre stammen aus den EXIF-Daten der Fotos und den Archivnamen; mit ≈ gekennzeichnete wurden indirekt rekonstruiert. Der Zeitraum unter jedem Titel wurde durch Abgleich dieser Daten mit den Werdegängen ermittelt — eine Schlussfolgerung, keine Angabe aus erster Hand. Bilder vor 2007 sind Scans von Abzügen und Webgrafiken der damaligen Zeit.
+EN  One-off cars at CARDI
+DE  Einzelstücke bei CARDI
+
+EN  Evgenii
+DE  Evgenii
+
+EN  Concept cars and single-example cars built at CARDI in the years Evgenii went there from designer to chief designer: from the sketch to the finished car.
+DE  Konzeptfahrzeuge und Autos in einem einzigen Exemplar, gebaut bei CARDI in den Jahren, in denen Evgenii dort vom Designer zum Chefdesigner wurde: von der Skizze bis zum fertigen Auto.
+
+EN  Concept roadster on a mountain road
+DE  Konzept-Roadster auf einer Bergstraße
+
+EN  Concept roadster
+DE  Konzept-Roadster
+
+EN  Silver roadster
+DE  Silberner Roadster
+
+EN  Two-tone coupé
+DE  Zweifarbiges Coupé
+
+EN  Orange roadster
+DE  Oranger Roadster
+
+EN  Red coupé
+DE  Rotes Coupé
+
+EN  Years come from the photographs and the archives; those marked ≈ are approximate. Images from before 2007, and the pages from Evgenii's portfolio, are scans of prints.
+DE  Die Jahre stammen aus den Fotos und Archiven; mit ≈ markierte sind ungefähr. Aufnahmen vor 2007 und die Seiten aus Evgeniis Portfolio sind Scans von Abzügen.
+
+EN  Off the clock
+DE  Nach Feierabend
+
+EN  An electric scooter, a road-test expert with long ears and other things that make us smile — on a page of their own.
+DE  Ein Elektroroller, ein Testfahrt-Experte mit langen Ohren und anderes, das uns zum Lachen bringt — auf einer eigenen Seite.
+
+EN  Just for fun
+DE  Nur zum Spaß
 
 EN  The line continues
 DE  Die Linie geht weiter
 
-EN  Everything 7pro8 builds in series today grew out of the work on this page.
-DE  Alles, was 7pro8 heute in Serie baut, ist aus den Arbeiten auf dieser Seite hervorgegangen.
+EN  Everything we build in series today grew out of the work on this page.
+DE  Alles, was wir heute in Serie bauen, ist aus den Arbeiten auf dieser Seite entstanden.
 
-EN  Contact 7pro8 — Novi Sad, Serbia
-DE  Kontakt 7pro8 — Novi Sad, Serbien
+EN  Just for fun — the founders of 7pro8 off the clock
+DE  Nur zum Spaß — die Gründer von 7pro8 nach Feierabend
 
-EN  Contact 7pro8 DOO Novi Sad: address, email and telephone. Partner enquiries are answered within two working days.
-DE  Kontakt zu 7pro8 DOO Novi Sad: Adresse, E-Mail und Telefon. Partneranfragen werden innerhalb von zwei Werktagen beantwortet.
+EN  An electric scooter, a road test with a local expert and other fun things from the founders of 7pro8 that have nothing to do with partitions.
+DE  Ein Elektroroller, eine Probefahrt mit einem Experten vor Ort und anderes Vergnügliches von den Gründern von 7pro8, das mit Trennwänden nichts zu tun hat.
+
+EN  Everything fun that has nothing to do with partitions: personal projects, moments from the road and whatever else is too good not to show.
+DE  Alles, was Spaß macht und mit Trennwänden nichts zu tun hat: persönliche Projekte, Momente von unterwegs und alles, was zu schade ist, um es nicht zu zeigen.
+
+EN  Electric scooter with a canopy
+DE  Elektroroller mit Dach
+
+EN  Personal project
+DE  Persönliches Projekt
+
+EN  A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly.
+DE  Ein privates Projekt außerhalb des Automobilbereichs: Rahmen, Schutzdach und Sitzanordnung für zwei Personen. Komplett von Hand gebaut, von der Konstruktion bis zur Endmontage.
+
+EN  Scooter with the canopy raised, in a field
+DE  Roller mit aufgeklapptem Dach auf einer Wiese
+
+EN  Canopy raised
+DE  Dach aufgeklappt
+
+EN  Scooter from the side
+DE  Roller von der Seite
+
+EN  Layout for two
+DE  Sitzanordnung für zwei
+
+EN  Scooter on the road
+DE  Roller auf der Straße
+
+EN  Frame and seating
+DE  Rahmen und Sitze
+
+EN  At the wheel, with a donkey looking in through the open window
+DE  Am Steuer, ein Esel schaut durchs offene Fenster
+
+EN  Road test, with a local expert
+DE  Probefahrt mit einem Experten vor Ort
+
+EN  Back to work
+DE  Zurück zur Arbeit
+
+EN  The founders' careers and their work, year by year.
+DE  Die Laufbahnen der Gründer und ihre Arbeiten, Jahr für Jahr.
+
+EN  Contact 7pro8 — Serbia
+DE  Kontakt 7pro8 — Serbien
+
+EN  Contact 7pro8: address, email and telephone. Partner enquiries are answered within two working days.
+DE  Kontakt zu 7pro8: Adresse, E-Mail und Telefon. Partneranfragen beantworten wir innerhalb von zwei Werktagen.
 
 EN  Partner enquiries are answered within two working days. For anything about a specific model, the enquiry form gets you a faster and more useful reply than a bare email.
 DE  Partneranfragen beantworten wir innerhalb von zwei Werktagen. Bei Fragen zu einem bestimmten Modell bringt das Anfrageformular eine schnellere und nützlichere Antwort als eine einfache E-Mail.
 
-EN  7pro8 DOO Novi Sad, Serbia.
-DE  7pro8 DOO Novi Sad, Serbien.
+EN  Registered office: 7PRO8 DOO Rakovac, Beočinski put 2, 21299 Rakovac, Serbia.
+DE  Sitz der Gesellschaft: 7PRO8 DOO Rakovac, Beočinski put 2, 21299 Rakovac, Serbien.
 
 EN  Working hours are 08:00 to 17:00 Central European Time, Monday to Friday. We correspond in English, German, Serbian and Russian.
 DE  Arbeitszeiten: 08:00 bis 17:00 Uhr MEZ, Montag bis Freitag. Wir korrespondieren auf Englisch, Deutsch, Serbisch und Russisch.
@@ -2107,11 +2170,8 @@ DE  Vollständige Postanschrift, Handelsregisternummer, USt-IdNr. und Telefon st
 EN  Go to the enquiry form
 DE  Zum Anfrageformular
 
-EN  The 7pro8 premises in Novi Sad
-DE  Die Räumlichkeiten von 7pro8 in Novi Sad
-
-EN  Novi Sad, Serbia
-DE  Novi Sad, Serbien
+EN  Passenger compartment in cream leather
+DE  Fahrgastraum in cremefarbenem Leder
 
 EN  Send the model, the market and the volume
 DE  Schicken Sie uns Modell, Markt und Stückzahl

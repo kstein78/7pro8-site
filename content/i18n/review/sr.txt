@@ -13,8 +13,8 @@ SR  Jezik
 EN  Translation in preparation
 SR  Prevod u pripremi
 
-EN  Interior partitions, Novi Sad
-SR  Pregrade enterijera, Novi Sad
+EN  Interior partitions, Serbia
+SR  Pregrade enterijera, Srbija
 
 EN  Company no.
 SR  Matični broj
@@ -27,6 +27,12 @@ SR  Kontakt
 
 EN  Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette.
 SR  Kompleti se isporučuju bez presvlačenja, završne obrade i ugradnje, osim ako nije drugačije dogovoreno. Materijali za presvlačenje uzimaju se iz palete proizvođača vozila.
+
+EN  Photographs
+SR  Fotografije
+
+EN  Website by
+SR  Sajt izradio
 
 EN  Product
 SR  Proizvod
@@ -55,8 +61,8 @@ SR  7pro8
 EN  7pro8 — interior partitions for premium vehicles
 SR  7pro8 — pregrade enterijera za premium vozila
 
-EN  Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007, from Novi Sad, Serbia.
-SR  Dizajn, inženjering i serijska proizvodnja pregrada za Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover i Cadillac. Više od 450 kompleta od 2007. godine, iz Novog Sada, Srbija.
+EN  Design, engineering and series production of privacy partitions for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac. Over 450 kits delivered since 2007. A company in Serbia, delivering into the EU without customs duty.
+SR  Dizajn, inženjering i serijska proizvodnja pregrada enterijera za Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover i Cadillac. Preko 450 kompleta od 2007. godine. Kompanija u Srbiji, sa isporukom u EU bez carine.
 
 EN  Privacy partitions, built in series
 SR  Pregrade iz serijske proizvodnje
@@ -70,11 +76,11 @@ SR  Šta možemo da isporučimo
 EN  Work with us
 SR  Saradnja
 
-EN  Interior partition fitted in a Mercedes-Benz V-Class, seen from the rear compartment
-SR  Pregrada enterijera u vozilu Mercedes-Benz V-Class, pogled iz zadnje zone
+EN  Interior partition in a Mercedes-Maybach S-Class X222, seen from the rear compartment
+SR  Pregrada u enterijeru vozila Mercedes-Maybach S-Class X222, pogled iz zadnje zone
 
-EN  Mercedes-Benz V-Class — partition with 43-inch monitor, console and ambient lighting
-SR  Mercedes-Benz V-Class — pregrada sa monitorom od 43 inča, konzolom i ambijentalnim osvetljenjem
+EN  Mercedes-Maybach S-Class X222 — a 7pro8 partition with the factory monitors
+SR  Mercedes-Maybach S-Class X222 — pregrada 7pro8 sa fabričkim monitorima
 
 EN  Glass opaque
 SR  Staklo neprozirno
@@ -103,8 +109,8 @@ SR  Ne radimo sa pojedinačnim automobilom, već sa modelom automobila: svaki pr
 EN  Our clients are vehicle distributors, official dealerships and specialist conversion shops. They receive a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.
 SR  Naši naručioci su distributeri vozila, ovlašćeni dileri i specijalizovani ateljei za prenamenu vozila. Oni dobijaju komplet spreman za montažu; presvlačenje, ugradnju i završnu obradu izvodi partner po našim šablonima i uputstvima.
 
-EN  About the company
-SR  O kompaniji
+EN  About us
+SR  O nama
 
 EN  Production mould for forming a partition surface panel
 SR  Proizvodni kalup za oblikovanje vidljivog panela pregrade
@@ -118,8 +124,8 @@ SR  Dve klase rešenja
 EN  The difference is not in the partition but in how much of the interior has to come apart to fit it. That decides which kind of partner can install the product.
 SR  Razlika nije u samoj pregradi, već u tome koliko enterijera treba rastaviti da bi se ona ugradila. To određuje koji partner može da ugradi proizvod.
 
-EN  Simple — 3 to 4 kits a year
-SR  Jednostavne — 3 do 4 kompleta godišnje
+EN  Simple
+SR  Jednostavne
 
 EN  Fitted without a wholesale rebuild of the interior. The partition carries a glass raise-and-lower mechanism, sometimes fixed glass, and optionally electric curtains. Factory monitors and factory multimedia are used. The work is within reach of a dealer workshop: we installed the Rolls-Royce partitions on the official dealer's premises, using the dealer's own technicians.
 SR  Ugrađuju se bez potpune prerade enterijera. Pregrada nosi mehanizam podizanja i spuštanja stakla, ponekad nepokretno staklo, a opciono i električne zavese. Koriste se fabrički monitori i fabrički multimedijalni sistem. Posao je u domenu dilerskog servisa: pregrade za Rolls-Royce ugradili smo u prostorijama ovlašćenog dilera, sa njegovim serviserima.
@@ -136,8 +142,8 @@ SR  Rolls-Royce Phantom EWB i Ghost EWB
 EN  Mercedes-Benz S-Class V222 Long
 SR  Mercedes-Benz S-Class V222 Long
 
-EN  Complex — 30 to 40 kits a year
-SR  Složene — 30 do 40 kompleta godišnje
+EN  Complex
+SR  Složene
 
 EN  These require a rebuild of the interior. At minimum a new rear bench with a console goes in; usually the whole rear is rebuilt — headliner, side panels, multimedia, lighting. We supply a partition ready for installation, and the partner needs to be a company capable of serious vehicle conversion.
 SR  Zahtevaju preradu enterijera. U najmanju ruku ugrađuje se nova zadnja klupa sa konzolom; obično se prerađuje cela zadnja zona — plafon, bočni paneli, multimedija, osvetljenje. Isporučujemo pregradu spremnu za montažu, a partner mora biti kompanija sposobna za ozbiljnu prenamenu vozila.
@@ -154,8 +160,8 @@ SR  Cadillac Escalade ESV
 EN  Mercedes-Benz VLE — in development
 SR  Mercedes-Benz VLE — u razvoju
 
-EN  What the timing looks like from the partner's side
-SR  Kako izgledaju rokovi iz ugla partnera
+EN  What the timing looks like from the partner's side for a project in series production
+SR  Kako izgledaju rokovi iz ugla partnera za projekat u fazi serijske proizvodnje
 
 EN  4 months
 SR  4 meseca
@@ -172,8 +178,8 @@ SR  Stvarni rok uz usaglašen plan isporuka: dostava iz magacina
 EN  1–3 days
 SR  1–3 dana
 
-EN  Installation of a simple partition by qualified technicians. Removal takes the same
-SR  Montaža jednostavne pregrade od strane kvalifikovanih stručnjaka. Demontaža traje isto toliko
+EN  Installation of a simple partition by qualified technicians
+SR  Montaža jednostavne pregrade od strane kvalifikovanih stručnjaka
 
 EN  Selected projects
 SR  Izabrani projekti
@@ -226,8 +232,8 @@ SR  Sledeće vozilo je već u razvoju
 EN  The electric Mercedes-Benz VLE was unveiled on 10 March 2026 and has been in series production at the Vitoria plant in Spain since June 2026. It replaces the V-Class and the EQV — precisely the vehicle our core series product is built on.
 SR  Električni Mercedes-Benz VLE predstavljen je 10. marta 2026. godine, a od juna 2026. proizvodi se serijski u fabrici u Vitoriji, Španija. Zamenjuje V-Class i EQV — upravo ono vozilo na kome je izgrađen naš osnovni serijski proizvod.
 
-EN  A partner joining now receives the partition at the same time as the car reaches the market, rather than two or three years later.
-SR  Partner koji uđe sada dobija pregradu istovremeno sa izlaskom vozila na tržište, a ne dve-tri godine kasnije.
+EN  A partner joining now takes part from the design stage and receives the partition in 2027, not the two or three years after the car's launch that conversion products usually take.
+SR  Partner koji uđe sada učestvuje od faze projektovanja i dobija pregradu 2027. godine, a ne dve-tri godine posle izlaska vozila, kako je uobičajeno za proizvode za prenamenu.
 
 EN  The VLE programme
 SR  Program VLE
@@ -274,8 +280,8 @@ SR  Elektrohromno staklo menja providnost pritiskom na dugme, staklo se podiže 
 EN  Acoustic separation
 SR  Zvučna izolacija
 
-EN  A physical partition with the glass raised separates the rear from the front. Calls, meetings and documents stay in the rear, in the presence of a driver, a security detail or a hired chauffeur.
-SR  Fizička pregrada sa podignutim staklom odvaja zadnju zonu od prednje. Razgovori, sastanci i dokumenta ostaju pozadi — u prisustvu vozača, obezbeđenja ili unajmljenog šofera.
+EN  A physical partition with the glass raised separates the rear from the front. It greatly reduces how much of a conversation the driver and security can hear. Confidentiality comes from the construction, not from trust.
+SR  Fizička pregrada sa podignutim staklom odvaja zadnju zonu od prednje. Ona znatno smanjuje koliko vozač i obezbeđenje mogu da čuju od razgovora. Poverljivost obezbeđuje konstrukcija, a ne poverenje.
 
 EN  A rear that works as an office
 SR  Zadnja zona kao kancelarija
@@ -295,20 +301,17 @@ SR  Promena kategorije vozila
 EN  The car moves from executive to chauffeur-driven: transport for company principals, diplomatic missions, VIP transfer and escorted travel. A different class of task, and a different price segment of service.
 SR  Vozilo prelazi iz službenog u vozilo sa šoferom: prevoz rukovodilaca kompanija, diplomatska predstavništva, VIP transfer i pratnja. Druga klasa zadataka i drugi cenovni segment usluge.
 
-EN  An interior that still looks factory
-SR  Enterijer koji i dalje izgleda fabrički
+EN  The original design concept is kept
+SR  Originalni dizajnerski koncept ostaje
 
-EN  Trimming is carried out in materials from the vehicle manufacturer's own palette — leather, wood veneer, Alcantara. The interior stays whole rather than looking modified.
-SR  Presvlačenje se izvodi materijalima iz palete samog proizvođača vozila — koža, drveni furnir, alkantara. Enterijer ostaje celovit i ne izgleda prerađeno.
+EN  The interior is transformed in line with the latest trends in automotive design, using the finest and most up-to-date materials, while the car's original design concept is preserved.
+SR  Enterijer se preobražava prema najnovijim trendovima automobilskog dizajna, uz najkvalitetnije i najsavremenije materijale, a pritom se čuva originalni dizajnerski koncept vozila.
 
 EN  The objection every owner raises
 SR  Zamerka koju iznosi svaki vlasnik
 
 EN  Premium car owners do not ask whether the partition looks good. They ask whether the conversion will spoil the car — its safety systems, its diagnostics, its residual value.
 SR  Vlasnici premium vozila ne pitaju da li pregrada lepo izgleda. Pitaju da li će prerada pokvariti vozilo — njegove sisteme bezbednosti, dijagnostiku, rezidualnu vrednost.
-
-EN  Our answer is not a promise about the quality of the installer's work. It is six decisions built into the product itself, which hold whoever fits it.
-SR  Naš odgovor nije obećanje o kvalitetu rada montera. To je šest rešenja ugrađenih u sam proizvod, koja važe bez obzira na to ko ga ugrađuje.
 
 EN  Mercedes-Maybach S-Class interior with the partition in place
 SR  Enterijer Mercedes-Maybach S-Class sa ugrađenom pregradom
@@ -352,14 +355,14 @@ SR  Gde god je moguće, koriste se fabrički monitori i fabrički multimedijalni
 EN  Reversibility
 SR  Reverzibilnost
 
-EN  Removal takes one to three days and the car returns to factory configuration. This protects residual value and removes the question at resale or lease return.
-SR  Demontaža traje od jednog do tri dana i vozilo se vraća u fabričku konfiguraciju. To štiti rezidualnu vrednost i uklanja pitanje pri prodaji ili povraćaju sa lizinga.
+EN  When needed, the car returns to factory configuration. This protects residual value and removes the question at resale or lease return.
+SR  Po potrebi se vozilo vraća u fabričku konfiguraciju. To štiti rezidualnu vrednost i uklanja pitanje pri prodaji ili povraćaju sa lizinga.
 
 EN  In short
 SR  Ukratko
 
-EN  The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it sits on top of it, and can be taken off again.
-SR  Vozilo zadržava sve za šta je vlasnik platio proizvođaču i dobija funkciju koju proizvođač ne nudi. Prerada ne konkuriše fabričkom inženjeringu — nadograđuje se na njega i može ponovo da se ukloni.
+EN  The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it complements it.
+SR  Vozilo zadržava sve za šta je vlasnik platio proizvođaču i dobija funkciju koju proizvođač ne nudi. Prerada ne konkuriše fabričkom inženjeringu — ona ga dopunjuje.
 
 EN  How the kit is engineered
 SR  Kako se komplet projektuje
@@ -367,8 +370,8 @@ SR  Kako se komplet projektuje
 EN  Which car do you need it for?
 SR  Za koje vozilo vam je potrebna?
 
-EN  Nine models are documented in the portfolio, and a new one takes up to a year to develop.
-SR  U portfoliju je dokumentovano devet modela, a razvoj novog traje do godinu dana.
+EN  Nine models are documented in the portfolio.
+SR  U portfoliju je dokumentovano devet modela.
 
 EN  See the projects
 SR  Pogledajte projekte
@@ -376,8 +379,8 @@ SR  Pogledajte projekte
 EN  The full cycle in-house — design, engineering, tooling, production
 SR  Pun ciklus unutar kompanije — dizajn, inženjering, alati, proizvodnja
 
-EN  Design, engineering, tooling manufacture and production of interior partitions are handled by one team in Novi Sad. One point of contact and one line of responsibility.
-SR  Dizajn, inženjering, izradu alata i proizvodnju pregrada enterijera obavlja jedan tim u Novom Sadu. Jedna kontakt tačka i jedna odgovornost.
+EN  Design, engineering, tooling manufacture and production of interior partitions are handled by one team. One point of contact and one line of responsibility.
+SR  Dizajn, inženjering, izradu alata i proizvodnju pregrada enterijera obavlja jedan tim. Jedna kontakt tačka i jedna linija odgovornosti.
 
 EN  One team, from the first sketch to the finished kit
 SR  Jedan tim, od prve skice do gotovog kompleta
@@ -421,8 +424,8 @@ SR  Izrada tehničke dokumentacije (CAD)
 EN  Production
 SR  Proizvodnja
 
-EN  The kit ships assembled and checked. What is left for the partner is trimming, fitting and connection.
-SR  Komplet se otprema sklopljen i proveren. Partneru ostaju presvlačenje, montaža i povezivanje.
+EN  The kit ships assembled and checked. What is left for the partner is trimming, fitting and connection. We make active use of current technology: laser scanning, additive manufacturing, CAD/CAM systems on licensed software, vacuum and infusion moulding of parts. We keep looking for ways to raise the technological level of production.
+SR  Komplet se otprema sklopljen i proveren. Partneru ostaju presvlačenje, montaža i povezivanje. Aktivno koristimo savremene tehnologije: lasersko skeniranje, aditivnu proizvodnju, CAD/CAM sisteme sa licenciranim softverom, vakuumsko i infuziono oblikovanje delova. Zanima nas podizanje tehnološkog nivoa proizvodnje.
 
 EN  Mould fabrication
 SR  Izrada kalupa
@@ -451,32 +454,23 @@ SR  Kako izgleda rad sa partnerom
 EN  CAD model of a partition with the glass lift mechanism
 SR  CAD model pregrade sa mehanizmom podizanja stakla
 
-EN  Surface and mechanism engineering — the CAD model the tooling is built from
-SR  Inženjering površina i mehanizama — CAD model po kome se izrađuje alat
+EN  CAD model of the partition's surfaces
+SR  CAD model površina pregrade
 
-EN  A new model takes up to a year
-SR  Novi model traje do godinu dana
-
-EN  Development from scratch runs up to twelve months depending on the complexity of the vehicle, and a cost-sharing model is possible in which the partner gains priority by market or by model.
-SR  Razvoj od nule traje do dvanaest meseci, u zavisnosti od složenosti vozila. Moguć je model podele troškova, u kome partner dobija prioritet po tržištu ili po modelu.
-
-EN  Discuss a new project
-SR  Razgovarajmo o novom projektu
-
-EN  How we manufacture
-SR  Kako proizvodimo
+EN  Surface and mechanism engineering — the CAD models the tooling is built from
+SR  Inženjering površina i mehanizama — CAD modeli po kojima se izrađuje alat
 
 EN  Why tooling matters more than craftsmanship
 SR  Zašto su alati važniji od majstorstva
 
-EN  Composites, metal work and 3D printing in-house. Every 7pro8 partition is formed from production tooling, so gaps, joints and mounting points repeat from the first kit to the two-hundredth.
-SR  Kompoziti, obrada metala i 3D štampa unutar kompanije. Svaka pregrada 7pro8 izrađuje se po proizvodnim alatima, pa se zazori, spojevi i tačke pričvršćivanja ponavljaju od prvog do dvestotog kompleta.
+EN  Composites, metal work and 3D printing in-house. Every partition we build is formed from production tooling, so gaps, joints and mounting points repeat from the first kit to the two-hundredth.
+SR  Kompoziti, obrada metala i 3D štampa — sve kod nas. Svaku pregradu formiramo po alatu, pa se zazori, spojevi i tačke pričvršćivanja ponavljaju od prvog do dvestotog kompleta.
 
 EN  A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what turns a good result into a repeatable one.
 SR  Pregrada podešena ručno postoji u jednom jedinom primerku: sledeća će biti drugačija. Alat je ono što dobar rezultat pretvara u ponovljiv.
 
-EN  We invest from €70,000 and up to a year of work to obtain the tooling for a model. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.
-SR  U alate za jedan model ulažemo od 70 000 € i do godinu dana rada. Nakon toga svaki proizvod ponavlja etalon. Zazori, spojevi i tačke pričvršćivanja isti su na prvom i na dvestotom kompletu.
+EN  Before a model goes into series production, we build the tooling for it. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.
+SR  Pre nego što model uđe u serijsku proizvodnju, izrađujemo alate za njega. Nakon toga svaki proizvod ponavlja etalon. Zazori, spojevi i tačke pričvršćivanja isti su na prvom i na dvestotom kompletu.
 
 EN  For a partner that means two things that show up directly in the workshop's costing: installation time can be planned, and there is no rework.
 SR  Za partnera to znači dve stvari koje se direktno vide u kalkulaciji radionice: vreme montaže može da se planira, a prepravki nema.
@@ -607,8 +601,8 @@ SR  U rezervi
 EN  The complete record
 SR  Potpuni pregled
 
-EN  Every project since 2008, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project.
-SR  Svi projekti od 2008. godine, uključujući rane pojedinačne radove i seriju VW Multivan, navedeni su na stranici ponude sa godinama, količinama i vrstom svakog projekta.
+EN  Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project.
+SR  Svi projekti od 2007. godine, uključujući rane pojedinačne radove i seriju VW Multivan, navedeni su na stranici ponude sa godinama, količinama i vrstom svakog projekta.
 
 EN  Full project history
 SR  Kompletna istorija projekata
@@ -619,8 +613,8 @@ SR  Pregrada za Mercedes-Benz V-Class — linija 1
 EN  A series partition for the Mercedes-Benz V-Class and Metris: 140 kits since 2015, 12 to 20 kits a year, supplied ready for trimming and installation.
 SR  Serijska pregrada za Mercedes-Benz V-Class i Metris: 140 kompleta od 2015. godine, 12 do 20 kompleta godišnje, isporučuje se spremna za presvlačenje i montažu.
 
-EN  A series project for a vehicle conversion company, and one of the two core series products of 7pro8.
-SR  Serijski projekat za kompaniju za prenamenu vozila i jedan od dva osnovna serijska proizvoda kompanije 7pro8.
+EN  A series project for a vehicle conversion company, and one of our two core series products.
+SR  Serijski projekat za kompaniju za preuređenje vozila i jedan od naša dva osnovna serijska proizvoda.
 
 EN  In production since
 SR  U proizvodnji od
@@ -636,9 +630,6 @@ SR  12–20 godišnje
 
 EN  Class
 SR  Klasa
-
-EN  Complex
-SR  Složena
 
 EN  Scope of supply
 SR  Obim isporuke
@@ -658,11 +649,11 @@ SR  Pregrada se isporučuje spremna za presvlačenje i montažu; presvlačenje, 
 EN  Equipment
 SR  Oprema
 
-EN  Two electrically operated folding seats
-SR  Dva preklopna sedišta sa elektropogonom
+EN  Two electrically operated fold-out seats with document pockets
+SR  Dva sklopiva sedišta na električni pogon sa džepovima za dokumenta
 
-EN  Central folding box, electrically operated
-SR  Centralna preklopna kutija sa elektropogonom
+EN  Central sliding drawer, electrically operated
+SR  Centralna izvlačna fioka na električni pogon
 
 EN  Electrochromic glass with electric raise-and-lower mechanism
 SR  Elektrohromno staklo sa električnim mehanizmom podizanja i spuštanja
@@ -670,20 +661,32 @@ SR  Elektrohromno staklo sa električnim mehanizmom podizanja i spuštanja
 EN  Samsung 43-inch television with electric lift
 SR  Televizor Samsung 43 inča sa električnim podizanjem
 
+EN  Ambient lighting
+SR  Ambijentalno osvetljenje
+
+EN  Clock
+SR  Sat
+
+EN  Umbrella holders
+SR  Držači za kišobrane
+
 EN  Kit on the shop floor ready for dispatch
 SR  Komplet u pogonu, spreman za otpremu
 
 EN  Kit on the shop floor, ready for dispatch
 SR  Komplet u pogonu, spreman za otpremu
 
-EN  Partition panels prior to trimming
-SR  Paneli pregrade pre presvlačenja
-
 EN  Partition installed in the car
 SR  Pregrada ugrađena u vozilo
 
-EN  Installed: 43-inch monitor with electric lift, console, ambient lighting
-SR  Ugrađeno: monitor od 43 inča sa električnim podizanjem, konzola, ambijentalno osvetljenje
+EN  The partition in the car
+SR  Pregrada u vozilu
+
+EN  The line's previous version in the car: light leather, 43″ monitor, contour lighting
+SR  Pregrada linije u prethodnoj verziji u vozilu: svetla koža, monitor 43″, konturno osvetljenje
+
+EN  Previous version, 2015–2025
+SR  Prethodna verzija, 2015–2025
 
 EN  This line is running now
 SR  Ova linija radi sada
@@ -721,6 +724,9 @@ SR  Linije 1 i 2 rade paralelno za dva nezavisna partnera na istom vozilu. To je
 EN  Specification is agreed per line, and the price follows the annual volume.
 SR  Oprema se usaglašava za svaku liniju posebno, a cena prati godišnju količinu.
 
+EN  Two electrically operated folding seats
+SR  Dva preklopna sedišta sa elektropogonom
+
 EN  Central sliding boxes, electrically operated
 SR  Centralne izvlačive kutije sa elektropogonom
 
@@ -730,20 +736,20 @@ SR  Elektrohromno ili obično staklo sa električnim mehanizmom podizanja i spu�
 EN  Drive mechanism for electric curtains
 SR  Mehanizam pogona električnih zavesa
 
+EN  Audio preparation (speakers)
+SR  Akustička priprema (zvučnici)
+
+EN  Umbrella holder
+SR  Držač za kišobran
+
 EN  Kits on the assembly line
 SR  Kompleti na montažnoj liniji
 
-EN  Partition seen from the front with monitor and console
-SR  Pregrada spreda sa monitorom i konzolom
-
-EN  Partition from the front: monitor, console
-SR  Pregrada spreda: monitor, konzola
+EN  The partition in the car with the seats folded out
+SR  Pregrada u vozilu sa rasklopljenim sedištima
 
 EN  Rear zone with ambient lighting
 SR  Zadnja zona sa ambijentalnim osvetljenjem
-
-EN  Version in light trim
-SR  Verzija u svetloj obradi
 
 EN  Available for a third market
 SR  Dostupno za treće tržište
@@ -754,8 +760,8 @@ SR  Alati omogućavaju dodatne linije sa sopstvenom opremom.
 EN  Mercedes-Benz Sprinter partition — joint production
 SR  Pregrada za Mercedes-Benz Sprinter — zajednička proizvodnja
 
-EN  A joint production project on the Mercedes-Benz Sprinter: 7pro8 supplies the structural frame with the driver's side prepared for trimming, the partner makes the VIP-side panels.
-SR  Projekat zajedničke proizvodnje na vozilu Mercedes-Benz Sprinter: 7pro8 isporučuje noseći ram sa vozačevom stranom pripremljenom za presvlačenje, a partner izrađuje panele VIP strane.
+EN  A joint production project on the Mercedes-Benz Sprinter: we supply the structural frame with the driver's side prepared for trimming, the partner makes the VIP-side panels.
+SR  Projekat zajedničke proizvodnje na Mercedes-Benz Sprinteru: mi isporučujemo noseći ram sa vozačkom stranom pripremljenom za presvlačenje, a partner izrađuje panele VIP strane.
 
 EN  An example of joint production. We supply the partner a partition frame with the driver's side fully prepared for trimming; the partner makes the composite panels of the VIP side.
 SR  Primer zajedničke proizvodnje. Partneru isporučujemo ram pregrade sa vozačevom stranom potpuno pripremljenom za presvlačenje; kompozitne panele VIP strane partner izrađuje sam.
@@ -811,17 +817,14 @@ SR  Pregrada za Mercedes-Maybach S-Class X222
 EN  A privacy partition for the Mercedes-Maybach S-Class X222: 16 kits since 2016, joint production, prepared for trimming. The marque's most expensive saloon has no factory partition on its price list.
 SR  Pregrada za Mercedes-Maybach S-Class X222: 16 kompleta od 2016. godine, zajednička proizvodnja, pripremljena za presvlačenje. Najskuplja limuzina marke nema fabričku pregradu u cenovniku.
 
-EN  A joint production project: the partner produces the plastics, we produce the metal frame with the mechanism.
-SR  Projekat zajedničke proizvodnje: partner izrađuje plastične delove, a mi metalni ram sa mehanizmom.
+EN  A joint production project: the partner produces the surface panels, we produce the metal frame with the mechanism.
+SR  Projekat zajedničke proizvodnje: partner izrađuje vidljive panele, a mi metalni ram sa mehanizmom.
 
 EN  Output while the car was current
 SR  Proizvodnja dok je model bio aktuelan
 
 EN  About 3 a year
 SR  Oko 3 godišnje
-
-EN  Simple
-SR  Jednostavna
 
 EN  Prepared for trimming
 SR  Pripremljena za presvlačenje
@@ -841,8 +844,8 @@ SR  Šta pregrada donosi
 EN  Rear privacy in a car where the factory does not offer it
 SR  Privatnost zadnje zone tamo gde je fabrika ne nudi
 
-EN  Folding work tables in the body of the partition
-SR  Preklopni radni stolovi u telu pregrade
+EN  Curved electrochromic glass — more legroom for the rear passengers
+SR  Zakrivljeno elektrohromno staklo — više prostora za noge putnika pozadi
 
 EN  Factory multimedia and factory trim preserved
 SR  Sačuvani fabrički multimedijalni sistem i fabrička obrada
@@ -853,11 +856,11 @@ SR  Zadnja zona sa pregradom uklopljenom u enterijer
 EN  The partition inside the factory architecture of the interior
 SR  Pregrada unutar fabričke arhitekture enterijera
 
-EN  Folding tables in the partition
-SR  Preklopni stolovi u pregradi
+EN  The partition with the factory monitors, seen from the rear seats
+SR  Pregrada sa fabričkim monitorima, pogled sa zadnjeg sedišta
 
-EN  Table in the working position
-SR  Sto u radnom položaju
+EN  Rear seat and partition, side view
+SR  Zadnje sedište i pregrada, pogled sa strane
 
 EN  A used-market opportunity
 SR  Prilika na tržištu polovnih vozila
@@ -895,8 +898,8 @@ SR  14 kompleta, 2015–2019
 EN  Development is already paid for
 SR  Razvoj je već plaćen
 
-EN  Around €70,000 has been invested in developing the new-generation partition. A partner taking this model receives a finished product with no R&D investment of its own and no waiting for tooling.
-SR  U razvoj pregrade za novu generaciju uloženo je oko 70 000 €. Partner koji preuzme ovaj model dobija gotov proizvod bez sopstvenog ulaganja u razvoj i bez čekanja na alate.
+EN  Development of the new-generation partition is complete. A partner taking this model receives a finished product with no R&D investment of its own and no waiting for tooling.
+SR  Razvoj pregrade za novu generaciju je završen. Partner koji preuzme ovaj model dobija gotov proizvod bez sopstvenog ulaganja u razvoj i bez čekanja na alate.
 
 EN  On the previous generation the project ran as joint production: our development and tooling, the partner making the decorative panels, us making the frame and mechanisms.
 SR  Na prethodnoj generaciji projekat je išao kao zajednička proizvodnja: naš razvoj i alati, partner je izrađivao dekorativne panele, a mi ram i mehanizme.
@@ -907,20 +910,17 @@ SR  Podizno staklo sa elektropogonom
 EN  Version with factory monitors available
 SR  Dostupna verzija sa fabričkim monitorima
 
-EN  Finished partition with lifting glass before trimming
-SR  Gotova pregrada sa podiznim staklom pre presvlačenja
+EN  New-generation partition with lifting glass, before trimming
+SR  Pregrada nove generacije sa podiznim staklom, pre presvlačenja
 
-EN  Finished product before trimming
-SR  Gotov proizvod pre presvlačenja
+EN  New-generation partition, before trimming
+SR  Pregrada nove generacije, pre presvlačenja
 
-EN  The completed vehicle
-SR  Vozilo u celini
+EN  Range Rover of the previous generation with our partition
+SR  Range Rover prethodne generacije sa našom pregradom
 
-EN  Rear zone with the partition
-SR  Zadnja zona sa pregradom
-
-EN  Version with factory monitors
-SR  Verzija sa fabričkim monitorima
+EN  Previous generation: our partition in the car, 2015–2019
+SR  Prethodna generacija: naša pregrada u vozilu, 2015–2019
 
 EN  First partner starts the series
 SR  Prvi partner pokreće seriju
@@ -967,11 +967,11 @@ SR  Elektrohromno staklo sa mehanizmom podizanja i spuštanja
 EN  Electric curtain drive
 SR  Elektropogon zavesa
 
+EN  The complete interior partition
+SR  Pregrada enterijera u celini
+
 EN  The project vehicle
 SR  Vozilo projekta
-
-EN  The complete interior
-SR  Enterijer u celini
 
 EN  Execution details of the partition
 SR  Detalji izrade pregrade
@@ -1141,12 +1141,6 @@ SR  Razrada pregrade u enterijeru vozila Cadillac Escalade
 EN  Partition study in the vehicle interior
 SR  Razrada pregrade u enterijeru vozila
 
-EN  Rear section of the Escalade interior
-SR  Zadnji deo enterijera Escalade
-
-EN  Rear section — the part that has to be rebuilt
-SR  Zadnji deo — deo koji mora da se preradi
-
 EN  Looking for a partner for the US and Middle East
 SR  Tražimo partnera za SAD i Bliski istok
 
@@ -1159,8 +1153,8 @@ SR  Razgovarajmo o Escaladeu
 EN  What 7pro8 can supply today — model programme and project history
 SR  Šta 7pro8 danas može da isporuči — program modela i istorija projekata
 
-EN  Models in series production, models ready to launch and models in development, with the complete 7pro8 project history from 2008 onwards.
-SR  Modeli u serijskoj proizvodnji, modeli spremni za pokretanje i modeli u razvoju, uz kompletnu istoriju projekata 7pro8 od 2008. godine.
+EN  Models in series production, models ready to launch and models in development, with our complete project history from 2007 onwards.
+SR  Modeli u serijskoj proizvodnji, modeli spremni za lansiranje i modeli u razvoju, uz kompletnu istoriju naših projekata od 2007. godine.
 
 EN  What we can supply today
 SR  Šta danas možemo da isporučimo
@@ -1192,11 +1186,11 @@ SR  U razvoju
 EN  The electric Mercedes-Benz VLE replaces the V-Class and the EQV — the vehicle our core series product is built on.
 SR  Električni Mercedes-Benz VLE zamenjuje V-Class i EQV — vozilo na kome je izgrađen naš osnovni serijski proizvod.
 
-EN  Mercedes-Benz VLE — two full-size partition lines, from 2026
-SR  Mercedes-Benz VLE — dve pune linije pregrada, od 2026.
+EN  Mercedes-Benz VLE — two full-size partition lines, in design since 2026, ready in 2027
+SR  Mercedes-Benz VLE — dve pune linije pregrada, u projektovanju od 2026, gotove 2027.
 
-EN  Mercedes-Benz VLE Lite — lightweight version, from 2027
-SR  Mercedes-Benz VLE Lite — olakšana verzija, od 2027.
+EN  Mercedes-Benz VLE Lite — lightweight version, in design, ready in 2027
+SR  Mercedes-Benz VLE Lite — olakšana verzija, u projektovanju, gotova 2027.
 
 EN  In addition to partitions we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and interior panels to any design.
 SR  Pored pregrada razvijamo i proizvodimo zadnje module — ram-podijum sa konzolom-naslonom za ugradnju opcione zadnje klupe — kao i unutrašnje panele po bilo kom dizajnu.
@@ -1207,14 +1201,14 @@ SR  Modela vozila u portfoliju
 EN  Projects taken through to series tooling
 SR  Projekata dovedeno do serijskog alata
 
-EN  Kits produced in total since 2008
-SR  Kompleta ukupno izrađeno od 2008.
+EN  Kits produced since 2007
+SR  Kompleta izrađeno od 2007.
 
-EN  Every project since 2008
-SR  Svi projekti od 2008. godine
+EN  Every project since 2007
+SR  Svi projekti od 2007. godine
 
-EN  The 2008–2010 projects were one-off works without series preparation. From the Rolls-Royce Phantom EWB in 2011 onwards, every project was executed with tooling and the capability for series production.
-SR  Projekti od 2008. do 2010. bili su pojedinačni radovi bez pripreme za seriju. Od modela Rolls-Royce Phantom EWB 2011. godine svaki projekat izvodi se sa izradom alata i mogućnošću serijske proizvodnje.
+EN  The 2007–2010 projects were one-off works without series preparation. From the Rolls-Royce Phantom EWB in 2011 onwards, every project was executed with tooling and the capability for series production.
+SR  Projekti od 2007. do 2010. bili su pojedinačni radovi bez pripreme za seriju. Od modela Rolls-Royce Phantom EWB 2011. godine svaki projekat izvodi se sa izradom alata i mogućnošću serijske proizvodnje.
 
 EN  Vehicle
 SR  Vozilo
@@ -1234,8 +1228,8 @@ SR  Mercedes-Benz S-Class V221 Long
 EN  One-off work
 SR  Pojedinačni rad
 
-EN  ZiL-4107
-SR  ZiL-4107
+EN  ZiL-41047
+SR  ZiL-41047
 
 EN  Mercedes-Benz S-Class V220 Long
 SR  Mercedes-Benz S-Class V220 Long
@@ -1294,11 +1288,11 @@ SR  Zatražite cene
 EN  Mercedes-Benz VLE
 SR  Mercedes-Benz VLE
 
-EN  Mercedes-Benz VLE partition — in development for 2026
-SR  Pregrada za Mercedes-Benz VLE — u razvoju za 2026.
+EN  Mercedes-Benz VLE partition — in development, ready in 2027
+SR  Pregrada za Mercedes-Benz VLE — u razvoju, gotova 2027.
 
-EN  7pro8 is developing two full-size partition lines for the electric Mercedes-Benz VLE, in series production at Vitoria since June 2026, plus a lightweight version from 2027. Partner slots are open.
-SR  7pro8 razvija dve pune linije pregrada za električni Mercedes-Benz VLE, koji se od juna 2026. proizvodi serijski u Vitoriji, kao i olakšanu verziju od 2027. Mesta za partnere su otvorena.
+EN  We are developing two full-size partition lines and a lightweight version for the electric Mercedes-Benz VLE, in series production at Vitoria since June 2026. Design work began in 2026; the first partitions will be ready in 2027. Partner slots are open.
+SR  Razvijamo dve pune linije pregrada i olakšanu verziju za električni Mercedes-Benz VLE, koji se serijski proizvodi u Vitoriji od juna 2026. Projektovanje traje od 2026, a prve pregrade biće gotove 2027. Mesta za partnere su otvorena.
 
 EN  A partition for the Mercedes-Benz VLE
 SR  Pregrada za Mercedes-Benz VLE
@@ -1309,14 +1303,14 @@ SR  Električni VLE predstavljen je 10. marta 2026. godine, a od juna 2026. proi
 EN  Full-size lines
 SR  Pune linije
 
-EN  Two, from 2026
-SR  Dve, od 2026.
+EN  Two, ready in 2027
+SR  Dve, gotove 2027.
 
 EN  Lightweight version
 SR  Olakšana verzija
 
-EN  VLE Lite, from 2027
-SR  VLE Lite, od 2027.
+EN  VLE Lite, ready in 2027
+SR  VLE Lite, gotova 2027.
 
 EN  Partner slots
 SR  Mesta za partnere
@@ -1330,8 +1324,8 @@ SR  Zašto je trenutak ključan
 EN  Conversion products usually arrive two or three years after the car does, because development only starts once the vehicle is on the market and someone has bought one to measure.
 SR  Proizvodi za prenamenu obično stižu dve-tri godine posle vozila, jer razvoj počinje tek kada je vozilo na tržištu i kada ga je neko kupio da bi ga izmerio.
 
-EN  We have been building partitions on this body since 2015 across two independent series lines, so the VLE is not a new platform for us. A partner joining now receives the product at the same time as the car reaches the market.
-SR  Pregrade na ovoj karoseriji izrađujemo od 2015. godine u dve nezavisne serijske linije, pa VLE za nas nije nova platforma. Partner koji uđe sada dobija proizvod istovremeno sa izlaskom vozila na tržište.
+EN  We have been building partitions for the V-Class, the VLE's predecessor, since 2015 across two independent series lines, so this class of vehicle is not new to us. A partner joining now takes part from the design stage and is among the first to receive the product in 2027.
+SR  Pregrade za V-klasu, prethodnika modela VLE, izrađujemo od 2015. godine u dve nezavisne serijske linije, pa nam ova klasa vozila nije nova. Partner koji uđe sada učestvuje od faze projektovanja i među prvima dobija proizvod 2027. godine.
 
 EN  CAD development of the VLE partition
 SR  CAD razvoj pregrade za VLE
@@ -1360,8 +1354,8 @@ SR  Prioritet po tržištu ili modelu
 EN  Where a partner shares development cost, priority by market or by model is part of the agreement.
 SR  Kada partner deli troškove razvoja, prioritet po tržištu ili po modelu deo je dogovora.
 
-EN  What we already know how to build on this body
-SR  Šta već znamo da izradimo na ovoj karoseriji
+EN  What we already build in series for the V-Class
+SR  Šta već serijski izrađujemo za V-klasu
 
 EN  Two electrically operated folding seats, central sliding boxes, electrochromic or plain glass with an electric raise-and-lower mechanism, a 43-inch television with electric lift, electric curtain drives, and the rear module — a platform frame with console armrest for an optional rear bench.
 SR  Dva preklopna sedišta sa elektropogonom, centralne izvlačive kutije, elektrohromno ili obično staklo sa električnim mehanizmom podizanja i spuštanja, televizor od 43 inča sa električnim podizanjem, elektropogon zavesa i zadnji modul — ram-podijum sa konzolom-naslonom za opcionu zadnju klupu.
@@ -1381,8 +1375,8 @@ SR  Recite nam tržište i količinu koju biste preuzeli, a mi ćemo vam reći �
 EN  Working with 7pro8 — scope, responsibilities and lead times
 SR  Saradnja sa 7pro8 — obim, odgovornosti i rokovi
 
-EN  How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and how to request indicative pricing.
-SR  Kako izgleda rad sa partnerom 7pro8: šta mi isporučujemo, šta radi partner, rokovi proizvodnje i isporuke i kako zatražiti orijentacione cene.
+EN  How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and why a kit shipped from Serbia reaches an EU partner with no customs duty.
+SR  Kako je uređen rad sa partnerom 7pro8: šta isporučujemo mi, šta radi partner, rokovi proizvodnje i isporuke i zašto komplet poslat iz Srbije stiže partneru u EU bez carine.
 
 EN  The partner receives a kit ready for installation. Everything up to that point is ours; everything from trimming onwards is the partner's. The line is drawn in the same place on every project.
 SR  Partner dobija komplet spreman za montažu. Sve do te tačke je naše, a sve od presvlačenja nadalje je partnerovo. Granica je na istom mestu u svakom projektu.
@@ -1435,9 +1429,6 @@ SR  Proizvodni ciklus jednog kompleta
 EN  Effective lead time with an agreed plan and timely advance payment — transport from stock
 SR  Stvarni rok uz usaglašen plan i blagovremeno avansno plaćanje — dostava iz magacina
 
-EN  Installation of a simple partition by qualified technicians; removal takes the same
-SR  Montaža jednostavne pregrade od strane kvalifikovanih stručnjaka; demontaža traje isto toliko
-
 EN  What kind of partner each class needs
 SR  Kakav partner je potreban za svaku klasu
 
@@ -1465,8 +1456,11 @@ SR  Cena zavisi od godišnje količine. Dogovara se sa partnerom unapred, pobolj
 EN  Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.
 SR  Isporuka ide po planu, a ne po porudžbini. Proizvodni ciklus kompleta je četiri meseca, ali uz usaglašen plan isporuka i blagovremeno avansno plaćanje proizvod se otprema iz magacina na unapred dogovoreni dan.
 
-EN  For a model that does not exist yet, development from scratch takes up to a year depending on the complexity of the vehicle. A cost-sharing model is possible, under which the partner receives priority by market or by model.
-SR  Za model koji još ne postoji, razvoj od nule traje do godinu dana, u zavisnosti od složenosti vozila. Moguć je model podele troškova, u kome partner dobija prioritet po tržištu ili po modelu.
+EN  Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.
+SR  Otprema ide iz Srbije, zemlje kandidata za EU čiji industrijski proizvodi od 2000. godine ulaze u Uniju bez carine — režim kasnije upisan u Sporazum o stabilizaciji i pridruživanju. Za partnera u EU to znači da na komplet nema carine, ostaju samo uvozni PDV i uobičajeno carinjenje. Van EU važi tarifa zemlje uvoza.
+
+EN  For a vehicle that has no partition yet, a cost-sharing arrangement is possible, under which the partner receives priority by market or by model.
+SR  Za vozilo za koje pregrada još ne postoji moguća je podela troškova, pri čemu partner dobija prioritet po tržištu ili po modelu.
 
 EN  Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan.
 SR  Recite nam model, tržište i količinu koju planirate, a mi ćemo poslati orijentacione cene, obim isporuke i plan isporuka.
@@ -1543,14 +1537,14 @@ SR  Ili pišite na
 EN  Leave this field empty
 SR  Ostavite ovo polje prazno
 
-EN  About 7pro8 — Novi Sad, Serbia, since 2007
-SR  O kompaniji 7pro8 — Novi Sad, Srbija, od 2007.
+EN  About 7pro8 — vehicle partitions since 2007
+SR  O kompaniji 7pro8 — pregrade za vozila od 2007. godine
 
-EN  7pro8 built its first interior partition in 2007. Since then more than 20 partition models have been developed and over 450 kits delivered, from a workshop in Novi Sad, Serbia.
-SR  7pro8 je prvu pregradu enterijera izradio 2007. godine. Od tada je razvijeno više od 20 modela pregrada i isporučeno više od 450 kompleta, iz radionice u Novom Sadu, Srbija.
+EN  We built our first interior partition in 2007. Since then we have developed more than 20 partition models and delivered over 450 kits. Since 2023 the company has been registered in Serbia.
+SR  Prvu pregradu enterijera izradili smo 2007. godine. Od tada smo razvili više od 20 modela pregrada i isporučili preko 450 kompleta. Od 2023. godine kompanija je registrovana u Srbiji.
 
-EN  7pro8 produced its first interior partition in 2007. Since then we have developed more than 20 partition models for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac, and delivered over 450 kits.
-SR  7pro8 je prvu pregradu enterijera izradio 2007. godine. Od tada smo razvili više od 20 modela pregrada za Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover i Cadillac i isporučili više od 450 kompleta.
+EN  We produced our first interior partition in 2007. Since then we have developed more than 20 partition models for Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover and Cadillac, and delivered over 450 kits.
+SR  Prvu pregradu enterijera izradili smo 2007. godine. Od tada smo razvili više od 20 modela pregrada za Mercedes-Benz, Mercedes-Maybach, Rolls-Royce, Range Rover i Cadillac i isporučili preko 450 kompleta.
 
 EN  We do not work on an individual car — we work on a car model. Every project is a full cycle: from 3D scanning of the interior to the manufacture of production tooling that lets the product be built in series, with repeatable geometry and repeatable quality. That is what separates us from one-off customisation.
 SR  Ne radimo sa pojedinačnim automobilom, već sa modelom automobila. Svaki projekat je pun ciklus: od 3D skeniranja enterijera do izrade proizvodnih alata koji omogućavaju serijsku proizvodnju sa ponovljivom geometrijom i ponovljivim kvalitetom. Upravo to nas razlikuje od pojedinačne prilagodbe.
@@ -1558,8 +1552,8 @@ SR  Ne radimo sa pojedinačnim automobilom, već sa modelom automobila. Svaki pr
 EN  Our clients are vehicle distributors, official dealerships and specialist conversion shops. We supply them a kit ready for installation; trimming, fitting and final finishing are carried out by the partner, following our templates and instructions.
 SR  Naši naručioci su distributeri vozila, ovlašćeni dileri i specijalizovani ateljei za prenamenu vozila. Isporučujemo im komplet spreman za montažu; presvlačenje, ugradnju i završnu obradu izvodi partner po našim šablonima i uputstvima.
 
-EN  The company is based in Novi Sad, Serbia, and is led by Evgenii Abramov and Iliya Bolshakov.
-SR  Kompanija ima sedište u Novom Sadu, Srbija, a vode je Evgenii Abramov i Iliya Bolshakov.
+EN  Since 2023 we have been registered in Serbia as 7PRO8 DOO. Evgenii Abramov and Ilya Bolshakov are its co-founders.
+SR  Od 2023. godine registrovani smo u Srbiji kao 7PRO8 DOO. Suosnivači su Evgenii Abramov i Ilya Bolshakov.
 
 EN  19 years
 SR  19 godina
@@ -1570,47 +1564,41 @@ SR  Neprekidnog rada u segmentu, od 2007. godine
 EN  Complex partitions a year — current rate
 SR  Složenih pregrada godišnje — trenutni tempo
 
-EN  Where the work happens
-SR  Gde se radi
+EN  A company in Serbia
+SR  Kompanija u Srbiji
 
-EN  Design, engineering, tooling and production all sit in the same building in Novi Sad. Serbia gives the company an unusual combination for this segment: engineering labour at a cost that supports series production, and duty-free industrial access to the European Union under the Stabilisation and Association Agreement.
-SR  Dizajn, inženjering, izrada alata i proizvodnja nalaze se u istoj zgradi u Novom Sadu. Srbija kompaniji daje neuobičajenu kombinaciju za ovaj segment: inženjerski rad po ceni koja podnosi serijsku proizvodnju i bescarinski pristup industrijskih proizvoda tržištu Evropske unije na osnovu Sporazuma o stabilizaciji i pridruživanju.
+EN  Serbia has been a candidate for membership of the European Union since 2012, and its industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. Our working day runs on Central European Time, and we correspond in English, German, Serbian and Russian.
+SR  Srbija je kandidat za članstvo u Evropskoj uniji od 2012. godine, a njeni industrijski proizvodi od 2000. godine ulaze u Uniju bez carine — režim kasnije upisan u Sporazum o stabilizaciji i pridruživanju. Naš radni dan teče po srednjoevropskom vremenu, a dopisujemo se na engleskom, nemačkom, srpskom i ruskom.
 
-EN  Deliveries run to the European Union, the United Kingdom, the United Arab Emirates, the United States and the Middle East.
-SR  Isporuke idu u Evropsku uniju, Ujedinjeno Kraljevstvo, Ujedinjene Arapske Emirate, SAD i na Bliski istok.
+EN  We are looking for partners in the European Union, the United Kingdom, the United States, the United Arab Emirates and elsewhere in the Middle East.
+SR  Tražimo partnere u Evropskoj uniji, Ujedinjenom Kraljevstvu, SAD, Ujedinjenim Arapskim Emiratima i drugim zemljama Bliskog istoka.
 
-EN  The 7pro8 workshop in Novi Sad
-SR  Radionica 7pro8 u Novom Sadu
+EN  Let's talk
+SR  Hajde da razgovaramo
 
-EN  Novi Sad — design, engineering, tooling and assembly under one roof
-SR  Novi Sad — dizajn, inženjering, alati i montaža pod jednim krovom
-
-EN  Come and see the shop floor
-SR  Dođite da vidite pogon
-
-EN  Partners are welcome to visit Novi Sad and look at kits in production before committing to anything.
-SR  Partneri su dobrodošli da posete Novi Sad i pogledaju komplete u proizvodnji pre nego što se na bilo šta obavežu.
+EN  We are based in Serbia and glad to hear from partners. Write or call, and we will go through your project, the timing and the terms before anything is agreed.
+SR  Nalazimo se u Srbiji i rado razgovaramo sa partnerima. Pišite nam ili pozovite — proći ćemo kroz vaš projekat, rokove i uslove pre nego što se bilo šta dogovori.
 
 EN  The founders
 SR  Osnivači
 
-EN  Evgenii Abramov and Iliya Bolshakov — founders of 7pro8
-SR  Evgenii Abramov i Iliya Bolshakov — osnivači kompanije 7pro8
+EN  Evgenii Abramov and Ilya Bolshakov — founders of 7pro8
+SR  Evgenii Abramov i Ilya Bolshakov — osnivači kompanije 7pro8
 
-EN  Evgenii Abramov and Iliya Bolshakov have worked together since the early 2000s. A shared chronology: careers, the first partition in 2007, 7pro8 as a company since 2015.
-SR  Evgenii Abramov i Iliya Bolshakov rade zajedno od početka 2000-ih. Zajednička hronologija: karijere, prva pregrada 2007, 7pro8 kao kompanija od 2015. godine.
+EN  Evgenii Abramov and Ilya Bolshakov have worked together since the early 2000s. A shared chronology: careers, the first partition in 2007, 7pro8 as a company since 2015.
+SR  Evgenii Abramov i Ilya Bolshakov rade zajedno od početka 2000-ih. Zajednička hronologija: karijere, prva pregrada 2007, 7pro8 kao kompanija od 2015. godine.
 
-EN  Evgenii Abramov and Iliya Bolshakov
-SR  Evgenii Abramov i Iliya Bolshakov
+EN  Evgenii Abramov and Ilya Bolshakov
+SR  Evgenii Abramov i Ilya Bolshakov
 
-EN  Together since the early 2000s. More than twenty years in one craft — vehicle interior engineering — first in other people's workshops and, since 2015, in their own. 7pro8 is their shared work, taken through to series.
-SR  Zajedno od početka 2000-ih. Više od dvadeset godina u jednom zanatu — konstruisanju enterijera vozila — najpre u tuđim radionicama, a od 2015. u sopstvenoj. 7pro8 je njihov zajednički rad, doveden do serije.
+EN  Both of us have been in the industry since the early nineties. We met at CARDI, worked together at Avtoganza, and in 2009 built our own engineering group. Since 2015 that group is 7pro8: our shared work, taken through to series.
+SR  Obojica smo u industriji od početka devedesetih. Upoznali smo se u CARDI-ju, zajedno radili u Avtoganzi, a 2009. osnovali svoju inženjersku grupu. Od 2015. ta grupa je 7pro8: naš zajednički rad, doveden do serije.
 
-EN  Working together
-SR  Rade zajedno
+EN  As our own team
+SR  Kao svoj tim
 
-EN  since the early 2000s
-SR  od početka 2000-ih
+EN  since 2009
+SR  od 2009. godine
 
 EN  First partition
 SR  Prva pregrada
@@ -1618,50 +1606,86 @@ SR  Prva pregrada
 EN  7pro8 as a company
 SR  7pro8 kao kompanija
 
-EN  Draft page
-SR  Nacrt stranice
-
-EN  The real data here is Iliya Bolshakov's biography and career. Everything about Evgenii Abramov is a placeholder — his segments on the timeline are drawn dashed. The project descriptions are marked DRAFT. This block is one line to delete in the content file.
-SR  Stvarni podaci na ovoj stranici su biografija i karijera Iliye Bolshakova. Sve što se odnosi na Evgenija Abramova je privremeno — njegovi odseci na vremenskoj liniji nacrtani su isprekidano. Opisi projekata označeni su rečju NACRT. Ovaj blok se briše jednim redom u content fajlu.
-
 EN  Evgenii Abramov
 SR  Evgenii Abramov
 
-EN  Co-founder, 7pro8
-SR  Suosnivač, 7pro8
+EN  Founder
+SR  Osnivač
 
-EN  DRAFT. Two or three sentences on Evgenii's route: where he started, where he worked, what he is responsible for in the company today. The same record already supplied for Iliya is needed — years, organisations, roles.
-SR  NACRT. Dve-tri rečenice o Evgenijevom putu: gde je počeo, gde je radio, za šta je danas odgovoran u kompaniji. Potrebni su isti podaci koji već postoje za Iliyu — godine, organizacije, funkcije.
+EN  Entered MAMI in 1992 and at the same time started work at CARDI, the institute's special design bureau (SKB MAMI): industrial design and one-off concept cars. Designer at AZLK, the Moscow car plant, in 1997–98, then back at CARDI from 1998, which is where he and Ilya met. In 2005–2007 the two of them worked together in Avtoganza's tuning department, on engineering and production, then both went back to CARDI, he now as its chief designer and lead project manager. In 2009 they set up the engineering and production group, formally on the staff of CarFashion, that this company grew out of.
+SR  Godine 1992. upisao je MAMI i paralelno počeo da radi u CARDI-ju, specijalnom konstrukcionom birou instituta (SKB MAMI): industrijski dizajn i koncept-automobili u pojedinačnim primercima. Dizajner u moskovskoj fabrici automobila AZLK 1997–98, a od 1998. ponovo u CARDI-ju, gde su se on i Ilya upoznali. Od 2005. do 2007. njih dvojica su zajedno radili u odeljenju za tjuning Avtoganze, na konstrukciji i proizvodnji, a zatim su se obojica vratila u CARDI, on sada kao glavni dizajner i vodeći menadžer projekata. Godine 2009. osnovali su inženjersko-proizvodnu grupu, formalno u sastavu kompanije CarFashion, iz koje je izrasla ova kompanija.
 
-EN  Iliya Bolshakov
-SR  Iliya Bolshakov
+EN  Ilya Bolshakov
+SR  Ilya Bolshakov
 
-EN  Started in 2000 as a model maker and design engineer at SKB MAMI — with his hands and a mock-up rather than with a drawing. A year later he moved to SV-ART, and within two years was its chief design engineer.
-SR  Počeo je 2000. godine kao maketar-konstruktor u SKB MAMI — rukama i na maketi, a ne na crtežu. Godinu dana kasnije prešao je u SV-ART i za dve godine postao glavni konstruktor.
+EN  An engineer by training: MAMI, 1988–92, internal combustion engines. He stayed on for five years to lecture in the Machine Parts and Mechanisms department, then worked in the paint shop at Lada Favorit. In 2000 he joined SKB MAMI (CARDI) as a model maker and design engineer, which is where he and Evgenii met. A year later he moved to SV-ART, where within two years he was chief design engineer.
+SR  Inženjer po obrazovanju: MAMI, 1988–92, motori sa unutrašnjim sagorevanjem. Još pet godina je tamo predavao na katedri za mašinske elemente i mehanizme, a potom radio u lakirnici fabrike Lada Favorit. Godine 2000. došao je u SKB MAMI (CARDI) kao maketar-konstruktor, i tu su se on i Evgenii upoznali. Godinu kasnije prešao je u SV-ART, gde je za dve godine postao glavni konstruktor.
 
-EN  Then A-Level, Avtoganza, Cardi Design and Car Fashion: fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8.
-SR  Zatim A-Level, Avtoganza, Cardi Design i Car Fashion: petnaest godina konstruisanja enterijera vozila u kompanijama koje su gradile ovu granu u Rusiji. Od 2015. godine — 7pro8.
+EN  Then A-Level, followed, alongside Evgenii, by Avtoganza's tuning department and CARDI again, and from 2009 the engineering and production group the two of them ran, formally on the staff of CarFashion. Fifteen years of engineering vehicle interiors inside the companies that built that industry in Russia. Since 2015, 7pro8.
+SR  Zatim A-Level, pa zajedno sa Evgenijem odeljenje za tjuning Avtoganze i ponovo CARDI, a od 2009. njihova zajednička inženjersko-proizvodna grupa, formalno u sastavu kompanije CarFashion. Petnaest godina konstruisanja enterijera vozila u kompanijama koje su gradile ovu granu u Rusiji. Od 2015. godine — 7pro8.
 
 EN  Two routes on one axis
 SR  Dva puta na jednoj vremenskoj osi
 
-EN  Where each founder worked, year by year. Dashed segments are dates not yet confirmed.
-SR  Gde je radio svaki od osnivača, godinu po godinu. Isprekidani odseci su datumi koji još nisu potvrđeni.
+EN  Where each of us worked, year by year.
+SR  Gde je svako od nas radio, godinu za godinom.
 
-EN  Together from the early 2000s — exact year to be confirmed
-SR  Zajedno od početka 2000-ih — tačna godina se potvrđuje
+EN  Our own team
+SR  Svoj tim
 
-EN  Career to be supplied
-SR  Karijera se dopunjuje
+EN  MAMI and SKB MAMI (CARDI)
+SR  MAMI i SKB MAMI (CARDI)
 
-EN  Needs the same record as Iliya's
-SR  Potrebni isti podaci kao za Iliyu
+EN  MAMI · CARDI
+SR  MAMI · CARDI
+
+EN  Student at MAMI, working at CARDI alongside
+SR  Studije na MAMI, paralelno rad u CARDI-ju
+
+EN  AZLK
+SR  AZLK
+
+EN  Designer
+SR  Dizajner
+
+EN  CARDI
+SR  CARDI
+
+EN  Avtoganza
+SR  Avtoganza
+
+EN  Tuning department: engineering and production
+SR  Odeljenje za tjuning: konstrukcija i proizvodnja
+
+EN  Chief designer and lead project manager
+SR  Glavni dizajner i vodeći menadžer projekata
+
+EN  Engineering and production group
+SR  Inženjersko-proizvodna grupa
+
+EN  Co-founder; formally on the staff of CarFashion
+SR  Suosnivač; formalno u sastavu kompanije CarFashion
 
 EN  Co-founder
 SR  Suosnivač
 
-EN  SKB MAMI
-SR  SKB MAMI
+EN  Moscow Automotive and Mechanical Institute (MAMI)
+SR  Moskovski automehanički institut (MAMI)
+
+EN  MAMI
+SR  MAMI
+
+EN  Lecturer, Machine Parts and Mechanisms department
+SR  Predavač na katedri za mašinske elemente i mehanizme
+
+EN  Lada Favorit
+SR  Lada Favorit
+
+EN  Paint shop
+SR  Lakirnica
+
+EN  SKB MAMI (CARDI)
+SR  SKB MAMI (CARDI)
 
 EN  Model maker and design engineer
 SR  Maketar-konstruktor
@@ -1678,68 +1702,65 @@ SR  A-Level
 EN  Vehicle interior design engineer
 SR  Konstruktor enterijera vozila
 
-EN  Avtoganza
-SR  Avtoganza
+EN  Design engineer, tuning department
+SR  Konstruktor, odeljenje za tjuning
 
 EN  Design engineer
 SR  Konstruktor
 
-EN  Cardi Design
-SR  Cardi Design
-
-EN  Car Fashion
-SR  Car Fashion
-
-EN  Co-founder, co-owner
-SR  Suosnivač, suvlasnik
-
-EN  The projects below were done across these periods. Before this page is published it is worth confirming with the former employers which of the work may be shown, and under whose name.
-SR  Projekti u nastavku rađeni su u različitim periodima. Pre objavljivanja stranice treba potvrditi sa bivšim poslodavcima koji radovi smeju da se prikažu i pod čijim imenom.
-
 EN  The work, newest first
 SR  Radovi, od najnovijih
 
-EN  Twelve projects across twenty-five years, from the present back to the beginning. Under each title is where Iliya was working at the time; Evgenii's part in each project still needs to be marked.
-SR  Dvanaest projekata za dvadeset pet godina, od danas unazad do početka. Ispod svakog naslova navedeno je gde je Iliya tada radio; Evgenijev udeo u svakom projektu tek treba označiti.
+EN  Thirteen projects from 1992 to 2009 — the work 7pro8 grew out of. Under each title: whose project it was, and where we were working at the time.
+SR  Trinaest projekata od 1992. do 2009. godine — rad iz kog je nastao 7pro8. Ispod svakog naslova: čiji je to projekat i gde smo tada radili.
 
-EN  Electric trike with a canopy
-SR  Električni tricikl sa krovom
+EN  Rolls-Royce Phantom — rear compartment
+SR  Rolls-Royce Phantom — zadnji deo kabine
 
-EN  Personal project · frame, canopy, layout
-SR  Lični projekat · ram, krov, raspored sedišta
+EN  Ilya and Evgenii
+SR  Ilya i Evgenii
 
-EN  DRAFT. A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly.
-SR  NACRT. Lični projekat van automobila: ram, zaštitni krov i raspored sedišta za dve osobe. Izrađen u potpunosti ručno, od konstrukcije do završne montaže.
+EN  Our own engineering and production group
+SR  Sopstvena inženjersko-proizvodna grupa
 
-EN  Trike with the canopy raised, in a field
-SR  Tricikl sa podignutim krovom na livadi
+EN  A rebuilt rear compartment for a Rolls-Royce Phantom: seats and trim in pale leather, curtains, veneer. A one-off, still without tooling for series — the series partition for the Phantom EWB came in 2011.
+SR  Preuređen zadnji deo kabine Rolls-Royce Phantoma: sedišta i obloge od svetle kože, zavese, furnir. Pojedinačan rad, još bez alata za seriju — serijska pregrada za Phantom EWB došla je 2011. godine.
 
-EN  Canopy raised
-SR  Krov podignut
+EN  Rolls-Royce Phantom with the doors open
+SR  Rolls-Royce Phantom sa otvorenim vratima
 
-EN  Trike from the side
-SR  Tricikl sa strane
+EN  The project car
+SR  Vozilo projekta
 
-EN  Layout for two
-SR  Raspored za dvoje
+EN  Phantom rear compartment in pale leather
+SR  Zadnji deo kabine Phantoma u svetloj koži
 
-EN  Trike on the road
-SR  Tricikl na putu
+EN  Rear compartment
+SR  Zadnja zona
 
-EN  Frame and seating
-SR  Ram i sedišta
+EN  Curtains and veneer trim
+SR  Zavese i obloge od furnira
 
-EN  Iliya: Personal project
-SR  Iliya: lični projekat
+EN  Curtains and veneer
+SR  Zavese i furnir
+
+EN  Backs of the front seats
+SR  Naslonjači prednjih sedišta
+
+EN  Front seat backs
+SR  Naslonjači prednjih sedišta
 
 EN  Interiors on the water
 SR  Enterijeri na vodi
 
-EN  Marine interiors · press
-SR  Enterijeri jahti · stručna štampa
+EN  Ilya
+SR  Ilya
 
-EN  DRAFT. Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press.
-SR  NACRT. Rad na enterijerima čamaca i jahti: isti zadatak kao u automobilu, ali drugi materijali, druga vlažnost i druga pravila. Projekti iz tog perioda objavljivani su u stručnoj štampi.
+EN  CARDI / our own engineering group
+SR  CARDI / sopstvena inženjerska grupa
+
+EN  Work on boat and yacht interiors: the same problem as in a car, but different materials, different humidity and different rules. Projects from this period appeared in the trade press.
+SR  Rad na enterijerima čamaca i jahti: isti zadatak kao u automobilu, ali drugi materijali, druga vlažnost i druga pravila. Projekti iz tog perioda objavljivani su u stručnoj štampi.
 
 EN  Motor yacht under way
 SR  Motorna jahta u plovidbi
@@ -1747,65 +1768,53 @@ SR  Motorna jahta u plovidbi
 EN  Motor yacht
 SR  Motorna jahta
 
-EN  Yachting magazine cover
-SR  Naslovna strana jahting časopisa
+EN  Mercedes-Benz Viano — interior, exterior and a motorised monitor
+SR  Mercedes-Benz Viano — enterijer, spoljašnji izgled i monitor na električni pogon
 
-EN  Trade press
-SR  Stručna štampa
+EN  A van with a changed exterior and a new rear interior: quilted seats, curtains, veneer. A separate job in the same car: a ceiling monitor on an electric drive, its mechanism designed in 3D and built for this interior.
+SR  Kombi sa izmenjenim spoljašnjim izgledom i novim zadnjim delom kabine: prošivena sedišta, zavese, furnir. Poseban posao u istom vozilu: plafonski monitor na električni pogon, čiji je mehanizam projektovan u 3D-u i napravljen za ovaj enterijer.
 
-EN  Iliya: Cardi Design / Car Fashion
-SR  Iliya: Cardi Design / Car Fashion
+EN  Mercedes-Benz Viano after the work
+SR  Mercedes-Benz Viano posle preuređenja
 
-EN  falls on a period boundary — to be confirmed
-SR  pada na granicu perioda — potvrditi
+EN  Exterior
+SR  Spoljašnji izgled
 
-EN  Taxi roof sign
-SR  Krovna oznaka za taksi
+EN  Rear interior with quilted seats
+SR  Zadnji deo kabine sa prošivenim sedištima
 
-EN  Design · tooling · series
-SR  Dizajn · alati · serija
+EN  Rear interior
+SR  Zadnji deo kabine
 
-EN  DRAFT. An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later.
-SR  NACRT. Osvetljena krovna oznaka za taksi vozila: dizajn, 3D model, alati i serijska proizvodnja. Mala po formatu, ali potpuna po ciklusu — isti put od skice do serije kojim će pregrade krenuti deset godina kasnije.
+EN  Interior with the ceiling monitor
+SR  Kabina sa plafonskim monitorom
 
-EN  Taxi with the roof sign fitted
-SR  Taksi sa postavljenom krovnom oznakom
+EN  Interior with the monitor
+SR  Kabina sa monitorom
 
-EN  Fitted to the car
-SR  Postavljeno na vozilo
+EN  3D model of the monitor mechanism
+SR  3D model mehanizma monitora
 
-EN  Roof sign lit at night
-SR  Osvetljena krovna oznaka noću
+EN  Monitor mechanism, 3D
+SR  Mehanizam monitora, 3D
 
-EN  Illumination
-SR  Osvetljenje
+EN  Monitor mechanism with its drive
+SR  Mehanizam monitora sa pogonom
 
-EN  Roof sign in close-up
-SR  Krovna oznaka izbliza
+EN  The drive on the bench
+SR  Pogon na stolu za ispitivanje
 
-EN  Housing and screen
-SR  Kućište i ekran
+EN  The monitor lowered in the car
+SR  Monitor spušten u kabini
 
-EN  Rendering of the roof sign
-SR  Vizualizacija krovne oznake
+EN  Monitor in the car
+SR  Monitor u vozilu
 
-EN  Project rendering
-SR  Vizualizacija projekta
+EN  ZiL-41047 — state limousine interior
+SR  ZiL-41047 — enterijer državne limuzine
 
-EN  Iliya: Cardi Design
-SR  Iliya: Cardi Design
-
-EN  from photograph dates
-SR  prema datumima fotografija
-
-EN  ZiL-4107 — state limousine interior
-SR  ZiL-4107 — enterijer državne limuzine
-
-EN  Sketch · engineering · production
-SR  Skica · inženjering · proizvodnja
-
-EN  DRAFT. A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior.
-SR  NACRT. Potpuna prerada enterijera sovjetske državne limuzine. Projekat je počeo ručnim skicama — raspored zadnje zone, sedišta, obrada — i doveden je do gotovog enterijera.
+EN  A complete rebuild of the interior of a Soviet state limousine. The project began as hand sketches — rear compartment layout, seating, trim — and ran through to a finished interior.
+SR  Potpuna prerada enterijera sovjetske državne limuzine. Projekat je počeo ručnim skicama — raspored zadnje zone, sedišta, obrada — i doveden je do gotovog enterijera.
 
 EN  Hand sketch of the interior
 SR  Ručna skica enterijera
@@ -1816,26 +1825,26 @@ SR  Skica rasporeda
 EN  Finished interior, rear compartment
 SR  Gotov enterijer, zadnja zona
 
-EN  Rear compartment
-SR  Zadnja zona
-
 EN  Finished interior, trim detail
 SR  Gotov enterijer, detalj obrade
 
 EN  Trim and materials
 SR  Obrada i materijali
 
-EN  Mercedes-Benz S-Class W221 — the first partition
-SR  Mercedes-Benz S-Class W221 — prva pregrada
+EN  Mercedes-Benz S-Class V221 — the first partition
+SR  Mercedes-Benz S-Class V221 — prva pregrada
 
-EN  Sketch · CAD · tooling · product
-SR  Skica · CAD · alati · proizvod
+EN  Avtoganza / CARDI
+SR  Avtoganza / CARDI
 
-EN  DRAFT. The first partition, and where 7pro8 starts counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.
-SR  NACRT. Prva pregrada i tačka od koje 7pro8 počinje da broji. Projekat je prošao pun ciklus koji je kasnije postao standard: skica, 3D model, inženjering mehanizma podizanja stakla, alati, gotov proizvod.
+EN  the year of the move; we date our first partition from here
+SR  godina prelaska; odavde računamo svoju prvu pregradu
 
-EN  Everything the company builds in series today grew out of this job.
-SR  Sve što kompanija danas proizvodi serijski izraslo je iz ovog posla.
+EN  The first partition, and where we start counting. The project ran through the full cycle that later became the standard: sketch, 3D model, engineering of the glass lift mechanism, tooling, finished product.
+SR  Prva pregrada, od koje počinjemo da brojimo. Projekat je prošao pun ciklus koji je kasnije postao standard: skica, 3D model, inženjering mehanizma podizanja stakla, alati, gotov proizvod.
+
+EN  Everything we build in series today grew out of this job.
+SR  Sve što danas proizvodimo serijski izraslo je iz ovog posla.
 
 EN  Sketch of the interior with the partition
 SR  Skica enterijera sa pregradom
@@ -1861,20 +1870,14 @@ SR  Gotova pregrada u vozilu
 EN  Product in the car
 SR  Proizvod u vozilu
 
-EN  Iliya: Avtoganza / Cardi Design
-SR  Iliya: Avtoganza / Cardi Design
-
-EN  the year of the move; 7pro8 dates its first partition from here
-SR  godina prelaska; od ovde 7pro8 računa svoju prvu pregradu
-
 EN  Mercedes-Benz Vito — VIP interior
 SR  Mercedes-Benz Vito — VIP enterijer
 
-EN  Interior · multimedia · partition
-SR  Enterijer · multimedija · pregrada
+EN  Avtoganza, tuning department
+SR  Avtoganza, odeljenje za tjuning
 
-EN  DRAFT. A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on.
-SR  NACRT. Kombi pretvoren u mobilnu kancelariju: pojedinačna sedišta, konzole, multimedija i pregrada enterijera. Rani primer upravo onog posla na kome je kasnije izgrađen serijski biznis.
+EN  A van turned into a mobile office: individual seats, consoles, multimedia and an interior partition. An early example of exactly the kind of work the series business was later built on.
+SR  Kombi pretvoren u mobilnu kancelariju: pojedinačna sedišta, konzole, multimedija i pregrada enterijera. Rani primer upravo onog posla na kome je kasnije izgrađen serijski biznis.
 
 EN  Vito interior with individual seats
 SR  Enterijer vozila Vito sa pojedinačnim sedištima
@@ -1888,6 +1891,9 @@ SR  Zadnja zona sa monitorom
 EN  Multimedia
 SR  Multimedija
 
+EN  Table in the working position
+SR  Sto u radnom položaju
+
 EN  Work table
 SR  Radni sto
 
@@ -1897,26 +1903,14 @@ SR  Obrada enterijera
 EN  Trim
 SR  Obrada
 
-EN  Iliya: Avtoganza
-SR  Iliya: Avtoganza
-
-EN  from dates — to be confirmed
-SR  prema datumima — potvrditi
-
 EN  Lamborghini Diablo VT
 SR  Lamborghini Diablo VT
 
-EN  Interior · audio · trim
-SR  Enterijer · audio · obrada
-
-EN  DRAFT. A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all.
-SR  NACRT. Potpuna prerada enterijera superautomobila: centralna konzola, zona instrumenata, audio sistem, obrada kožom i karbonom. Posao koji zahteva preciznu ugradnju u tesnoj kabini bez ijedne ravne površine.
+EN  A full interior rebuild of a supercar: centre console, instrument area, audio system, leather and carbon trim. Work that demands exact fit in a cramped cabin with no flat surfaces at all.
+SR  Potpuna prerada enterijera superautomobila: centralna konzola, zona instrumenata, audio sistem, obrada kožom i karbonom. Posao koji zahteva preciznu ugradnju u tesnoj kabini bez ijedne ravne površine.
 
 EN  Lamborghini Diablo exterior
 SR  Lamborghini Diablo spolja
-
-EN  The project car
-SR  Vozilo projekta
 
 EN  Centre console
 SR  Centralna konzola
@@ -1927,20 +1921,17 @@ SR  Zona instrumenata
 EN  Leather and carbon trim
 SR  Obrada kožom i karbonom
 
-EN  Iliya: A-Level
-SR  Iliya: A-Level
-
-EN  from dates; the photographs, however, come from SV-ART material — a discrepancy
-SR  prema datumima; fotografije su, međutim, iz materijala SV-ART — neslaganje
-
 EN  Chevrolet Corvette
 SR  Chevrolet Corvette
 
-EN  Interior · console · trim
-SR  Enterijer · konzola · obrada
+EN  SV-ART / A-Level
+SR  SV-ART / A-Level
 
-EN  DRAFT. The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry.
-SR  NACRT. Enterijer klasičnog vozila Corvette: nova centralna konzola, obrada i oprema. Jedan od projekata koji su početkom 2000-ih ruski tuning pretvorili u privrednu granu.
+EN  the year of the move
+SR  godina prelaska
+
+EN  The interior of a classic Corvette: a new centre console, trim and equipment. One of the run of projects that, in the early 2000s, turned Russian tuning into an industry.
+SR  Enterijer klasičnog vozila Corvette: nova centralna konzola, obrada i oprema. Jedan od projekata koji su početkom 2000-ih ruski tuning pretvorili u privrednu granu.
 
 EN  Corvette exterior
 SR  Corvette spolja
@@ -1954,23 +1945,11 @@ SR  Pogled pozadi
 EN  Console and trim
 SR  Konzola i obrada
 
-EN  Iliya: SV-ART / A-Level
-SR  Iliya: SV-ART / A-Level
-
-EN  the year of the move — to be confirmed
-SR  godina prelaska — potvrditi
-
 EN  Hummer H1 — VIP interior
 SR  Hummer H1 — VIP enterijer
 
-EN  Interior · lighting · multimedia
-SR  Enterijer · osvetljenje · multimedija
-
-EN  DRAFT. An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client.
-SR  NACRT. Terensko vozilo pretvoreno u reprezentativni enterijer: klupa, obrada furnirom, ambijentalno osvetljenje, multimedija. Izrađeno za privatnog klijenta.
-
-EN  THE CLIENT IS DELIBERATELY NOT NAMED HERE — see the note on this page.
-SR  KLIJENT OVDE NAMERNO NIJE NAVEDEN — pogledajte napomenu na ovoj stranici.
+EN  An off-roader turned into an executive interior: bench seat, veneer trim, ambient lighting, multimedia. Built for a private client.
+SR  Terensko vozilo pretvoreno u reprezentativni enterijer: klupa, obrada furnirom, ambijentalno osvetljenje, multimedija. Izrađeno za privatnog klijenta.
 
 EN  Hummer H1 exterior
 SR  Hummer H1 spolja
@@ -1990,17 +1969,17 @@ SR  Bar u enterijeru
 EN  Interior equipment
 SR  Oprema enterijera
 
-EN  Iliya: SV-ART
-SR  Iliya: SV-ART
-
 EN  Lincoln Reincarnation
 SR  Lincoln Reincarnation
 
-EN  Body · interior · lighting
-SR  Karoserija · enterijer · osvetljenje
+EN  SV-ART · CARDI
+SR  SV-ART · CARDI
 
-EN  DRAFT. The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years.
-SR  NACRT. Najvidljiviji projekat ranog perioda: vozilo sa potpuno prerađenom karoserijom i enterijerom, prikazano na izložbama i praćeno u štampi. Naziv projekta godinama je ostao vezan za studio.
+EN  The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press.
+SR  Najvidljiviji projekat ranog perioda: vozilo sa potpuno prerađenom karoserijom i enterijerom, prikazano na izložbama i praćeno u štampi.
+
+EN  A joint project of SV-ART and CARDI: CARDI did the design and the bodywork, SV-ART the interior, the lighting, the instrument panel and the rest of the trim.
+SR  Zajednički projekat studija SV-ART i CARDI: CARDI je radio dizajn i karoseriju, a SV-ART enterijer, osvetljenje, instrument tablu i ostalu opremu.
 
 EN  Lincoln Reincarnation exterior
 SR  Lincoln Reincarnation spolja
@@ -2026,11 +2005,11 @@ SR  Enterijer
 EN  Workshop, team, first volumes
 SR  Radionica, tim, prve serije
 
-EN  Production · people
-SR  Proizvodnja · ljudi
+EN  SKB MAMI (CARDI) · SV-ART
+SR  SKB MAMI (CARDI) · SV-ART
 
-EN  DRAFT. The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof.
-SR  NACRT. Period u kome je radionica postala kompanija sa sopstvenom proizvodnjom: dizajn, maketarska radionica, metal, tapetarija, furnir, elektronika — sve pod jednim krovom.
+EN  The period when a workshop became a company with production of its own: design, model shop, metalwork, upholstery, veneer, electronics — all under one roof.
+SR  Period u kome je radionica postala kompanija sa sopstvenom proizvodnjom: dizajn, maketarska radionica, metal, tapetarija, furnir, elektronika — sve pod jednim krovom.
 
 EN  The studio team by a car
 SR  Tim studija kod vozila
@@ -2050,53 +2029,137 @@ SR  Zgrada studija
 EN  The workshop
 SR  Radionica
 
-EN  Iliya: SV-ART · SKB MAMI
-SR  Iliya: SV-ART · SKB MAMI
+EN  Garage, racing, the press
+SR  Garaža, trke, štampa
 
-EN  Before the studio: a garage, racing, the press
-SR  Pre studija: garaža, trke, štampa
+EN  Before CARDI · SV-ART
+SR  Pre CARDI-ja · SV-ART
 
-EN  The beginning
-SR  Početak
+EN  The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from.
+SR  Sam početak: ručni rad u negrejanoj garaži, sopstveni projekti od onoga što je bilo pri ruci, trke na stazi i prvi kontakti sa automobilskom štampom. Odavde je sve krenulo.
 
-EN  DRAFT. The very beginning: hands-on work in an unheated garage, home-built projects out of whatever was to hand, circuit racing and the first contacts in the motoring press. This is where it all came from.
-SR  NACRT. Sam početak: ručni rad u negrejanoj garaži, sopstveni projekti od onoga što je bilo pri ruci, trke na stazi i prvi kontakti sa automobilskom štampom. Odavde je sve krenulo.
+EN  Working on a moulded part at the bench
+SR  Rad na oblikovanom delu na radnom stolu
 
-EN  Working in the workshop
-SR  Rad u radionici
+EN  In the rear seat of a converted interior
+SR  Na zadnjem sedištu prerađenog enterijera
 
-EN  The garage, early 2000s
-SR  Garaža, početak 2000-ih
+EN  Outside the workshop at night, on a pile of boxes
+SR  Noću ispred radionice, na gomili kutija
 
-EN  Collage of working photographs
-SR  Kolaž radnih fotografija
+EN  On a pier beside motor yachts
+SR  Na pristaništu pored motornih jahti
 
-EN  From the archive
-SR  Iz arhive
+EN  Working on the rear of an Audi estate
+SR  Rad na zadnjem delu Audi karavana
 
-EN  Iliya: Before SKB MAMI
-SR  Iliya: pre SKB MAMI
+EN  A mirrored ceiling in a converted interior
+SR  Ogledalski plafon u prerađenom enterijeru
 
-EN  Years come from photograph EXIF data and archive names; those marked ≈ were reconstructed indirectly. The period under each title was derived by matching those dates against the careers — an inference, not a first-hand fact. Images from before 2007 are scans of prints and web graphics of the period.
-SR  Godine su preuzete iz EXIF podataka fotografija i naziva arhiva; one označene sa ≈ rekonstruisane su posredno. Period ispod svakog naslova izveden je poređenjem tih datuma sa karijerama — to je zaključak, a ne podatak iz prve ruke. Slike pre 2007. godine su skenovi otisaka i veb grafika iz tog vremena.
+EN  One-off cars at CARDI
+SR  Unikatni automobili u CARDI-ju
+
+EN  Evgenii
+SR  Evgenii
+
+EN  Concept cars and single-example cars built at CARDI in the years Evgenii went there from designer to chief designer: from the sketch to the finished car.
+SR  Koncept-automobili i automobili u jednom primerku, napravljeni u CARDI-ju u godinama kada je Evgenii tamo prošao put od dizajnera do glavnog dizajnera: od skice do gotovog automobila.
+
+EN  Concept roadster on a mountain road
+SR  Koncept-rodster na planinskom putu
+
+EN  Concept roadster
+SR  Koncept-rodster
+
+EN  Silver roadster
+SR  Srebrni rodster
+
+EN  Two-tone coupé
+SR  Dvobojni kupe
+
+EN  Orange roadster
+SR  Narandžasti rodster
+
+EN  Red coupé
+SR  Crveni kupe
+
+EN  Years come from the photographs and the archives; those marked ≈ are approximate. Images from before 2007, and the pages from Evgenii's portfolio, are scans of prints.
+SR  Godine su preuzete sa fotografija i iz arhiva; one označene sa ≈ su približne. Snimci pre 2007. godine i stranice iz Evgenijevog portfolija su skenirani otisci.
+
+EN  Off the clock
+SR  Posle posla
+
+EN  An electric scooter, a road-test expert with long ears and other things that make us smile — on a page of their own.
+SR  Električni skuter, stručnjak za probne vožnje dugih ušiju i druge stvari koje nas zabavljaju — na posebnoj stranici.
+
+EN  Just for fun
+SR  Za dušu
 
 EN  The line continues
 SR  Linija se nastavlja
 
-EN  Everything 7pro8 builds in series today grew out of the work on this page.
-SR  Sve što 7pro8 danas proizvodi serijski izraslo je iz radova na ovoj stranici.
+EN  Everything we build in series today grew out of the work on this page.
+SR  Sve što danas proizvodimo serijski izraslo je iz radova na ovoj stranici.
 
-EN  Contact 7pro8 — Novi Sad, Serbia
-SR  Kontakt 7pro8 — Novi Sad, Srbija
+EN  Just for fun — the founders of 7pro8 off the clock
+SR  Za dušu — osnivači 7pro8 posle posla
 
-EN  Contact 7pro8 DOO Novi Sad: address, email and telephone. Partner enquiries are answered within two working days.
-SR  Kontakt 7pro8 DOO Novi Sad: adresa, e-pošta i telefon. Na upite partnera odgovaramo u roku od dva radna dana.
+EN  An electric scooter, a road test with a local expert and other fun things from the founders of 7pro8 that have nothing to do with partitions.
+SR  Električni skuter, probna vožnja uz lokalnog stručnjaka i druge zabavne stvari osnivača 7pro8 koje nemaju veze sa pregradama.
+
+EN  Everything fun that has nothing to do with partitions: personal projects, moments from the road and whatever else is too good not to show.
+SR  Sve zabavno što nema veze sa pregradama: lični projekti, trenuci sa puta i sve što bi bila šteta ne pokazati.
+
+EN  Electric scooter with a canopy
+SR  Električni skuter sa krovom
+
+EN  Personal project
+SR  Lični projekat
+
+EN  A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly.
+SR  Lični projekat van automobila: ram, zaštitni krov i raspored sedišta za dve osobe. Izrađen u potpunosti ručno, od konstrukcije do završne montaže.
+
+EN  Scooter with the canopy raised, in a field
+SR  Skuter sa podignutim krovom na livadi
+
+EN  Canopy raised
+SR  Krov podignut
+
+EN  Scooter from the side
+SR  Skuter sa strane
+
+EN  Layout for two
+SR  Raspored za dvoje
+
+EN  Scooter on the road
+SR  Skuter na putu
+
+EN  Frame and seating
+SR  Ram i sedišta
+
+EN  At the wheel, with a donkey looking in through the open window
+SR  Za volanom, magarac gleda kroz otvoren prozor
+
+EN  Road test, with a local expert
+SR  Probna vožnja, uz lokalnog stručnjaka
+
+EN  Back to work
+SR  Nazad na posao
+
+EN  The founders' careers and their work, year by year.
+SR  Karijere osnivača i njihovi radovi, godinu po godinu.
+
+EN  Contact 7pro8 — Serbia
+SR  Kontakt 7pro8 — Srbija
+
+EN  Contact 7pro8: address, email and telephone. Partner enquiries are answered within two working days.
+SR  Kontakt 7pro8: adresa, e-pošta i telefon. Na upite partnera odgovaramo u roku od dva radna dana.
 
 EN  Partner enquiries are answered within two working days. For anything about a specific model, the enquiry form gets you a faster and more useful reply than a bare email.
 SR  Na upite partnera odgovaramo u roku od dva radna dana. Za pitanja o konkretnom modelu formular za upit donosi brži i korisniji odgovor od običnog mejla.
 
-EN  7pro8 DOO Novi Sad, Serbia.
-SR  7pro8 DOO Novi Sad, Srbija.
+EN  Registered office: 7PRO8 DOO Rakovac, Beočinski put 2, 21299 Rakovac, Serbia.
+SR  Sedište: 7PRO8 DOO Rakovac, Beočinski put 2, 21299 Rakovac, Srbija.
 
 EN  Working hours are 08:00 to 17:00 Central European Time, Monday to Friday. We correspond in English, German, Serbian and Russian.
 SR  Radno vreme je od 08:00 do 17:00 po srednjoevropskom vremenu, od ponedeljka do petka. Dopisujemo se na engleskom, nemačkom, srpskom i ruskom.
@@ -2107,11 +2170,8 @@ SR  Puna poštanska adresa, matični broj, PIB i telefon nalaze se u podnožju s
 EN  Go to the enquiry form
 SR  Idite na formular za upit
 
-EN  The 7pro8 premises in Novi Sad
-SR  Prostorije kompanije 7pro8 u Novom Sadu
-
-EN  Novi Sad, Serbia
-SR  Novi Sad, Srbija
+EN  Passenger compartment in cream leather
+SR  Putnički prostor u krem koži
 
 EN  Send the model, the market and the volume
 SR  Pošaljite model, tržište i količinu
