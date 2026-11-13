@@ -7,19 +7,18 @@ finished, and this file is the list to work through.
 ## Audit of 13 Nov 2026 — proposed, not changed
 
 Found while going through every page before launch. Each needs a yes or a fact
-from the founders; nothing here was changed on the site.
+from the founders; nothing here was changed on the site. Agreed with Kosta the
+same day and done: the company page says "We are looking for partners in …"
+instead of "Deliveries run to …", and the photograph beside it is the Maybach
+X222 interior instead of the assembly frame that is also on the production
+page (`company/workshop.jpg` is no longer used by any page). Items 4–6 below
+wait for Evgenii and Iliya.
 
-- **Hero photograph and its caption.** The caption says "Mercedes-Benz V-Class —
-  partition with a 43″ monitor"; the photograph (from the old site's library)
-  shows small twin monitors and a different interior — the old site lists a
-  Maybach GLS as "ready for production". Which car is it? Until then the
-  caption could simply drop the model and the 43″.
-- **"Deliveries run to the EU, the UK, the UAE, the US and the Middle East"**
-  (company page). Reads as shipments already going there, and the UAE is
-  counted twice. Proposed: "We are looking for partners in …".
-- **The photograph under "A company in Serbia"** (`company/workshop.jpg`) is
-  the same frame as `manufacturing/v-class-assembly.jpg`. Proposed: a neutral
-  product photograph there, the assembly frame stays on the production page.
+- **Hero photograph: which car is it?** Kosta, 13 Nov: until the founders say,
+  the caption names neither the model nor the monitor size ("A 7pro8
+  partition: monitors, console and ambient lighting"). The old site lists a
+  Maybach GLS as "ready for production"; the file is still called
+  `home/hero-v-class-partition.jpg`.
 - **Numbers that do not agree with each other:** 450+ kits against 460 in the
   history table; "since 2007" against the table titled "All projects since
   2008"; 20+ partition models, 14 vehicle models, nine documented, eight with

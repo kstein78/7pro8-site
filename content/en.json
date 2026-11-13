@@ -67,8 +67,8 @@
           ],
           "image": {
             "src": "home/hero-v-class-partition.jpg",
-            "alt": "Interior partition fitted in a Mercedes-Benz V-Class, seen from the rear compartment",
-            "caption": "Mercedes-Benz V-Class — partition with 43-inch monitor, console and ambient lighting",
+            "alt": "Interior partition seen from the rear compartment",
+            "caption": "A 7pro8 partition: monitors, console and ambient lighting",
             "toggle_on": "Glass opaque",
             "toggle_off": "Glass clear"
           },
@@ -1843,12 +1843,12 @@
           "title": "A company in Serbia",
           "body": [
             "Serbia has been a candidate for membership of the European Union since 2012, and its industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. Our working day runs on Central European Time, and we correspond in English, German, Serbian and Russian.",
-            "Deliveries run to the European Union, the United Kingdom, the United Arab Emirates, the United States and the Middle East."
+            "We are looking for partners in the European Union, the United Kingdom, the United States, the United Arab Emirates and elsewhere in the Middle East."
           ],
           "image": {
-            "src": "company/workshop.jpg",
-            "alt": "A partition on the 7pro8 shop floor, before trimming",
-            "caption": "A partition between assembly and trimming"
+            "src": "portfolio/maybach-x222/01.jpg",
+            "alt": "Rear zone with the partition integrated into the interior",
+            "caption": "Mercedes-Maybach S-Class X222"
           }
         },
         {
