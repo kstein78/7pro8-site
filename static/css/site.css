@@ -50,6 +50,18 @@
   src: url("../fonts/jost-cyrillic-wght-normal.woff2") format("woff2-variations"), url("../fonts/jost-cyrillic-wght-normal.woff2") format("woff2");
   unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
 }
+/* Bodoni Moda's comma, hyphen, dashes, plus and slash are hairlines: on an
+   ordinary (1x) screen the comma reads as a full stop and the dashes vanish
+   ("Одна команда   от первого эскиза"). Headings take those few marks from
+   Playfair Display instead; every letter and digit stays as it was. */
+@font-face {
+  font-family: "Display Punct";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 900;
+  src: url("../fonts/playfair-display-latin-400-normal.woff2") format("woff2");
+  unicode-range: U+002B-002D,U+002F,U+003B,U+00AB,U+00BB,U+2010-2015,U+2018-201E;
+}
 @font-face {
   font-family: "Playfair Display Cyrillic";
   font-style: normal;
@@ -82,7 +94,7 @@
   --shell: 78rem;
   --gap: clamp(1.75rem, 4vw, 4rem);
 
-  --display: "Bodoni Moda", "Playfair Display Cyrillic", "Didot", "Times New Roman", serif;
+  --display: "Display Punct", "Bodoni Moda", "Playfair Display Cyrillic", "Didot", "Times New Roman", serif;
   --sans: "Jost", "Futura", "Avenir Next", Helvetica, Arial, sans-serif;
 }
 
@@ -882,7 +894,7 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 .lanes__grid {
   display: grid;
   grid-template-columns: repeat(var(--span), minmax(0, 1fr));
-  min-width: 60rem; /* 35 years at ≥ 27 px; the flag sizes in lanes.html assume ≈ 34 */
+  min-width: 60rem; /* 35 years at ≥ 27 px, which is what the sizes in lanes.html assume */
   row-gap: 0.55rem;
 }
 .lanes__axis, .lanes__row {
