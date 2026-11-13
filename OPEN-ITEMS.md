@@ -56,7 +56,8 @@ wait for Evgenii and Iliya.
   still looks factory" ("the interior is transformed with the best and most
   current materials … while keeping the car's overall design") does not fit
   its heading — new heading or keep? "A new model takes up to a year" is also
-  said on the home page and the range page — remove there too? A VLE
+  said on the home page and the range page — removed there too (Kosta, 13 Nov:
+  no development times on the site for now). A VLE
   visualisation (Iliya asks Evgenii) — material needed.
 - **VLE timing — answered 13 Nov:** in design since 2026, physically ready in
   2027. VLE Lite: in design, most likely physically ready in 2027 as well.

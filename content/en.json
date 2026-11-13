@@ -347,7 +347,7 @@
         {
           "type": "cta",
           "title": "Which car do you need it for?",
-          "text": "Nine models are documented in the portfolio, and a new one takes up to a year to develop.",
+          "text": "Nine models are documented in the portfolio.",
           "actions": [
             {
               "label": "See the projects",
@@ -1757,7 +1757,7 @@
             "Price is a function of annual volume. It is agreed with the partner in advance, improves at higher volumes and is reviewed at lower ones, so a published list price would be misleading in both directions.",
             "Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.",
             "Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.",
-            "For a model that does not exist yet, development from scratch takes up to a year depending on the complexity of the vehicle. A cost-sharing model is possible, under which the partner receives priority by market or by model.",
+            "For a vehicle that has no partition yet, a cost-sharing arrangement is possible, under which the partner receives priority by market or by model.",
             "Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan."
           ]
         },
