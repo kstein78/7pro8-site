@@ -24,9 +24,10 @@ SITE = ROOT / "static" / "img"
 
 # destination -> (library file, why this one)
 PICKS = {
-    # The hero carried a 1500 px crop into a full-bleed slot. This is the same
-    # subject — a V-Class rear zone with the partition — shot properly.
-    "home/hero-v-class-partition.jpg": (
+    # The hero carried a 1500 px deck crop of a V-Class into a full-bleed slot.
+    # This library frame replaced it. It is NOT a V-Class: Iliya, 13 Nov 2026 —
+    # a Mercedes-Maybach S-Class X222, the monitors are the factory ones.
+    "home/hero-maybach-x222-partition.jpg": (
         "010__5.webp", "partition with twin monitors seen from the rear cabin, 2500 px"),
 
     # company/workshop.jpg and manufacturing/v-class-assembly.jpg were tried

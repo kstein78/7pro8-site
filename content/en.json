@@ -66,9 +66,9 @@
             }
           ],
           "image": {
-            "src": "home/hero-v-class-partition.jpg",
-            "alt": "Interior partition seen from the rear compartment",
-            "caption": "A 7pro8 partition: monitors, console and ambient lighting",
+            "src": "home/hero-maybach-x222-partition.jpg",
+            "alt": "Interior partition in a Mercedes-Maybach S-Class X222, seen from the rear compartment",
+            "caption": "Mercedes-Maybach S-Class X222 — a 7pro8 partition with the factory monitors",
             "toggle_on": "Glass opaque",
             "toggle_off": "Glass clear"
           },
@@ -629,7 +629,7 @@
           "type": "note",
           "title": "The complete record",
           "body": [
-            "Every project since 2008, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project."
+            "Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project."
           ],
           "action": {
             "label": "Full project history",
@@ -1390,7 +1390,7 @@
       "slug": "range",
       "title": "Availability",
       "title_tag": "What 7pro8 can supply today — model programme and project history",
-      "description": "Models in series production, models ready to launch and models in development, with our complete project history from 2008 onwards.",
+      "description": "Models in series production, models ready to launch and models in development, with our complete project history from 2007 onwards.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1427,7 +1427,7 @@
               "status": "In development",
               "text": "The electric Mercedes-Benz VLE replaces the V-Class and the EQV — the vehicle our core series product is built on.",
               "items": [
-                "Mercedes-Benz VLE — two full-size partition lines, from 2026",
+                "Mercedes-Benz VLE — two full-size partition lines, in design since 2026, ready in 2027",
                 "Mercedes-Benz VLE Lite — lightweight version, from 2027"
               ]
             }
@@ -1447,14 +1447,14 @@
               "label": "Projects taken through to series tooling"
             },
             {
-              "value": "460",
-              "label": "Kits produced in total since 2008"
+              "value": "450+",
+              "label": "Kits produced since 2007"
             }
           ]
         },
         {
           "type": "table",
-          "title": "Every project since 2008",
+          "title": "Every project since 2007",
           "lead": "The 2008–2010 projects were one-off works without series preparation. From the Rolls-Royce Phantom EWB in 2011 onwards, every project was executed with tooling and the capability for series production.",
           "head": [
             "Vehicle",
@@ -1473,7 +1473,7 @@
               "One-off work"
             ],
             [
-              "ZiL-4107",
+              "ZiL-41047",
               "2008",
               "1",
               "One-off work"
@@ -1585,8 +1585,8 @@
     {
       "slug": "vle",
       "title": "Mercedes-Benz VLE",
-      "title_tag": "Mercedes-Benz VLE partition — in development for 2026",
-      "description": "We are developing two full-size partition lines for the electric Mercedes-Benz VLE, in series production at Vitoria since June 2026, plus a lightweight version from 2027. Partner slots are open.",
+      "title_tag": "Mercedes-Benz VLE partition — in development, ready in 2027",
+      "description": "We are developing two full-size partition lines and a lightweight version for the electric Mercedes-Benz VLE, in series production at Vitoria since June 2026. Design work began in 2026; the first partitions will be ready in 2027. Partner slots are open.",
       "blocks": [
         {
           "type": "pagehead",
@@ -1597,7 +1597,7 @@
           "meta": [
             {
               "label": "Full-size lines",
-              "value": "Two, from 2026"
+              "value": "Two, ready in 2027"
             },
             {
               "label": "Lightweight version",
@@ -1618,7 +1618,7 @@
           "title": "Why the timing is the whole point",
           "body": [
             "Conversion products usually arrive two or three years after the car does, because development only starts once the vehicle is on the market and someone has bought one to measure.",
-            "We have been building partitions for the V-Class, the VLE's predecessor, since 2015 across two independent series lines, so this class of vehicle is not new to us. A partner joining now receives the product at the same time as the car reaches the market."
+            "We have been building partitions for the V-Class, the VLE's predecessor, since 2015 across two independent series lines, so this class of vehicle is not new to us. A partner joining now takes part from the design stage and is among the first to receive the product in 2027."
           ],
           "image": {
             "src": "vle/cad-development.jpg",

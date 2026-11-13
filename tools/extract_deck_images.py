@@ -43,7 +43,9 @@ RENDER_W = 1456
 # its BEFORE/AFTER badge in the top-left corner.
 CROPS = [
     # home page
-    ("home/hero-v-class-partition.jpg", 10, (77, 452, 798, 738), (3, 2)),
+    # Superseded: the hero is a library frame of a Maybach X222 (library_picks.py).
+    # This crop is the V-Class line 1 "after" picture and only a fallback.
+    ("home/hero-maybach-x222-partition.jpg", 10, (77, 452, 798, 738), (3, 2)),
     ("home/tooling-mould.jpg", 3, (962, 194, 1380, 388), (3, 2)),
     ("home/vle-development.jpg", 3, (518, 194, 936, 388), (3, 2)),
     ("share/7pro8-share.jpg", 10, (77, 452, 798, 738), (1200, 630)),

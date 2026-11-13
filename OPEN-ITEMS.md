@@ -14,20 +14,23 @@ X222 interior instead of the assembly frame that is also on the production
 page (`company/workshop.jpg` is no longer used by any page). Items 4–6 below
 wait for Evgenii and Iliya.
 
-- **Hero photograph: which car is it?** Kosta, 13 Nov: until the founders say,
-  the caption names neither the model nor the monitor size ("A 7pro8
-  partition: monitors, console and ambient lighting"). The old site lists a
-  Maybach GLS as "ready for production"; the file is still called
-  `home/hero-v-class-partition.jpg`.
-- **Numbers that do not agree with each other:** 450+ kits against 460 in the
-  history table; "since 2007" against the table titled "All projects since
-  2008"; 20+ partition models, 14 vehicle models, nine documented, eight with
-  tooling; "4 premium marques" next to five names.
+- **Hero photograph — answered by Iliya, 13 Nov:** a Mercedes-Maybach S-Class
+  X222, the monitors are the factory ones. Caption, alt text and file name
+  (`home/hero-maybach-x222-partition.jpg`) say so.
+- **Numbers — decided 13 Nov:** the headline is "450+" everywhere (the range
+  page no longer says 460 in its figures; the table keeps 460 because that is
+  what its rows add up to) and the history starts in 2007, the year of the
+  first partition. Left as it is: the first table row, S-Class V221 Long, is
+  dated 2008, while the founders' chronology dates the first partition, on a
+  W221, to 2007 — the same car or two? Still unanswered: "4 premium marques"
+  beside five names (Mercedes-Benz and Mercedes-Maybach counted as one?);
+  20+ partition models against 14 vehicle models, eight with tooling.
+- **ZiL — decided 13 Nov:** ZiL-41047 everywhere.
 - **70,000 €** of development cost is named on the production page and the
-  Range Rover page. Fine if the founders want it public.
-- **VLE timing.** "Two full-size lines from 2026" and "at the same time as the
-  car reaches the market": the VLE has been in series production since
-  12 June 2026. Still true, or "from 2027"?
+  Range Rover page. Waiting for Evgenii.
+- **VLE timing — answered 13 Nov:** in design since 2026, physically ready in
+  2027. The site says so. Not asked yet: is "VLE Lite, from 2027" still right
+  if the full-size partition itself arrives in 2027?
 - **The partner presentation** carried the same two foreign photographs
   (Range Rover slide), the line 2 panels on the line 1 slide and line 1's
   previous version on the line 2 slide. Corrected in all four language PDFs

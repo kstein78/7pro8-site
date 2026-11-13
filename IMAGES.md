@@ -113,7 +113,7 @@ Two places to pull from:
 
 | Path | What it should show | Suggested source |
 |---|---|---|
-| `home/hero-v-class-partition.jpg` | The strongest single photograph you own: a finished V-Class rear zone with the partition, monitor and ambient lighting. This is the first thing anyone sees. | Deck, V-Class line 1 slide, "after" image |
+| `home/hero-maybach-x222-partition.jpg` | The first thing anyone sees: the rear zone of a Mercedes-Maybach S-Class X222 with the partition; the monitors are the factory ones (Iliya, 13 Nov 2026). | Old site's library, `010__5.webp` |
 | `home/tooling-mould.jpg` | The production mould for a surface panel — the object that makes the argument about repeatability. | Deck, capabilities slide |
 | `home/vle-development.jpg` | CAD model or development render. | Deck, product range slide |
 | `share/7pro8-share.jpg` | 1200 × 630 crop of the hero image. | derived |
