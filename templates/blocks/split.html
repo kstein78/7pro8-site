@@ -15,6 +15,13 @@
       <img src="{{ img(block.image.src, block.image.alt) }}" alt="{{ block.image.alt }}" loading="lazy" width="1200" height="800">
       {% if block.image.caption %}<figcaption>{{ block.image.caption }}</figcaption>{% endif %}
     </figure>
+    {% elif block.figure %}
+    <figure class="split__figure split__figure--set">
+      <div class="split__images">
+        {% for im in block.figure.images %}<img src="{{ img(im.src, im.alt) }}" alt="{{ im.alt }}" loading="lazy" width="1200" height="900">{% endfor %}
+      </div>
+      {% if block.figure.caption %}<figcaption>{{ block.figure.caption }}</figcaption>{% endif %}
+    </figure>
     {% endif %}
   </div>
 </section>

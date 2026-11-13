@@ -40,8 +40,24 @@ wait for Evgenii and Iliya.
   repository for now.
 - **Partner presentation:** new versions will be made later (Kosta, 13 Nov);
   its "ZiL-4107" and "Novi Sad" footer are not to be patched in the PDFs.
-- **70,000 €** of development cost is named on the production page and the
-  Range Rover page. Waiting for Evgenii.
+- **70,000 € — decided 13 Nov:** not on the site (Alexey, Iliya). Removed from
+  the production page and the Range Rover page.
+- **Comments of Alexey and Iliya, 13 Nov evening — done:** Maybach has no
+  tables in the partition (they are in the factory console), curved
+  electrochromic glass instead; "plastics" -> "surface panels"; acoustic
+  separation reworded by Kosta; "разъездная" reworded; "Our answer is not a
+  promise…" gone; no removal times anywhere; "complements factory
+  engineering", nothing about taking it off; no kit counts on the two classes;
+  the timing block is "for a project in series production"; the capabilities
+  page lost "A new model takes up to a year"; V-Class line 1 and line 2
+  equipment lists completed; two captions; production technologies; the CAD
+  figure shows the surfaces next to the mechanism.
+- **Still open from the same comments:** Alexey's text for "The interior
+  still looks factory" ("the interior is transformed with the best and most
+  current materials … while keeping the car's overall design") does not fit
+  its heading — new heading or keep? "A new model takes up to a year" is also
+  said on the home page and the range page — remove there too? A VLE
+  visualisation (Iliya asks Evgenii) — material needed.
 - **VLE timing — answered 13 Nov:** in design since 2026, physically ready in
   2027. VLE Lite: in design, most likely physically ready in 2027 as well.
   The site says so.

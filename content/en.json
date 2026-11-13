@@ -116,7 +116,7 @@
           "lead": "The difference is not in the partition but in how much of the interior has to come apart to fit it. That decides which kind of partner can install the product.",
           "items": [
             {
-              "title": "Simple — 3 to 4 kits a year",
+              "title": "Simple",
               "text": "Fitted without a wholesale rebuild of the interior. The partition carries a glass raise-and-lower mechanism, sometimes fixed glass, and optionally electric curtains. Factory monitors and factory multimedia are used. The work is within reach of a dealer workshop: we installed the Rolls-Royce partitions on the official dealer's premises, using the dealer's own technicians.",
               "list": [
                 "Mercedes-Maybach S-Class (X222)",
@@ -126,7 +126,7 @@
               ]
             },
             {
-              "title": "Complex — 30 to 40 kits a year",
+              "title": "Complex",
               "text": "These require a rebuild of the interior. At minimum a new rear bench with a console goes in; usually the whole rear is rebuilt — headliner, side panels, multimedia, lighting. We supply a partition ready for installation, and the partner needs to be a company capable of serious vehicle conversion.",
               "list": [
                 "Mercedes-Benz V-Class / Metris",
@@ -140,7 +140,7 @@
         {
           "type": "metrics",
           "tone": "dark",
-          "title": "What the timing looks like from the partner's side",
+          "title": "What the timing looks like from the partner's side for a project in series production",
           "items": [
             {
               "value": "4 months",
@@ -152,7 +152,7 @@
             },
             {
               "value": "1–3 days",
-              "label": "Installation of a simple partition by qualified technicians. Removal takes the same"
+              "label": "Installation of a simple partition by qualified technicians"
             }
           ]
         },
@@ -269,7 +269,7 @@
             },
             {
               "title": "Acoustic separation",
-              "text": "A physical partition with the glass raised separates the rear from the front. Calls and business conversations in the rear are protected from being overheard by the driver and security. Confidentiality comes from the construction, not from trust."
+              "text": "A physical partition with the glass raised separates the rear from the front. The partition greatly reduces how much of a conversation the driver and security can hear. Confidentiality comes from the construction, not from trust."
             },
             {
               "title": "A rear that works as an office",
@@ -294,8 +294,7 @@
           "tone": "paper",
           "title": "The objection every owner raises",
           "body": [
-            "Premium car owners do not ask whether the partition looks good. They ask whether the conversion will spoil the car — its safety systems, its diagnostics, its residual value.",
-            "Our answer is not a promise about the quality of the installer's work. It is six decisions built into the product itself, which hold whoever fits it."
+            "Premium car owners do not ask whether the partition looks good. They ask whether the conversion will spoil the car — its safety systems, its diagnostics, its residual value."
           ],
           "image": {
             "src": "product/maybach-x222-interior.jpg",
@@ -330,7 +329,7 @@
             },
             {
               "title": "Reversibility",
-              "text": "Removal takes one to three days and the car returns to factory configuration. This protects residual value and removes the question at resale or lease return."
+              "text": "When needed, the car returns to factory configuration. This protects residual value and removes the question at resale or lease return."
             }
           ]
         },
@@ -338,7 +337,7 @@
           "type": "note",
           "title": "In short",
           "body": [
-            "The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it sits on top of it, and can be taken off again."
+            "The car keeps everything the owner paid the manufacturer for, and gains a function the manufacturer does not offer. The conversion does not compete with factory engineering — it complements it."
           ],
           "action": {
             "label": "How the kit is engineered",
@@ -398,7 +397,7 @@
             },
             {
               "title": "Production",
-              "text": "The kit ships assembled and checked. What is left for the partner is trimming, fitting and connection.",
+              "text": "The kit ships assembled and checked. What is left for the partner is trimming, fitting and connection. We make active use of current technology: laser scanning, additive manufacturing, CAD/CAM systems on licensed software, vacuum and infusion moulding of parts. We keep looking for ways to raise the technological level of production.",
               "list": [
                 "Mould fabrication",
                 "Forming of the surface panels",
@@ -420,26 +419,19 @@
             "label": "How work with a partner is structured",
             "href": "/partners/"
           },
-          "image": {
-            "src": "capabilities/cad-model.jpg",
-            "alt": "CAD model of a partition with the glass lift mechanism",
-            "caption": "Surface and mechanism engineering — the CAD model the tooling is built from"
+          "figure": {
+            "images": [
+              {
+                "src": "capabilities/cad-model.jpg",
+                "alt": "CAD model of a partition with the glass lift mechanism"
+              },
+              {
+                "src": "vle/cad-development.jpg",
+                "alt": "CAD model of the partition's surfaces"
+              }
+            ],
+            "caption": "Surface and mechanism engineering — the CAD models the tooling is built from"
           }
-        },
-        {
-          "type": "cta",
-          "title": "A new model takes up to a year",
-          "text": "Development from scratch runs up to twelve months depending on the complexity of the vehicle, and a cost-sharing model is possible in which the partner gains priority by market or by model.",
-          "actions": [
-            {
-              "label": "Discuss a new project",
-              "href": "/partners/#enquiry"
-            },
-            {
-              "label": "How we manufacture",
-              "href": "/manufacturing/"
-            }
-          ]
         }
       ]
     },
@@ -457,7 +449,7 @@
         {
           "type": "split",
           "body": [
-            "We invest from €70,000 and up to a year of work to obtain the tooling for a model. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.",
+            "Before a model goes into series production, we build the tooling for it. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.",
             "For a partner that means two things that show up directly in the workshop's costing: installation time can be planned, and there is no rework."
           ],
           "image": {
@@ -680,10 +672,13 @@
           ],
           "spec_title": "Equipment",
           "spec": [
-            "Two electrically operated folding seats",
-            "Central folding box, electrically operated",
+            "Two electrically operated fold-out seats with document pockets",
+            "Central sliding drawer, electrically operated",
             "Electrochromic glass with electric raise-and-lower mechanism",
-            "Samsung 43-inch television with electric lift"
+            "Samsung 43-inch television with electric lift",
+            "Ambient lighting",
+            "Clock",
+            "Umbrella holders"
           ]
         },
         {
@@ -698,7 +693,7 @@
             {
               "src": "portfolio/v-class-line-1/03.jpg",
               "alt": "Partition installed in the car",
-              "caption": "Installed: 43-inch monitor with electric lift, console, ambient lighting"
+              "caption": "The partition in the car"
             },
             {
               "src": "portfolio/v-class-line-1/04.jpg",
@@ -770,7 +765,11 @@
             "Central sliding boxes, electrically operated",
             "Electrochromic or plain glass with electric raise-and-lower mechanism",
             "Samsung 43-inch television with electric lift",
-            "Drive mechanism for electric curtains"
+            "Drive mechanism for electric curtains",
+            "Audio preparation (speakers)",
+            "Umbrella holder",
+            "Clock",
+            "Ambient lighting"
           ]
         },
         {
@@ -784,8 +783,8 @@
             },
             {
               "src": "portfolio/v-class-line-2/02.jpg",
-              "alt": "Partition seen from the front with monitor and console",
-              "caption": "Partition from the front: monitor, console"
+              "alt": "The partition in the car with the seats folded out",
+              "caption": "The partition in the car with the seats folded out"
             },
             {
               "src": "portfolio/v-class-line-2/03.jpg",
@@ -905,7 +904,7 @@
         {
           "type": "pagehead",
           "title": "Mercedes-Maybach S-Class (X222)",
-          "lead": "A joint production project: the partner produces the plastics, we produce the metal frame with the mechanism.",
+          "lead": "A joint production project: the partner produces the surface panels, we produce the metal frame with the mechanism.",
           "meta": [
             {
               "label": "In production since",
@@ -939,7 +938,7 @@
           "spec_title": "What the partition delivers",
           "spec": [
             "Rear privacy in a car where the factory does not offer it",
-            "Folding work tables in the body of the partition",
+            "Curved electrochromic glass — more legroom for the rear passengers",
             "Factory multimedia and factory trim preserved"
           ]
         },
@@ -1018,7 +1017,7 @@
           "type": "spec",
           "title": "Development is already paid for",
           "body": [
-            "Around €70,000 has been invested in developing the new-generation partition. A partner taking this model receives a finished product with no R&D investment of its own and no waiting for tooling.",
+            "Development of the new-generation partition is complete. A partner taking this model receives a finished product with no R&D investment of its own and no waiting for tooling.",
             "On the previous generation the project ran as joint production: our development and tooling, the partner making the decorative panels, us making the frame and mechanisms."
           ],
           "spec_title": "Equipment",
@@ -1727,7 +1726,7 @@
             },
             {
               "value": "1–3 days",
-              "label": "Installation of a simple partition by qualified technicians; removal takes the same"
+              "label": "Installation of a simple partition by qualified technicians"
             }
           ]
         },

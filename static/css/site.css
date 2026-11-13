@@ -482,6 +482,9 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 .split--flip .split__text { order: 2; }
 .split__figure { margin: 0; }
 .split__figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+/* two pictures under one caption: e.g. mechanism and surfaces of one CAD model */
+.split__images { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.split__images img { object-fit: contain; background: #f4f5f8; }
 .split__figure figcaption, .gallery figcaption {
   font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--ivory-faint); padding-top: 1rem; line-height: 1.7;
