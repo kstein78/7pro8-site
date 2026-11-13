@@ -5,14 +5,18 @@
 (function(){var d=document.documentElement,m=/[?&]type=(classic|legible)\b/.exec(location.search),v=null;try{if(m)sessionStorage.setItem("type",m[1]);v=sessionStorage.getItem("type");}catch(e){v=m&&m[1];}if(v)d.className=d.className.replace(/\btype-\w+/,"type-"+v);})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title_tag or page.title }}{% if page.slug %} — {{ site.name }}{% endif %}</title>
-<meta name="description" content="{{ page.description }}">
+{% set _t = page.title_tag or page.title %}
+<title>{{ _t }}{% if page.slug and site.name not in _t %} — {{ site.name }}{% endif %}</title>
+<meta name="description" content="{{ page.description|snippet }}">
 {% if preview %}<meta name="robots" content="noindex, nofollow">{% endif %}
 <link rel="canonical" href="{{ site.base_url.rstrip('/') }}{{ page.url }}">
 {% for alt in alternates %}
 {% if alt.available %}
 <link rel="alternate" hreflang="{{ alt.hreflang }}" href="{{ site.base_url.rstrip('/') }}{{ alt.url }}">
 {% endif %}
+{% endfor %}
+{% for alt in alternates if alt.code == site.default_language %}
+<link rel="alternate" hreflang="x-default" href="{{ site.base_url.rstrip('/') }}{{ alt.url }}">
 {% endfor %}
 
 <meta property="og:type" content="website">
@@ -22,6 +26,11 @@
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:url" content="{{ site.base_url.rstrip('/') }}{{ page.url }}">
 <meta property="og:image" content="{{ site.base_url.rstrip('/') }}{{ img(page.share_image or site.share_image, page.title) }}">
+{% if not page.share_image %}
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="787">
+{% endif %}
+<meta property="og:image:alt" content="{{ page.title }}">
 <meta name="twitter:card" content="summary_large_image">
 
 {% include "theme-head.html" %}
@@ -35,6 +44,7 @@
   "name": {{ site.legal_name|tojson }},
   "alternateName": {{ site.name|tojson }},
   "url": {{ site.base_url|tojson }},
+  "logo": {{ (site.base_url.rstrip("/") + "/static/img/favicon.svg")|tojson }},
   {# The Serbian entity was registered in 2023; 2007 is when the first
      partition was built, which is a claim about the work, not about this
      legal person. Structured data must carry the registry date. #}

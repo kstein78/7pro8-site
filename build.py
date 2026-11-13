@@ -127,6 +127,26 @@ def content_for(lang):
 
 
 
+def snippet(text: str, limit: int = 160) -> str:
+    """Search results show about 155-160 characters of a description. Whole
+    sentences are kept up to that length; if that leaves too little, the text
+    is cut at a word and marked. A first sentence longer than the limit is
+    kept whole."""
+    text = " ".join((text or "").split())
+    if len(text) <= limit:
+        return text
+    parts = re.split(r"(?<=[.!?])\s+", text)
+    out = parts[0]
+    for part in parts[1:]:
+        if len(out) + 1 + len(part) > limit:
+            break
+        out += " " + part
+    if len(out) < 100:                      # one short sentence: add words
+        cut = text[:limit - 1]
+        out = cut[:cut.rindex(" ")].rstrip(" ,;:—–-") + "…"
+    return out
+
+
 _HEADING = re.compile(r"(<(h[1-3])\b[^>]*>)(.*?)(</\2>)", re.S)
 _HYPHENATED = re.compile(r"(?<![\w&-])(\w+(?:-\w+)+)(?![\w-])")
 
@@ -160,6 +180,7 @@ def build():
         lstrip_blocks=True,
     )
     env.globals["img"] = resolve_image
+    env.filters["snippet"] = snippet
     env.globals["build_year"] = date.today().year
     env.globals["preview"] = PREVIEW
 
@@ -238,20 +259,29 @@ def build():
             (out_dir / "index.html").write_text(keep_hyphenated(rendered), encoding="utf-8")
 
             if not page.get("noindex"):
-                all_urls.append(
-                    (site["base_url"].rstrip("/") + page["url"], page.get("changed", ""))
-                )
+                base = site["base_url"].rstrip("/")
+                all_urls.append((
+                    base + page["url"],
+                    page.get("changed", ""),
+                    [(a["hreflang"], base + a["url"]) for a in alternates if a["available"]]
+                    + [("x-default", base + a["url"]) for a in alternates
+                       if a["code"] == default_lang and a["available"]],
+                ))
 
         print(f"  {lang}: {len(pages)} pages")
 
     # sitemap + robots
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
-               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for url, changed in all_urls:
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
+               ' xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    built = date.today().isoformat()
+    for url, changed, langs_of in all_urls:
         sitemap.append("  <url>")
         sitemap.append(f"    <loc>{html.escape(url)}</loc>")
-        if changed:
-            sitemap.append(f"    <lastmod>{changed}</lastmod>")
+        sitemap.append(f"    <lastmod>{changed or built}</lastmod>")
+        for code, href in langs_of:
+            sitemap.append(
+                f'    <xhtml:link rel="alternate" hreflang="{code}" href="{html.escape(href)}"/>')
         sitemap.append("  </url>")
     sitemap.append("</urlset>")
     (DIST / "sitemap.xml").write_text("\n".join(sitemap) + "\n", encoding="utf-8")
