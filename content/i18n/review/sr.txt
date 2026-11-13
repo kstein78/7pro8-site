@@ -1981,17 +1981,17 @@ SR  Zajednički projekat studija SV-ART i CARDI: CARDI je radio dizajn i karoser
 EN  Lincoln Reincarnation exterior
 SR  Lincoln Reincarnation spolja
 
-EN  The car from the rear, lights on
-SR  Vozilo pozadi, sa upaljenim svetlima
-
-EN  Rear lighting
-SR  Zadnja svetla
-
-EN  Wheel arch lighting
-SR  Osvetljenje blatobrana
+EN  The car from the front, headlights on
+SR  Vozilo spreda, sa upaljenim farovima
 
 EN  Lighting
 SR  Osvetljenje
+
+EN  Rear lights at night
+SR  Zadnja svetla noću
+
+EN  Rear lighting
+SR  Zadnja svetla
 
 EN  Interior of the car
 SR  Enterijer vozila

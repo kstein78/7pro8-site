@@ -1981,17 +1981,17 @@ DE  Ein gemeinsames Projekt von SV-ART und CARDI: CARDI übernahm Design und Kar
 EN  Lincoln Reincarnation exterior
 DE  Lincoln Reincarnation von außen
 
-EN  The car from the rear, lights on
-DE  Das Fahrzeug von hinten, mit Licht
-
-EN  Rear lighting
-DE  Heckbeleuchtung
-
-EN  Wheel arch lighting
-DE  Beleuchtung der Radhäuser
+EN  The car from the front, headlights on
+DE  Das Fahrzeug von vorn, Scheinwerfer an
 
 EN  Lighting
 DE  Beleuchtung
+
+EN  Rear lights at night
+DE  Rückleuchten bei Nacht
+
+EN  Rear lighting
+DE  Heckbeleuchtung
 
 EN  Interior of the car
 DE  Interieur des Fahrzeugs
