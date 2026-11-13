@@ -15,6 +15,7 @@ import argparse
 import html
 import json
 import os
+import re
 import shutil
 import sys
 from datetime import date
@@ -125,6 +126,25 @@ def content_for(lang):
     return data
 
 
+
+_HEADING = re.compile(r"(<(h[1-3])\b[^>]*>)(.*?)(</\2>)", re.S)
+_HYPHENATED = re.compile(r"(?<![\w&-])(\w+(?:-\w+)+)(?![\w-])")
+
+
+def keep_hyphenated(page: str) -> str:
+    """Headings are narrow and balanced, and the browser is free to break at
+    a hyphen: "Mercedes-/Benz Sprinter", "S-/Class V222". Short hyphenated
+    words in h1-h3 are kept on one line."""
+    def heading(m):
+        inner = m.group(3)
+        if "<" in inner:            # nested markup: leave alone
+            return m.group(0)
+        inner = _HYPHENATED.sub(
+            lambda w: f'<span class="nb">{w.group(1)}</span>' if len(w.group(1)) <= 16 else w.group(1),
+            inner)
+        return m.group(1) + inner + m.group(4)
+    return _HEADING.sub(heading, page)
+
 def build():
     MISSING_IMAGES.clear()
     UNTRANSLATED.clear()
@@ -215,7 +235,7 @@ def build():
 
             out_dir = DIST / page["url"].strip("/")
             out_dir.mkdir(parents=True, exist_ok=True)
-            (out_dir / "index.html").write_text(rendered, encoding="utf-8")
+            (out_dir / "index.html").write_text(keep_hyphenated(rendered), encoding="utf-8")
 
             if not page.get("noindex"):
                 all_urls.append(

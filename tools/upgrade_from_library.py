@@ -31,7 +31,15 @@ ROOT = pathlib.Path(__file__).parent.parent
 SITE = ROOT / "static" / "img"
 
 # founder/* comes from the project archives and scans, not from the web library
-SKIP_PREFIXES = ("founder/",)
+SKIP_PREFIXES = (
+    "founder/",
+    # corrected by hand, 13 Nov 2026 — a re-cut would undo it:
+    # 01 was matched to the same library frame as 02 (glass opaque); it is the
+    # monitor-raised frame, cut from the cover. The mould had a strip of the
+    # neighbouring slide picture along its bottom edge.
+    "portfolio/s-class-v222/01.jpg",
+    "manufacturing/mould-panel-forming.jpg",
+)
 
 
 def gray(path, width=None):

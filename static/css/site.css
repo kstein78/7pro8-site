@@ -292,6 +292,10 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 /* -------------------------------------------------------------------- hero */
 
 .hero { position: relative; }
+/* the figures under the photograph are the last thing in the hero: without
+   this their second line sat on the edge of the next section */
+.hero > .shell { padding-bottom: clamp(2.5rem, 5vw, 4rem); }
+.nb { white-space: nowrap; }
 /* Photograph, veil and text share one grid cell, so the frame is as tall as
    the photograph or the text, whichever needs more. A three-line Russian
    headline on a short laptop screen no longer climbs into the caption and
@@ -512,6 +516,7 @@ p { margin: 0 0 1.25rem; max-width: 64ch; }
 /* ----------------------------------------------------------------- metrics */
 
 .metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); margin: 0; }
+.h2 + .metrics { margin-top: clamp(2rem, 3.5vw, 3rem); }
 .metrics__item { margin: 0; }
 .metrics__value {
   font-family: var(--display);
