@@ -28,10 +28,13 @@ wait for Evgenii and Iliya.
 - **VLE timing.** "Two full-size lines from 2026" and "at the same time as the
   car reaches the market": the VLE has been in series production since
   12 June 2026. Still true, or "from 2027"?
-- **The partner presentation carries the same two foreign photographs**
-  (Range Rover slide: "rear zone with partition", "version with factory
-  monitors") and the line 2 panels on the line 1 slide — in all four language
-  versions. The site is corrected; the PDFs are not.
+- **The partner presentation** carried the same two foreign photographs
+  (Range Rover slide), the line 2 panels on the line 1 slide and line 1's
+  previous version on the line 2 slide. Corrected in all four language PDFs
+  on 13 Nov with `tools/fix_presentation.py` (slides 10, 11 and 13; the other
+  twenty pages are pixel-identical, the removed photographs are no longer
+  inside the files). Still in the presentation and not touched: the footer
+  "Novi Sad, Serbia" on every page.
 - **Files published but used on no page:** `founder/marine/01.jpg`,
   `founder/press/01.jpg`, `founder/zaz/01.jpg`, `founder/zaz/02.jpg`.
 
