@@ -192,3 +192,5 @@ the site's; four were upgraded at the time.
 archive photographs stay at 400–500 px because nothing better exists; they are
 flagged `tight` rather than `replace` for that reason.
 
+- **Avtoganza / Autohansa — decided 13 Nov:** "Autohansa" only in the German
+  version; English and Serbian keep "Avtoganza".
