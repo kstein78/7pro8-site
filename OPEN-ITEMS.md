@@ -4,6 +4,42 @@ Everything the site used to say about itself while it was being built now lives
 here instead. Nothing on these lines is visible to a visitor: the pages read as
 finished, and this file is the list to work through.
 
+## Audit of 13 Nov 2026 — proposed, not changed
+
+Found while going through every page before launch. Each needs a yes or a fact
+from the founders; nothing here was changed on the site.
+
+- **Hero photograph and its caption.** The caption says "Mercedes-Benz V-Class —
+  partition with a 43″ monitor"; the photograph (from the old site's library)
+  shows small twin monitors and a different interior — the old site lists a
+  Maybach GLS as "ready for production". Which car is it? Until then the
+  caption could simply drop the model and the 43″.
+- **"Deliveries run to the EU, the UK, the UAE, the US and the Middle East"**
+  (company page). Reads as shipments already going there, and the UAE is
+  counted twice. Proposed: "We are looking for partners in …".
+- **The photograph under "A company in Serbia"** (`company/workshop.jpg`) is
+  the same frame as `manufacturing/v-class-assembly.jpg`. Proposed: a neutral
+  product photograph there, the assembly frame stays on the production page.
+- **Numbers that do not agree with each other:** 450+ kits against 460 in the
+  history table; "since 2007" against the table titled "All projects since
+  2008"; 20+ partition models, 14 vehicle models, nine documented, eight with
+  tooling; "4 premium marques" next to five names.
+- **70,000 €** of development cost is named on the production page and the
+  Range Rover page. Fine if the founders want it public.
+- **VLE timing.** "Two full-size lines from 2026" and "at the same time as the
+  car reaches the market": the VLE has been in series production since
+  12 June 2026. Still true, or "from 2027"?
+- **The partner presentation carries the same two foreign photographs**
+  (Range Rover slide: "rear zone with partition", "version with factory
+  monitors") and the line 2 panels on the line 1 slide — in all four language
+  versions. The site is corrected; the PDFs are not.
+- **Files published but used on no page:** `founder/marine/01.jpg`,
+  `founder/press/01.jpg`, `founder/zaz/01.jpg`, `founder/zaz/02.jpg`.
+
+Answered by the old site itself: "V222 Long" is its own project page,
+"Mercedes-Benz V222 Long ArmorTech"; the line names there are "V-class A1"
+(line 2) and "V-class Busmanufacture" (line 1).
+
 ## Before launch — not the founders' to answer
 
 - **Form backend.** `form_endpoint` in `content/site.json` is still a
@@ -14,7 +50,9 @@ finished, and this file is the list to work through.
   posts directly.
 - **The email address.** Every page shows `7pro8design@gmail.com`. For a
   partner weighing a €25,000 order, an address at `@7pro8.com` is worth more
-  than any design change — and it needs the domain moved off Squarespace first.
+  than any design change. It does not wait for the site: the domain's MX
+  records already point at Google; what is missing is the mailboxes and
+  SPF/DKIM/DMARC. Steps in DEPLOY.md, "Mail on @7pro8.com".
 - **One headline kit count.** The hero and the company page say 450+; the
   history table on the availability page adds up to 460. Both come from the
   deck. Either the hero becomes 460, or the table gets a line saying where the
@@ -69,22 +107,11 @@ the repository is public.
 
 ## Facts to confirm
 
-- **AZLK, 1997–98.** On Evgenii's card as he asked, and now on the timeline as a
-  second line under Cardi. Worth confirming the job title.
-- **Avtoganza, Evgenii's years.** Evgenii says the two of them worked together
-  in Avtoganza's tuning department, engineering and production, and that he was
-  there a little longer than Iliya — "you can ignore that". The timeline gives
-  him Iliya's 2005–2007, drawn on a second line under Cardi because the page also
-  says he stayed at Cardi until 2007. If Cardi actually ended when Avtoganza
-  began, his Cardi bar should stop there and Avtoganza move up onto the first line.
-- **The group and CarFashion are one thing** (Evgenii). Both founders' work books
-  sat at CarFashion while they worked independently as their own group, so the
-  timeline now calls Iliya's 2009–2015 the engineering and production group,
-  "formally on the staff of CarFashion", same as Evgenii's. Evgenii's bar starts
-  in 2008 and Iliya's in 2009 (his Cardi Design runs 2007–2009) — the years are
-  as each of them gave them; one of the two may want to match the other.
-- **SKB MAMI is Cardi** (Evgenii). Iliya's 2000–2001 now reads "Cardi (SKB MAMI)",
-  which also makes it the place the two met.
+- **Evgenii's years — confirmed by both founders, 11 Nov 2026.** MAMI and
+  CARDI 1992–1997 (CARDI is MAMI's design bureau), AZLK 1997–1998, CARDI
+  1998–2005, Avtoganza 2005–2007, CARDI 2007–2009, the engineering and
+  production group (formally CarFashion) 2009–2015, 7pro8 since 2015. Iliya's
+  line is as he gave it.
 - **Which former employers' work may be shown.** The chronology carries projects
   done inside SV-ART, A-Level, Avtoganza, Cardi Design and CarFashion. Some of
   those photographs may not be ours to publish.

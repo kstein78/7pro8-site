@@ -126,26 +126,75 @@ For Cloudflare Pages: connect the repository, set the build command to
 the output directory to `dist-relative`, then add an Access policy over the
 `*.pages.dev` hostname.
 
-## 4. Production, when the domain is ready
+## 4. Production: Hetzner + 7pro8.com
 
-Server preparation, the Caddy configuration and the required secrets are in
-**README.md** under "Deployment". Once the server answers and the DNS records
-point at it:
+Decided on 13 Nov 2026. Squarespace cannot serve a generated static site — it
+stays only as the registrar and the DNS panel of the domain. The Hetzner path
+is already in the repository and was tested locally (`deploy/Caddyfile` served
+the built site: pages 200, `/contact` → `/contact/`, old Squarespace addresses
+301 to their new pages, unknown address → the 404 page, apex → www).
 
-1. Add the four repository secrets: `SSH_PRIVATE_KEY`, `SSH_HOST`, `SSH_USER`,
-   `SSH_KNOWN_HOSTS`.
-2. Run **Actions → Deploy to Hetzner (production) → Run workflow**.
-3. Check `https://www.7pro8.com/robots.txt` — it must read `Allow: /`, not
-   `Disallow: /`. If it disallows, the build ran with `SITE_PREVIEW=1`.
-4. Paste the contents of `dist/_redirects.caddy` into the Caddyfile so the old
-   Squarespace addresses keep working, and reload Caddy.
+What the DNS of 7pro8.com holds today (looked up on 13 Nov 2026):
 
-To make production deploys automatic afterwards, add the `push:` trigger back to
-`.github/workflows/deploy-hetzner.yml` — the comment at the top of the file says
-where.
+| Record | Value | Meaning |
+|---|---|---|
+| NS | `ns01–04.squarespacedns.com`, `dns1–4.p01.nsone.net` | records are edited in the Squarespace domain panel |
+| A `@` | four Squarespace addresses (198.49.23.144/145, 198.185.159.144/145) | the old site |
+| CNAME `www` | `ext-sq.squarespace.com` | the old site |
+| MX | Google (`aspmx.l.google.com` + alt1–4) | mail is already pointed at Google |
+| TXT `@` | `google-site-verification=…` | the domain was verified with Google once |
+| SPF, DKIM, DMARC | none | mail from @7pro8.com would not be trusted |
 
-Keep the Squarespace subscription running until the domain has switched and you
-have downloaded the photographs from its CDN (see IMAGES.md).
+### The order of work
+
+1. **Server.** The smallest Hetzner Cloud server with Ubuntu is enough for a
+   static site. Run the block from README.md, "One-time setup on the Hetzner
+   server" (Caddy, the `deploy` user, `/srv/7pro8`, `deploy/Caddyfile`).
+2. **Repository secrets** (Settings → Secrets and variables → Actions):
+   `SSH_PRIVATE_KEY`, `SSH_HOST`, `SSH_USER`, `SSH_KNOWN_HOSTS`.
+3. **First deploy, before touching DNS.** Actions → Deploy to Hetzner
+   (production) → Run workflow. Check the result on the server itself, with the
+   domain pinned to the new address:
+   `curl -I --resolve www.7pro8.com:80:<server IP> http://www.7pro8.com/`
+4. **Switch the domain** in the Squarespace DNS panel — only these two, the
+   mail records stay as they are:
+   - A `@` → the server's IPv4 (remove the four Squarespace addresses);
+     AAAA `@` → its IPv6, if the server has one
+   - `www`: remove the CNAME, add A (and AAAA) → the same server
+   Caddy obtains the certificate on the first request after the records resolve.
+5. **Check:** `https://www.7pro8.com/robots.txt` reads `Allow: /`;
+   `https://7pro8.com/` lands on `https://www.7pro8.com/`;
+   `https://www.7pro8.com/main/range-rover-long-a1` lands on the Range Rover
+   page. The old addresses need no manual step any more: the Caddyfile imports
+   the list from the release.
+6. **Search.** Add the property in Google Search Console (the domain is
+   verifiable by the same kind of TXT record), submit
+   `https://www.7pro8.com/sitemap.xml`. Then switch the GitHub Pages preview
+   off, or leave it — it is `noindex` and cannot compete.
+7. **Afterwards:** add the `push:` trigger back to
+   `.github/workflows/deploy-hetzner.yml` so every push to `main` publishes.
+
+Keep the Squarespace *domain* registration; the Squarespace *site* subscription
+can end once the photographs are downloaded from its CDN (see IMAGES.md) and
+the new site has been live for a few days.
+
+### Mail on @7pro8.com
+
+Independent of the site: the MX records do not change in step 4.
+
+1. Find out whether a Google Workspace account for 7pro8.com already exists
+   (the MX and the verification record date from 2023). If it does, add the
+   users there; if not, sign up for Workspace with this domain.
+2. Mailboxes for Kosta, Iliya and Evgenii; `info@` as an alias (aliases are
+   free) — that is the address the site should show.
+3. DNS, in the Squarespace panel:
+   - TXT `@` → `v=spf1 include:_spf.google.com ~all`
+   - TXT `google._domainkey` → the DKIM key generated in the Google Admin
+     console (Apps → Google Workspace → Gmail → Authenticate email)
+   - TXT `_dmarc` → `v=DMARC1; p=none; rua=mailto:dmarc@7pro8.com`; after two
+     to four weeks of clean reports, `p=quarantine`
+4. In the repository: `email` in `content/site.json`, and the form endpoint
+   (OPEN-ITEMS.md).
 
 ## Local checks before pushing
 

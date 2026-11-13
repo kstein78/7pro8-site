@@ -277,7 +277,9 @@ Old Squarespace URLs worth redirecting, since they may be linked from elsewhere:
 | `/main/rolls-royce-phantom-ewb` | `/portfolio/rolls-royce-phantom-ewb/` |
 | `/contact` | `/contact/` |
 
-Add them to the Caddyfile as `redir` lines once the mapping is confirmed.
+Nothing to add by hand: `build.py` writes the list into every release as
+`_redirects.caddy` and `deploy/Caddyfile` imports it. Every old address also has
+a small redirect page, so the links survive on a host without redirect rules.
 
 ---
 
