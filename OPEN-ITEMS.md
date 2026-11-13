@@ -21,8 +21,8 @@ wait for Evgenii and Iliya.
   page no longer says 460 in its figures; the table keeps 460 because that is
   what its rows add up to) and the history starts in 2007, the year of the
   first partition. Left as it is: the first table row, S-Class V221 Long, is
-  dated 2008, while the founders' chronology dates the first partition, on a
-  W221, to 2007 — the same car or two? Still unanswered: "4 premium marques"
+  dated 2008, while the founders' chronology dates the first partition to
+  2007 — the same car (Kosta, 13 Nov), so the row now says 2007. Still unanswered: "4 premium marques"
   beside five names (Mercedes-Benz and Mercedes-Maybach counted as one?);
   20+ partition models against 14 vehicle models, eight with tooling.
 - **ZiL — decided 13 Nov:** ZiL-41047 everywhere.
@@ -34,7 +34,10 @@ wait for Evgenii and Iliya.
   with the donkey. The taxi roof sign is off the site for now; Maybach and
   Rolls-Royce taxis with roof signs are to come instead (photographs needed).
   Lincoln Reincarnation is a joint SV-ART and CARDI project: CARDI design and
-  bodywork, SV-ART interior, lighting and instrument panel.
+  bodywork, SV-ART interior, lighting and instrument panel. The sentence
+  "the project name stayed attached to the studio" is gone (two studios).
+  Unused photographs (taxi sign, marine, press, ZAZ, workshop) stay in the
+  repository for now.
 - **Partner presentation:** new versions will be made later (Kosta, 13 Nov);
   its "ZiL-4107" and "Novi Sad" footer are not to be patched in the PDFs.
 - **70,000 €** of development cost is named on the production page and the
