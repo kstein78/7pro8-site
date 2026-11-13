@@ -25,9 +25,6 @@ DE  USt-IdNr.
 EN  Contact
 DE  Kontakt
 
-EN  Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette.
-DE  Bausätze werden ohne Bezug, Endausbau und Einbau geliefert, sofern nicht anders vereinbart. Die Bezugsmaterialien stammen aus der Palette des Fahrzeugherstellers.
-
 EN  Photographs
 DE  Fotografien
 

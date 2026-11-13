@@ -25,9 +25,6 @@ SR  PIB
 EN  Contact
 SR  Kontakt
 
-EN  Kits are supplied without trimming, finishing or installation unless agreed otherwise. Trim materials are taken from the vehicle manufacturer's own palette.
-SR  Kompleti se isporučuju bez presvlačenja, završne obrade i ugradnje, osim ako nije drugačije dogovoreno. Materijali za presvlačenje uzimaju se iz palete proizvođača vozila.
-
 EN  Photographs
 SR  Fotografije
 
