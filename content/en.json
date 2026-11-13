@@ -218,7 +218,7 @@
           "title": "The next car is already in development",
           "body": [
             "The electric Mercedes-Benz VLE was unveiled on 10 March 2026 and has been in series production at the Vitoria plant in Spain since June 2026. It replaces the V-Class and the EQV — precisely the vehicle our core series product is built on.",
-            "A partner joining now receives the partition at the same time as the car reaches the market, rather than two or three years later."
+            "A partner joining now takes part from the design stage and receives the partition in 2027, not the two or three years after the car's launch that conversion products usually take."
           ],
           "action": {
             "label": "The VLE programme",
@@ -1428,7 +1428,7 @@
               "text": "The electric Mercedes-Benz VLE replaces the V-Class and the EQV — the vehicle our core series product is built on.",
               "items": [
                 "Mercedes-Benz VLE — two full-size partition lines, in design since 2026, ready in 2027",
-                "Mercedes-Benz VLE Lite — lightweight version, from 2027"
+                "Mercedes-Benz VLE Lite — lightweight version, in design, ready in 2027"
               ]
             }
           ],
@@ -1601,7 +1601,7 @@
             },
             {
               "label": "Lightweight version",
-              "value": "VLE Lite, from 2027"
+              "value": "VLE Lite, ready in 2027"
             },
             {
               "label": "Class",
@@ -2072,35 +2072,8 @@
         {
           "type": "chronicle",
           "title": "The work, newest first",
-          "lead": "Fifteen projects across thirty years, from the present back to the beginning. Under each title: whose project it was, and where we were working at the time.",
+          "lead": "Thirteen projects from 1992 to 2009 — the work 7pro8 grew out of. Under each title: whose project it was, and where we were working at the time.",
           "entries": [
-            {
-              "year": "2022",
-              "title": "Electric trike with a canopy",
-              "role": "Iliya",
-              "where": "Personal project",
-              "body": [
-                "A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly."
-              ],
-              "cols": 3,
-              "images": [
-                {
-                  "src": "founder/scooter/01.jpg",
-                  "alt": "Trike with the canopy raised, in a field",
-                  "caption": "Canopy raised"
-                },
-                {
-                  "src": "founder/scooter/02.jpg",
-                  "alt": "Trike from the side",
-                  "caption": "Layout for two"
-                },
-                {
-                  "src": "founder/scooter/03.jpg",
-                  "alt": "Trike on the road",
-                  "caption": "Frame and seating"
-                }
-              ]
-            },
             {
               "year": "2009",
               "title": "Rolls-Royce Phantom — rear compartment",
@@ -2196,38 +2169,6 @@
             },
             {
               "year": "2008",
-              "title": "Taxi roof sign",
-              "role": "Iliya and Evgenii",
-              "where": "CARDI",
-              "body": [
-                "An illuminated roof sign for taxis: design, 3D model, tooling and series production. Small in size but complete in cycle — the same route from sketch to volume that the partitions would take ten years later."
-              ],
-              "cols": 2,
-              "images": [
-                {
-                  "src": "founder/plafon/01.jpg",
-                  "alt": "Taxi with the roof sign fitted",
-                  "caption": "Fitted to the car"
-                },
-                {
-                  "src": "founder/plafon/02.jpg",
-                  "alt": "Roof sign lit at night",
-                  "caption": "Illumination"
-                },
-                {
-                  "src": "founder/plafon/03.jpg",
-                  "alt": "Roof sign in close-up",
-                  "caption": "Housing and screen"
-                },
-                {
-                  "src": "founder/plafon/04.jpg",
-                  "alt": "Rendering of the roof sign",
-                  "caption": "Project rendering"
-                }
-              ]
-            },
-            {
-              "year": "2008",
               "title": "ZiL-41047 — state limousine interior",
               "role": "Iliya and Evgenii",
               "where": "CARDI",
@@ -2255,7 +2196,7 @@
             },
             {
               "year": "2007",
-              "title": "Mercedes-Benz S-Class W221 — the first partition",
+              "title": "Mercedes-Benz S-Class V221 — the first partition",
               "role": "Iliya and Evgenii",
               "where": "Avtoganza / CARDI",
               "where_note": "the year of the move; we date our first partition from here",
@@ -2415,9 +2356,10 @@
               "year": "2001",
               "title": "Lincoln Reincarnation",
               "role": "Iliya",
-              "where": "SV-ART",
+              "where": "SV-ART · CARDI",
               "body": [
-                "The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years."
+                "The most visible project of the early period: a car with a completely rebuilt body and interior, shown at exhibitions and covered by the press. The project name stayed attached to the studio for years.",
+                "A joint project of SV-ART and CARDI: CARDI did the design and the bodywork, SV-ART the interior, the lighting, the instrument panel and the rest of the trim."
               ],
               "cols": 2,
               "images": [
@@ -2554,15 +2496,15 @@
           "footnote": "Years come from the photographs and the archives; those marked ≈ are approximate. Images from before 2007, and the pages from Evgenii's portfolio, are scans of prints."
         },
         {
-          "type": "gallery",
-          "items": [
-            {
-              "src": "founder/road/01.jpg",
-              "alt": "At the wheel, with a donkey looking in through the open window",
-              "caption": "Road test, with a local expert"
-            }
+          "type": "note",
+          "title": "Off the clock",
+          "body": [
+            "An electric scooter, a road-test expert with long ears and other things that make us smile — on a page of their own."
           ],
-          "align": "center"
+          "action": {
+            "label": "Just for fun",
+            "href": "/fun/"
+          }
         },
         {
           "type": "cta",
@@ -2576,6 +2518,74 @@
             {
               "label": "Projects",
               "href": "/portfolio/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fun",
+      "title": "Just for fun",
+      "title_tag": "Just for fun — the founders of 7pro8 off the clock",
+      "description": "An electric scooter, a road test with a local expert and other fun things from the founders of 7pro8 that have nothing to do with partitions.",
+      "blocks": [
+        {
+          "type": "pagehead",
+          "kicker": "Founders",
+          "title": "Just for fun",
+          "lead": "Everything fun that has nothing to do with partitions: personal projects, moments from the road and whatever else is too good not to show."
+        },
+        {
+          "type": "chronicle",
+          "entries": [
+            {
+              "year": "2022",
+              "title": "Electric scooter with a canopy",
+              "role": "Iliya",
+              "where": "Personal project",
+              "body": [
+                "A personal project outside cars: frame, protective canopy and seating layout for two. Built entirely by hand, from the structure to final assembly."
+              ],
+              "cols": 3,
+              "images": [
+                {
+                  "src": "founder/scooter/01.jpg",
+                  "alt": "Scooter with the canopy raised, in a field",
+                  "caption": "Canopy raised"
+                },
+                {
+                  "src": "founder/scooter/02.jpg",
+                  "alt": "Scooter from the side",
+                  "caption": "Layout for two"
+                },
+                {
+                  "src": "founder/scooter/03.jpg",
+                  "alt": "Scooter on the road",
+                  "caption": "Frame and seating"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "items": [
+            {
+              "src": "founder/road/01.jpg",
+              "alt": "At the wheel, with a donkey looking in through the open window",
+              "caption": "Road test, with a local expert"
+            }
+          ],
+          "align": "center"
+        },
+        {
+          "type": "cta",
+          "title": "Back to work",
+          "text": "The founders' careers and their work, year by year.",
+          "actions": [
+            {
+              "label": "Founders",
+              "href": "/founders/"
             }
           ]
         }

@@ -26,11 +26,22 @@ wait for Evgenii and Iliya.
   beside five names (Mercedes-Benz and Mercedes-Maybach counted as one?);
   20+ partition models against 14 vehicle models, eight with tooling.
 - **ZiL — decided 13 Nov:** ZiL-41047 everywhere.
+- **Mercedes S-Class codes — decided 13 Nov:** V everywhere (V220, V221,
+  V222): only the long versions were ever built. "4 premium marques" stays.
+- **Founders page split — 13 Nov:** personal and funny things live on
+  `/fun/` ("Для души"), linked from the bottom of the founders page, not from
+  the menu: the electric scooter (two wheels — not a trike) and the road test
+  with the donkey. The taxi roof sign is off the site for now; Maybach and
+  Rolls-Royce taxis with roof signs are to come instead (photographs needed).
+  Lincoln Reincarnation is a joint SV-ART and CARDI project: CARDI design and
+  bodywork, SV-ART interior, lighting and instrument panel.
+- **Partner presentation:** new versions will be made later (Kosta, 13 Nov);
+  its "ZiL-4107" and "Novi Sad" footer are not to be patched in the PDFs.
 - **70,000 €** of development cost is named on the production page and the
   Range Rover page. Waiting for Evgenii.
 - **VLE timing — answered 13 Nov:** in design since 2026, physically ready in
-  2027. The site says so. Not asked yet: is "VLE Lite, from 2027" still right
-  if the full-size partition itself arrives in 2027?
+  2027. VLE Lite: in design, most likely physically ready in 2027 as well.
+  The site says so.
 - **The partner presentation** carried the same two foreign photographs
   (Range Rover slide), the line 2 panels on the line 1 slide and line 1's
   previous version on the line 2 slide. Corrected in all four language PDFs
