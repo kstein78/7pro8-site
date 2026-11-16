@@ -213,6 +213,8 @@ changed so far. Proposed EN/DE/SR versions are in
   801 5320, business development & international partnerships) is in the
   footer of the EN, DE and SR versions — not the Russian one (Kosta).
 - 2009 Phantom: both photographs at work show Ilya.
+- Range page callout (Russian): the direct contact is Evgenii Abramov, the
+  button opens his Telegram (Kosta, 16 Nov) — not Konstantin Stein.
 - 2009 Phantom: three photographs added (two at work in the car, one in a
   Rolls-Royce service centre; the licence plate is blurred).
 
