@@ -194,3 +194,21 @@ flagged `tight` rather than `replace` for that reason.
 
 - **Avtoganza / Autohansa — decided 13 Nov:** "Autohansa" only in the German
   version; English and Serbian keep "Avtoganza".
+
+## Russian rewrite by the founders — 16 Nov 2026
+
+The Russian texts on product, capabilities, manufacturing, portfolio, range
+and partners were rewritten by Kosta, Iliya, Evgenii and Alexey (fifteen
+places; script `tools/edits/2026-11-16_ru.py`). Only the Russian version is
+changed so far. Proposed EN/DE/SR versions are in
+`content/i18n/review/2026-11-16.md`, waiting for Kosta's review.
+
+- The range page has a large callout "full-cycle interior development" with
+  a button to write to Konstantin Stein. His direct contact (e-mail, phone or
+  Telegram) is not on the site yet — the button leads to the enquiry form.
+- The partners page now says that countries outside the EU, US and Canada
+  can be supplied "from our production in Russia". Until now the site did
+  not say where production is; flagged to Kosta.
+- 2009 Phantom: three photographs added (two at work in the car, one in a
+  Rolls-Royce service centre; the licence plate is blurred).
+
