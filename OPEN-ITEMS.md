@@ -199,9 +199,9 @@ flagged `tight` rather than `replace` for that reason.
 
 The Russian texts on product, capabilities, manufacturing, portfolio, range
 and partners were rewritten by Kosta, Iliya, Evgenii and Alexey (fifteen
-places; script `tools/edits/2026-11-16_ru.py`). Only the Russian version is
-changed so far. Proposed EN/DE/SR versions are in
-`content/i18n/review/2026-11-16.md`, waiting for Kosta's review.
+places; script `tools/edits/2026-11-16_ru.py`). Kosta approved the EN/DE/SR versions
+in `content/i18n/review/2026-11-16.md` the same day; they are on the site
+(`tools/edits/2026-11-16_translations.py`).
 
 - The range page has a large callout "full-cycle interior development" with
   a button to write to Konstantin Stein. His direct contact (e-mail, phone or

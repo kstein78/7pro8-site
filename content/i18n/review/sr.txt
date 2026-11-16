@@ -211,8 +211,8 @@ SR  Mercedes-Maybach S-Class X222
 EN  16 kits since 2016
 SR  16 kompleta od 2016.
 
-EN  New generation, ready 2026
-SR  Nova generacija, spremno 2026.
+EN  New generation developed in 2026
+SR  Nova generacija razvijena 2026.
 
 EN  Ready to launch
 SR  Spremno za pokretanje
@@ -265,8 +265,8 @@ SR  Pregrada pretvara zadnji deo premium vozila u zaseban radni prostor — bez 
 EN  What the partition adds, and what it leaves alone
 SR  Šta pregrada dodaje, a šta ostavlja netaknutim
 
-EN  A partition changes what the car is for. The engineering question that decides whether an owner will accept it is the second one: what does the conversion take away?
-SR  Pregrada menja namenu vozila. Ali o tome da li će je vlasnik prihvatiti odlučuje drugo pitanje: šta prerada oduzima?
+EN  A partition changes what the car is for. But before installation the owner wants to know exactly what will change in his series-production car.
+SR  Pregrada menja namenu vozila. Ali pre ugradnje vlasnik želi da zna šta će se tačno promeniti na njegovom serijskom vozilu.
 
 EN  What the car gains
 SR  Šta vozilo dobija
@@ -385,8 +385,8 @@ SR  Dizajn, inženjering, izradu alata i proizvodnju pregrada enterijera obavlja
 EN  One team, from the first sketch to the finished kit
 SR  Jedan tim, od prve skice do gotovog kompleta
 
-EN  Design, engineering, tooling manufacture and production are all done in-house. A partner does not have to coordinate several subcontractors, and there is nowhere for responsibility to fall between them.
-SR  Dizajn, inženjering, izrada alata i proizvodnja rade se unutar kompanije. Partner ne mora da koordinira više podizvođača, a odgovornost nema gde da se izgubi između njih.
+EN  Design, engineering, tooling manufacture and production are all done in-house. A partner does not need to approach different subcontractors and coordinate their work to get a quality product on schedule.
+SR  Dizajn, inženjering, izrada alata i proizvodnja rade se unutar kompanije. Partner ne mora da se obraća različitim podizvođačima i koordinira njihov rad da bi dobio kvalitetan proizvod u planiranom roku.
 
 EN  Design
 SR  Dizajn
@@ -406,8 +406,8 @@ SR  Skice
 EN  Final photorealistic rendering
 SR  Finalna fotorealistična vizualizacija
 
-EN  Development and tooling are entirely ours — including joint projects where the partner produces part of the panels.
-SR  Razvoj i alati su u potpunosti naši — uključujući i zajedničke projekte u kojima partner proizvodi deo panela.
+EN  We carry out development and tooling ourselves — including for joint projects in which the partner takes on part of the work.
+SR  Razvoj i alate radimo sami — uključujući i zajedničke projekte u kojima deo posla preuzima partner.
 
 EN  Surface engineering
 SR  Inženjering površina
@@ -442,8 +442,8 @@ SR  Predmontaža rama i panela
 EN  Joint production, when that suits the partner better
 SR  Zajednička proizvodnja, kada partneru tako više odgovara
 
-EN  A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling stay with us in every case.
-SR  Partner može da preuzme tačno onaj deo proizvodnje za koji je opremljen — od kompletnog kompleta po sistemu ključ u ruke do samog nosećeg rama sa mehanizmima. Razvoj i alati u svakom slučaju ostaju naši.
+EN  A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling are done by us in every case.
+SR  Partner može da preuzme tačno onaj deo proizvodnje za koji je opremljen — od kompletnog kompleta po sistemu ključ u ruke do samog nosećeg rama sa mehanizmima. Razvoj i alati su u svakom slučaju naš posao.
 
 EN  On the Sprinter we supply the frame with the driver's side fully prepared for trimming, and the partner makes the composite panels of the VIP side. The same model runs on the Range Rover and on the Mercedes-Maybach.
 SR  Za Sprinter isporučujemo ram sa vozačevom stranom potpuno pripremljenom za presvlačenje, a partner sam izrađuje kompozitne panele VIP strane. Po istom modelu radimo na Range Roveru i na Mercedes-Maybachu.
@@ -466,14 +466,14 @@ SR  Zašto su alati važniji od majstorstva
 EN  Composites, metal work and 3D printing in-house. Every partition we build is formed from production tooling, so gaps, joints and mounting points repeat from the first kit to the two-hundredth.
 SR  Kompoziti, obrada metala i 3D štampa — sve kod nas. Svaku pregradu formiramo po alatu, pa se zazori, spojevi i tačke pričvršćivanja ponavljaju od prvog do dvestotog kompleta.
 
-EN  A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what turns a good result into a repeatable one.
-SR  Pregrada podešena ručno postoji u jednom jedinom primerku: sledeća će biti drugačija. Alat je ono što dobar rezultat pretvara u ponovljiv.
+EN  A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what lets the same result be repeated for as long as needed.
+SR  Pregrada podešena ručno postoji u jednom jedinom primerku: sledeća će biti drugačija. Alati omogućavaju da se isti rezultat ponavlja koliko god je potrebno.
 
 EN  Before a model goes into series production, we build the tooling for it. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.
 SR  Pre nego što model uđe u serijsku proizvodnju, izrađujemo alate za njega. Nakon toga svaki proizvod ponavlja etalon. Zazori, spojevi i tačke pričvršćivanja isti su na prvom i na dvestotom kompletu.
 
-EN  For a partner that means two things that show up directly in the workshop's costing: installation time can be planned, and there is no rework.
-SR  Za partnera to znači dve stvari koje se direktno vide u kalkulaciji radionice: vreme montaže može da se planira, a prepravki nema.
+EN  These points matter a great deal to a partner because they shape the economics of the project: installation time can be planned, and there is no unforeseen rework or downtime.
+SR  Za partnera su to suštinski važne stvari koje utiču na ekonomiju projekta: vreme montaže može da se planira, a nema nepredviđenih prepravki ni zastoja.
 
 EN  Composite mould used to form a partition surface panel
 SR  Kompozitni kalup za oblikovanje vidljivog panela pregrade
@@ -544,8 +544,8 @@ SR  Pregrade za V-Class na montažnoj liniji — serijska proizvodnja po alatu
 EN  Series production, not one-offs
 SR  Serijska proizvodnja, a ne pojedinačni primerci
 
-EN  Eight models have been taken through to production tooling. Volume on those scales without any new investment in development.
-SR  Osam modela dovedeno je do proizvodnog alata. Količina se kod njih povećava bez novih ulaganja u razvoj.
+EN  Eight models have been taken through to production tooling. Their production can be scaled up at any time without new investment in development.
+SR  Osam modela dovedeno je do proizvodnog alata. Njihova proizvodnja može se u svakom trenutku povećati bez novih ulaganja u razvoj.
 
 EN  What we can supply
 SR  Šta možemo da isporučimo
@@ -574,8 +574,8 @@ SR  10 kompleta od 2020. · složeni
 EN  16 kits since 2016 · simple
 SR  16 kompleta od 2016. · jednostavni
 
-EN  New generation ready 2026 · 14 kits 2015–2019
-SR  Nova generacija spremna 2026. · 14 kompleta 2015–2019
+EN  New generation developed in 2026 · 14 kits 2015–2019
+SR  Nova generacija razvijena 2026. · 14 kompleta 2015–2019
 
 EN  4 vehicles, 2012–2016 · simple
 SR  4 vozila, 2012–2016 · jednostavni
@@ -601,8 +601,8 @@ SR  U rezervi
 EN  The complete record
 SR  Potpuni pregled
 
-EN  Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project.
-SR  Svi projekti od 2007. godine, uključujući rane pojedinačne radove i seriju VW Multivan, navedeni su na stranici ponude sa godinama, količinama i vrstom svakog projekta.
+EN  Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the complexity of each project.
+SR  Svi projekti od 2007. godine, uključujući rane pojedinačne radove i seriju VW Multivan, navedeni su na stranici ponude sa godinama, količinama i složenošću svakog projekta.
 
 EN  Full project history
 SR  Kompletna istorija projekata
@@ -1159,8 +1159,8 @@ SR  Modeli u serijskoj proizvodnji, modeli spremni za lansiranje i modeli u razv
 EN  What we can supply today
 SR  Šta danas možemo da isporučimo
 
-EN  Three states, and the difference between them is what a partner has to invest before the first kit arrives.
-SR  Tri stanja, a razlika među njima je ono što partner mora da uloži pre nego što stigne prvi komplet.
+EN  Three stages of readiness for our products; what sets them apart is how far each has been realised.
+SR  Tri faze spremnosti naših proizvoda, a razlika među njima je u stepenu realizacije.
 
 EN  Tooling is in place, the production cycle is established and delivery runs to an agreed plan. Volume scales without new investment in development.
 SR  Alati su gotovi, proizvodni ciklus je uhodan, a isporuka ide po usaglašenom planu. Količina se povećava bez novih ulaganja u razvoj.
@@ -1192,8 +1192,20 @@ SR  Mercedes-Benz VLE — dve pune linije pregrada, u projektovanju od 2026, got
 EN  Mercedes-Benz VLE Lite — lightweight version, in design, ready in 2027
 SR  Mercedes-Benz VLE Lite — olakšana verzija, u projektovanju, gotova 2027.
 
-EN  In addition to partitions we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and interior panels to any design.
-SR  Pored pregrada razvijamo i proizvodimo zadnje module — ram-podijum sa konzolom-naslonom za ugradnju opcione zadnje klupe — kao i unutrašnje panele po bilo kom dizajnu.
+EN  Full-cycle interior development
+SR  Razvoj enterijera u punom ciklusu
+
+EN  Besides partitions, we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and any interior panels to a bespoke design.
+SR  Pored pregrada razvijamo i proizvodimo zadnji modul — ram-podijum sa konzolom i naslonom za ruke za ugradnju opcionog zadnjeg sedišta — i bilo koje unutrašnje panele po individualnom dizajnu.
+
+EN  At a partner's request we can take on the full development cycle for any element of the interior — up to a completely bespoke version of the car's interior.
+SR  Na zahtev partnera možemo da preuzmemo pun ciklus razvoja bilo kog elementa enterijera — sve do potpuno sopstvene verzije enterijera vozila.
+
+EN  For cooperation and business expansion, contact Evgenii Abramov directly.
+SR  Za saradnju i širenje poslovanja obratite se direktno Evgeniju Abramovu.
+
+EN  Write to Evgenii Abramov
+SR  Pišite Evgeniju Abramovu
 
 EN  Vehicle models in the portfolio
 SR  Modela vozila u portfoliju
@@ -1279,8 +1291,8 @@ SR  Trenutni tempo: 30 do 40 složenih pregrada godišnje, uglavnom V-Class uz j
 EN  Indicative pricing on request
 SR  Orijentacione cene na upit
 
-EN  Price is a function of annual volume, so we quote against a model, a market and a plan rather than publishing a list.
-SR  Cena zavisi od godišnje količine, zato računamo za konkretan model, tržište i plan, umesto da objavljujemo cenovnik.
+EN  Cost is calculated from technological readiness and potential production volume, so quotes for new developments are always individual; price lists exist only for series products already in production.
+SR  Cena se računa na osnovu tehnološke spremnosti i potencijalnog obima proizvodnje, pa su proračuni za nove razvoje uvek individualni, a cenovnici postoje samo za serijske proizvode koji su već u proizvodnji.
 
 EN  Request pricing
 SR  Zatražite cene
@@ -1378,8 +1390,8 @@ SR  Saradnja sa 7pro8 — obim, odgovornosti i rokovi
 EN  How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and why a kit shipped from Serbia reaches an EU partner with no customs duty.
 SR  Kako je uređen rad sa partnerom 7pro8: šta isporučujemo mi, šta radi partner, rokovi proizvodnje i isporuke i zašto komplet poslat iz Srbije stiže partneru u EU bez carine.
 
-EN  The partner receives a kit ready for installation. Everything up to that point is ours; everything from trimming onwards is the partner's. The line is drawn in the same place on every project.
-SR  Partner dobija komplet spreman za montažu. Sve do te tačke je naše, a sve od presvlačenja nadalje je partnerovo. Granica je na istom mestu u svakom projektu.
+EN  The partner receives a kit ready for installation. What remains is to trim it and install the partition. At the partner's request we are ready to discuss other arrangements and find joint solutions.
+SR  Partner dobija komplet spreman za montažu. Preostaje mu da uradi presvlačenje i ugradi pregradu. Na zahtev partnera spremni smo da razgovaramo o drugim varijantama i nađemo zajednička rešenja.
 
 EN  Our responsibility
 SR  Naša zona odgovornosti
@@ -1429,8 +1441,8 @@ SR  Proizvodni ciklus jednog kompleta
 EN  Effective lead time with an agreed plan and timely advance payment — transport from stock
 SR  Stvarni rok uz usaglašen plan i blagovremeno avansno plaćanje — dostava iz magacina
 
-EN  What kind of partner each class needs
-SR  Kakav partner je potreban za svaku klasu
+EN  Possible kinds of partnership
+SR  Mogući oblici partnerstva
 
 EN  Simple projects
 SR  Jednostavni projekti
@@ -1447,23 +1459,20 @@ SR  Kompanija sposobna za ozbiljnu prenamenu vozila. U najmanju ruku ugrađuje s
 EN  For a partner with its own panel production but no engineering department, we supply the frame and mechanisms and the partner makes the panels. Development and tooling stay with us.
 SR  Partneru sa sopstvenom proizvodnjom panela, ali bez konstrukcionog odseka, isporučujemo ram i mehanizme, a panele izrađuje partner. Razvoj i alati ostaju naši.
 
-EN  How pricing works
-SR  Kako se formira cena
+EN  Why don't we publish price lists?
+SR  Zašto ne objavljujemo cenovnike?
 
-EN  Price is a function of annual volume. It is agreed with the partner in advance, improves at higher volumes and is reviewed at lower ones, so a published list price would be misleading in both directions.
-SR  Cena zavisi od godišnje količine. Dogovara se sa partnerom unapred, poboljšava se pri većim količinama i preispituje pri manjim, pa bi objavljeni cenovnik bio pogrešan u oba smera.
+EN  The price of a finished product depends on the technological groundwork in place, the readiness of the tooling and, above all, the planning of production volumes. The price of a partition is always agreed with the partner in advance. A larger batch can bring it down; if orders fall, it is reviewed as well.
+SR  Na cenu gotovog proizvoda utiču postojeća tehnološka osnova, spremnost alata i, pre svega, planiranje obima proizvodnje. Cena pregrade se uvek unapred dogovara sa partnerom. Pri većoj seriji može da se smanji, a pri manjem broju porudžbina se takođe preispituje.
 
-EN  Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.
-SR  Isporuka ide po planu, a ne po porudžbini. Proizvodni ciklus kompleta je četiri meseca, ali uz usaglašen plan isporuka i blagovremeno avansno plaćanje proizvod se otprema iz magacina na unapred dogovoreni dan.
+EN  Delivery follows a plan that can be adjusted — but in good time. The production cycle of a kit is four months, but with an agreed volume and timely advance payment the product ships from stock within a predictable time.
+SR  Isporuka ide po planu koji može da se menja — ali blagovremeno. Proizvodni ciklus jednog kompleta traje četiri meseca, ali uz dogovoreni obim isporuka i blagovremeno avansno plaćanje proizvod se otprema iz magacina u predvidivom roku.
 
-EN  Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.
-SR  Otprema ide iz Srbije, zemlje kandidata za EU čiji industrijski proizvodi od 2000. godine ulaze u Uniju bez carine — režim kasnije upisan u Sporazum o stabilizaciji i pridruživanju. Za partnera u EU to znači da na komplet nema carine, ostaju samo uvozni PDV i uobičajeno carinjenje. Van EU važi tarifa zemlje uvoza.
+EN  For the EU, US and Canadian markets we supply partitions from Serbia, an EU candidate country (Serbian industrial goods have entered the Union free of customs duty since 2000; this regime was later written into the Stabilisation and Association Agreement). For a partner in the EU that means no duty on a kit — only import VAT and the usual customs clearance. Outside the EU the importing country's tariff applies. For deliveries to other countries we will choose the best arrangement and country of shipment.
+SR  Za tržišta EU, SAD i Kanade pregrade isporučujemo iz Srbije, zemlje kandidata za članstvo u EU (srpska industrijska roba od 2000. godine ulazi u Uniju bez carine; taj režim je kasnije potvrđen Sporazumom o stabilizaciji i pridruživanju). Za partnera u EU to znači da na komplet nema carine — ostaju samo uvozni PDV i uobičajeno carinjenje. Van EU važi tarifa zemlje uvoza. Za isporuke u druge zemlje izabraćemo optimalnu šemu i zemlju otpreme.
 
-EN  For a vehicle that has no partition yet, a cost-sharing arrangement is possible, under which the partner receives priority by market or by model.
-SR  Za vozilo za koje pregrada još ne postoji moguća je podela troškova, pri čemu partner dobija prioritet po tržištu ili po modelu.
-
-EN  Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan.
-SR  Recite nam model, tržište i količinu koju planirate, a mi ćemo poslati orijentacione cene, obim isporuke i plan isporuka.
+EN  Tell us the model, the market and the planned quantity, and we will send indicative pricing, scope of supply and a delivery plan.
+SR  Navedite model, tržište i planiranu količinu — poslaćemo okvirne cene, obim isporuke i plan otpreme.
 
 EN  Partner enquiry
 SR  Upit partnera

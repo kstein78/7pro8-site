@@ -196,7 +196,7 @@
             {
               "href": "/portfolio/range-rover-lwb/",
               "title": "Range Rover Long Wheelbase",
-              "meta": "New generation, ready 2026",
+              "meta": "New generation developed in 2026",
               "tag": "Ready to launch",
               "tag_kind": "ready",
               "image": "portfolio/range-rover/cover.jpg"
@@ -256,7 +256,7 @@
         {
           "type": "pagehead",
           "title": "What the partition adds, and what it leaves alone",
-          "lead": "A partition changes what the car is for. The engineering question that decides whether an owner will accept it is the second one: what does the conversion take away?"
+          "lead": "A partition changes what the car is for. But before installation the owner wants to know exactly what will change in his series-production car."
         },
         {
           "type": "grid",
@@ -370,7 +370,7 @@
         {
           "type": "pagehead",
           "title": "One team, from the first sketch to the finished kit",
-          "lead": "Design, engineering, tooling manufacture and production are all done in-house. A partner does not have to coordinate several subcontractors, and there is nowhere for responsibility to fall between them."
+          "lead": "Design, engineering, tooling manufacture and production are all done in-house. A partner does not need to approach different subcontractors and coordinate their work to get a quality product on schedule."
         },
         {
           "type": "process",
@@ -387,7 +387,7 @@
             },
             {
               "title": "Engineering",
-              "text": "Development and tooling are entirely ours — including joint projects where the partner produces part of the panels.",
+              "text": "We carry out development and tooling ourselves — including for joint projects in which the partner takes on part of the work.",
               "list": [
                 "Surface engineering",
                 "Mechanism engineering",
@@ -412,7 +412,7 @@
           "tone": "paper",
           "title": "Joint production, when that suits the partner better",
           "body": [
-            "A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling stay with us in every case.",
+            "A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling are done by us in every case.",
             "On the Sprinter we supply the frame with the driver's side fully prepared for trimming, and the partner makes the composite panels of the VIP side. The same model runs on the Range Rover and on the Mercedes-Maybach."
           ],
           "action": {
@@ -444,13 +444,13 @@
         {
           "type": "pagehead",
           "title": "Why tooling matters more than craftsmanship",
-          "lead": "A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what turns a good result into a repeatable one."
+          "lead": "A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what lets the same result be repeated for as long as needed."
         },
         {
           "type": "split",
           "body": [
             "Before a model goes into series production, we build the tooling for it. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.",
-            "For a partner that means two things that show up directly in the workshop's costing: installation time can be planned, and there is no rework."
+            "These points matter a great deal to a partner because they shape the economics of the project: installation time can be planned, and there is no unforeseen rework or downtime."
           ],
           "image": {
             "src": "manufacturing/mould-panel-forming.jpg",
@@ -515,7 +515,7 @@
         {
           "type": "cta",
           "title": "Series production, not one-offs",
-          "text": "Eight models have been taken through to production tooling. Volume on those scales without any new investment in development.",
+          "text": "Eight models have been taken through to production tooling. Their production can be scaled up at any time without new investment in development.",
           "actions": [
             {
               "label": "What we can supply",
@@ -578,7 +578,7 @@
             {
               "href": "/portfolio/range-rover-lwb/",
               "title": "Range Rover Long Wheelbase",
-              "meta": "New generation ready 2026 · 14 kits 2015–2019",
+              "meta": "New generation developed in 2026 · 14 kits 2015–2019",
               "tag": "Ready to launch",
               "tag_kind": "ready",
               "image": "portfolio/range-rover/cover.jpg"
@@ -621,7 +621,7 @@
           "type": "note",
           "title": "The complete record",
           "body": [
-            "Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project."
+            "Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the complexity of each project."
           ],
           "action": {
             "label": "Full project history",
@@ -1394,7 +1394,7 @@
         {
           "type": "pagehead",
           "title": "What we can supply today",
-          "lead": "Three states, and the difference between them is what a partner has to invest before the first kit arrives."
+          "lead": "Three stages of readiness for our products; what sets them apart is how far each has been realised."
         },
         {
           "type": "lineup",
@@ -1430,8 +1430,20 @@
                 "Mercedes-Benz VLE Lite — lightweight version, in design, ready in 2027"
               ]
             }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Full-cycle interior development",
+          "body": [
+            "Besides partitions, we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and any interior panels to a bespoke design.",
+            "At a partner's request we can take on the full development cycle for any element of the interior — up to a completely bespoke version of the car's interior.",
+            "For cooperation and business expansion, contact Evgenii Abramov directly."
           ],
-          "footnote": "In addition to partitions we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and interior panels to any design."
+          "action": {
+            "label": "Write to Evgenii Abramov",
+            "href": "https://t.me/Eugy01"
+          }
         },
         {
           "type": "metrics",
@@ -1567,7 +1579,7 @@
         {
           "type": "cta",
           "title": "Indicative pricing on request",
-          "text": "Price is a function of annual volume, so we quote against a model, a market and a plan rather than publishing a list.",
+          "text": "Cost is calculated from technological readiness and potential production volume, so quotes for new developments are always individual; price lists exist only for series products already in production.",
           "actions": [
             {
               "label": "Request pricing",
@@ -1683,7 +1695,7 @@
         {
           "type": "pagehead",
           "title": "How work with a partner is structured",
-          "lead": "The partner receives a kit ready for installation. Everything up to that point is ours; everything from trimming onwards is the partner's. The line is drawn in the same place on every project."
+          "lead": "The partner receives a kit ready for installation. What remains is to trim it and install the partition. At the partner's request we are ready to discuss other arrangements and find joint solutions."
         },
         {
           "type": "twocol",
@@ -1734,7 +1746,7 @@
           "type": "grid",
           "cols": 3,
           "tone": "paper",
-          "title": "What kind of partner each class needs",
+          "title": "Possible kinds of partnership",
           "items": [
             {
               "title": "Simple projects",
@@ -1752,13 +1764,12 @@
         },
         {
           "type": "prose",
-          "title": "How pricing works",
+          "title": "Why don't we publish price lists?",
           "body": [
-            "Price is a function of annual volume. It is agreed with the partner in advance, improves at higher volumes and is reviewed at lower ones, so a published list price would be misleading in both directions.",
-            "Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.",
-            "Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.",
-            "For a vehicle that has no partition yet, a cost-sharing arrangement is possible, under which the partner receives priority by market or by model.",
-            "Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan."
+            "The price of a finished product depends on the technological groundwork in place, the readiness of the tooling and, above all, the planning of production volumes. The price of a partition is always agreed with the partner in advance. A larger batch can bring it down; if orders fall, it is reviewed as well.",
+            "Delivery follows a plan that can be adjusted — but in good time. The production cycle of a kit is four months, but with an agreed volume and timely advance payment the product ships from stock within a predictable time.",
+            "For the EU, US and Canadian markets we supply partitions from Serbia, an EU candidate country (Serbian industrial goods have entered the Union free of customs duty since 2000; this regime was later written into the Stabilisation and Association Agreement). For a partner in the EU that means no duty on a kit — only import VAT and the usual customs clearance. Outside the EU the importing country's tariff applies. For deliveries to other countries we will choose the best arrangement and country of shipment.",
+            "Tell us the model, the market and the planned quantity, and we will send indicative pricing, scope of supply and a delivery plan."
           ]
         },
         {

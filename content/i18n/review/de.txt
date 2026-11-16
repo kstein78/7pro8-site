@@ -211,8 +211,8 @@ DE  Mercedes-Maybach S-Klasse X222
 EN  16 kits since 2016
 DE  16 Bausätze seit 2016
 
-EN  New generation, ready 2026
-DE  Neue Generation, fertig 2026
+EN  New generation developed in 2026
+DE  Neue Generation 2026 entwickelt
 
 EN  Ready to launch
 DE  Startbereit
@@ -265,8 +265,8 @@ DE  Eine Trennwand macht den Fond eines Premiumfahrzeugs zu einem separaten Arbe
 EN  What the partition adds, and what it leaves alone
 DE  Was die Trennwand hinzufügt — und was sie unberührt lässt
 
-EN  A partition changes what the car is for. The engineering question that decides whether an owner will accept it is the second one: what does the conversion take away?
-DE  Eine Trennwand verändert, wofür das Fahrzeug da ist. Über die Zustimmung des Besitzers entscheidet aber die zweite Frage: Was nimmt der Umbau weg?
+EN  A partition changes what the car is for. But before installation the owner wants to know exactly what will change in his series-production car.
+DE  Eine Trennwand verändert den Zweck des Fahrzeugs. Doch vor dem Einbau will der Besitzer genau wissen, was sich an seinem Serienfahrzeug ändert.
 
 EN  What the car gains
 DE  Was das Fahrzeug gewinnt
@@ -385,8 +385,8 @@ DE  Design, Konstruktion, Werkzeugbau und Fertigung der Trennwände liegen bei e
 EN  One team, from the first sketch to the finished kit
 DE  Ein Team, von der ersten Skizze bis zum fertigen Bausatz
 
-EN  Design, engineering, tooling manufacture and production are all done in-house. A partner does not have to coordinate several subcontractors, and there is nowhere for responsibility to fall between them.
-DE  Design, Engineering, Werkzeugbau und Fertigung erfolgen im Haus. Der Partner muss keine mehreren Zulieferer koordinieren, und die Verantwortung kann nirgends zwischen ihnen verloren gehen.
+EN  Design, engineering, tooling manufacture and production are all done in-house. A partner does not need to approach different subcontractors and coordinate their work to get a quality product on schedule.
+DE  Design, Engineering, Werkzeugbau und Fertigung erfolgen im Haus. Ein Partner muss sich nicht an verschiedene Zulieferer wenden und deren Arbeit koordinieren, um ein hochwertiges Produkt termingerecht zu erhalten.
 
 EN  Design
 DE  Design
@@ -406,8 +406,8 @@ DE  Entwurfsskizzen
 EN  Final photorealistic rendering
 DE  Finale fotorealistische Visualisierung
 
-EN  Development and tooling are entirely ours — including joint projects where the partner produces part of the panels.
-DE  Entwicklung und Werkzeuge sind vollständig unsere — auch bei Gemeinschaftsprojekten, in denen der Partner einen Teil der Paneele fertigt.
+EN  We carry out development and tooling ourselves — including for joint projects in which the partner takes on part of the work.
+DE  Entwicklung und Werkzeugbau übernehmen wir selbst — auch bei gemeinsamen Projekten, in denen der Partner einen Teil der Arbeiten ausführt.
 
 EN  Surface engineering
 DE  Flächen-Engineering
@@ -442,8 +442,8 @@ DE  Vormontage Rahmen–Paneel
 EN  Joint production, when that suits the partner better
 DE  Gemeinschaftsfertigung, wenn das für den Partner besser passt
 
-EN  A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling stay with us in every case.
-DE  Ein Partner kann genau den Teil der Fertigung übernehmen, für den er ausgestattet ist — vom kompletten schlüsselfertigen Bausatz bis zu einem einzelnen Tragrahmen mit Mechanik. Entwicklung und Werkzeuge bleiben in jedem Fall bei uns.
+EN  A partner can take on exactly the share of production it is equipped for — from a complete turnkey kit down to a single structural frame with mechanisms. Development and tooling are done by us in every case.
+DE  Ein Partner kann genau den Teil der Fertigung übernehmen, für den er ausgestattet ist — vom kompletten schlüsselfertigen Bausatz bis zu einem einzelnen Tragrahmen mit Mechanik. Entwicklung und Werkzeugbau liegen in jedem Fall bei uns.
 
 EN  On the Sprinter we supply the frame with the driver's side fully prepared for trimming, and the partner makes the composite panels of the VIP side. The same model runs on the Range Rover and on the Mercedes-Maybach.
 DE  Beim Sprinter liefern wir den Rahmen mit vollständig für den Bezug vorbereiteter Fahrerseite, der Partner fertigt die Verbundpaneele der VIP-Seite selbst. Nach demselben Modell arbeiten wir beim Range Rover und beim Mercedes-Maybach.
@@ -466,14 +466,14 @@ DE  Warum Werkzeuge wichtiger sind als Handwerkskunst
 EN  Composites, metal work and 3D printing in-house. Every partition we build is formed from production tooling, so gaps, joints and mounting points repeat from the first kit to the two-hundredth.
 DE  Composites, Metallbearbeitung und 3D-Druck im eigenen Haus. Jede Trennwand formen wir über Serienwerkzeuge, deshalb wiederholen sich Spaltmaße, Fügestellen und Befestigungspunkte vom ersten bis zum zweihundertsten Satz.
 
-EN  A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what turns a good result into a repeatable one.
-DE  Eine von Hand angepasste Trennwand existiert in einem einzigen Exemplar: die nächste wird anders. Das Werkzeug macht aus einem guten Ergebnis ein wiederholbares.
+EN  A partition fitted by hand exists in a single copy: the next one will be different. Tooling is what lets the same result be repeated for as long as needed.
+DE  Eine von Hand angepasste Trennwand existiert in einem einzigen Exemplar: die nächste wird anders. Werkzeuge machen es möglich, dasselbe Ergebnis beliebig lange zu wiederholen.
 
 EN  Before a model goes into series production, we build the tooling for it. After that, every unit repeats the master. Gaps, joints and mounting points are identical on the first kit and on the two-hundredth.
 DE  Bevor ein Modell in Serie geht, bauen wir die Werkzeuge dafür. Danach wiederholt jedes Teil den Prototyp. Spaltmaße, Fugen und Befestigungspunkte sind beim ersten und beim zweihundertsten Bausatz identisch.
 
-EN  For a partner that means two things that show up directly in the workshop's costing: installation time can be planned, and there is no rework.
-DE  Für den Partner bedeutet das zwei Dinge, die direkt in der Kalkulation der Werkstatt auftauchen: planbare Einbauzeiten und keine Nacharbeit.
+EN  These points matter a great deal to a partner because they shape the economics of the project: installation time can be planned, and there is no unforeseen rework or downtime.
+DE  Für den Partner sind das entscheidende Punkte, die die Wirtschaftlichkeit des Projekts bestimmen: Die Einbauzeit ist planbar, unvorhergesehene Nacharbeit und Stillstand entfallen.
 
 EN  Composite mould used to form a partition surface panel
 DE  Verbundform für die Fertigung eines Sichtpaneels
@@ -544,8 +544,8 @@ DE  V-Class-Trennwände in der Montage — Serienfertigung nach Werkzeug
 EN  Series production, not one-offs
 DE  Serienfertigung, keine Einzelstücke
 
-EN  Eight models have been taken through to production tooling. Volume on those scales without any new investment in development.
-DE  Acht Modelle wurden bis zum Produktionswerkzeug geführt. Die Stückzahl skaliert bei ihnen ohne neue Entwicklungsinvestitionen.
+EN  Eight models have been taken through to production tooling. Their production can be scaled up at any time without new investment in development.
+DE  Acht Modelle wurden bis zum Produktionswerkzeug geführt. Ihre Fertigung lässt sich jederzeit ohne neue Entwicklungsinvestitionen hochskalieren.
 
 EN  What we can supply
 DE  Was wir liefern können
@@ -574,8 +574,8 @@ DE  10 Bausätze seit 2020 · komplex
 EN  16 kits since 2016 · simple
 DE  16 Bausätze seit 2016 · einfach
 
-EN  New generation ready 2026 · 14 kits 2015–2019
-DE  Neue Generation fertig 2026 · 14 Bausätze 2015–2019
+EN  New generation developed in 2026 · 14 kits 2015–2019
+DE  Neue Generation 2026 entwickelt · 14 Bausätze 2015–2019
 
 EN  4 vehicles, 2012–2016 · simple
 DE  4 Fahrzeuge, 2012–2016 · einfach
@@ -601,8 +601,8 @@ DE  Auf Eis
 EN  The complete record
 DE  Die vollständige Übersicht
 
-EN  Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the nature of each project.
-DE  Alle Projekte seit 2007, einschließlich der frühen Einzelanfertigungen und der VW-Multivan-Serie, stehen mit Jahren, Stückzahlen und Art des Projekts auf der Seite zur Lieferbarkeit.
+EN  Every project since 2007, including the early one-off works and the VW Multivan series, is listed on the availability page with years, volumes and the complexity of each project.
+DE  Alle Projekte seit 2007, einschließlich der frühen Einzelanfertigungen und der VW-Multivan-Serie, stehen mit Jahren, Stückzahlen und Komplexität jedes Projekts auf der Seite zur Lieferbarkeit.
 
 EN  Full project history
 DE  Vollständige Projekthistorie
@@ -1159,8 +1159,8 @@ DE  Modelle in Serie, startbereite Modelle und Modelle in Entwicklung, dazu unse
 EN  What we can supply today
 DE  Was wir heute liefern können
 
-EN  Three states, and the difference between them is what a partner has to invest before the first kit arrives.
-DE  Drei Zustände — der Unterschied zwischen ihnen ist das, was ein Partner investieren muss, bevor der erste Bausatz ankommt.
+EN  Three stages of readiness for our products; what sets them apart is how far each has been realised.
+DE  Drei Reifegrade unserer Produkte — sie unterscheiden sich im Grad der Umsetzung.
 
 EN  Tooling is in place, the production cycle is established and delivery runs to an agreed plan. Volume scales without new investment in development.
 DE  Werkzeuge liegen vor, der Fertigungszyklus ist eingespielt, die Lieferung läuft nach abgestimmtem Plan. Die Stückzahl skaliert ohne neue Entwicklungsinvestitionen.
@@ -1192,8 +1192,20 @@ DE  Mercedes-Benz VLE — zwei vollwertige Trennwandlinien, in Konstruktion seit
 EN  Mercedes-Benz VLE Lite — lightweight version, in design, ready in 2027
 DE  Mercedes-Benz VLE Lite — leichtere Ausführung, in Konstruktion, fertig 2027
 
-EN  In addition to partitions we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and interior panels to any design.
-DE  Neben Trennwänden entwickeln und fertigen wir Fondmodule — einen Podestrahmen mit Konsolen-Armlehne für den Einbau einer optionalen Rücksitzbank — sowie Innenverkleidungen nach beliebigem Design.
+EN  Full-cycle interior development
+DE  Innenraumentwicklung aus einer Hand
+
+EN  Besides partitions, we develop and produce rear modules — a platform frame with a console armrest for fitting an optional rear bench — and any interior panels to a bespoke design.
+DE  Neben Trennwänden entwickeln und fertigen wir Heckmodule — einen Podestrahmen mit Konsole und Armlehne für eine optionale Rückbank — sowie beliebige Innenraumverkleidungen nach individuellem Design.
+
+EN  At a partner's request we can take on the full development cycle for any element of the interior — up to a completely bespoke version of the car's interior.
+DE  Auf Wunsch des Partners können wir den kompletten Entwicklungszyklus für jedes Element des Innenraums übernehmen — bis hin zu einer vollständig eigenen Version des Fahrzeuginterieurs.
+
+EN  For cooperation and business expansion, contact Evgenii Abramov directly.
+DE  Für Zusammenarbeit und Geschäftserweiterung wenden Sie sich direkt an Evgenii Abramov.
+
+EN  Write to Evgenii Abramov
+DE  Evgenii Abramov schreiben
 
 EN  Vehicle models in the portfolio
 DE  Fahrzeugmodelle im Portfolio
@@ -1279,8 +1291,8 @@ DE  Aktuelle Rate: 30 bis 40 komplexe Trennwände pro Jahr, überwiegend V-Class
 EN  Indicative pricing on request
 DE  Richtpreise auf Anfrage
 
-EN  Price is a function of annual volume, so we quote against a model, a market and a plan rather than publishing a list.
-DE  Der Preis hängt von der Jahresstückzahl ab. Deshalb kalkulieren wir für ein Modell, einen Markt und einen Plan, statt eine Liste zu veröffentlichen.
+EN  Cost is calculated from technological readiness and potential production volume, so quotes for new developments are always individual; price lists exist only for series products already in production.
+DE  Der Preis ergibt sich aus der technologischen Reife und dem möglichen Produktionsvolumen. Kalkulationen für Neuentwicklungen sind daher immer individuell; Preislisten gibt es nur für Serienprodukte, die bereits gefertigt werden.
 
 EN  Request pricing
 DE  Preise anfragen
@@ -1378,8 +1390,8 @@ DE  Zusammenarbeit mit 7pro8 — Umfang, Verantwortung und Lieferzeiten
 EN  How work with a 7pro8 partner is structured: what we deliver, what the partner does, production and delivery lead times, and why a kit shipped from Serbia reaches an EU partner with no customs duty.
 DE  Wie die Zusammenarbeit mit einem 7pro8-Partner aufgebaut ist: was wir liefern, was der Partner übernimmt, Fertigungs- und Lieferzeiten und warum ein Satz aus Serbien zollfrei bei einem Partner in der EU ankommt.
 
-EN  The partner receives a kit ready for installation. Everything up to that point is ours; everything from trimming onwards is the partner's. The line is drawn in the same place on every project.
-DE  Der Partner erhält einen montagefertigen Bausatz. Alles bis dahin liegt bei uns, alles ab dem Bezug beim Partner. Die Grenze liegt bei jedem Projekt an derselben Stelle.
+EN  The partner receives a kit ready for installation. What remains is to trim it and install the partition. At the partner's request we are ready to discuss other arrangements and find joint solutions.
+DE  Der Partner erhält einen einbaufertigen Bausatz. Ihm bleiben der Bezug und der Einbau der Trennwand. Auf Wunsch des Partners besprechen wir gern andere Varianten und finden gemeinsame Lösungen.
 
 EN  Our responsibility
 DE  Unser Verantwortungsbereich
@@ -1429,8 +1441,8 @@ DE  Fertigungszyklus eines Bausatzes
 EN  Effective lead time with an agreed plan and timely advance payment — transport from stock
 DE  Tatsächliche Wartezeit bei abgestimmtem Plan und fristgerechter Anzahlung — Transport ab Lager
 
-EN  What kind of partner each class needs
-DE  Welchen Partner jede Klasse braucht
+EN  Possible kinds of partnership
+DE  Mögliche Formen der Partnerschaft
 
 EN  Simple projects
 DE  Einfache Projekte
@@ -1447,23 +1459,20 @@ DE  Ein Betrieb mit Kompetenz für ernsthafte Fahrzeugumbauten. Mindestens kommt
 EN  For a partner with its own panel production but no engineering department, we supply the frame and mechanisms and the partner makes the panels. Development and tooling stay with us.
 DE  Für einen Partner mit eigener Paneelfertigung, aber ohne Konstruktionsabteilung liefern wir Rahmen und Mechanik, die Paneele fertigt der Partner. Entwicklung und Werkzeuge bleiben bei uns.
 
-EN  How pricing works
-DE  Wie der Preis entsteht
+EN  Why don't we publish price lists?
+DE  Warum veröffentlichen wir keine Preislisten?
 
-EN  Price is a function of annual volume. It is agreed with the partner in advance, improves at higher volumes and is reviewed at lower ones, so a published list price would be misleading in both directions.
-DE  Der Preis hängt von der Jahresstückzahl ab. Er wird mit dem Partner vorab vereinbart, verbessert sich bei höheren Mengen und wird bei geringeren überprüft — ein veröffentlichter Listenpreis wäre also in beide Richtungen irreführend.
+EN  The price of a finished product depends on the technological groundwork in place, the readiness of the tooling and, above all, the planning of production volumes. The price of a partition is always agreed with the partner in advance. A larger batch can bring it down; if orders fall, it is reviewed as well.
+DE  Der Preis eines fertigen Produkts hängt von der vorhandenen technologischen Basis, der Bereitschaft der Werkzeuge und vor allem von der Planung der Produktionsmengen ab. Der Preis einer Trennwand wird immer im Voraus mit dem Partner vereinbart. Bei größeren Losen kann er sinken, bei rückläufigen Bestellungen wird er ebenfalls überprüft.
 
-EN  Delivery runs to a plan rather than to order. The production cycle of a kit is four months, but with an agreed delivery plan and timely advance payment the product ships from stock on a pre-arranged day.
-DE  Geliefert wird nach Plan, nicht auf Bestellung. Der Fertigungszyklus eines Bausatzes beträgt vier Monate, doch mit abgestimmtem Lieferplan und fristgerechter Anzahlung geht das Produkt an einem vorab vereinbarten Tag ab Lager.
+EN  Delivery follows a plan that can be adjusted — but in good time. The production cycle of a kit is four months, but with an agreed volume and timely advance payment the product ships from stock within a predictable time.
+DE  Die Lieferung folgt einem Plan, der angepasst werden kann — aber rechtzeitig. Der Produktionszyklus eines Bausatzes beträgt vier Monate; bei vereinbarter Menge und rechtzeitiger Anzahlung wird das Produkt innerhalb einer planbaren Frist ab Lager versandt.
 
-EN  Shipping is from Serbia, an EU candidate country whose industrial goods have entered the Union free of customs duty since 2000 — a status later written into the Stabilisation and Association Agreement. For a partner in the EU that means no duty on a kit, only import VAT and the usual clearance. Outside the EU the importing country's own tariff applies.
-DE  Versandt wird aus Serbien, einem EU-Beitrittskandidaten, dessen Industriewaren seit 2000 zollfrei in die Union gelangen — ein Status, der später im Stabilisierungs- und Assoziierungsabkommen festgeschrieben wurde. Für einen Partner in der EU heißt das: kein Zoll auf einen Satz, nur Einfuhrumsatzsteuer und die übliche Abfertigung. Außerhalb der EU gilt der Tarif des Einfuhrlandes.
+EN  For the EU, US and Canadian markets we supply partitions from Serbia, an EU candidate country (Serbian industrial goods have entered the Union free of customs duty since 2000; this regime was later written into the Stabilisation and Association Agreement). For a partner in the EU that means no duty on a kit — only import VAT and the usual customs clearance. Outside the EU the importing country's tariff applies. For deliveries to other countries we will choose the best arrangement and country of shipment.
+DE  Für die Märkte der EU, der USA und Kanadas liefern wir Trennwände aus Serbien, einem EU-Beitrittskandidaten (serbische Industriewaren gelangen seit 2000 zollfrei in die Union; diese Regelung wurde später im Stabilisierungs- und Assoziierungsabkommen festgeschrieben). Für einen Partner in der EU bedeutet das: kein Zoll auf den Bausatz — nur Einfuhrumsatzsteuer und die übliche Zollabfertigung. Außerhalb der EU gilt der Tarif des Einfuhrlandes. Für Lieferungen in andere Länder wählen wir das optimale Vorgehen und das Versandland.
 
-EN  For a vehicle that has no partition yet, a cost-sharing arrangement is possible, under which the partner receives priority by market or by model.
-DE  Für ein Fahrzeug, für das es noch keine Trennwand gibt, ist eine Kostenteilung möglich, bei der der Partner Vorrang nach Markt oder nach Modell erhält.
-
-EN  Tell us the model, the market and the volume you have in mind, and we will send indicative pricing, scope of supply and a delivery plan.
-DE  Nennen Sie uns Modell, Markt und geplante Stückzahl — wir schicken Richtpreise, Lieferumfang und einen Lieferplan.
+EN  Tell us the model, the market and the planned quantity, and we will send indicative pricing, scope of supply and a delivery plan.
+DE  Nennen Sie uns Modell, Markt und geplante Stückzahl — wir schicken Ihnen Richtwerte zum Preis, den Lieferumfang und einen Lieferplan.
 
 EN  Partner enquiry
 DE  Partneranfrage
