@@ -31,6 +31,9 @@ DE  Fotografien
 EN  Website by
 DE  Website von
 
+EN  Business development & international partnerships
+DE  Geschäftsentwicklung und internationale Partnerschaften
+
 EN  Product
 DE  Produkt
 
@@ -1746,6 +1749,24 @@ DE  Rückseiten der Vordersitze
 
 EN  Front seat backs
 DE  Rückseiten der Vordersitze
+
+EN  Ilya Bolshakov at work in the rear compartment of a Rolls-Royce Phantom
+DE  Ilya Bolshakov bei der Arbeit im Fond eines Rolls-Royce Phantom
+
+EN  Fitting the trim in place
+DE  Anpassen der Verkleidung vor Ort
+
+EN  Ilya Bolshakov at work in the rear compartment of the Phantom
+DE  Ilya Bolshakov bei der Arbeit im Fond des Phantom
+
+EN  Finishing the panels in the car
+DE  Feinarbeit an den Paneelen im Fahrzeug
+
+EN  Rolls-Royce Phantoms in a service centre
+DE  Rolls-Royce Phantom in einem Servicezentrum
+
+EN  Phantoms in a Rolls-Royce service centre
+DE  Phantom in einem Rolls-Royce-Servicezentrum
 
 EN  Interiors on the water
 DE  Interieurs auf dem Wasser

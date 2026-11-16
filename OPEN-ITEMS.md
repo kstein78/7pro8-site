@@ -206,9 +206,13 @@ changed so far. Proposed EN/DE/SR versions are in
 - The range page has a large callout "full-cycle interior development" with
   a button to write to Konstantin Stein. His direct contact (e-mail, phone or
   Telegram) is not on the site yet — the button leads to the enquiry form.
-- The partners page now says that countries outside the EU, US and Canada
-  can be supplied "from our production in Russia". Until now the site did
-  not say where production is; flagged to Kosta.
+- Price block, other countries — decided 16 Nov: "Для поставок в другие
+  страны мы подберём оптимальную схему и страну отгрузки." No mention of
+  production in Russia.
+- Konstantin Stein's contact (from the presentation's last page: +381 63
+  801 5320, business development & international partnerships) is in the
+  footer of the EN, DE and SR versions — not the Russian one (Kosta).
+- 2009 Phantom: both photographs at work show Ilya.
 - 2009 Phantom: three photographs added (two at work in the car, one in a
   Rolls-Royce service centre; the licence plate is blurred).
 

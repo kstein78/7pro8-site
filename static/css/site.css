@@ -1102,3 +1102,7 @@ html.type-legible :is(.chronicle__where, .lanes__org) { font-weight: 420; }
 html.type-legible :is(.lanes__years, .colophon__by) { font-size: 0.7rem; font-weight: 400; }
 html.type-legible :is(.kicker, .eyebrow, .nav__list a, .langs a, .langs span,
   .lineup__status, .spec__title, .callout__title) { font-weight: 450; }
+
+/* Footer: Konstantin Stein, business development (not on Russian pages) */
+.colophon__person { margin-top: 1.5rem; }
+.colophon__role { font-size: .8rem; opacity: .75; line-height: 1.5; max-width: 22ch; }

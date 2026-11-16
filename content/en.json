@@ -11,7 +11,8 @@
     "contact": "Contact",
     "sections": "Sections",
     "photo_credit": "Photographs",
-    "site_by": "Website by"
+    "site_by": "Website by",
+    "business_contact_role": "Business development & international partnerships"
   },
   "nav": [
     {
@@ -2110,7 +2111,7 @@
                 },
                 {
                   "src": "founder/phantom/06.jpg",
-                  "alt": "At work in the rear compartment of the Phantom",
+                  "alt": "Ilya Bolshakov at work in the rear compartment of the Phantom",
                   "caption": "Finishing the panels in the car"
                 },
                 {

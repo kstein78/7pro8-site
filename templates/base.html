@@ -124,6 +124,14 @@
       <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       <p><a href="tel:{{ site.phone|replace(' ', '') }}">{{ site.phone }}</a></p>
       {% if site.telegram %}<p><a href="{{ site.telegram }}" rel="noopener">Telegram</a></p>{% endif %}
+      {% set bc = site.business_contact %}
+      {% if bc and lang != "ru" %}
+      <div class="colophon__person">
+        <p class="colophon__label">{{ bc.name_sr if lang == "sr" else bc.name }}</p>
+        <p><a href="tel:{{ bc.phone|replace(' ', '') }}">{{ bc.phone }}</a></p>
+        <p class="colophon__role">{{ data.ui.business_contact_role }}</p>
+      </div>
+      {% endif %}
     </div>
     <div class="colophon__nav">
       <p class="colophon__label">{{ data.ui.sections }}</p>

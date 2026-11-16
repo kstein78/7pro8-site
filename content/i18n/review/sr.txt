@@ -31,6 +31,9 @@ SR  Fotografije
 EN  Website by
 SR  Sajt izradio
 
+EN  Business development & international partnerships
+SR  Razvoj i međunarodna saradnja
+
 EN  Product
 SR  Proizvod
 
@@ -1746,6 +1749,24 @@ SR  Naslonjači prednjih sedišta
 
 EN  Front seat backs
 SR  Naslonjači prednjih sedišta
+
+EN  Ilya Bolshakov at work in the rear compartment of a Rolls-Royce Phantom
+SR  Ilya Bolshakov na poslu u zadnjem delu kabine Rolls-Royce Phantoma
+
+EN  Fitting the trim in place
+SR  Prilagođavanje obloga na licu mesta
+
+EN  Ilya Bolshakov at work in the rear compartment of the Phantom
+SR  Ilya Bolshakov na poslu u zadnjem delu kabine Phantoma
+
+EN  Finishing the panels in the car
+SR  Dorada panela u vozilu
+
+EN  Rolls-Royce Phantoms in a service centre
+SR  Rolls-Royce Phantom vozila u servisnom centru
+
+EN  Phantoms in a Rolls-Royce service centre
+SR  Phantom u servisnom centru Rolls-Royce
 
 EN  Interiors on the water
 SR  Enterijeri na vodi
