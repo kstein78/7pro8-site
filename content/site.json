@@ -72,6 +72,20 @@
     "_comment": "Shown in the footer of the EN, DE and SR versions only (Kosta, 16 Nov 2026), as on the last page of the partner presentation.",
     "name": "Konstantin Stein",
     "name_sr": "Konstantin Štajn",
-    "phone": "+381 63 801 5320"
+    "phone": "+381 63 801 5320",
+    "messengers": [
+      {
+        "label": "WhatsApp",
+        "href": "https://wa.me/381638015320"
+      },
+      {
+        "label": "Viber",
+        "href": "viber://chat?number=%2B381638015320"
+      },
+      {
+        "label": "Telegram",
+        "href": "https://t.me/+381638015320"
+      }
+    ]
   }
 }

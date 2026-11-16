@@ -18,7 +18,7 @@ def main():
     for f in DIST.rglob("index.html"):
         html = f.read_text(encoding="utf-8")
         for href in re.findall(r'href="([^"]+)"', html) + re.findall(r'src="([^"]+)"', html):
-            if href.startswith(("http", "mailto:", "tel:", "#", "data:")):
+            if href.startswith(("http", "mailto:", "tel:", "viber:", "#", "data:")):
                 continue
             target = href.split("#")[0]
             if not target:
